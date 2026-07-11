@@ -1,0 +1,353 @@
+[
+  {
+    "id": "event_a_day_at_disney_star_path",
+    "name_ja": "ディズニー・デー",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: A Day At Disney Star Path）"
+  },
+  {
+    "id": "event_adventures_in_never_land_star_path",
+    "name_ja": "ネバーランドの冒険",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Adventures in Never Land Star Path）"
+  },
+  {
+    "id": "event_centennial_star_path",
+    "name_ja": "100周年",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Centennial Star Path）"
+  },
+  {
+    "id": "event_christmas_day_presents_event",
+    "name_ja": "Christmas Day Presents Event",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Christmas Day Presents Event）"
+  },
+  {
+    "id": "event_dapper_delights_star_path",
+    "name_ja": "レトロタイム",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Dapper Delights Star Path）"
+  },
+  {
+    "id": "event_dreamsnaps",
+    "name_ja": "ドリームスナップ",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: DreamSnaps）"
+  },
+  {
+    "id": "event_dreamlight_parks_fest",
+    "name_ja": "Dreamlight Parks Fest",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Dreamlight Parks Fest）"
+  },
+  {
+    "id": "event_eggstravaganza",
+    "name_ja": "イースター",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Eggstravaganza）"
+  },
+  {
+    "id": "event_elements_of_nature_star_path",
+    "name_ja": "アース・パワー",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Elements of Nature Star Path）"
+  },
+  {
+    "id": "event_events",
+    "name_ja": "Events",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Events）"
+  },
+  {
+    "id": "event_festive_star_path",
+    "name_ja": "ホリデーシーズン",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Festive Star Path）"
+  },
+  {
+    "id": "event_garden_of_whimsy_star_path",
+    "name_ja": "気まぐれな庭",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Garden of Whimsy Star Path）"
+  },
+  {
+    "id": "event_godly_glamor_star_path",
+    "name_ja": "ファンタスティック・ゴッド",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Godly Glamor Star Path）"
+  },
+  {
+    "id": "event_haunted_holiday_star_path",
+    "name_ja": "ハロウィンシーズン",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Haunted Holiday Star Path）"
+  },
+  {
+    "id": "event_lovely_monsters_star_path",
+    "name_ja": "ラブリーモンスターズ",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Lovely Monsters Star Path）"
+  },
+  {
+    "id": "event_lucky_you",
+    "name_ja": "Lucky You!",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Lucky You!）"
+  },
+  {
+    "id": "event_majesty_and_magnolias_star_path",
+    "name_ja": "マジェスティ＆マグノリア",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Majesty and Magnolias Star Path）"
+  },
+  {
+    "id": "event_memory_mania",
+    "name_ja": "Memory Mania",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Memory Mania）"
+  },
+  {
+    "id": "event_paw_fect_romance_star_path",
+    "name_ja": "パピーラブ",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Paw-fect Romance Star Path）"
+  },
+  {
+    "id": "event_pixar_fest_star_path",
+    "name_ja": "Pixar Fest Star Path",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Pixar Fest Star Path）"
+  },
+  {
+    "id": "event_retro_roadtrip_star_path",
+    "name_ja": "レトロなロードトリップ",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Retro Roadtrip Star Path）"
+  },
+  {
+    "id": "event_royal_winter_star_path",
+    "name_ja": "ホリデーシーズン2023",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Royal Winter Star Path）"
+  },
+  {
+    "id": "event_springtime_floating_festival",
+    "name_ja": "Springtime Floating Festival",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Springtime Floating Festival）"
+  },
+  {
+    "id": "event_star_path",
+    "name_ja": "Star Path",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Star Path）"
+  },
+  {
+    "id": "event_summer_sizzle",
+    "name_ja": "Summer Sizzle",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Summer Sizzle）"
+  },
+  {
+    "id": "event_the_cheshire_chaos_event",
+    "name_ja": "The Cheshire Chaos Event",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: The Cheshire Chaos Event）"
+  },
+  {
+    "id": "event_the_frost_fairies_star_path",
+    "name_ja": "フロスト＆フェアリー",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: The Frost & Fairies Star Path）"
+  },
+  {
+    "id": "event_the_gift_of_giving_event",
+    "name_ja": "The Gift of Giving Event",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: The Gift of Giving Event）"
+  },
+  {
+    "id": "event_the_haunted_floating_festival",
+    "name_ja": "The Haunted Floating Festival",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: The Haunted Floating Festival）"
+  },
+  {
+    "id": "event_the_night_show_star_path",
+    "name_ja": "ナイトショー",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: The Night Show Star Path）"
+  },
+  {
+    "id": "event_the_oasis_retreat_star_path",
+    "name_ja": "癒しのオアシス",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: The Oasis Retreat Star Path）"
+  },
+  {
+    "id": "event_the_winter_floating_festival",
+    "name_ja": "The Winter Floating Festival",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: The Winter Floating Festival）"
+  },
+  {
+    "id": "event_the_wonder_of_pixar_star_path",
+    "name_ja": "ピクサーの奇跡",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: The Wonder of Pixar Star Path）"
+  },
+  {
+    "id": "event_treasure_hunt_event",
+    "name_ja": "Treasure Hunt Event",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Treasure Hunt Event）"
+  },
+  {
+    "id": "event_trick_or_treat",
+    "name_ja": "Trick-or-Treat",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Trick-or-Treat）"
+  },
+  {
+    "id": "event_valley_valentines_event",
+    "name_ja": "Valley Valentines Event",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "イベント（英名: Valley Valentines Event）"
+  },
+  {
+    "id": "event_villains_star_path",
+    "name_ja": "Villains' Star Path",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Villains' Star Path）"
+  },
+  {
+    "id": "event_winter_warmth_star_path",
+    "name_ja": "ハートフルウィンター",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Winter Warmth Star Path）"
+  },
+  {
+    "id": "event_witchful_thinking_star_path",
+    "name_ja": "魔女のススメ",
+    "period": "",
+    "related_events": [],
+    "participated": false,
+    "reward_progress": "",
+    "memo": "スターパス（英名: Witchful Thinking Star Path）"
+  }
+]

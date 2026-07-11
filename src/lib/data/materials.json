@@ -1,0 +1,3172 @@
+[
+  {
+    "id": "mat_herring",
+    "name_ja": "ニシン",
+    "name_en": "Herring",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_arendellian_pickled_herring",
+      "recipe_pickled_herring",
+      "recipe_sweet_herring"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_lemon",
+    "name_ja": "レモン",
+    "name_en": "Lemon",
+    "category": "果物",
+    "obtain_method": "採取・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_arendellian_pickled_herring",
+      "recipe_brandade_de_morue",
+      "recipe_butter_chicken",
+      "recipe_carp_salad",
+      "recipe_chicken_souvlaki",
+      "recipe_conch_ceviche",
+      "recipe_creamy_garlic_scallops",
+      "recipe_fish_salad",
+      "recipe_ghostly_fish_steak",
+      "recipe_large_seafood_platter",
+      "recipe_lemon_garlic_swordfish",
+      "recipe_lobster_roll",
+      "recipe_oyster_platter",
+      "recipe_peppermint_tea",
+      "recipe_pickled_herring",
+      "recipe_poached_basil_butter_sturgeon",
+      "recipe_savory_fish",
+      "recipe_shad_ceviche",
+      "recipe_shawarma",
+      "recipe_shish_taouk",
+      "recipe_sole_meuni_re",
+      "recipe_sweet_sour_kingfish_steak",
+      "recipe_tuna_burger"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_onion",
+    "name_ja": "玉ねぎ",
+    "name_en": "Onion",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_arendellian_pickled_herring",
+      "recipe_argossian_pizza",
+      "recipe_conch_ceviche",
+      "recipe_coq_en_barbouille",
+      "recipe_garlic_steam_mussels",
+      "recipe_gazpacho",
+      "recipe_greek_pizza",
+      "recipe_green_bean_casserole",
+      "recipe_gumbo",
+      "recipe_hippocampus_cepelinai_dumplings",
+      "recipe_jerk_chicken",
+      "recipe_latkes",
+      "recipe_lupine_cullen_skink",
+      "recipe_mediterranean_salad",
+      "recipe_onion_puffs",
+      "recipe_pickled_herring",
+      "recipe_potato_leek_soup",
+      "recipe_pulled_pork",
+      "recipe_ranch_salad",
+      "recipe_ratatouille",
+      "recipe_roasted_barley_veggies",
+      "recipe_seared_rainbow_trout",
+      "recipe_shad_ceviche",
+      "recipe_spanakopita",
+      "recipe_sweet_herring",
+      "recipe_tuna_burger",
+      "recipe_vegetarian_stew",
+      "recipe_veggie_skewers",
+      "recipe_wonton_soup"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_garlic",
+    "name_ja": "ニンニク",
+    "name_en": "Garlic",
+    "category": "食材",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_aquatic_escargot",
+      "recipe_arcane_garlic_crab",
+      "recipe_arendellian_pickled_herring",
+      "recipe_braised_abalone",
+      "recipe_brandade_de_morue",
+      "recipe_creamy_garlic_scallops",
+      "recipe_falafel",
+      "recipe_fish_creole",
+      "recipe_fish_pasta",
+      "recipe_garlic_steam_mussels",
+      "recipe_greek_potatoes",
+      "recipe_jerk_chicken",
+      "recipe_lemon_garlic_swordfish",
+      "recipe_lobster_roll",
+      "recipe_mushu_s_congee",
+      "recipe_mussel_risotto",
+      "recipe_pesto_with_linguine",
+      "recipe_potato_leek_soup",
+      "recipe_roasted_brussel_sprouts",
+      "recipe_roasted_green_beans",
+      "recipe_salt_pickled_garlic",
+      "recipe_saut_ed_porcini",
+      "recipe_shawarma",
+      "recipe_shish_taouk",
+      "recipe_spanakopita",
+      "recipe_steamed_fugu",
+      "recipe_stuffed_ring_squash",
+      "recipe_tzatziki"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_spices_herbs",
+    "name_ja": "スパイス&amp;ハーブ類",
+    "name_en": "Spices & Herbs",
+    "category": "調理カテゴリ（任意の該当素材）",
+    "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "used_in_recipes": [
+      "recipe_arcane_garlic_crab",
+      "recipe_arendellian_pickled_herring",
+      "recipe_baozi",
+      "recipe_barley_salad",
+      "recipe_blend_of_the_bayou",
+      "recipe_bulgur_salad",
+      "recipe_caprese_salad",
+      "recipe_creamy_soup",
+      "recipe_gazpacho",
+      "recipe_greek_pizza",
+      "recipe_greek_potatoes",
+      "recipe_grilled_koi_gyro",
+      "recipe_hermit_crab_pasta",
+      "recipe_hors_d_oeuvres",
+      "recipe_jerk_chicken",
+      "recipe_margherita_pizza",
+      "recipe_mediterranean_salad",
+      "recipe_mussel_risotto",
+      "recipe_olympian_tapenade",
+      "recipe_pasta_with_herbs",
+      "recipe_pickled_herring",
+      "recipe_pottage",
+      "recipe_ratatouille",
+      "recipe_salt_pickled_cauliflower",
+      "recipe_salt_pickled_garlic",
+      "recipe_salt_pickled_green_beans",
+      "recipe_salt_pickled_radicchio",
+      "recipe_salt_pickled_radish",
+      "recipe_salt_pickled_sea_grapes",
+      "recipe_sand_stew",
+      "recipe_spanakopita",
+      "recipe_spicy_yogurt",
+      "recipe_spiky_berry_pie",
+      "recipe_tasty_salad",
+      "recipe_tasty_veggies",
+      "recipe_veggie_casserole"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_bell_pepper",
+    "name_ja": "ピーマン",
+    "name_en": "Bell Pepper",
+    "category": "野菜",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_bell_pepper_puffs",
+      "recipe_ghostly_fish_steak",
+      "recipe_ranch_salad",
+      "recipe_veggie_skewers"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_egg",
+    "name_ja": "卵",
+    "name_en": "Egg",
+    "category": "食材",
+    "obtain_method": "シェ・レミーで購入",
+    "used_in_recipes": [
+      "recipe_101_teeny_tiny_dalmatian_cupcakes",
+      "recipe_basil_omelet",
+      "recipe_beauty_and_the_beets_napoleon",
+      "recipe_beet_brownie_stack",
+      "recipe_beet_iful_spaetzle",
+      "recipe_bell_pepper_puffs",
+      "recipe_bu_uelos",
+      "recipe_buttermilk_borscht",
+      "recipe_cannoli",
+      "recipe_caramel_macarons",
+      "recipe_chili_pepper_puffs",
+      "recipe_chocolate_macarons",
+      "recipe_cinnamon_donut",
+      "recipe_cupcakes",
+      "recipe_eggplant_puffs",
+      "recipe_eton_mess",
+      "recipe_fairy_boot_cake",
+      "recipe_felted_breakfast_spread",
+      "recipe_french_macarons",
+      "recipe_glazed_donut",
+      "recipe_hard_boiled_eggs",
+      "recipe_honey_pancakes",
+      "recipe_jam_macarons",
+      "recipe_kanelbulle",
+      "recipe_latkes",
+      "recipe_mushu_s_congee",
+      "recipe_nestling_crepe",
+      "recipe_omelet",
+      "recipe_onion_puffs",
+      "recipe_past_is_de_nata",
+      "recipe_pear_upside_down_cake",
+      "recipe_potato_puffs",
+      "recipe_pumpkin_puffs",
+      "recipe_ramen",
+      "recipe_red_currant_valley_cakes",
+      "recipe_red_velvet",
+      "recipe_scrambled_egg",
+      "recipe_souffl",
+      "recipe_spicy_macarons",
+      "recipe_strawberry_shortcake",
+      "recipe_takoyaki_stick",
+      "recipe_tamagoyaki",
+      "recipe_vanilla_macarons",
+      "recipe_wonton_soup",
+      "recipe_zucchini_puffs"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cheese",
+    "name_ja": "チーズ",
+    "name_en": "Cheese",
+    "category": "食材",
+    "obtain_method": "シェ・レミーで購入",
+    "used_in_recipes": [
+      "recipe_arepas_con_queso",
+      "recipe_basil_omelet",
+      "recipe_bell_pepper_puffs",
+      "recipe_bu_uelos",
+      "recipe_cannoli",
+      "recipe_cheese_platter",
+      "recipe_cheeseburger",
+      "recipe_cheesy_crispy_baked_cod",
+      "recipe_chili_pepper_puffs",
+      "recipe_classic_mac_cheese",
+      "recipe_crab_melts",
+      "recipe_cream_cheese_bagel",
+      "recipe_eggplant_puffs",
+      "recipe_fish_tacos",
+      "recipe_greek_pizza",
+      "recipe_hawaiian_pizza",
+      "recipe_horace_s_ham_sandwich",
+      "recipe_kronk_s_spinach_puffs",
+      "recipe_margherita_pizza",
+      "recipe_mushroom_pizza",
+      "recipe_nachos",
+      "recipe_omelet",
+      "recipe_onion_puffs",
+      "recipe_pixie_pizza",
+      "recipe_pizza",
+      "recipe_potato_puffs",
+      "recipe_poutine",
+      "recipe_pumpkin_puffs",
+      "recipe_red_velvet",
+      "recipe_royal_burger",
+      "recipe_scarlet_kale_and_cheese_pinwheels",
+      "recipe_scrambled_egg",
+      "recipe_souffl",
+      "recipe_turnip_tartiflette",
+      "recipe_vegetarian_pizza",
+      "recipe_vegetarian_taco",
+      "recipe_veggie_casserole",
+      "recipe_zucchini_puffs"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_wheat",
+    "name_ja": "小麦",
+    "name_en": "Wheat",
+    "category": "穀物",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_101_teeny_tiny_dalmatian_cupcakes",
+      "recipe_baozi",
+      "recipe_beet_iful_spaetzle",
+      "recipe_bu_uelos",
+      "recipe_bulgur_salad",
+      "recipe_burrito",
+      "recipe_cannoli",
+      "recipe_cape_gooseberry_chia_pancakes",
+      "recipe_charlotte_cake",
+      "recipe_cheeseburger",
+      "recipe_cheesy_crispy_baked_cod",
+      "recipe_chia_seed_bread",
+      "recipe_cinnamon_cake",
+      "recipe_cinnamon_cookies",
+      "recipe_cinnamon_donut",
+      "recipe_classic_mac_cheese",
+      "recipe_club_sandwich",
+      "recipe_crackers",
+      "recipe_cream_cheese_bagel",
+      "recipe_crimson_burger",
+      "recipe_crispy_baked_cod",
+      "recipe_cupcakes",
+      "recipe_danish",
+      "recipe_dream_fizz",
+      "recipe_dumplings",
+      "recipe_fabulous_fajitas",
+      "recipe_fish_n_chips",
+      "recipe_fish_pasta",
+      "recipe_fish_pie",
+      "recipe_fish_sandwiches",
+      "recipe_glazed_donut",
+      "recipe_golden_apple_pie",
+      "recipe_good_ol_fashioned_burger",
+      "recipe_greek_pizza",
+      "recipe_grilled_koi_gyro",
+      "recipe_hawaiian_pizza",
+      "recipe_hermit_crab_pasta",
+      "recipe_honey_pancakes",
+      "recipe_kanelbulle",
+      "recipe_kouign_amann",
+      "recipe_lightning_cake",
+      "recipe_lightning_cookies",
+      "recipe_lobster_roll",
+      "recipe_maamouls",
+      "recipe_makrout",
+      "recipe_margherita_pizza",
+      "recipe_marvelous_jam",
+      "recipe_meat_pie",
+      "recipe_mooncake",
+      "recipe_mushroom_pizza",
+      "recipe_nestling_crepe",
+      "recipe_nutmeg_cake",
+      "recipe_nutmeg_cookies",
+      "recipe_pasta",
+      "recipe_pasta_with_herbs",
+      "recipe_peanut_butter_sandwich",
+      "recipe_pear_upside_down_cake",
+      "recipe_persimmon_chia_pancakes",
+      "recipe_persimmon_pie",
+      "recipe_pesto_with_linguine",
+      "recipe_pizza",
+      "recipe_ramen",
+      "recipe_raspberry_jam_sandwich",
+      "recipe_red_currant_linzer_cookies",
+      "recipe_red_velvet",
+      "recipe_royal_burger",
+      "recipe_scarlet_kale_and_cheese_pinwheels",
+      "recipe_schnitzel",
+      "recipe_sea_grape_chia_pancakes",
+      "recipe_seafood_pasta",
+      "recipe_seafood_pie",
+      "recipe_sesame_balls",
+      "recipe_sesame_seed_bagel",
+      "recipe_simple_fried_perch",
+      "recipe_smoked_fish_charcuterie_spread",
+      "recipe_soda_bread_feta",
+      "recipe_sole_meuni_re",
+      "recipe_sour_berry_pie",
+      "recipe_spaghetti_arrabbiata",
+      "recipe_spiky_berry_pie",
+      "recipe_spiral_strawberry_chia_pancakes",
+      "recipe_spiral_strawberry_pie",
+      "recipe_stargazy_pie",
+      "recipe_strawberry_pie",
+      "recipe_strawberry_rhubarb_pie",
+      "recipe_strawberry_shortcake",
+      "recipe_sugar_free_banana_muffin",
+      "recipe_sugar_free_blueberry_muffin",
+      "recipe_sugar_free_fruit_explosion_muffin",
+      "recipe_sugar_free_fruit_muffin",
+      "recipe_tea_sandwiches",
+      "recipe_tourti_re",
+      "recipe_tuna_burger",
+      "recipe_vegetarian_dumplings",
+      "recipe_vegetarian_pizza",
+      "recipe_veggie_pasta",
+      "recipe_veggie_pie",
+      "recipe_wonton_soup",
+      "recipe_yakisoba"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_milk",
+    "name_ja": "牛乳",
+    "name_en": "Milk",
+    "category": "食材",
+    "obtain_method": "シェ・レミーで購入",
+    "used_in_recipes": [
+      "recipe_basil_omelet",
+      "recipe_beauty_and_the_beets_napoleon",
+      "recipe_brandade_de_morue",
+      "recipe_bread_bowl_pumpkin_soup",
+      "recipe_bu_uelos",
+      "recipe_buttermilk_borscht",
+      "recipe_creamy_soup",
+      "recipe_dreamango_boba_tea",
+      "recipe_fish_pasta",
+      "recipe_fish_soup",
+      "recipe_fruit_milkshake",
+      "recipe_latte",
+      "recipe_melon_boba_tea",
+      "recipe_milky_way_stew",
+      "recipe_mocha",
+      "recipe_nestling_crepe",
+      "recipe_omelet",
+      "recipe_past_is_de_nata",
+      "recipe_potato_leek_soup",
+      "recipe_pumpkin_soup",
+      "recipe_red_currant_valley_cakes",
+      "recipe_royal_latte",
+      "recipe_seafood_pasta",
+      "recipe_souffl",
+      "recipe_stellar_milkshake",
+      "recipe_vintage_peach_trifle"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_chili_pepper",
+    "name_ja": "唐辛子",
+    "name_en": "Chili Pepper",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_chili_pepper_puffs",
+      "recipe_fish_tacos",
+      "recipe_gumbo",
+      "recipe_meaty_taco",
+      "recipe_nachos",
+      "recipe_piquant_piranha_soup",
+      "recipe_ruby_masoor_dal",
+      "recipe_spaghetti_arrabbiata",
+      "recipe_spicy_baked_bream",
+      "recipe_spicy_macarons",
+      "recipe_tandoori_chicken",
+      "recipe_vegetarian_taco"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_chrysanthemum_tea_leaves",
+    "name_ja": "キクのお茶の葉",
+    "name_en": "Chrysanthemum Tea Leaves",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_chrysanthemum_tea"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_blueberry",
+    "name_ja": "ブルーベリー",
+    "name_en": "Blueberry",
+    "category": "果物",
+    "obtain_method": "採取・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_basil_berry_salad",
+      "recipe_chrysanthemum_tea",
+      "recipe_sugar_free_blueberry_muffin"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_coffee_bean",
+    "name_ja": "コーヒー豆",
+    "name_en": "Coffee Bean",
+    "category": "果物",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_coffee",
+      "recipe_latte",
+      "recipe_mocha"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_potato",
+    "name_ja": "じゃがいも",
+    "name_en": "Potato",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_ajiaco",
+      "recipe_brandade_de_morue",
+      "recipe_chowder",
+      "recipe_creamy_soup",
+      "recipe_fish_n_chips",
+      "recipe_french_fries",
+      "recipe_greek_potatoes",
+      "recipe_hamburger_steak",
+      "recipe_hippocampus_cepelinai_dumplings",
+      "recipe_latkes",
+      "recipe_lupine_cullen_skink",
+      "recipe_pan_fried_angler_fish",
+      "recipe_potato_leek_soup",
+      "recipe_potato_puffs",
+      "recipe_pottage",
+      "recipe_poutine",
+      "recipe_pur_e",
+      "recipe_sausage_and_sauerkraut_platter",
+      "recipe_tourti_re",
+      "recipe_vegetarian_stew"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_vegetable",
+    "name_ja": "野菜類",
+    "name_en": "Vegetable",
+    "category": "調理カテゴリ（任意の該当素材）",
+    "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "used_in_recipes": [
+      "recipe_afternoon_tea_set",
+      "recipe_argossian_pizza",
+      "recipe_bony_osso_buco",
+      "recipe_bouillabaisse",
+      "recipe_caprese_salad",
+      "recipe_cheeseburger",
+      "recipe_chowder",
+      "recipe_coq_en_barbouille",
+      "recipe_creamy_soup",
+      "recipe_crimson_burger",
+      "recipe_crudites",
+      "recipe_dragon_roll_maki",
+      "recipe_dumplings",
+      "recipe_fabulous_fajitas",
+      "recipe_fish_creole",
+      "recipe_fish_soup",
+      "recipe_flying_fish_quenelles",
+      "recipe_friendly_bento",
+      "recipe_greek_salad",
+      "recipe_green_salad",
+      "recipe_grilled_fish_entree",
+      "recipe_grilled_vegetables",
+      "recipe_grilled_veggie_platter",
+      "recipe_hamburger_steak",
+      "recipe_hearty_salad",
+      "recipe_horace_s_ham_sandwich",
+      "recipe_meaty_taco",
+      "recipe_moqueca_de_pirarucu",
+      "recipe_pan_seared_bass_vegetables",
+      "recipe_pan_seared_tilapia_vegetables",
+      "recipe_pottage",
+      "recipe_pumpkin_soup",
+      "recipe_rainbouillabaisse",
+      "recipe_rhapsody_roll",
+      "recipe_roasted_barley_veggies",
+      "recipe_royal_burger",
+      "recipe_sand_stew",
+      "recipe_seafood_soup",
+      "recipe_seaweed_salad",
+      "recipe_tasty_salad",
+      "recipe_tasty_veggies",
+      "recipe_tourti_re",
+      "recipe_tuna_burger",
+      "recipe_vegetarian_dumplings",
+      "recipe_vegetarian_pizza",
+      "recipe_vegetarian_taco",
+      "recipe_veggie_casserole",
+      "recipe_veggie_pasta",
+      "recipe_veggie_pie",
+      "recipe_walleye_en_papillote"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_dreamlight_fruit",
+    "name_ja": "",
+    "name_en": "Dreamlight Fruit",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_dream_fizz",
+      "recipe_marvelous_jam",
+      "recipe_sweet_udon"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_slush_ice",
+    "name_ja": "スラッシュ",
+    "name_en": "Slush Ice",
+    "category": "食材",
+    "obtain_method": "シェ・レミーで購入",
+    "used_in_recipes": [
+      "recipe_dream_fizz",
+      "recipe_fizzy_nectar_soda",
+      "recipe_fruit_milkshake",
+      "recipe_pineapple_soft_serve",
+      "recipe_pixie_ice_cream_dome_cake",
+      "recipe_royal_ice_tea",
+      "recipe_stellar_milkshake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sugarcane",
+    "name_ja": "サトウキビ",
+    "name_en": "Sugarcane",
+    "category": "食材",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_101_teeny_tiny_dalmatian_cupcakes",
+      "recipe_apple_cider_glazed_salmon",
+      "recipe_beet_sugar_sculpture",
+      "recipe_cotton_candy",
+      "recipe_dream_fizz",
+      "recipe_dreamango_boba_tea",
+      "recipe_jasmine_tea",
+      "recipe_melon_boba_tea",
+      "recipe_red_currant_linzer_cookies",
+      "recipe_sweet_sour_kingfish_steak",
+      "recipe_tamagoyaki",
+      "recipe_teriyaki_salmon",
+      "recipe_vintage_peach_trifle"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_eggplant",
+    "name_ja": "ナス",
+    "name_en": "Eggplant",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_eggplant_puffs",
+      "recipe_ratatouille"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_canola",
+    "name_ja": "菜の花",
+    "name_en": "Canola",
+    "category": "食材",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_braised_bamboo_shoots",
+      "recipe_fish_n_chips",
+      "recipe_french_fries",
+      "recipe_kronk_s_spinach_puffs",
+      "recipe_latkes",
+      "recipe_lo_fries",
+      "recipe_makrout",
+      "recipe_mooncake",
+      "recipe_popcorn",
+      "recipe_poutine",
+      "recipe_roasted_asparagus",
+      "recipe_schnitzel",
+      "recipe_sweet_and_sour_stir_fry",
+      "recipe_sweet_popcorn"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_tomato",
+    "name_ja": "トマト",
+    "name_en": "Tomato",
+    "category": "野菜",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_bouillabaisse",
+      "recipe_bulgur_salad",
+      "recipe_butter_chicken",
+      "recipe_clam_juice",
+      "recipe_club_sandwich",
+      "recipe_conch_ceviche",
+      "recipe_fish_creole",
+      "recipe_fish_steak",
+      "recipe_gazpacho",
+      "recipe_greek_pizza",
+      "recipe_gumbo",
+      "recipe_hawaiian_pizza",
+      "recipe_lancetfish_paella",
+      "recipe_lioness_feast",
+      "recipe_margherita_pizza",
+      "recipe_mediterranean_salad",
+      "recipe_mushroom_pizza",
+      "recipe_pan_fried_angler_fish",
+      "recipe_pasta",
+      "recipe_pixie_pizza",
+      "recipe_pizza",
+      "recipe_pulled_pork",
+      "recipe_rainbouillabaisse",
+      "recipe_ranch_salad",
+      "recipe_ratatouille",
+      "recipe_ruby_masoor_dal",
+      "recipe_seared_rainbow_trout",
+      "recipe_shad_ceviche",
+      "recipe_spaghetti_arrabbiata",
+      "recipe_tomato_basil_soup",
+      "recipe_tomato_soup",
+      "recipe_vegetarian_pizza",
+      "recipe_veggie_pasta"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cucumber",
+    "name_ja": "キュウリ",
+    "name_en": "Cucumber",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_bulgur_salad",
+      "recipe_gazpacho",
+      "recipe_greek_salad",
+      "recipe_grilled_koi_gyro",
+      "recipe_kappa_maki",
+      "recipe_mediterranean_salad",
+      "recipe_tasty_salad",
+      "recipe_tzatziki"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_lettuce",
+    "name_ja": "レタス",
+    "name_en": "Lettuce",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_carp_salad",
+      "recipe_fish_salad",
+      "recipe_good_ol_fashioned_burger",
+      "recipe_green_salad",
+      "recipe_hearty_salad",
+      "recipe_mediterranean_salad",
+      "recipe_ranch_salad",
+      "recipe_salad",
+      "recipe_seafood_salad",
+      "recipe_tasty_salad"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_jasmine_tea_leaves",
+    "name_ja": "",
+    "name_en": "Jasmine Tea Leaves",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_jasmine_tea"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_seafood",
+    "name_ja": "",
+    "name_en": "Seafood",
+    "category": "調理カテゴリ（任意の該当素材）",
+    "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "used_in_recipes": [
+      "recipe_bouillabaisse",
+      "recipe_chowder",
+      "recipe_lancetfish_paella",
+      "recipe_large_seafood_platter",
+      "recipe_rainbouillabaisse",
+      "recipe_seafood_appetizer",
+      "recipe_seafood_pasta",
+      "recipe_seafood_pie",
+      "recipe_seafood_salad",
+      "recipe_seafood_soup",
+      "recipe_sweet_udon"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cocoa_bean",
+    "name_ja": "カカオ豆",
+    "name_en": "Cocoa Bean",
+    "category": "甘味料",
+    "obtain_method": "採取・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_chocolate_macarons",
+      "recipe_mocha",
+      "recipe_red_velvet"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_okra",
+    "name_ja": "オクラ",
+    "name_en": "Okra",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_gumbo",
+      "recipe_okra_soup"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_oolong_tea_leaves",
+    "name_ja": "ウーロン茶の葉",
+    "name_en": "Oolong Tea Leaves",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_oolong_tea"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_raspberry",
+    "name_ja": "ラズベリー",
+    "name_en": "Raspberry",
+    "category": "果物",
+    "obtain_method": "採取・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_oolong_tea",
+      "recipe_raspberry_jam_sandwich"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_oyster",
+    "name_ja": "カキ",
+    "name_en": "Oyster",
+    "category": "魚介",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_braised_abalone",
+      "recipe_oyster_platter"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_mint",
+    "name_ja": "ミント",
+    "name_en": "Mint",
+    "category": "食材",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_barbecued_brilliant_blue_starfish",
+      "recipe_biryani",
+      "recipe_bulgur_salad",
+      "recipe_chicken_souvlaki",
+      "recipe_peppermint_tea"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_leek",
+    "name_ja": "ネギ",
+    "name_en": "Leek",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_leek_soup",
+      "recipe_potato_leek_soup"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_pumpkin",
+    "name_ja": "カボチャ",
+    "name_en": "Pumpkin",
+    "category": "野菜",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_bread_bowl_pumpkin_soup",
+      "recipe_pumpkin_puffs",
+      "recipe_pumpkin_soup"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_ginger",
+    "name_ja": "ショウガ",
+    "name_en": "Ginger",
+    "category": "食材",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_braised_bamboo_shoots",
+      "recipe_maguro_sushi",
+      "recipe_merryweather_s_gingersnaps",
+      "recipe_mushu_s_congee",
+      "recipe_pumpkin_soup",
+      "recipe_sesame_balls",
+      "recipe_steamed_fugu",
+      "recipe_teriyaki_salmon"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_asparagus",
+    "name_ja": "アスパラガス",
+    "name_en": "Asparagus",
+    "category": "野菜",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_ghostly_fish_steak",
+      "recipe_roasted_asparagus"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_mushroom",
+    "name_ja": "キノコ",
+    "name_en": "Mushroom",
+    "category": "野菜",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_braised_abalone",
+      "recipe_lioness_feast",
+      "recipe_mushroom_pizza",
+      "recipe_mushu_s_congee",
+      "recipe_saut_ed_mushrooms",
+      "recipe_vegetarian_turnip_tartiflette",
+      "recipe_veggie_skewers"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_butter",
+    "name_ja": "バター",
+    "name_en": "Butter",
+    "category": "食材",
+    "obtain_method": "シェ・レミーで購入",
+    "used_in_recipes": [
+      "recipe_baked_carp",
+      "recipe_beauty_and_the_beets_napoleon",
+      "recipe_blend_of_the_bayou",
+      "recipe_butter_chicken",
+      "recipe_creamy_garlic_scallops",
+      "recipe_danish",
+      "recipe_fairy_boot_cake",
+      "recipe_fish_pie",
+      "recipe_fish_risotto",
+      "recipe_kanelbulle",
+      "recipe_kouign_amann",
+      "recipe_lobster_roll",
+      "recipe_meat_pie",
+      "recipe_pasta_with_herbs",
+      "recipe_pesto_with_linguine",
+      "recipe_poached_basil_butter_sturgeon",
+      "recipe_red_currant_linzer_cookies",
+      "recipe_saut_ed_mushrooms",
+      "recipe_seafood_pie",
+      "recipe_simple_fried_perch",
+      "recipe_sole_meuni_re",
+      "recipe_souffl",
+      "recipe_spicy_baked_bream",
+      "recipe_spiky_berry_pie",
+      "recipe_strawberry_pie",
+      "recipe_veggie_pie"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_rice",
+    "name_ja": "米",
+    "name_en": "Rice",
+    "category": "食材",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_biryani",
+      "recipe_blend_of_the_bayou",
+      "recipe_dragon_roll_maki",
+      "recipe_fish_creole",
+      "recipe_fish_risotto",
+      "recipe_fugu_sushi",
+      "recipe_kappa_maki",
+      "recipe_lancetfish_paella",
+      "recipe_maguro_sushi",
+      "recipe_maki",
+      "recipe_mushu_s_congee",
+      "recipe_mussel_risotto",
+      "recipe_rhapsody_roll",
+      "recipe_rice_pudding",
+      "recipe_sake_maki",
+      "recipe_sake_sushi",
+      "recipe_sesame_balls",
+      "recipe_shawarma",
+      "recipe_shish_taouk",
+      "recipe_sushi",
+      "recipe_sweet_udon",
+      "recipe_tekka_maki",
+      "recipe_teriyaki_salmon"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_soya",
+    "name_ja": "大豆",
+    "name_en": "Soya",
+    "category": "食材",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_baozi",
+      "recipe_braised_bamboo_shoots",
+      "recipe_dumplings",
+      "recipe_sesame_balls",
+      "recipe_sweet_tofu",
+      "recipe_takoyaki_stick",
+      "recipe_tekka_maki",
+      "recipe_teriyaki_salmon",
+      "recipe_tofu",
+      "recipe_vegetarian_dumplings",
+      "recipe_vegetarian_turnip_tartiflette"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_seaweed",
+    "name_ja": "海藻",
+    "name_en": "Seaweed",
+    "category": "野菜",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_dragon_roll_maki",
+      "recipe_fugu_sushi",
+      "recipe_kappa_maki",
+      "recipe_maguro_sushi",
+      "recipe_maki",
+      "recipe_rhapsody_roll",
+      "recipe_sake_maki",
+      "recipe_sesame_balls",
+      "recipe_takoyaki_stick",
+      "recipe_tekka_maki"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_corn",
+    "name_ja": "トウモロコシ",
+    "name_en": "Corn",
+    "category": "野菜",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_ajiaco",
+      "recipe_arepas_con_queso",
+      "recipe_fish_tacos",
+      "recipe_meaty_taco",
+      "recipe_nachos",
+      "recipe_past_is_de_nata",
+      "recipe_popcorn",
+      "recipe_pupusas_revueltas",
+      "recipe_ranch_salad",
+      "recipe_sweet_popcorn",
+      "recipe_tea_sandwiches",
+      "recipe_vegetarian_taco"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cherry",
+    "name_ja": "サクランボ",
+    "name_en": "Cherry",
+    "category": "果物",
+    "obtain_method": "採取・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_cupcakes",
+      "recipe_tea_sandwiches"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_fish",
+    "name_ja": "魚類",
+    "name_en": "Fish",
+    "category": "調理カテゴリ（任意の該当素材）",
+    "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "used_in_recipes": [
+      "recipe_chimera_skewer",
+      "recipe_fish_creole",
+      "recipe_fish_n_chips",
+      "recipe_fish_pasta",
+      "recipe_fish_pie",
+      "recipe_fish_risotto",
+      "recipe_fish_salad",
+      "recipe_fish_sandwiches",
+      "recipe_fish_soup",
+      "recipe_fish_steak",
+      "recipe_fish_tacos",
+      "recipe_fishy_pineapple_jelly",
+      "recipe_grilled_fish",
+      "recipe_grilled_fish_entree",
+      "recipe_maki",
+      "recipe_savory_fish",
+      "recipe_smoked_fish_charcuterie_spread",
+      "recipe_sushi",
+      "recipe_tea_sandwiches"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_zucchini",
+    "name_ja": "ズッキーニ",
+    "name_en": "Zucchini",
+    "category": "野菜",
+    "obtain_method": "栽培・Goofy’s Stall",
+    "used_in_recipes": [
+      "recipe_pan_fried_angler_fish",
+      "recipe_ratatouille",
+      "recipe_veggie_skewers",
+      "recipe_zucchini_puffs"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_apple",
+    "name_ja": "リンゴ",
+    "name_en": "Apple",
+    "category": "果物",
+    "obtain_method": "採取・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_apple_cider_glazed_salmon",
+      "recipe_apple_sauce"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_salmon",
+    "name_ja": "サーモン",
+    "name_en": "Salmon",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_apple_cider_glazed_salmon",
+      "recipe_sake_maki",
+      "recipe_sake_sushi",
+      "recipe_teriyaki_salmon"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_carp",
+    "name_ja": "コイ",
+    "name_en": "Carp",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_baked_carp",
+      "recipe_carp_salad"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_basil",
+    "name_ja": "バジル",
+    "name_en": "Basil",
+    "category": "食材",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_basil_berry_salad",
+      "recipe_basil_omelet",
+      "recipe_fish_steak",
+      "recipe_poached_basil_butter_sturgeon",
+      "recipe_tomato_basil_soup",
+      "recipe_walleye_en_papillote"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_shrimp",
+    "name_ja": "エビ",
+    "name_en": "Shrimp",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_bouillabaisse",
+      "recipe_gumbo",
+      "recipe_lancetfish_paella",
+      "recipe_wonton_soup"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cod",
+    "name_ja": "タラ",
+    "name_en": "Cod",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_brandade_de_morue",
+      "recipe_cheesy_crispy_baked_cod",
+      "recipe_crispy_baked_cod"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_scallop",
+    "name_ja": "ホタテ",
+    "name_en": "Scallop",
+    "category": "魚介",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_creamy_garlic_scallops"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_fugu",
+    "name_ja": "フグ",
+    "name_en": "Fugu",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_fugu_sushi",
+      "recipe_steamed_fugu"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_here_and_there_fish",
+    "name_ja": "アチコチの魚",
+    "name_en": "Here and There Fish",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_ghostly_fish_steak",
+      "recipe_lioness_feast"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_oregano",
+    "name_ja": "オレガノ",
+    "name_en": "Oregano",
+    "category": "食材",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_ghostly_fish_steak",
+      "recipe_lioness_feast",
+      "recipe_pesto_with_linguine",
+      "recipe_pulled_pork",
+      "recipe_shish_taouk",
+      "recipe_walleye_en_papillote"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_spinach",
+    "name_ja": "ほうれん草",
+    "name_en": "Spinach",
+    "category": "野菜",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_kronk_s_spinach_puffs",
+      "recipe_spanakopita"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_lancetfish",
+    "name_ja": "",
+    "name_en": "Lancetfish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_lancetfish_paella"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_swordfish",
+    "name_ja": "メカジキ",
+    "name_en": "Swordfish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_lemon_garlic_swordfish"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_lobster",
+    "name_ja": "ロブスター",
+    "name_en": "Lobster",
+    "category": "魚介",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_lobster_roll"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_tuna",
+    "name_ja": "マグロ",
+    "name_en": "Tuna",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_maguro_sushi",
+      "recipe_smoked_fish_charcuterie_spread",
+      "recipe_tekka_maki",
+      "recipe_tuna_burger",
+      "recipe_tuna_sashimi"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_anglerfish",
+    "name_ja": "アンコウ",
+    "name_en": "Anglerfish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_pan_fried_angler_fish",
+      "recipe_smoked_peanuts_and_anglerfish"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_bass",
+    "name_ja": "バス",
+    "name_en": "Bass",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_pan_seared_bass_vegetables"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_tilapia",
+    "name_ja": "ティラピア",
+    "name_en": "Tilapia",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_pan_seared_tilapia_vegetables"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_peanut",
+    "name_ja": "ピーナッツ",
+    "name_en": "Peanut",
+    "category": "食材",
+    "obtain_method": "シェ・レミーで購入",
+    "used_in_recipes": [
+      "recipe_peanut_butter_sandwich",
+      "recipe_smoked_peanuts_and_anglerfish"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_white_sturgeon",
+    "name_ja": "シロチョウザメ",
+    "name_en": "White Sturgeon",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_poached_basil_butter_sturgeon"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_rainbow_trout",
+    "name_ja": "",
+    "name_en": "Rainbow Trout",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_milky_way_stew",
+      "recipe_rainbouillabaisse",
+      "recipe_seared_rainbow_trout"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_perch",
+    "name_ja": "パーチ",
+    "name_en": "Perch",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_simple_fried_perch"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sole",
+    "name_ja": "シタビラメ",
+    "name_en": "Sole",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_sole_meuni_re"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_bream",
+    "name_ja": "ブリーム",
+    "name_en": "Bream",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_spicy_baked_bream"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_kingfish",
+    "name_ja": "サバ",
+    "name_en": "Kingfish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_sweet_sour_kingfish_steak"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sweets",
+    "name_ja": "糖類",
+    "name_en": "Sweets",
+    "category": "調理カテゴリ（任意の該当素材）",
+    "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "used_in_recipes": [
+      "recipe_beet_brownie_stack",
+      "recipe_chia_pudding",
+      "recipe_cinnamon_cookies",
+      "recipe_cinnamon_donut",
+      "recipe_cream_cheese_bagel",
+      "recipe_glazed_donut",
+      "recipe_lightning_bolt",
+      "recipe_lightning_cookies",
+      "recipe_nutmeg_cookies",
+      "recipe_sesame_seed_bagel",
+      "recipe_sweet_udon"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_carrot",
+    "name_ja": "ニンジン",
+    "name_en": "Carrot",
+    "category": "野菜",
+    "obtain_method": "栽培・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_button_stew",
+      "recipe_coleslaw",
+      "recipe_honey_glazed_carrots",
+      "recipe_vegetarian_stew"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_walleye",
+    "name_ja": "",
+    "name_en": "Walleye",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_walleye_en_papillote"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_agave",
+    "name_ja": "リュウゼツラン",
+    "name_en": "Agave",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_arepas_con_queso",
+      "recipe_caramel_macarons",
+      "recipe_charlotte_cake",
+      "recipe_cotton_candy",
+      "recipe_cupcakes",
+      "recipe_kouign_amann",
+      "recipe_mooncake",
+      "recipe_roasted_almonds",
+      "recipe_sugar_free_fruit_explosion_muffin",
+      "recipe_sweet_popcorn",
+      "recipe_turkey_leg"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_pork",
+    "name_ja": "豚肉",
+    "name_en": "Pork",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_baked_beans",
+      "recipe_baozi",
+      "recipe_club_sandwich",
+      "recipe_hawaiian_pizza",
+      "recipe_pulled_pork",
+      "recipe_ramen",
+      "recipe_royal_burger",
+      "recipe_sausage_and_sauerkraut_platter",
+      "recipe_turnip_tartiflette",
+      "recipe_yakisoba"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_brilliant_blue_starfish",
+    "name_ja": "",
+    "name_en": "Brilliant Blue Starfish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_barbecued_brilliant_blue_starfish",
+      "recipe_thousand_needles"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_pretty_pink_starfish",
+    "name_ja": "",
+    "name_en": "Pretty Pink Starfish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_barbecued_pretty_pink_starfish"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_paprika",
+    "name_ja": "パプリカ",
+    "name_en": "Paprika",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_barbecued_pretty_pink_starfish",
+      "recipe_chicken_souvlaki",
+      "recipe_spicy_scorpion_skewer",
+      "recipe_tandoori_chicken",
+      "recipe_turkey_leg"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_clam",
+    "name_ja": "アサリ",
+    "name_en": "Clam",
+    "category": "魚介",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_clam_juice"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cabbage",
+    "name_ja": "キャベツ",
+    "name_en": "Cabbage",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_coleslaw",
+      "recipe_sausage_and_sauerkraut_platter",
+      "recipe_yakisoba"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sea_snail",
+    "name_ja": "タマネギ",
+    "name_en": "Sea Snail",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_best_fish_forever",
+      "recipe_braised_abalone",
+      "recipe_conch_ceviche",
+      "recipe_gourmet_grubs"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_crab",
+    "name_ja": "カニ",
+    "name_en": "Crab",
+    "category": "魚介",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_crab_melts",
+      "recipe_fishy_pineapple_jelly"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_protein",
+    "name_ja": "肉類",
+    "name_en": "Protein",
+    "category": "調理カテゴリ（任意の該当素材）",
+    "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "used_in_recipes": [
+      "recipe_burrito",
+      "recipe_dumplings",
+      "recipe_flying_fish_quenelles",
+      "recipe_meat_pie",
+      "recipe_roast"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_beans",
+    "name_ja": "豆",
+    "name_en": "Beans",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_baked_beans",
+      "recipe_burrito",
+      "recipe_falafel",
+      "recipe_hamburger_steak",
+      "recipe_mooncake",
+      "recipe_pupusas_revueltas",
+      "recipe_taiyaki"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cumin",
+    "name_ja": "クミン",
+    "name_en": "Cumin",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_best_fish_forever",
+      "recipe_biryani",
+      "recipe_burrito",
+      "recipe_butter_chicken",
+      "recipe_fabulous_fajitas",
+      "recipe_falafel",
+      "recipe_meaty_taco",
+      "recipe_tandoori_chicken",
+      "recipe_turkey_leg"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_robot_fish",
+    "name_ja": "",
+    "name_en": "Robot Fish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_best_fish_forever",
+      "recipe_nuts_bolts"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_almonds",
+    "name_ja": "アーモンド",
+    "name_en": "Almonds",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_caramel_macarons",
+      "recipe_chocolate_macarons",
+      "recipe_french_macarons",
+      "recipe_jam_macarons",
+      "recipe_maamouls",
+      "recipe_nuts_bolts",
+      "recipe_roasted_almonds",
+      "recipe_spicy_macarons",
+      "recipe_stuffed_dates",
+      "recipe_vanilla_macarons"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_majestea",
+    "name_ja": "マジェスティ―",
+    "name_en": "Majestea",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_royal_ice_tea",
+      "recipe_royal_latte",
+      "recipe_royal_tea"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sand_worm",
+    "name_ja": "サンドワーム",
+    "name_en": "Sand Worm",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_gourmet_grubs",
+      "recipe_sand_stew",
+      "recipe_sand_worm_carpaccio_plate"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_melon",
+    "name_ja": "メロン",
+    "name_en": "Melon",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_melon_boba_tea",
+      "recipe_sand_worm_carpaccio_plate"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_shad",
+    "name_ja": "",
+    "name_en": "Shad",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_shad_ceviche"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_scorpion",
+    "name_ja": "サソリ",
+    "name_en": "Scorpion",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_gourmet_grubs",
+      "recipe_spicy_scorpion_skewer"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_octopus",
+    "name_ja": "タコ",
+    "name_en": "Octopus",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_takoyaki_stick"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cactoberries",
+    "name_ja": "サボテンの実",
+    "name_en": "Cactoberries",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_spiky_berry_pie",
+      "recipe_thousand_needles"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_poultry",
+    "name_ja": "鶏肉",
+    "name_en": "Poultry",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_ajiaco",
+      "recipe_biryani",
+      "recipe_butter_chicken",
+      "recipe_chicken_souvlaki",
+      "recipe_club_sandwich",
+      "recipe_coq_en_barbouille",
+      "recipe_fabulous_fajitas",
+      "recipe_jerk_chicken",
+      "recipe_pupusas_revueltas",
+      "recipe_schnitzel",
+      "recipe_shish_taouk",
+      "recipe_sweet_and_sour_stir_fry",
+      "recipe_tandoori_chicken",
+      "recipe_turkey_leg"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_celery",
+    "name_ja": "セロリ",
+    "name_en": "Celery",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_best_fish_forever",
+      "recipe_blend_of_the_bayou",
+      "recipe_bony_osso_buco"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cinnamon",
+    "name_ja": "シナモン",
+    "name_en": "Cinnamon",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_apple_sauce",
+      "recipe_biryani",
+      "recipe_chia_pudding",
+      "recipe_cinnamon_cake",
+      "recipe_cinnamon_cookies",
+      "recipe_cinnamon_donut",
+      "recipe_kanelbulle",
+      "recipe_makrout",
+      "recipe_shawarma"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_prisma_shrimp",
+    "name_ja": "プリズマエビ",
+    "name_en": "Prisma Shrimp",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_blend_of_the_bayou",
+      "recipe_rainbouillabaisse"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_skeleton_fish",
+    "name_ja": "スケルトンフィッシュ",
+    "name_en": "Skeleton Fish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_bony_osso_buco"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_grapes",
+    "name_ja": "ブドウ",
+    "name_en": "Grapes",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_bony_osso_buco",
+      "recipe_coq_en_barbouille"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_bamboo",
+    "name_ja": "タケノコ",
+    "name_en": "Bamboo",
+    "category": "野菜",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_braised_bamboo_shoots",
+      "recipe_piquant_piranha_soup"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_venison",
+    "name_ja": "鹿肉",
+    "name_en": "Venison",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_cheeseburger",
+      "recipe_good_ol_fashioned_burger",
+      "recipe_hamburger_steak",
+      "recipe_meaty_taco",
+      "recipe_royal_burger",
+      "recipe_shawarma",
+      "recipe_tourti_re"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_ruby_lentils",
+    "name_ja": "ルビー豆",
+    "name_en": "Ruby Lentils",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_crimson_burger",
+      "recipe_ruby_masoor_dal"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_electric_eel",
+    "name_ja": "電気ウナギ",
+    "name_en": "Electric Eel",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_dragon_roll_maki"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_pineapple",
+    "name_ja": "パイナップル",
+    "name_en": "Pineapple",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_hawaiian_pizza",
+      "recipe_pineapple_soft_serve",
+      "recipe_sweet_and_sour_stir_fry"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_flute_root",
+    "name_ja": "フルートルート",
+    "name_en": "Flute Root",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_lo_fries",
+      "recipe_rhapsody_roll"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_yam",
+    "name_ja": "ヤムイモ",
+    "name_en": "Yam",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_lo_fries"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_turnip",
+    "name_ja": "カブ",
+    "name_en": "Turnip",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_milky_way_stew",
+      "recipe_turnip_tartiflette",
+      "recipe_vegetarian_turnip_tartiflette"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cosmic_figs",
+    "name_ja": "",
+    "name_en": "Cosmic Figs",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_milky_way_stew",
+      "recipe_stellar_milkshake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_pirarucu",
+    "name_ja": "",
+    "name_en": "Pirarucu",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_moqueca_de_pirarucu"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_coconut",
+    "name_ja": "ココナッツ",
+    "name_en": "Coconut",
+    "category": "果物",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_moqueca_de_pirarucu"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_piranha",
+    "name_ja": "",
+    "name_en": "Piranha",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_piquant_piranha_soup"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_dunebopper",
+    "name_ja": "デューンボッパー",
+    "name_en": "Dunebopper",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_sand_stew"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sand_fish",
+    "name_ja": "サンドフィッシュ",
+    "name_en": "Sand Fish",
+    "category": "魚",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_sand_stew",
+      "recipe_taiyaki"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_broccoli",
+    "name_ja": "ブロッコリー",
+    "name_en": "Broccoli",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_sweet_and_sour_stir_fry"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_dreamango",
+    "name_ja": "ドリーマンゴー",
+    "name_en": "Dreamango",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_dreamango_boba_tea",
+      "recipe_sweet_and_sour_stir_fry"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_strawberry",
+    "name_ja": "イチゴ",
+    "name_en": "Strawberry",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_basil_berry_salad",
+      "recipe_charlotte_cake",
+      "recipe_spiky_berry_pie",
+      "recipe_strawberry_pie",
+      "recipe_strawberry_shortcake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_vanilla",
+    "name_ja": "バニラ",
+    "name_en": "Vanilla",
+    "category": "食材",
+    "obtain_method": "採取",
+    "used_in_recipes": [
+      "recipe_cannoli",
+      "recipe_past_is_de_nata",
+      "recipe_red_velvet",
+      "recipe_rice_pudding",
+      "recipe_vanilla_macarons",
+      "recipe_vanilla_yogurt"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_fruit",
+    "name_ja": "果物類",
+    "name_en": "Fruit",
+    "category": "調理カテゴリ（任意の該当素材）",
+    "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "used_in_recipes": [
+      "recipe_danish",
+      "recipe_fairy_wands",
+      "recipe_fruit_milkshake",
+      "recipe_greek_potatoes",
+      "recipe_jam_macarons",
+      "recipe_scottish_porridge",
+      "recipe_sugar_free_fruit_explosion_muffin",
+      "recipe_sugar_free_fruit_muffin",
+      "recipe_sweet_tofu",
+      "recipe_vintage_peach_trifle"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_dates",
+    "name_ja": "デーツ",
+    "name_en": "Dates",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_maamouls",
+      "recipe_makrout",
+      "recipe_stuffed_dates"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_nestling_pear",
+    "name_ja": "",
+    "name_en": "Nestling Pear",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_nestling_crepe",
+      "recipe_pear_upside_down_cake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_banana",
+    "name_ja": "バナナ",
+    "name_en": "Banana",
+    "category": "果物",
+    "obtain_method": "採取・グーフィーの露店で購入",
+    "used_in_recipes": [
+      "recipe_sugar_free_banana_muffin"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_ambrosia",
+    "name_ja": "アンブロシア",
+    "name_en": "Ambrosia",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_ambrosia_smoothie",
+      "recipe_aphrodite_s_delight",
+      "recipe_grecian_baked_fish",
+      "recipe_loaded_breakfast_yogurt",
+      "recipe_loaded_golden_apple_porridge",
+      "recipe_loaded_honeydew_porridge",
+      "recipe_loaded_persimmon_porridge",
+      "recipe_loaded_rhubarb_porridge",
+      "recipe_loaded_sea_grape_porridge",
+      "recipe_sour_berry_dessert",
+      "recipe_sparkling_ambrosia",
+      "recipe_stuffed_ring_squash",
+      "recipe_underworld_cake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_plain_yogurt",
+    "name_ja": "プレーンヨーグルト",
+    "name_en": "Plain Yogurt",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_a_very_unusual_tea_time",
+      "recipe_ambrosia_smoothie",
+      "recipe_cape_gooseberry_smoothie",
+      "recipe_cinnamon_cake",
+      "recipe_cinnamon_cookies",
+      "recipe_golden_apple_smoothie",
+      "recipe_honeydew_smoothie",
+      "recipe_lightning_cake",
+      "recipe_lightning_cookies",
+      "recipe_loaded_breakfast_yogurt",
+      "recipe_lupine_cullen_skink",
+      "recipe_nutmeg_cake",
+      "recipe_nutmeg_cookies",
+      "recipe_persimmon_smoothie",
+      "recipe_spicy_yogurt",
+      "recipe_spiral_strawberry_smoothie",
+      "recipe_strawberry_rhubarb_pie",
+      "recipe_tzatziki",
+      "recipe_underworld_cake",
+      "recipe_vanilla_yogurt"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_flyleaf_feta",
+    "name_ja": "見返しページフェタチーズ",
+    "name_en": "Flyleaf Feta",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_argossian_pizza",
+      "recipe_baked_feta_olives",
+      "recipe_cacio_e_pepe",
+      "recipe_caprese_salad",
+      "recipe_flying_fish_quenelles",
+      "recipe_greek_salad",
+      "recipe_roasted_barley_veggies",
+      "recipe_soda_bread_feta",
+      "recipe_spanakopita"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_olives",
+    "name_ja": "オリーブ",
+    "name_en": "Olives",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_argossian_pizza",
+      "recipe_baked_feta_olives",
+      "recipe_caprese_salad",
+      "recipe_grecian_baked_fish",
+      "recipe_greek_salad",
+      "recipe_grilled_koi_gyro",
+      "recipe_mussel_risotto",
+      "recipe_olive_plate",
+      "recipe_olympian_tapenade"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cape_gooseberry",
+    "name_ja": "食用ホオズキ",
+    "name_en": "Cape Gooseberry",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_cape_gooseberry_chia_pancakes",
+      "recipe_cape_gooseberry_smoothie",
+      "recipe_cape_gooseberry_sour_fondue"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_faerie_rye",
+    "name_ja": "フェアリーライ麦",
+    "name_en": "Faerie Rye",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_faerie_rye_crackers",
+      "recipe_merryweather_s_gingersnaps",
+      "recipe_underworld_cake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_golden_apple",
+    "name_ja": "黄金のリンゴ",
+    "name_en": "Golden Apple",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_aphrodite_s_delight",
+      "recipe_golden_apple_pie",
+      "recipe_golden_apple_smoothie",
+      "recipe_loaded_golden_apple_porridge"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_salt_crystal",
+    "name_ja": "塩の結晶",
+    "name_en": "Salt Crystal",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_a_very_unusual_tea_time",
+      "recipe_aquatic_escargot",
+      "recipe_arcane_garlic_crab",
+      "recipe_caprese_salad",
+      "recipe_grecian_baked_fish",
+      "recipe_greek_potatoes",
+      "recipe_salt_baked_sea_wolf",
+      "recipe_salt_pickled_cauliflower",
+      "recipe_salt_pickled_garlic",
+      "recipe_salt_pickled_green_beans",
+      "recipe_salt_pickled_radicchio",
+      "recipe_salt_pickled_radish",
+      "recipe_salt_pickled_sea_grapes",
+      "recipe_shovel_bird_eggs_benedict",
+      "recipe_soda_bread_feta"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_honeydew_melon",
+    "name_ja": "ハネジューメロン",
+    "name_en": "Honeydew Melon",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_honeydew_smoothie",
+      "recipe_honeydew_sour_fondue",
+      "recipe_loaded_honeydew_porridge",
+      "recipe_olympian_tapenade"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_stygian_mudskipper",
+    "name_ja": "冥界のトビハゼ",
+    "name_en": "Stygian Mudskipper",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_grecian_baked_fish",
+      "recipe_lightning_bolt"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_lamprey",
+    "name_ja": "ヤツメウナギ",
+    "name_en": "Lamprey",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_lamprey_sashimi",
+      "recipe_lightning_bolt"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_lightning_spice",
+    "name_ja": "イナズマのスパイス",
+    "name_en": "Lightning Spice",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_electric_radicchio_persimmon_salad",
+      "recipe_lightning_bolt",
+      "recipe_lightning_cake",
+      "recipe_lightning_cookies",
+      "recipe_sparkling_ambrosia"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_elysian_grain",
+    "name_ja": "至福者の野の穀物",
+    "name_en": "Elysian Grain",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_argossian_pizza",
+      "recipe_cacio_e_pepe",
+      "recipe_grecian_baked_fish",
+      "recipe_olympian_tapenade",
+      "recipe_shovel_bird_eggs_benedict"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_persimmon",
+    "name_ja": "柿",
+    "name_en": "Persimmon",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_electric_radicchio_persimmon_salad",
+      "recipe_loaded_persimmon_porridge",
+      "recipe_persimmon_chia_pancakes",
+      "recipe_persimmon_pie",
+      "recipe_persimmon_smoothie",
+      "recipe_persimmon_sour_fondue"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_radicchio",
+    "name_ja": "ラディッキオ",
+    "name_en": "Radicchio",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_electric_radicchio_persimmon_salad",
+      "recipe_radicchio_slaw",
+      "recipe_radicchio_stuffed_porcini",
+      "recipe_salt_pickled_radicchio"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_green_beans",
+    "name_ja": "サヤインゲン",
+    "name_en": "Green Beans",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_green_bean_casserole",
+      "recipe_radicchio_slaw",
+      "recipe_roasted_green_beans",
+      "recipe_salt_pickled_green_beans"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_cauliflower",
+    "name_ja": "カリフラワー",
+    "name_en": "Cauliflower",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_barley_salad",
+      "recipe_cauliflower_steak",
+      "recipe_radicchio_slaw",
+      "recipe_salt_pickled_cauliflower"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_radish",
+    "name_ja": "ラディッシュ",
+    "name_en": "Radish",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_barley_salad",
+      "recipe_greek_salad",
+      "recipe_radicchio_slaw",
+      "recipe_salt_pickled_radish",
+      "recipe_seaweed_salad"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_porcini_mushrooms",
+    "name_ja": "ポルチーニ茸",
+    "name_en": "Porcini Mushrooms",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_flying_fish_quenelles",
+      "recipe_green_bean_casserole",
+      "recipe_radicchio_stuffed_porcini",
+      "recipe_saut_ed_porcini",
+      "recipe_sprout_stuffed_porcini",
+      "recipe_squash_stuffed_porcini"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_chia_seeds",
+    "name_ja": "チアシード",
+    "name_en": "Chia Seeds",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_cape_gooseberry_chia_pancakes",
+      "recipe_chia_pudding",
+      "recipe_chia_seed_bread",
+      "recipe_persimmon_chia_pancakes",
+      "recipe_sea_grape_chia_pancakes",
+      "recipe_simple_chia_pudding",
+      "recipe_spiral_strawberry_chia_pancakes"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_spiral_strawberries",
+    "name_ja": "うずまきイチゴ",
+    "name_en": "Spiral Strawberries",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_a_very_unusual_tea_time",
+      "recipe_hippocampus_cepelinai_dumplings",
+      "recipe_loaded_breakfast_yogurt",
+      "recipe_shovel_bird_eggs_benedict",
+      "recipe_spiral_strawberry_chia_pancakes",
+      "recipe_spiral_strawberry_pie",
+      "recipe_spiral_strawberry_smoothie",
+      "recipe_spiral_strawberry_sour_fondue",
+      "recipe_strawberry_rhubarb_pie"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sour_berries",
+    "name_ja": "すっぱベリー",
+    "name_en": "Sour Berries",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_a_very_unusual_tea_time",
+      "recipe_cape_gooseberry_sour_fondue",
+      "recipe_honeydew_sour_fondue",
+      "recipe_merryweather_s_gingersnaps",
+      "recipe_persimmon_sour_fondue",
+      "recipe_sour_berry_dessert",
+      "recipe_sour_berry_pie",
+      "recipe_spiral_strawberry_sour_fondue"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_trumpet_snail",
+    "name_ja": "ラッパマイマイ",
+    "name_en": "Trumpet Snail",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_aquatic_escargot",
+      "recipe_chimera_skewer"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sorcerer_hat_hermit_crab",
+    "name_ja": "",
+    "name_en": "Sorcerer Hat Hermit Crab",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_arcane_garlic_crab",
+      "recipe_hermit_crab_pasta"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_barley",
+    "name_ja": "大麦",
+    "name_en": "Barley",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_barley_salad",
+      "recipe_roasted_barley_veggies"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_black_pepper",
+    "name_ja": "黒コショウ",
+    "name_en": "Black Pepper",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_cacio_e_pepe",
+      "recipe_hippocampus_cepelinai_dumplings",
+      "recipe_radicchio_stuffed_porcini",
+      "recipe_seaweed_salad",
+      "recipe_sprout_stuffed_porcini",
+      "recipe_squash_stuffed_porcini"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_shovel_bird_eggs",
+    "name_ja": "スコップ鳥のタマゴ",
+    "name_en": "Shovel Bird Eggs",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_cape_gooseberry_chia_pancakes",
+      "recipe_chia_seed_bread",
+      "recipe_cinnamon_cake",
+      "recipe_golden_apple_pie",
+      "recipe_lightning_cake",
+      "recipe_merryweather_s_gingersnaps",
+      "recipe_nutmeg_cake",
+      "recipe_persimmon_chia_pancakes",
+      "recipe_persimmon_pie",
+      "recipe_sea_grape_chia_pancakes",
+      "recipe_shovel_bird_eggs_benedict",
+      "recipe_sour_berry_pie",
+      "recipe_spiral_strawberry_chia_pancakes",
+      "recipe_spiral_strawberry_pie",
+      "recipe_underworld_cake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_rhubarb",
+    "name_ja": "ルバーブ",
+    "name_en": "Rhubarb",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_chia_pudding",
+      "recipe_loaded_rhubarb_porridge",
+      "recipe_strawberry_rhubarb_pie"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_hippocampus",
+    "name_ja": "",
+    "name_en": "Hippocampus",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_chimera_skewer",
+      "recipe_hippocampus_cepelinai_dumplings"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_flying_fish",
+    "name_ja": "",
+    "name_en": "Flying Fish",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_chimera_skewer",
+      "recipe_flying_fish_quenelles"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_brussels_sprout",
+    "name_ja": "芽キャベツ",
+    "name_en": "Brussels Sprout",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_chimera_skewer",
+      "recipe_roasted_barley_veggies",
+      "recipe_roasted_brussel_sprouts",
+      "recipe_sprout_stuffed_porcini"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_mussel",
+    "name_ja": "ムール貝",
+    "name_en": "Mussel",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_garlic_steam_mussels",
+      "recipe_mussel_risotto",
+      "recipe_steamed_mussels"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_koi",
+    "name_ja": "錦鯉",
+    "name_en": "Koi",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_grilled_koi_gyro",
+      "recipe_koi_sashimi"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_oats",
+    "name_ja": "オーツ麦",
+    "name_en": "Oats",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_loaded_breakfast_yogurt",
+      "recipe_loaded_golden_apple_porridge",
+      "recipe_loaded_honeydew_porridge",
+      "recipe_loaded_persimmon_porridge",
+      "recipe_loaded_rhubarb_porridge",
+      "recipe_loaded_sea_grape_porridge",
+      "recipe_oatmeal",
+      "recipe_rice_pudding",
+      "recipe_scottish_porridge"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sea_grapes",
+    "name_ja": "",
+    "name_en": "Sea Grapes",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_loaded_sea_grape_porridge",
+      "recipe_salt_pickled_sea_grapes",
+      "recipe_sea_grape_chia_pancakes",
+      "recipe_seaweed_salad"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_sea_wolf",
+    "name_ja": "",
+    "name_en": "Sea Wolf",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_lupine_cullen_skink",
+      "recipe_salt_baked_sea_wolf"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_ring_squash",
+    "name_ja": "ワッカカボチャ",
+    "name_en": "Ring Squash",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_squash_stuffed_porcini",
+      "recipe_stuffed_ring_squash"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_squid",
+    "name_ja": "イカ",
+    "name_en": "Squid",
+    "category": "魚介",
+    "obtain_method": "釣り",
+    "used_in_recipes": [
+      "recipe_squid_sashimi"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_nutmeg",
+    "name_ja": "ナツメグ",
+    "name_en": "Nutmeg",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_merryweather_s_gingersnaps",
+      "recipe_nutmeg_cake",
+      "recipe_nutmeg_cookies",
+      "recipe_underworld_cake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_red_alpine_bass",
+    "name_ja": "",
+    "name_en": "Red Alpine Bass",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_alpine_fishcakes",
+      "recipe_stargazy_pie"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_dill",
+    "name_ja": "ディル",
+    "name_en": "Dill",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_alpine_fishcakes",
+      "recipe_buttermilk_borscht",
+      "recipe_honey_glazed_carrots"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_beetroot",
+    "name_ja": "ビーツ",
+    "name_en": "Beetroot",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_baked_whitefish_and_roasted_beets",
+      "recipe_beauty_and_the_beets_napoleon",
+      "recipe_beet_brownie_stack",
+      "recipe_beet_iful_spaetzle",
+      "recipe_beet_sugar_sculpture",
+      "recipe_buttermilk_borscht"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_bonsai_star_fruit",
+    "name_ja": "",
+    "name_en": "Bonsai Star Fruit",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_fairy_wands",
+      "recipe_fizzy_nectar_soda"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_honey_coral",
+    "name_ja": "サンゴのハチミツ",
+    "name_en": "Honey Coral",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_fairy_boot_cake",
+      "recipe_friendly_bento",
+      "recipe_honey_glazed_carrots",
+      "recipe_honey_pancakes",
+      "recipe_rosehip_honey_tea"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_scarlet_kale",
+    "name_ja": "スカーレットケール",
+    "name_en": "Scarlet Kale",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_fishy_pineapple_jelly",
+      "recipe_friendly_bento",
+      "recipe_jellied_salad",
+      "recipe_scarlet_bouquet_salad",
+      "recipe_scarlet_kale_and_cheese_pinwheels"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_mountain_whitefish",
+    "name_ja": "マウンテンホワイトフィッシュ",
+    "name_en": "Mountain Whitefish",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_baked_whitefish_and_roasted_beets",
+      "recipe_smoked_fish_charcuterie_spread"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_dark_chocolate_coffee_beans",
+    "name_ja": "",
+    "name_en": "Dark Chocolate Coffee Beans",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_101_teeny_tiny_dalmatian_cupcakes",
+      "recipe_afternoon_tea_set",
+      "recipe_fairy_boot_cake"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_pearly_barley",
+    "name_ja": "",
+    "name_en": "Pearly Barley",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_afternoon_tea_set",
+      "recipe_horace_s_ham_sandwich",
+      "recipe_kanine_krunchies_cereal",
+      "recipe_vintage_peach_trifle"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_pincushion_peach",
+    "name_ja": "",
+    "name_en": "Pincushion Peach",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_afternoon_tea_set",
+      "recipe_eton_mess",
+      "recipe_kanine_krunchies_cereal",
+      "recipe_vintage_peach_trifle"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_tigger_fish",
+    "name_ja": "",
+    "name_en": "Tigger Fish",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_bread_bowl_pumpkin_soup",
+      "recipe_friendly_bento"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_fairy_kamut",
+    "name_ja": "",
+    "name_en": "Fairy Kamut",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_bread_bowl_pumpkin_soup",
+      "recipe_fairy_boot_cake",
+      "recipe_fairy_bread",
+      "recipe_pixie_ice_cream_dome_cake",
+      "recipe_pixie_pizza"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_button_mushroom",
+    "name_ja": "",
+    "name_en": "Button Mushroom",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_button_stew",
+      "recipe_felted_breakfast_spread",
+      "recipe_pixie_pizza"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_red_currants",
+    "name_ja": "",
+    "name_en": "Red Currants",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_beauty_and_the_beets_napoleon",
+      "recipe_eton_mess",
+      "recipe_pixie_ice_cream_dome_cake",
+      "recipe_red_currant_linzer_cookies",
+      "recipe_red_currant_valley_cakes"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_satin_finned_betta",
+    "name_ja": "",
+    "name_en": "Satin-Finned Betta",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_felted_breakfast_spread",
+      "recipe_stargazy_pie"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_jellied_fish",
+    "name_ja": "ゼリーウツボ",
+    "name_en": "Jellied Fish",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_fishy_pineapple_jelly",
+      "recipe_jellied_fish_terrine",
+      "recipe_jellied_salad"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_measuring_tape_snail",
+    "name_ja": "",
+    "name_en": "Measuring-Tape Snail",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_fishy_pineapple_jelly",
+      "recipe_stargazy_pie"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_fairy_sprinkles",
+    "name_ja": "",
+    "name_en": "Fairy Sprinkles",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_fairy_bread",
+      "recipe_pixie_ice_cream_dome_cake",
+      "recipe_pixie_pizza",
+      "recipe_tigger_tails"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  },
+  {
+    "id": "mat_lollipop_fruit",
+    "name_ja": "",
+    "name_en": "Lollipop Fruit",
+    "category": "",
+    "obtain_method": "",
+    "used_in_recipes": [
+      "recipe_fairy_wands",
+      "recipe_tigger_tails"
+    ],
+    "stock_count": 0,
+    "memo": ""
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "exp_eternity_isle",
+    "name_ja": "永遠の島（A Rift in Time）",
+    "release_date": "2023-12-05",
+    "price": "有料DLC",
+    "included_realms": [
+      "永遠の島",
+      "失われしタイムスクエア"
+    ],
+    "required_progress": "本編をある程度進行",
+    "owned": false,
+    "progress_notes": ""
+  },
+  {
+    "id": "exp_storybook_vale",
+    "name_ja": "物語の谷（The Storybook Vale）",
+    "release_date": "2025-01-01",
+    "price": "有料DLC",
+    "included_realms": [
+      "物語の谷"
+    ],
+    "required_progress": "本編をある程度進行",
+    "owned": false,
+    "progress_notes": ""
+  }
+]

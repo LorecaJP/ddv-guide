@@ -1,0 +1,5405 @@
+[
+  {
+    "id": "recipe_arendellian_pickled_herring",
+    "name_ja": "",
+    "name_en": "Arendellian Pickled Herring",
+    "stars": 5,
+    "ingredients": [
+      "Herring",
+      "Lemon",
+      "Onion",
+      "Garlic",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "556+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2102+"
+  },
+  {
+    "id": "recipe_bell_pepper_puffs",
+    "name_ja": "パプリカのパイ包み",
+    "name_en": "Bell Pepper Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Bell Pepper",
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "606+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1279+"
+  },
+  {
+    "id": "recipe_bu_uelos",
+    "name_ja": "ブニュエロ",
+    "name_en": "Buñuelos",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Egg",
+      "Cheese",
+      "Milk"
+    ],
+    "sell_price_note": "948+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1881+"
+  },
+  {
+    "id": "recipe_cheese_platter",
+    "name_ja": "チーズの盛り合わせ",
+    "name_en": "Cheese Platter",
+    "stars": 1,
+    "ingredients": [
+      "Cheese"
+    ],
+    "sell_price_note": "216+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 482+"
+  },
+  {
+    "id": "recipe_chili_pepper_puffs",
+    "name_ja": "トウガラシのパイ包み",
+    "name_en": "Chili Pepper Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Chili Pepper",
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "669+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1382+"
+  },
+  {
+    "id": "recipe_chrysanthemum_tea",
+    "name_ja": "キクのお茶",
+    "name_en": "Chrysanthemum Tea",
+    "stars": 2,
+    "ingredients": [
+      "Chrysanthemum Tea Leaves",
+      "Blueberry"
+    ],
+    "sell_price_note": "69+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 687+"
+  },
+  {
+    "id": "recipe_coffee",
+    "name_ja": "コーヒー",
+    "name_en": "Coffee",
+    "stars": 1,
+    "ingredients": [
+      "Coffee Bean"
+    ],
+    "sell_price_note": "43+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 730+"
+  },
+  {
+    "id": "recipe_crackers",
+    "name_ja": "クラッカー",
+    "name_en": "Crackers",
+    "stars": 1,
+    "ingredients": [
+      "Wheat"
+    ],
+    "sell_price_note": "2+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 80+"
+  },
+  {
+    "id": "recipe_creamy_soup",
+    "name_ja": "",
+    "name_en": "Creamy Soup",
+    "stars": 4,
+    "ingredients": [
+      "Milk",
+      "Potato",
+      "Vegetable",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "576+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1138+"
+  },
+  {
+    "id": "recipe_crudites",
+    "name_ja": "ディップサラダ",
+    "name_en": "Crudites",
+    "stars": 1,
+    "ingredients": [
+      "Vegetable"
+    ],
+    "sell_price_note": "26+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 83+"
+  },
+  {
+    "id": "recipe_dream_fizz",
+    "name_ja": "ドリームシャンパン",
+    "name_en": "Dream Fizz",
+    "stars": 4,
+    "ingredients": [
+      "Dreamlight Fruit",
+      "Slush Ice",
+      "Sugarcane",
+      "Wheat"
+    ],
+    "sell_price_note": "316+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1550+"
+  },
+  {
+    "id": "recipe_eggplant_puffs",
+    "name_ja": "ナスのパイ包み",
+    "name_en": "Eggplant Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Eggplant",
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "991+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1941+"
+  },
+  {
+    "id": "recipe_french_fries",
+    "name_ja": "フライドポテト",
+    "name_en": "French Fries",
+    "stars": 2,
+    "ingredients": [
+      "Potato",
+      "Canola"
+    ],
+    "sell_price_note": "304+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 342+"
+  },
+  {
+    "id": "recipe_gazpacho",
+    "name_ja": "",
+    "name_en": "Gazpacho",
+    "stars": 4,
+    "ingredients": [
+      "Onion",
+      "Tomato",
+      "Cucumber",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "556+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 821+"
+  },
+  {
+    "id": "recipe_green_salad",
+    "name_ja": "グリーンサラダ",
+    "name_en": "Green Salad",
+    "stars": 2,
+    "ingredients": [
+      "Lettuce",
+      "Vegetable"
+    ],
+    "sell_price_note": "20+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 180+"
+  },
+  {
+    "id": "recipe_grilled_vegetables",
+    "name_ja": "野菜のグリル",
+    "name_en": "Grilled Vegetables",
+    "stars": 1,
+    "ingredients": [
+      "Vegetable"
+    ],
+    "sell_price_note": "9+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 83+"
+  },
+  {
+    "id": "recipe_grilled_veggie_platter",
+    "name_ja": "",
+    "name_en": "Grilled Veggie Platter",
+    "stars": 1,
+    "ingredients": [
+      "Vegetable"
+    ],
+    "sell_price_note": "33+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 161+"
+  },
+  {
+    "id": "recipe_hard_boiled_eggs",
+    "name_ja": "ゆで卵",
+    "name_en": "Hard-Boiled Eggs",
+    "stars": 1,
+    "ingredients": [
+      "Egg"
+    ],
+    "sell_price_note": "264+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 578+"
+  },
+  {
+    "id": "recipe_jasmine_tea",
+    "name_ja": "ジャスミン茶",
+    "name_en": "Jasmine Tea",
+    "stars": 2,
+    "ingredients": [
+      "Jasmine Tea Leaves",
+      "Sugarcane"
+    ],
+    "sell_price_note": "56+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 170+"
+  },
+  {
+    "id": "recipe_large_seafood_platter",
+    "name_ja": "",
+    "name_en": "Large Seafood Platter",
+    "stars": 2,
+    "ingredients": [
+      "Seafood",
+      "Lemon"
+    ],
+    "sell_price_note": "340+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1810+"
+  },
+  {
+    "id": "recipe_latte",
+    "name_ja": "カフェラテ",
+    "name_en": "Latte",
+    "stars": 2,
+    "ingredients": [
+      "Coffee Bean",
+      "Milk"
+    ],
+    "sell_price_note": "345+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1358+"
+  },
+  {
+    "id": "recipe_mocha",
+    "name_ja": "カフェモカ",
+    "name_en": "Mocha",
+    "stars": 3,
+    "ingredients": [
+      "Coffee Bean",
+      "Milk",
+      "Cocoa Bean"
+    ],
+    "sell_price_note": "425+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2246+"
+  },
+  {
+    "id": "recipe_okra_soup",
+    "name_ja": "オクラスープ",
+    "name_en": "Okra Soup",
+    "stars": 1,
+    "ingredients": [
+      "Okra"
+    ],
+    "sell_price_note": "136+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 99+"
+  },
+  {
+    "id": "recipe_onion_puffs",
+    "name_ja": "タマネギのパイ包み",
+    "name_en": "Onion Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Onion",
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "798+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1392+"
+  },
+  {
+    "id": "recipe_oolong_tea",
+    "name_ja": "ウーロン茶",
+    "name_en": "Oolong Tea",
+    "stars": 2,
+    "ingredients": [
+      "Oolong Tea Leaves",
+      "Raspberry"
+    ],
+    "sell_price_note": "59+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 559+"
+  },
+  {
+    "id": "recipe_oyster_platter",
+    "name_ja": "",
+    "name_en": "Oyster Platter",
+    "stars": 2,
+    "ingredients": [
+      "Oyster",
+      "Lemon"
+    ],
+    "sell_price_note": "367+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1155+"
+  },
+  {
+    "id": "recipe_peppermint_tea",
+    "name_ja": "",
+    "name_en": "Peppermint Tea",
+    "stars": 2,
+    "ingredients": [
+      "Lemon",
+      "Mint"
+    ],
+    "sell_price_note": "146+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 993+"
+  },
+  {
+    "id": "recipe_pickled_herring",
+    "name_ja": "",
+    "name_en": "Pickled Herring",
+    "stars": 4,
+    "ingredients": [
+      "Herring",
+      "Lemon",
+      "Onion",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "431+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1742+"
+  },
+  {
+    "id": "recipe_potato_leek_soup",
+    "name_ja": "ジャガイモと長ネギのスープ",
+    "name_en": "Potato Leek Soup",
+    "stars": 5,
+    "ingredients": [
+      "Potato",
+      "Leek",
+      "Milk",
+      "Onion",
+      "Garlic"
+    ],
+    "sell_price_note": "1400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1984+"
+  },
+  {
+    "id": "recipe_potato_puffs",
+    "name_ja": "ジャガイモのパイ包み",
+    "name_en": "Potato Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Potato",
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "736+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1333+"
+  },
+  {
+    "id": "recipe_pottage",
+    "name_ja": "",
+    "name_en": "Pottage",
+    "stars": 3,
+    "ingredients": [
+      "Potato",
+      "Vegetable",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "215+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 461+"
+  },
+  {
+    "id": "recipe_pumpkin_puffs",
+    "name_ja": "カボチャのパイ包み",
+    "name_en": "Pumpkin Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Pumpkin",
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "1400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1466+"
+  },
+  {
+    "id": "recipe_pumpkin_soup",
+    "name_ja": "",
+    "name_en": "Pumpkin Soup",
+    "stars": 4,
+    "ingredients": [
+      "Pumpkin",
+      "Ginger",
+      "Milk",
+      "Vegetable"
+    ],
+    "sell_price_note": "1500+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1431+"
+  },
+  {
+    "id": "recipe_pur_e",
+    "name_ja": "ピュレ―",
+    "name_en": "Purée",
+    "stars": 1,
+    "ingredients": [
+      "Potato"
+    ],
+    "sell_price_note": "151+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 230+"
+  },
+  {
+    "id": "recipe_roasted_asparagus",
+    "name_ja": "ローストアスパラガス",
+    "name_en": "Roasted Asparagus",
+    "stars": 2,
+    "ingredients": [
+      "Asparagus",
+      "Canola"
+    ],
+    "sell_price_note": "313+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 221+"
+  },
+  {
+    "id": "recipe_salad",
+    "name_ja": "サラダ",
+    "name_en": "Salad",
+    "stars": 1,
+    "ingredients": [
+      "Lettuce"
+    ],
+    "sell_price_note": "9+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 139+"
+  },
+  {
+    "id": "recipe_saut_ed_mushrooms",
+    "name_ja": "キノコのソテー",
+    "name_en": "Sautéed Mushrooms",
+    "stars": 2,
+    "ingredients": [
+      "Mushroom",
+      "Butter"
+    ],
+    "sell_price_note": "286+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 712+"
+  },
+  {
+    "id": "recipe_seafood_appetizer",
+    "name_ja": "",
+    "name_en": "Seafood Appetizer",
+    "stars": 1,
+    "ingredients": [
+      "Seafood"
+    ],
+    "sell_price_note": "54+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 242+"
+  },
+  {
+    "id": "recipe_sesame_balls",
+    "name_ja": "ゴマ団子",
+    "name_en": "Sesame Balls",
+    "stars": 5,
+    "ingredients": [
+      "Wheat",
+      "Ginger",
+      "Rice",
+      "Soya",
+      "Seaweed"
+    ],
+    "sell_price_note": "322+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 722+"
+  },
+  {
+    "id": "recipe_souffl",
+    "name_ja": "",
+    "name_en": "Soufflé",
+    "stars": 4,
+    "ingredients": [
+      "Cheese",
+      "Milk",
+      "Egg",
+      "Butter"
+    ],
+    "sell_price_note": "1230+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2386+"
+  },
+  {
+    "id": "recipe_sweet_herring",
+    "name_ja": "ニシンのスイートマリネ",
+    "name_en": "Sweet Herring",
+    "stars": 2,
+    "ingredients": [
+      "Herring",
+      "Onion"
+    ],
+    "sell_price_note": "305+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 723+"
+  },
+  {
+    "id": "recipe_tea_sandwiches",
+    "name_ja": "ティーサンドイッチ",
+    "name_en": "Tea Sandwiches",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Corn",
+      "Cherry",
+      "Fish"
+    ],
+    "sell_price_note": "91+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1378+"
+  },
+  {
+    "id": "recipe_tomato_soup",
+    "name_ja": "トマトスープ",
+    "name_en": "Tomato Soup",
+    "stars": 1,
+    "ingredients": [
+      "Tomato"
+    ],
+    "sell_price_note": "26+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 83+"
+  },
+  {
+    "id": "recipe_vegetarian_dumplings",
+    "name_ja": "ベジタリアンダンブリング",
+    "name_en": "Vegetarian Dumplings",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Soya",
+      "Vegetable"
+    ],
+    "sell_price_note": "109+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 225+"
+  },
+  {
+    "id": "recipe_zucchini_puffs",
+    "name_ja": "ズッキーニのパイ包み",
+    "name_en": "Zucchini Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Zucchini",
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "632+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1216+"
+  },
+  {
+    "id": "recipe_apple_cider_glazed_salmon",
+    "name_ja": "アップルサイダーグレーズサーモン",
+    "name_en": "Apple Cider Glazed Salmon",
+    "stars": 3,
+    "ingredients": [
+      "Apple",
+      "Salmon",
+      "Sugarcane"
+    ],
+    "sell_price_note": "271+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1572+"
+  },
+  {
+    "id": "recipe_baked_carp",
+    "name_ja": "",
+    "name_en": "Baked Carp",
+    "stars": 2,
+    "ingredients": [
+      "Carp",
+      "Butter"
+    ],
+    "sell_price_note": "757+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1894+"
+  },
+  {
+    "id": "recipe_basil_omelet",
+    "name_ja": "",
+    "name_en": "Basil Omelet",
+    "stars": 4,
+    "ingredients": [
+      "Basil",
+      "Egg",
+      "Cheese",
+      "Milk"
+    ],
+    "sell_price_note": "982+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2035+"
+  },
+  {
+    "id": "recipe_bouillabaisse",
+    "name_ja": "",
+    "name_en": "Bouillabaisse",
+    "stars": 4,
+    "ingredients": [
+      "Shrimp",
+      "Tomato",
+      "Seafood",
+      "Vegetable"
+    ],
+    "sell_price_note": "671+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2114+"
+  },
+  {
+    "id": "recipe_carp_salad",
+    "name_ja": "コイのサラダ",
+    "name_en": "Carp Salad",
+    "stars": 3,
+    "ingredients": [
+      "Carp",
+      "Lettuce",
+      "Lemon"
+    ],
+    "sell_price_note": "617+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2310+"
+  },
+  {
+    "id": "recipe_cheesy_crispy_baked_cod",
+    "name_ja": "チーズクリスピーベイクドタラ",
+    "name_en": "Cheesy Crispy Baked Cod",
+    "stars": 3,
+    "ingredients": [
+      "Cod",
+      "Wheat",
+      "Cheese"
+    ],
+    "sell_price_note": "303+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 840+"
+  },
+  {
+    "id": "recipe_chowder",
+    "name_ja": "",
+    "name_en": "Chowder",
+    "stars": 3,
+    "ingredients": [
+      "Potato",
+      "Seafood",
+      "Vegetable"
+    ],
+    "sell_price_note": "613+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1186+"
+  },
+  {
+    "id": "recipe_creamy_garlic_scallops",
+    "name_ja": "",
+    "name_en": "Creamy Garlic Scallops",
+    "stars": 4,
+    "ingredients": [
+      "Scallop",
+      "Lemon",
+      "Butter",
+      "Garlic"
+    ],
+    "sell_price_note": "499+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1844+"
+  },
+  {
+    "id": "recipe_crispy_baked_cod",
+    "name_ja": "クリスピーベイクドタラ",
+    "name_en": "Crispy Baked Cod",
+    "stars": 2,
+    "ingredients": [
+      "Cod",
+      "Wheat"
+    ],
+    "sell_price_note": "47+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 337+"
+  },
+  {
+    "id": "recipe_fish_creole",
+    "name_ja": "",
+    "name_en": "Fish Creole",
+    "stars": 5,
+    "ingredients": [
+      "Fish",
+      "Vegetable",
+      "Garlic",
+      "Rice",
+      "Tomato"
+    ],
+    "sell_price_note": "280+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 822+"
+  },
+  {
+    "id": "recipe_fish_n_chips",
+    "name_ja": "",
+    "name_en": "Fish 'n' Chips",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Canola",
+      "Potato",
+      "Fish"
+    ],
+    "sell_price_note": "392+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 697+"
+  },
+  {
+    "id": "recipe_fish_pasta",
+    "name_ja": "",
+    "name_en": "Fish Pasta",
+    "stars": 4,
+    "ingredients": [
+      "Fish",
+      "Garlic",
+      "Wheat",
+      "Milk"
+    ],
+    "sell_price_note": "475+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1282+"
+  },
+  {
+    "id": "recipe_fish_pie",
+    "name_ja": "アップルパイ",
+    "name_en": "Fish Pie",
+    "stars": 3,
+    "ingredients": [
+      "Fish",
+      "Wheat",
+      "Butter"
+    ],
+    "sell_price_note": "303+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 867+"
+  },
+  {
+    "id": "recipe_fish_risotto",
+    "name_ja": "",
+    "name_en": "Fish Risotto",
+    "stars": 3,
+    "ingredients": [
+      "Fish",
+      "Rice",
+      "Butter"
+    ],
+    "sell_price_note": "386+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 939+"
+  },
+  {
+    "id": "recipe_fish_salad",
+    "name_ja": "",
+    "name_en": "Fish Salad",
+    "stars": 3,
+    "ingredients": [
+      "Fish",
+      "Lettuce",
+      "Lemon"
+    ],
+    "sell_price_note": "92+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1140+"
+  },
+  {
+    "id": "recipe_fish_sandwiches",
+    "name_ja": "フィッシュバーガー",
+    "name_en": "Fish Sandwiches",
+    "stars": 2,
+    "ingredients": [
+      "Fish",
+      "Wheat"
+    ],
+    "sell_price_note": "34+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 337+"
+  },
+  {
+    "id": "recipe_fish_soup",
+    "name_ja": "",
+    "name_en": "Fish Soup",
+    "stars": 3,
+    "ingredients": [
+      "Fish",
+      "Vegetable",
+      "Milk"
+    ],
+    "sell_price_note": "368+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 978+"
+  },
+  {
+    "id": "recipe_fish_steak",
+    "name_ja": "",
+    "name_en": "Fish Steak",
+    "stars": 3,
+    "ingredients": [
+      "Fish",
+      "Tomato",
+      "Basil"
+    ],
+    "sell_price_note": "100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 537+"
+  },
+  {
+    "id": "recipe_fish_tacos",
+    "name_ja": "",
+    "name_en": "Fish Tacos",
+    "stars": 4,
+    "ingredients": [
+      "Fish",
+      "Corn",
+      "Chili Pepper",
+      "Cheese"
+    ],
+    "sell_price_note": "448+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1171+"
+  },
+  {
+    "id": "recipe_fugu_sushi",
+    "name_ja": "フグのにぎり寿司",
+    "name_en": "Fugu Sushi",
+    "stars": 3,
+    "ingredients": [
+      "Fugu",
+      "Rice",
+      "Seaweed"
+    ],
+    "sell_price_note": "1300+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 3261+"
+  },
+  {
+    "id": "recipe_ghostly_fish_steak",
+    "name_ja": "ゴーストフィッシュステーキ",
+    "name_en": "Ghostly Fish Steak",
+    "stars": 5,
+    "ingredients": [
+      "Here and There Fish",
+      "Lemon",
+      "Asparagus",
+      "Bell Pepper",
+      "Oregano"
+    ],
+    "sell_price_note": "3500+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 3282+"
+  },
+  {
+    "id": "recipe_greek_pizza",
+    "name_ja": "",
+    "name_en": "Greek Pizza",
+    "stars": 5,
+    "ingredients": [
+      "Spices & Herbs",
+      "Wheat",
+      "Cheese",
+      "Tomato",
+      "Onion"
+    ],
+    "sell_price_note": "630+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1152+"
+  },
+  {
+    "id": "recipe_grilled_fish",
+    "name_ja": "",
+    "name_en": "Grilled Fish",
+    "stars": 1,
+    "ingredients": [
+      "Fish"
+    ],
+    "sell_price_note": "30+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 290+"
+  },
+  {
+    "id": "recipe_grilled_fish_entree",
+    "name_ja": "",
+    "name_en": "Grilled Fish Entree",
+    "stars": 2,
+    "ingredients": [
+      "Fish",
+      "Vegetable"
+    ],
+    "sell_price_note": "42+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 340+"
+  },
+  {
+    "id": "recipe_gumbo",
+    "name_ja": "ガンボ",
+    "name_en": "Gumbo",
+    "stars": 5,
+    "ingredients": [
+      "Chili Pepper",
+      "Okra",
+      "Onion",
+      "Shrimp",
+      "Tomato"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2226+"
+  },
+  {
+    "id": "recipe_hearty_salad",
+    "name_ja": "",
+    "name_en": "Hearty Salad",
+    "stars": 2,
+    "ingredients": [
+      "Vegetable",
+      "Lettuce"
+    ],
+    "sell_price_note": "33+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 224+"
+  },
+  {
+    "id": "recipe_hors_d_oeuvres",
+    "name_ja": "",
+    "name_en": "Hors d'Oeuvres",
+    "stars": 1,
+    "ingredients": [
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "24+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 202+"
+  },
+  {
+    "id": "recipe_kappa_maki",
+    "name_ja": "かっぱ巻き",
+    "name_en": "Kappa Maki",
+    "stars": 3,
+    "ingredients": [
+      "Seaweed",
+      "Cucumber",
+      "Rice"
+    ],
+    "sell_price_note": "335+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 462+"
+  },
+  {
+    "id": "recipe_kronk_s_spinach_puffs",
+    "name_ja": "クロンクのホウレンソウのパイ包み",
+    "name_en": "Kronk's Spinach Puffs",
+    "stars": 3,
+    "ingredients": [
+      "Spinach",
+      "Cheese",
+      "Canola"
+    ],
+    "sell_price_note": "461+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 750+"
+  },
+  {
+    "id": "recipe_lancetfish_paella",
+    "name_ja": "",
+    "name_en": "Lancetfish Paella",
+    "stars": 5,
+    "ingredients": [
+      "Lancetfish",
+      "Shrimp",
+      "Tomato",
+      "Rice",
+      "Seafood"
+    ],
+    "sell_price_note": "1770+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 4550+"
+  },
+  {
+    "id": "recipe_leek_soup",
+    "name_ja": "長ネギのスープ",
+    "name_en": "Leek Soup",
+    "stars": 1,
+    "ingredients": [
+      "Leek"
+    ],
+    "sell_price_note": "370+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 414+"
+  },
+  {
+    "id": "recipe_lemon_garlic_swordfish",
+    "name_ja": "",
+    "name_en": "Lemon Garlic Swordfish",
+    "stars": 3,
+    "ingredients": [
+      "Swordfish",
+      "Lemon",
+      "Garlic"
+    ],
+    "sell_price_note": "1100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 3713+"
+  },
+  {
+    "id": "recipe_lioness_feast",
+    "name_ja": "ライオンのごちそう",
+    "name_en": "Lioness Feast",
+    "stars": 4,
+    "ingredients": [
+      "Here and There Fish",
+      "Mushroom",
+      "Tomato",
+      "Oregano"
+    ],
+    "sell_price_note": "3100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2368+"
+  },
+  {
+    "id": "recipe_lobster_roll",
+    "name_ja": "ロブスターロール",
+    "name_en": "Lobster Roll",
+    "stars": 5,
+    "ingredients": [
+      "Lobster",
+      "Wheat",
+      "Lemon",
+      "Butter",
+      "Garlic"
+    ],
+    "sell_price_note": "1900+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 4928+"
+  },
+  {
+    "id": "recipe_maguro_sushi",
+    "name_ja": "",
+    "name_en": "Maguro Sushi",
+    "stars": 4,
+    "ingredients": [
+      "Tuna",
+      "Rice",
+      "Seaweed",
+      "Ginger"
+    ],
+    "sell_price_note": "413+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1206+"
+  },
+  {
+    "id": "recipe_maki",
+    "name_ja": "",
+    "name_en": "Maki",
+    "stars": 3,
+    "ingredients": [
+      "Fish",
+      "Rice",
+      "Seaweed"
+    ],
+    "sell_price_note": "148+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 471+"
+  },
+  {
+    "id": "recipe_margherita_pizza",
+    "name_ja": "",
+    "name_en": "Margherita Pizza",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Cheese",
+      "Tomato",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "336+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 818+"
+  },
+  {
+    "id": "recipe_marvelous_jam",
+    "name_ja": "",
+    "name_en": "Marvelous Jam",
+    "stars": 2,
+    "ingredients": [
+      "Dreamlight Fruit",
+      "Wheat"
+    ],
+    "sell_price_note": "882+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1751+"
+  },
+  {
+    "id": "recipe_mediterranean_salad",
+    "name_ja": "",
+    "name_en": "Mediterranean Salad",
+    "stars": 5,
+    "ingredients": [
+      "Lettuce",
+      "Cucumber",
+      "Tomato",
+      "Onion",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "605+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 976+"
+  },
+  {
+    "id": "recipe_mushroom_pizza",
+    "name_ja": "キノコのピザ",
+    "name_en": "Mushroom Pizza",
+    "stars": 4,
+    "ingredients": [
+      "Mushroom",
+      "Wheat",
+      "Tomato",
+      "Cheese"
+    ],
+    "sell_price_note": "351+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 837+"
+  },
+  {
+    "id": "recipe_mushu_s_congee",
+    "name_ja": "",
+    "name_en": "Mushu's Congee",
+    "stars": 5,
+    "ingredients": [
+      "Rice",
+      "Egg",
+      "Ginger",
+      "Garlic",
+      "Mushroom"
+    ],
+    "sell_price_note": "383+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1658+"
+  },
+  {
+    "id": "recipe_omelet",
+    "name_ja": "オムレツ",
+    "name_en": "Omelet",
+    "stars": 3,
+    "ingredients": [
+      "Egg",
+      "Cheese",
+      "Milk"
+    ],
+    "sell_price_note": "882+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1751+"
+  },
+  {
+    "id": "recipe_pan_fried_angler_fish",
+    "name_ja": "アンコウの炒め物",
+    "name_en": "Pan-Fried Angler Fish",
+    "stars": 4,
+    "ingredients": [
+      "Anglerfish",
+      "Tomato",
+      "Zucchini",
+      "Potato"
+    ],
+    "sell_price_note": "2500+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 4194+"
+  },
+  {
+    "id": "recipe_pan_seared_bass_vegetables",
+    "name_ja": "",
+    "name_en": "Pan-Seared Bass & Vegetables",
+    "stars": 2,
+    "ingredients": [
+      "Bass",
+      "Vegetable"
+    ],
+    "sell_price_note": "57+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 394+"
+  },
+  {
+    "id": "recipe_pan_seared_tilapia_vegetables",
+    "name_ja": "",
+    "name_en": "Pan-Seared Tilapia & Vegetables",
+    "stars": 2,
+    "ingredients": [
+      "Tilapia",
+      "Vegetable"
+    ],
+    "sell_price_note": "862+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2194+"
+  },
+  {
+    "id": "recipe_pasta",
+    "name_ja": "パスタ",
+    "name_en": "Pasta",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Tomato"
+    ],
+    "sell_price_note": "30+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 117+"
+  },
+  {
+    "id": "recipe_peanut_butter_sandwich",
+    "name_ja": "ピーナッツバターサンドウィッチ",
+    "name_en": "Peanut Butter Sandwich",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Peanut"
+    ],
+    "sell_price_note": "262+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 592+"
+  },
+  {
+    "id": "recipe_pizza",
+    "name_ja": "ピザ",
+    "name_en": "Pizza",
+    "stars": 3,
+    "ingredients": [
+      "Tomato",
+      "Cheese",
+      "Wheat"
+    ],
+    "sell_price_note": "284+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 607+"
+  },
+  {
+    "id": "recipe_poached_basil_butter_sturgeon",
+    "name_ja": "メチョウザメのポシェのバジルとバター風味",
+    "name_en": "Poached Basil-Butter Sturgeon",
+    "stars": 4,
+    "ingredients": [
+      "White Sturgeon",
+      "Basil",
+      "Lemon",
+      "Butter"
+    ],
+    "sell_price_note": "2200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 4961+"
+  },
+  {
+    "id": "recipe_ranch_salad",
+    "name_ja": "ランチサラダ",
+    "name_en": "Ranch Salad",
+    "stars": 5,
+    "ingredients": [
+      "Lettuce",
+      "Bell Pepper",
+      "Corn",
+      "Tomato",
+      "Onion"
+    ],
+    "sell_price_note": "396+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 714+"
+  },
+  {
+    "id": "recipe_ratatouille",
+    "name_ja": "",
+    "name_en": "Ratatouille",
+    "stars": 5,
+    "ingredients": [
+      "Tomato",
+      "Eggplant",
+      "Onion",
+      "Zucchini",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "914+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 572+"
+  },
+  {
+    "id": "recipe_sake_maki",
+    "name_ja": "サーモン巻き",
+    "name_en": "Sake Maki",
+    "stars": 3,
+    "ingredients": [
+      "Salmon",
+      "Rice",
+      "Seaweed"
+    ],
+    "sell_price_note": "323+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1101+"
+  },
+  {
+    "id": "recipe_sake_sushi",
+    "name_ja": "サーモンのにぎり寿司",
+    "name_en": "Sake Sushi",
+    "stars": 2,
+    "ingredients": [
+      "Salmon",
+      "Rice"
+    ],
+    "sell_price_note": "274+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1000+"
+  },
+  {
+    "id": "recipe_savory_fish",
+    "name_ja": "",
+    "name_en": "Savory Fish",
+    "stars": 2,
+    "ingredients": [
+      "Fish",
+      "Lemon"
+    ],
+    "sell_price_note": "74+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 985+"
+  },
+  {
+    "id": "recipe_scrambled_egg",
+    "name_ja": "スクランブルエッグ",
+    "name_en": "Scrambled Egg",
+    "stars": 2,
+    "ingredients": [
+      "Egg",
+      "Cheese"
+    ],
+    "sell_price_note": "520+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1070+"
+  },
+  {
+    "id": "recipe_seafood_pasta",
+    "name_ja": "",
+    "name_en": "Seafood Pasta",
+    "stars": 3,
+    "ingredients": [
+      "Seafood",
+      "Wheat",
+      "Milk"
+    ],
+    "sell_price_note": "387+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 921+"
+  },
+  {
+    "id": "recipe_seafood_pie",
+    "name_ja": "",
+    "name_en": "Seafood Pie",
+    "stars": 3,
+    "ingredients": [
+      "Seafood",
+      "Wheat",
+      "Butter"
+    ],
+    "sell_price_note": "331+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 813+"
+  },
+  {
+    "id": "recipe_seafood_salad",
+    "name_ja": "",
+    "name_en": "Seafood Salad",
+    "stars": 2,
+    "ingredients": [
+      "Seafood",
+      "Lettuce"
+    ],
+    "sell_price_note": "68+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 349+"
+  },
+  {
+    "id": "recipe_seafood_soup",
+    "name_ja": "",
+    "name_en": "Seafood Soup",
+    "stars": 2,
+    "ingredients": [
+      "Seafood",
+      "Vegetable"
+    ],
+    "sell_price_note": "85+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 340+"
+  },
+  {
+    "id": "recipe_seared_rainbow_trout",
+    "name_ja": "レインボートラウトのたたき",
+    "name_en": "Seared Rainbow Trout",
+    "stars": 3,
+    "ingredients": [
+      "Rainbow Trout",
+      "Tomato",
+      "Onion"
+    ],
+    "sell_price_note": "338+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 889+"
+  },
+  {
+    "id": "recipe_simple_fried_perch",
+    "name_ja": "シンプルなパーチのフライ",
+    "name_en": "Simple Fried Perch",
+    "stars": 3,
+    "ingredients": [
+      "Perch",
+      "Wheat",
+      "Butter"
+    ],
+    "sell_price_note": "380+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1317+"
+  },
+  {
+    "id": "recipe_smoked_peanuts_and_anglerfish",
+    "name_ja": "スモークピーナッツとアンコウ",
+    "name_en": "Smoked Peanuts and Anglerfish",
+    "stars": 2,
+    "ingredients": [
+      "Anglerfish",
+      "Peanut"
+    ],
+    "sell_price_note": "2200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 3960+"
+  },
+  {
+    "id": "recipe_sole_meuni_re",
+    "name_ja": "ヒラメのムニエル",
+    "name_en": "Sole Meuniére",
+    "stars": 4,
+    "ingredients": [
+      "Sole",
+      "Wheat",
+      "Butter",
+      "Lemon"
+    ],
+    "sell_price_note": "637+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2337+"
+  },
+  {
+    "id": "recipe_spaghetti_arrabbiata",
+    "name_ja": "スパゲッティアラビアータ",
+    "name_en": "Spaghetti Arrabbiata",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Tomato",
+      "Chili Pepper"
+    ],
+    "sell_price_note": "141+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 373+"
+  },
+  {
+    "id": "recipe_spicy_baked_bream",
+    "name_ja": "",
+    "name_en": "Spicy Baked Bream",
+    "stars": 3,
+    "ingredients": [
+      "Bream",
+      "Chili Pepper",
+      "Butter"
+    ],
+    "sell_price_note": "1200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 3155+"
+  },
+  {
+    "id": "recipe_steamed_fugu",
+    "name_ja": "蒸しフグ",
+    "name_en": "Steamed Fugu",
+    "stars": 3,
+    "ingredients": [
+      "Fugu",
+      "Ginger",
+      "Garlic"
+    ],
+    "sell_price_note": "1400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 3668+"
+  },
+  {
+    "id": "recipe_sushi",
+    "name_ja": "",
+    "name_en": "Sushi",
+    "stars": 2,
+    "ingredients": [
+      "Fish",
+      "Rice"
+    ],
+    "sell_price_note": "111+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 405+"
+  },
+  {
+    "id": "recipe_sweet_sour_kingfish_steak",
+    "name_ja": "スイート&amp;サワーサバステーキ",
+    "name_en": "Sweet & Sour Kingfish Steak",
+    "stars": 3,
+    "ingredients": [
+      "Kingfish",
+      "Lemon",
+      "Sugarcane"
+    ],
+    "sell_price_note": "702+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2292+"
+  },
+  {
+    "id": "recipe_sweet_udon",
+    "name_ja": "甘いうどん",
+    "name_en": "Sweet Udon",
+    "stars": 4,
+    "ingredients": [
+      "Dreamlight Fruit",
+      "Rice",
+      "Seafood",
+      "Sweets"
+    ],
+    "sell_price_note": "180+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1427+"
+  },
+  {
+    "id": "recipe_tamagoyaki",
+    "name_ja": "卵焼き",
+    "name_en": "Tamagoyaki",
+    "stars": 2,
+    "ingredients": [
+      "Egg",
+      "Sugarcane"
+    ],
+    "sell_price_note": "310+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 689+"
+  },
+  {
+    "id": "recipe_tasty_salad",
+    "name_ja": "",
+    "name_en": "Tasty Salad",
+    "stars": 4,
+    "ingredients": [
+      "Lettuce",
+      "Cucumber",
+      "Vegetable",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "292+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 350+"
+  },
+  {
+    "id": "recipe_tasty_veggies",
+    "name_ja": "",
+    "name_en": "Tasty Veggies",
+    "stars": 2,
+    "ingredients": [
+      "Vegetable",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "36+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 246+"
+  },
+  {
+    "id": "recipe_tekka_maki",
+    "name_ja": "鉄火巻き",
+    "name_en": "Tekka Maki",
+    "stars": 4,
+    "ingredients": [
+      "Tuna",
+      "Soya",
+      "Rice",
+      "Seaweed"
+    ],
+    "sell_price_note": "366+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 984+"
+  },
+  {
+    "id": "recipe_teriyaki_salmon",
+    "name_ja": "",
+    "name_en": "Teriyaki Salmon",
+    "stars": 5,
+    "ingredients": [
+      "Salmon",
+      "Soya",
+      "Rice",
+      "Ginger",
+      "Sugarcane"
+    ],
+    "sell_price_note": "637+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1726+"
+  },
+  {
+    "id": "recipe_tuna_burger",
+    "name_ja": "マグロバーガー",
+    "name_en": "Tuna Burger",
+    "stars": 5,
+    "ingredients": [
+      "Tuna",
+      "Wheat",
+      "Lemon",
+      "Onion",
+      "Vegetable"
+    ],
+    "sell_price_note": "491+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 1922+"
+  },
+  {
+    "id": "recipe_vegetarian_pizza",
+    "name_ja": "",
+    "name_en": "Vegetarian Pizza",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Tomato",
+      "Cheese",
+      "Vegetable"
+    ],
+    "sell_price_note": "350+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 754+"
+  },
+  {
+    "id": "recipe_vegetarian_stew",
+    "name_ja": "ベジタリアンシチュー",
+    "name_en": "Vegetarian Stew",
+    "stars": 3,
+    "ingredients": [
+      "Potato",
+      "Carrot",
+      "Onion"
+    ],
+    "sell_price_note": "475+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 617+"
+  },
+  {
+    "id": "recipe_vegetarian_taco",
+    "name_ja": "ベジタリアンタコス",
+    "name_en": "Vegetarian Taco",
+    "stars": 4,
+    "ingredients": [
+      "Corn",
+      "Chili Pepper",
+      "Cheese",
+      "Vegetable"
+    ],
+    "sell_price_note": "423+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 925+"
+  },
+  {
+    "id": "recipe_veggie_casserole",
+    "name_ja": "不思議なパイ",
+    "name_en": "Veggie Casserole",
+    "stars": 3,
+    "ingredients": [
+      "Cheese",
+      "Vegetable",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "324+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 821+"
+  },
+  {
+    "id": "recipe_veggie_pasta",
+    "name_ja": "野菜のパスタ",
+    "name_en": "Veggie Pasta",
+    "stars": 3,
+    "ingredients": [
+      "Tomato",
+      "Wheat",
+      "Vegetable"
+    ],
+    "sell_price_note": "43+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 158+"
+  },
+  {
+    "id": "recipe_veggie_pie",
+    "name_ja": "ベジタブルパイ",
+    "name_en": "Veggie Pie",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Vegetable"
+    ],
+    "sell_price_note": "279+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 634+"
+  },
+  {
+    "id": "recipe_veggie_skewers",
+    "name_ja": "野菜の串焼き",
+    "name_en": "Veggie Skewers",
+    "stars": 4,
+    "ingredients": [
+      "Mushroom",
+      "Onion",
+      "Zucchini",
+      "Bell Pepper"
+    ],
+    "sell_price_note": "427+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 767+"
+  },
+  {
+    "id": "recipe_walleye_en_papillote",
+    "name_ja": "",
+    "name_en": "Walleye en Papillote",
+    "stars": 4,
+    "ingredients": [
+      "Walleye",
+      "Oregano",
+      "Basil",
+      "Vegetable"
+    ],
+    "sell_price_note": "1700+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 3689+"
+  },
+  {
+    "id": "recipe_wonton_soup",
+    "name_ja": "ワンタンスープ",
+    "name_en": "Wonton Soup",
+    "stars": 4,
+    "ingredients": [
+      "Egg",
+      "Wheat",
+      "Onion",
+      "Shrimp"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ドリームライトバレー / エナジー 2415+"
+  },
+  {
+    "id": "recipe_arepas_con_queso",
+    "name_ja": "アレパ・コン・ケソ",
+    "name_en": "Arepas Con Queso",
+    "stars": 3,
+    "ingredients": [
+      "Corn",
+      "Cheese",
+      "Agave"
+    ],
+    "sell_price_note": "309+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 770+"
+  },
+  {
+    "id": "recipe_baozi",
+    "name_ja": "パオズ",
+    "name_en": "Baozi",
+    "stars": 4,
+    "ingredients": [
+      "Pork",
+      "Wheat",
+      "Soya",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "503+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 842+"
+  },
+  {
+    "id": "recipe_barbecued_brilliant_blue_starfish",
+    "name_ja": "青いヒトデの網焼き",
+    "name_en": "Barbecued Brilliant Blue Starfish",
+    "stars": 2,
+    "ingredients": [
+      "Brilliant Blue Starfish",
+      "Mint"
+    ],
+    "sell_price_note": "1200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 3118+"
+  },
+  {
+    "id": "recipe_barbecued_pretty_pink_starfish",
+    "name_ja": "ピンクのヒトデの網焼き",
+    "name_en": "Barbecued Pretty Pink Starfish",
+    "stars": 2,
+    "ingredients": [
+      "Pretty Pink Starfish",
+      "Paprika"
+    ],
+    "sell_price_note": "1200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2812+"
+  },
+  {
+    "id": "recipe_bulgur_salad",
+    "name_ja": "ブルグルサラダ",
+    "name_en": "Bulgur Salad",
+    "stars": 5,
+    "ingredients": [
+      "Wheat",
+      "Cucumber",
+      "Tomato",
+      "Mint",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "396+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 910+"
+  },
+  {
+    "id": "recipe_clam_juice",
+    "name_ja": "ハマグリジュース",
+    "name_en": "Clam Juice",
+    "stars": 2,
+    "ingredients": [
+      "Clam",
+      "Tomato"
+    ],
+    "sell_price_note": "93+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 289+"
+  },
+  {
+    "id": "recipe_coleslaw",
+    "name_ja": "コールスロー",
+    "name_en": "Coleslaw",
+    "stars": 2,
+    "ingredients": [
+      "Cabbage",
+      "Carrot"
+    ],
+    "sell_price_note": "389+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 387+"
+  },
+  {
+    "id": "recipe_conch_ceviche",
+    "name_ja": "ホラガイのセビチェ",
+    "name_en": "Conch Ceviche",
+    "stars": 4,
+    "ingredients": [
+      "Sea Snail",
+      "Onion",
+      "Tomato",
+      "Lemon"
+    ],
+    "sell_price_note": "712+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2646+"
+  },
+  {
+    "id": "recipe_crab_melts",
+    "name_ja": "カニ＆チーズメルト",
+    "name_en": "Crab Melts",
+    "stars": 2,
+    "ingredients": [
+      "Crab",
+      "Cheese"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2549+"
+  },
+  {
+    "id": "recipe_dumplings",
+    "name_ja": "ダンプリング",
+    "name_en": "Dumplings",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Soya",
+      "Protein",
+      "Vegetable"
+    ],
+    "sell_price_note": "493+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 710+"
+  },
+  {
+    "id": "recipe_falafel",
+    "name_ja": "ファラフェル",
+    "name_en": "Falafel",
+    "stars": 3,
+    "ingredients": [
+      "Beans",
+      "Cumin",
+      "Garlic"
+    ],
+    "sell_price_note": "159+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 528+"
+  },
+  {
+    "id": "recipe_nuts_bolts",
+    "name_ja": "",
+    "name_en": "Nuts & Bolts",
+    "stars": 2,
+    "ingredients": [
+      "Robot Fish",
+      "Almonds"
+    ],
+    "sell_price_note": "159+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 528+"
+  },
+  {
+    "id": "recipe_roasted_almonds",
+    "name_ja": "ローストアーモンド",
+    "name_en": "Roasted Almonds",
+    "stars": 2,
+    "ingredients": [
+      "Almonds",
+      "Agave"
+    ],
+    "sell_price_note": "86+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1070+"
+  },
+  {
+    "id": "recipe_royal_ice_tea",
+    "name_ja": "ロイヤルアイスティー",
+    "name_en": "Royal Ice Tea",
+    "stars": 2,
+    "ingredients": [
+      "Slush Ice",
+      "Majestea"
+    ],
+    "sell_price_note": "234+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 610+"
+  },
+  {
+    "id": "recipe_royal_latte",
+    "name_ja": "ロイヤルラテ",
+    "name_en": "Royal Latte",
+    "stars": 2,
+    "ingredients": [
+      "Milk",
+      "Majestea"
+    ],
+    "sell_price_note": "338+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 814+"
+  },
+  {
+    "id": "recipe_royal_tea",
+    "name_ja": "ロイヤルティー",
+    "name_en": "Royal Tea",
+    "stars": 1,
+    "ingredients": [
+      "Majestea"
+    ],
+    "sell_price_note": "36+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 218+"
+  },
+  {
+    "id": "recipe_sand_worm_carpaccio_plate",
+    "name_ja": "サンドワームのカルパッチョプレート",
+    "name_en": "Sand Worm Carpaccio Plate",
+    "stars": 2,
+    "ingredients": [
+      "Sand Worm",
+      "Melon"
+    ],
+    "sell_price_note": "1100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 3004+"
+  },
+  {
+    "id": "recipe_shad_ceviche",
+    "name_ja": "シャッド・セビーチェ",
+    "name_en": "Shad Ceviche",
+    "stars": 4,
+    "ingredients": [
+      "Shad",
+      "Onion",
+      "Tomato",
+      "Lemon"
+    ],
+    "sell_price_note": "427+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1696+"
+  },
+  {
+    "id": "recipe_spicy_scorpion_skewer",
+    "name_ja": "スパイシーなサソリの串焼き",
+    "name_en": "Spicy Scorpion Skewer",
+    "stars": 2,
+    "ingredients": [
+      "Scorpion",
+      "Paprika"
+    ],
+    "sell_price_note": "617+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1792+"
+  },
+  {
+    "id": "recipe_takoyaki_stick",
+    "name_ja": "たこ焼きスティック",
+    "name_en": "Takoyaki Stick",
+    "stars": 4,
+    "ingredients": [
+      "Octopus",
+      "Seaweed",
+      "Egg",
+      "Soya"
+    ],
+    "sell_price_note": "898+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2164+"
+  },
+  {
+    "id": "recipe_thousand_needles",
+    "name_ja": "",
+    "name_en": "Thousand Needles",
+    "stars": 2,
+    "ingredients": [
+      "Brilliant Blue Starfish",
+      "Cactoberries"
+    ],
+    "sell_price_note": "3400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 5000+"
+  },
+  {
+    "id": "recipe_tomato_basil_soup",
+    "name_ja": "トマトバジルスープ",
+    "name_en": "Tomato Basil Soup",
+    "stars": 2,
+    "ingredients": [
+      "Tomato",
+      "Basil"
+    ],
+    "sell_price_note": "93+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 255+"
+  },
+  {
+    "id": "recipe_ajiaco",
+    "name_ja": "アヒアコ",
+    "name_en": "Ajiaco",
+    "stars": 3,
+    "ingredients": [
+      "Poultry",
+      "Corn",
+      "Potato"
+    ],
+    "sell_price_note": "898+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 757+"
+  },
+  {
+    "id": "recipe_baked_beans",
+    "name_ja": "ベイクドビーンズ",
+    "name_en": "Baked Beans",
+    "stars": 2,
+    "ingredients": [
+      "Pork",
+      "Beans"
+    ],
+    "sell_price_note": "388+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 544+"
+  },
+  {
+    "id": "recipe_best_fish_forever",
+    "name_ja": "お魚の友情添え",
+    "name_en": "Best Fish Forever",
+    "stars": 4,
+    "ingredients": [
+      "Sea Snail",
+      "Robot Fish",
+      "Celery",
+      "Cumin"
+    ],
+    "sell_price_note": "1400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 4420+"
+  },
+  {
+    "id": "recipe_biryani",
+    "name_ja": "ビリヤ二",
+    "name_en": "Biryani",
+    "stars": 5,
+    "ingredients": [
+      "Poultry",
+      "Rice",
+      "Cinnamon",
+      "Cumin",
+      "Mint"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1468+"
+  },
+  {
+    "id": "recipe_blend_of_the_bayou",
+    "name_ja": "バイユ―ブレンド",
+    "name_en": "Blend of the Bayou",
+    "stars": 5,
+    "ingredients": [
+      "Prisma Shrimp",
+      "Rice",
+      "Celery",
+      "Butter",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "2400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 4238+"
+  },
+  {
+    "id": "recipe_bony_osso_buco",
+    "name_ja": "骨だらけのオッソ・ブーコ",
+    "name_en": "Bony Osso Buco",
+    "stars": 4,
+    "ingredients": [
+      "Skeleton Fish",
+      "Celery",
+      "Grapes",
+      "Vegetable"
+    ],
+    "sell_price_note": "272+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1192+"
+  },
+  {
+    "id": "recipe_braised_abalone",
+    "name_ja": "アワビの蒸し煮",
+    "name_en": "Braised Abalone",
+    "stars": 4,
+    "ingredients": [
+      "Oyster",
+      "Sea Snail",
+      "Mushroom",
+      "Garlic"
+    ],
+    "sell_price_note": "570+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2500+"
+  },
+  {
+    "id": "recipe_braised_bamboo_shoots",
+    "name_ja": "タケノコの蒸し煮",
+    "name_en": "Braised Bamboo Shoots",
+    "stars": 4,
+    "ingredients": [
+      "Bamboo",
+      "Canola",
+      "Soya",
+      "Ginger"
+    ],
+    "sell_price_note": "461+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 898+"
+  },
+  {
+    "id": "recipe_brandade_de_morue",
+    "name_ja": "ブランダード・ドゥ・モリュ",
+    "name_en": "Brandade de Morue",
+    "stars": 5,
+    "ingredients": [
+      "Cod",
+      "Potato",
+      "Milk",
+      "Lemon",
+      "Garlic"
+    ],
+    "sell_price_note": "757+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2336+"
+  },
+  {
+    "id": "recipe_burrito",
+    "name_ja": "ブリト―",
+    "name_en": "Burrito",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Beans",
+      "Cumin",
+      "Protein"
+    ],
+    "sell_price_note": "473+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 809+"
+  },
+  {
+    "id": "recipe_butter_chicken",
+    "name_ja": "バターチキン",
+    "name_en": "Butter Chicken",
+    "stars": 5,
+    "ingredients": [
+      "Poultry",
+      "Tomato",
+      "Butter",
+      "Lemon",
+      "Cumin"
+    ],
+    "sell_price_note": "1200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2142+"
+  },
+  {
+    "id": "recipe_cheeseburger",
+    "name_ja": "チーズバーガー",
+    "name_en": "Cheeseburger",
+    "stars": 4,
+    "ingredients": [
+      "Venison",
+      "Wheat",
+      "Cheese",
+      "Vegetable"
+    ],
+    "sell_price_note": "1700+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1113+"
+  },
+  {
+    "id": "recipe_chicken_souvlaki",
+    "name_ja": "チキンスブラキ",
+    "name_en": "Chicken Souvlaki",
+    "stars": 4,
+    "ingredients": [
+      "Poultry",
+      "Lemon",
+      "Mint",
+      "Paprika"
+    ],
+    "sell_price_note": "949+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1816+"
+  },
+  {
+    "id": "recipe_classic_mac_cheese",
+    "name_ja": "定番マカロニ&amp;チーズ",
+    "name_en": "Classic Mac & Cheese",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Cheese"
+    ],
+    "sell_price_note": "236+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 541+"
+  },
+  {
+    "id": "recipe_club_sandwich",
+    "name_ja": "クラブハウスサンド",
+    "name_en": "Club Sandwich",
+    "stars": 4,
+    "ingredients": [
+      "Pork",
+      "Poultry",
+      "Wheat",
+      "Tomato"
+    ],
+    "sell_price_note": "1100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1075+"
+  },
+  {
+    "id": "recipe_coq_en_barbouille",
+    "name_ja": "鶏肉の赤ワイン煮",
+    "name_en": "Coq en Barbouille",
+    "stars": 4,
+    "ingredients": [
+      "Poultry",
+      "Onion",
+      "Grapes",
+      "Vegetable"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 880+"
+  },
+  {
+    "id": "recipe_cream_cheese_bagel",
+    "name_ja": "クリームチーズベーグル",
+    "name_en": "Cream Cheese Bagel",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Cheese",
+      "Sweets"
+    ],
+    "sell_price_note": "280+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 652+"
+  },
+  {
+    "id": "recipe_crimson_burger",
+    "name_ja": "クリムゾンバーガー",
+    "name_en": "Crimson Burger",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Ruby Lentils",
+      "Vegetable"
+    ],
+    "sell_price_note": "231+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 187+"
+  },
+  {
+    "id": "recipe_dragon_roll_maki",
+    "name_ja": "ドラゴンロール巻き",
+    "name_en": "Dragon Roll Maki",
+    "stars": 4,
+    "ingredients": [
+      "Electric Eel",
+      "Rice",
+      "Seaweed",
+      "Vegetable"
+    ],
+    "sell_price_note": "1600+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 3193+"
+  },
+  {
+    "id": "recipe_fabulous_fajitas",
+    "name_ja": "",
+    "name_en": "Fabulous Fajitas",
+    "stars": 4,
+    "ingredients": [
+      "Poultry",
+      "Wheat",
+      "Cumin",
+      "Vegetable"
+    ],
+    "sell_price_note": "851+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 852+"
+  },
+  {
+    "id": "recipe_good_ol_fashioned_burger",
+    "name_ja": "昔ながらのハンバーガー",
+    "name_en": "Good Ol' Fashioned Burger",
+    "stars": 3,
+    "ingredients": [
+      "Venison",
+      "Wheat",
+      "Lettuce"
+    ],
+    "sell_price_note": "1400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 634+"
+  },
+  {
+    "id": "recipe_hamburger_steak",
+    "name_ja": "ハンバーグ",
+    "name_en": "Hamburger Steak",
+    "stars": 4,
+    "ingredients": [
+      "Venison",
+      "Potato",
+      "Beans",
+      "Vegetable"
+    ],
+    "sell_price_note": "1700+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 855+"
+  },
+  {
+    "id": "recipe_hawaiian_pizza",
+    "name_ja": "ハワイアンピザ",
+    "name_en": "Hawaiian Pizza",
+    "stars": 5,
+    "ingredients": [
+      "Pork",
+      "Wheat",
+      "Tomato",
+      "Cheese",
+      "Pineapple"
+    ],
+    "sell_price_note": "1500+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1506+"
+  },
+  {
+    "id": "recipe_jerk_chicken",
+    "name_ja": "ジャークチキン",
+    "name_en": "Jerk Chicken",
+    "stars": 4,
+    "ingredients": [
+      "Poultry",
+      "Onion",
+      "Garlic",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "1100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1229+"
+  },
+  {
+    "id": "recipe_latkes",
+    "name_ja": "ラトケス",
+    "name_en": "Latkes",
+    "stars": 4,
+    "ingredients": [
+      "Onion",
+      "Potato",
+      "Canola",
+      "Egg"
+    ],
+    "sell_price_note": "937+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1280+"
+  },
+  {
+    "id": "recipe_lo_fries",
+    "name_ja": "フライドミュージック",
+    "name_en": "Lo-Fries",
+    "stars": 3,
+    "ingredients": [
+      "Flute Root",
+      "Yam",
+      "Canola"
+    ],
+    "sell_price_note": "358+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 387+"
+  },
+  {
+    "id": "recipe_meat_pie",
+    "name_ja": "ミートパイ",
+    "name_en": "Meat Pie",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Protein"
+    ],
+    "sell_price_note": "618+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1047+"
+  },
+  {
+    "id": "recipe_meaty_taco",
+    "name_ja": "ミートタコス",
+    "name_en": "Meaty Taco",
+    "stars": 5,
+    "ingredients": [
+      "Venison",
+      "Chili Pepper",
+      "Corn",
+      "Cumin",
+      "Vegetable"
+    ],
+    "sell_price_note": "1700+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1112+"
+  },
+  {
+    "id": "recipe_milky_way_stew",
+    "name_ja": "ミルキーウェイシチュー",
+    "name_en": "Milky Way Stew",
+    "stars": 4,
+    "ingredients": [
+      "Rainbow Trout",
+      "Turnip",
+      "Milk",
+      "Cosmic Figs"
+    ],
+    "sell_price_note": "733+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1872+"
+  },
+  {
+    "id": "recipe_moqueca_de_pirarucu",
+    "name_ja": "",
+    "name_en": "Moqueca de Pirarucu",
+    "stars": 3,
+    "ingredients": [
+      "Pirarucu",
+      "Coconut",
+      "Vegetable"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 3453+"
+  },
+  {
+    "id": "recipe_nachos",
+    "name_ja": "ナチョス",
+    "name_en": "Nachos",
+    "stars": 3,
+    "ingredients": [
+      "Chili Pepper",
+      "Corn",
+      "Cheese"
+    ],
+    "sell_price_note": "383+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 842+"
+  },
+  {
+    "id": "recipe_pasta_with_herbs",
+    "name_ja": "ハーブのパスタ",
+    "name_en": "Pasta with Herbs",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "289+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 759+"
+  },
+  {
+    "id": "recipe_pesto_with_linguine",
+    "name_ja": "ジェノベーゼのリングイネ",
+    "name_en": "Pesto with Linguine",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Garlic",
+      "Oregano"
+    ],
+    "sell_price_note": "438+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1063+"
+  },
+  {
+    "id": "recipe_piquant_piranha_soup",
+    "name_ja": "",
+    "name_en": "Piquant Piranha Soup",
+    "stars": 3,
+    "ingredients": [
+      "Piranha",
+      "Bamboo",
+      "Chili Pepper"
+    ],
+    "sell_price_note": "2000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 4001+"
+  },
+  {
+    "id": "recipe_poutine",
+    "name_ja": "プティン",
+    "name_en": "Poutine",
+    "stars": 3,
+    "ingredients": [
+      "Potato",
+      "Canola",
+      "Cheese"
+    ],
+    "sell_price_note": "580+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 845+"
+  },
+  {
+    "id": "recipe_pulled_pork",
+    "name_ja": "プルドポーク",
+    "name_en": "Pulled Pork",
+    "stars": 4,
+    "ingredients": [
+      "Pork",
+      "Onion",
+      "Tomato",
+      "Oregano"
+    ],
+    "sell_price_note": "738+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1021+"
+  },
+  {
+    "id": "recipe_pupusas_revueltas",
+    "name_ja": "ププサ・リヴエルタス",
+    "name_en": "Pupusas Revueltas",
+    "stars": 3,
+    "ingredients": [
+      "Poultry",
+      "Corn",
+      "Beans"
+    ],
+    "sell_price_note": "790+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 627+"
+  },
+  {
+    "id": "recipe_rainbouillabaisse",
+    "name_ja": "虹色ブイヤベース",
+    "name_en": "Rainbouillabaisse",
+    "stars": 5,
+    "ingredients": [
+      "Prisma Shrimp",
+      "Rainbow Trout",
+      "Tomato",
+      "Vegetable",
+      "Seafood"
+    ],
+    "sell_price_note": "2000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 4174+"
+  },
+  {
+    "id": "recipe_ramen",
+    "name_ja": "ラーメン",
+    "name_en": "Ramen",
+    "stars": 3,
+    "ingredients": [
+      "Pork",
+      "Wheat",
+      "Egg"
+    ],
+    "sell_price_note": "660+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1128+"
+  },
+  {
+    "id": "recipe_rhapsody_roll",
+    "name_ja": "ラブソディロール",
+    "name_en": "Rhapsody Roll",
+    "stars": 4,
+    "ingredients": [
+      "Rice",
+      "Flute Root",
+      "Seaweed",
+      "Vegetable"
+    ],
+    "sell_price_note": "301+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 335+"
+  },
+  {
+    "id": "recipe_roast",
+    "name_ja": "ロースト",
+    "name_en": "Roast",
+    "stars": 1,
+    "ingredients": [
+      "Protein"
+    ],
+    "sell_price_note": "300+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 450+"
+  },
+  {
+    "id": "recipe_royal_burger",
+    "name_ja": "ロイヤルバーガー",
+    "name_en": "Royal Burger",
+    "stars": 5,
+    "ingredients": [
+      "Pork",
+      "Venison",
+      "Wheat",
+      "Cheese",
+      "Vegetable"
+    ],
+    "sell_price_note": "2300+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1670+"
+  },
+  {
+    "id": "recipe_ruby_masoor_dal",
+    "name_ja": "ルビーマスールダル",
+    "name_en": "Ruby Masoor Dal",
+    "stars": 3,
+    "ingredients": [
+      "Chili Pepper",
+      "Ruby Lentils",
+      "Tomato"
+    ],
+    "sell_price_note": "357+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 405+"
+  },
+  {
+    "id": "recipe_sand_stew",
+    "name_ja": "サンドシチュー",
+    "name_en": "Sand Stew",
+    "stars": 5,
+    "ingredients": [
+      "Dunebopper",
+      "Sand Fish",
+      "Sand Worm",
+      "Vegetable",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "2200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 5000+"
+  },
+  {
+    "id": "recipe_sausage_and_sauerkraut_platter",
+    "name_ja": "ソーセージとザワークラウトの盛り合わせ",
+    "name_en": "Sausage and Sauerkraut Platter",
+    "stars": 3,
+    "ingredients": [
+      "Pork",
+      "Cabbage",
+      "Potato"
+    ],
+    "sell_price_note": "884+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 958+"
+  },
+  {
+    "id": "recipe_schnitzel",
+    "name_ja": "シュニッツェル",
+    "name_en": "Schnitzel",
+    "stars": 3,
+    "ingredients": [
+      "Poultry",
+      "Wheat",
+      "Canola"
+    ],
+    "sell_price_note": "854+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 640+"
+  },
+  {
+    "id": "recipe_sesame_seed_bagel",
+    "name_ja": "セサミベーグル",
+    "name_en": "Sesame Seed Bagel",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Sweets"
+    ],
+    "sell_price_note": "26+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 160+"
+  },
+  {
+    "id": "recipe_shawarma",
+    "name_ja": "シャワルマ",
+    "name_en": "Shawarma",
+    "stars": 5,
+    "ingredients": [
+      "Venison",
+      "Rice",
+      "Lemon",
+      "Cinnamon",
+      "Garlic"
+    ],
+    "sell_price_note": "1800+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2048+"
+  },
+  {
+    "id": "recipe_shish_taouk",
+    "name_ja": "シシタウーク",
+    "name_en": "Shish Taouk",
+    "stars": 5,
+    "ingredients": [
+      "Poultry",
+      "Rice",
+      "Lemon",
+      "Garlic",
+      "Oregano"
+    ],
+    "sell_price_note": "1100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1928+"
+  },
+  {
+    "id": "recipe_sweet_and_sour_stir_fry",
+    "name_ja": "甘酢炒め",
+    "name_en": "Sweet and Sour Stir-Fry",
+    "stars": 5,
+    "ingredients": [
+      "Poultry",
+      "Broccoli",
+      "Canola",
+      "Dreamango",
+      "Pineapple"
+    ],
+    "sell_price_note": "2100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2350+"
+  },
+  {
+    "id": "recipe_tandoori_chicken",
+    "name_ja": "タンドリーチキン",
+    "name_en": "Tandoori Chicken",
+    "stars": 4,
+    "ingredients": [
+      "Poultry",
+      "Chili Pepper",
+      "Cumin",
+      "Paprika"
+    ],
+    "sell_price_note": "964+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1199+"
+  },
+  {
+    "id": "recipe_tofu",
+    "name_ja": "豆腐",
+    "name_en": "Tofu",
+    "stars": 1,
+    "ingredients": [
+      "Soya"
+    ],
+    "sell_price_note": "82+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 142+"
+  },
+  {
+    "id": "recipe_tourti_re",
+    "name_ja": "トゥルティエール",
+    "name_en": "Tourtière",
+    "stars": 4,
+    "ingredients": [
+      "Venison",
+      "Wheat",
+      "Potato",
+      "Vegetable"
+    ],
+    "sell_price_note": "1700+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 814+"
+  },
+  {
+    "id": "recipe_turkey_leg",
+    "name_ja": "ターキーレッグ",
+    "name_en": "Turkey Leg",
+    "stars": 4,
+    "ingredients": [
+      "Poultry",
+      "Cumin",
+      "Paprika",
+      "Agave"
+    ],
+    "sell_price_note": "884+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1123+"
+  },
+  {
+    "id": "recipe_turnip_tartiflette",
+    "name_ja": "カブのタルティフレット",
+    "name_en": "Turnip Tartiflette",
+    "stars": 3,
+    "ingredients": [
+      "Pork",
+      "Turnip",
+      "Cheese"
+    ],
+    "sell_price_note": "863+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1459+"
+  },
+  {
+    "id": "recipe_vegetarian_turnip_tartiflette",
+    "name_ja": "ベジタリアンカブのタルティフレット",
+    "name_en": "Vegetarian Turnip Tartiflette",
+    "stars": 3,
+    "ingredients": [
+      "Mushroom",
+      "Turnip",
+      "Soya"
+    ],
+    "sell_price_note": "399+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 816+"
+  },
+  {
+    "id": "recipe_yakisoba",
+    "name_ja": "焼きそば",
+    "name_en": "Yakisoba",
+    "stars": 3,
+    "ingredients": [
+      "Pork",
+      "Wheat",
+      "Cabbage"
+    ],
+    "sell_price_note": "710+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 789+"
+  },
+  {
+    "id": "recipe_apple_sauce",
+    "name_ja": "アップルソース",
+    "name_en": "Apple Sauce",
+    "stars": 2,
+    "ingredients": [
+      "Apple",
+      "Cinnamon"
+    ],
+    "sell_price_note": "71+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 823+"
+  },
+  {
+    "id": "recipe_basil_berry_salad",
+    "name_ja": "バジルベリーサラダ",
+    "name_en": "Basil Berry Salad",
+    "stars": 3,
+    "ingredients": [
+      "Blueberry",
+      "Strawberry",
+      "Basil"
+    ],
+    "sell_price_note": "142+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1355+"
+  },
+  {
+    "id": "recipe_cannoli",
+    "name_ja": "カンノーロ",
+    "name_en": "Cannoli",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Cheese",
+      "Egg",
+      "Vanilla"
+    ],
+    "sell_price_note": "678+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1482+"
+  },
+  {
+    "id": "recipe_caramel_macarons",
+    "name_ja": "キャラメルマカロン",
+    "name_en": "Caramel Macarons",
+    "stars": 3,
+    "ingredients": [
+      "Almonds",
+      "Agave",
+      "Egg"
+    ],
+    "sell_price_note": "401+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1724+"
+  },
+  {
+    "id": "recipe_charlotte_cake",
+    "name_ja": "シャルロットケーキ",
+    "name_en": "Charlotte Cake",
+    "stars": 3,
+    "ingredients": [
+      "Strawberry",
+      "Agave",
+      "Wheat"
+    ],
+    "sell_price_note": "69+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 759+"
+  },
+  {
+    "id": "recipe_chocolate_macarons",
+    "name_ja": "チョコレートマカロン",
+    "name_en": "Chocolate Macarons",
+    "stars": 3,
+    "ingredients": [
+      "Cocoa Bean",
+      "Almonds",
+      "Egg"
+    ],
+    "sell_price_note": "419+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2354+"
+  },
+  {
+    "id": "recipe_cinnamon_donut",
+    "name_ja": "シナモンドーナツ",
+    "name_en": "Cinnamon Donut",
+    "stars": 4,
+    "ingredients": [
+      "Cinnamon",
+      "Wheat",
+      "Egg",
+      "Sweets"
+    ],
+    "sell_price_note": "406+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1094+"
+  },
+  {
+    "id": "recipe_cotton_candy",
+    "name_ja": "綿菓子",
+    "name_en": "Cotton Candy",
+    "stars": 2,
+    "ingredients": [
+      "Agave",
+      "Sugarcane"
+    ],
+    "sell_price_note": "56+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 298+"
+  },
+  {
+    "id": "recipe_cupcakes",
+    "name_ja": "カップケーキ",
+    "name_en": "Cupcakes",
+    "stars": 4,
+    "ingredients": [
+      "Cherry",
+      "Agave",
+      "Wheat",
+      "Egg"
+    ],
+    "sell_price_note": "433+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1853+"
+  },
+  {
+    "id": "recipe_danish",
+    "name_ja": "",
+    "name_en": "Danish",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Fruit"
+    ],
+    "sell_price_note": "314+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 705+"
+  },
+  {
+    "id": "recipe_dreamango_boba_tea",
+    "name_ja": "タピオカティ―(ドリーマンゴー)",
+    "name_en": "Dreamango Boba Tea",
+    "stars": 3,
+    "ingredients": [
+      "Dreamango",
+      "Milk",
+      "Sugarcane"
+    ],
+    "sell_price_note": "418+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1833+"
+  },
+  {
+    "id": "recipe_french_macarons",
+    "name_ja": "フレンチマカロン",
+    "name_en": "French Macarons",
+    "stars": 2,
+    "ingredients": [
+      "Almonds",
+      "Egg"
+    ],
+    "sell_price_note": "340+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1461+"
+  },
+  {
+    "id": "recipe_fruit_milkshake",
+    "name_ja": "フルーツミルクシェイク",
+    "name_en": "Fruit Milkshake",
+    "stars": 3,
+    "ingredients": [
+      "Slush Ice",
+      "Milk",
+      "Fruit"
+    ],
+    "sell_price_note": "544+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1113+"
+  },
+  {
+    "id": "recipe_glazed_donut",
+    "name_ja": "グレーズドドーナツ",
+    "name_en": "Glazed Donut",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Egg",
+      "Sweets"
+    ],
+    "sell_price_note": "336+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 760+"
+  },
+  {
+    "id": "recipe_gourmet_grubs",
+    "name_ja": "幼虫グルメ盛り",
+    "name_en": "Gourmet Grubs",
+    "stars": 3,
+    "ingredients": [
+      "Sea Snail",
+      "Sand Worm",
+      "Scorpion"
+    ],
+    "sell_price_note": "2000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 5000+"
+  },
+  {
+    "id": "recipe_jam_macarons",
+    "name_ja": "ジャムマカロン",
+    "name_en": "Jam Macarons",
+    "stars": 3,
+    "ingredients": [
+      "Almonds",
+      "Egg",
+      "Fruit"
+    ],
+    "sell_price_note": "378+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1581+"
+  },
+  {
+    "id": "recipe_kanelbulle",
+    "name_ja": "カネルブッレ",
+    "name_en": "Kanelbulle",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Cinnamon",
+      "Egg"
+    ],
+    "sell_price_note": "663 スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1548+"
+  },
+  {
+    "id": "recipe_kouign_amann",
+    "name_ja": "",
+    "name_en": "Kouign-Amann",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Agave",
+      "Butter"
+    ],
+    "sell_price_note": "610+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1358+"
+  },
+  {
+    "id": "recipe_maamouls",
+    "name_ja": "マアムール",
+    "name_en": "Maamouls",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Almonds",
+      "Dates"
+    ],
+    "sell_price_note": "100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1614+"
+  },
+  {
+    "id": "recipe_makrout",
+    "name_ja": "マクルード",
+    "name_en": "Makrout",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Canola",
+      "Dates",
+      "Cinnamon"
+    ],
+    "sell_price_note": "254+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1157+"
+  },
+  {
+    "id": "recipe_melon_boba_tea",
+    "name_ja": "タピオカティ―(メロン)",
+    "name_en": "Melon Boba Tea",
+    "stars": 3,
+    "ingredients": [
+      "Melon",
+      "Milk",
+      "Sugarcane"
+    ],
+    "sell_price_note": "478+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 911+"
+  },
+  {
+    "id": "recipe_mooncake",
+    "name_ja": "月餅",
+    "name_en": "Mooncake",
+    "stars": 4,
+    "ingredients": [
+      "Wheat",
+      "Canola",
+      "Agave",
+      "Beans"
+    ],
+    "sell_price_note": "276+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 465+"
+  },
+  {
+    "id": "recipe_nestling_crepe",
+    "name_ja": "巣ごもりクレープ",
+    "name_en": "Nestling Crepe",
+    "stars": 4,
+    "ingredients": [
+      "Nestling Pear",
+      "Milk",
+      "Wheat",
+      "Egg"
+    ],
+    "sell_price_note": "715+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1938+"
+  },
+  {
+    "id": "recipe_past_is_de_nata",
+    "name_ja": "パステル・デ・ナタ",
+    "name_en": "Pastéis de Nata",
+    "stars": 4,
+    "ingredients": [
+      "Corn",
+      "Egg",
+      "Milk",
+      "Vanilla"
+    ],
+    "sell_price_note": "774+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1645+"
+  },
+  {
+    "id": "recipe_pear_upside_down_cake",
+    "name_ja": "ナシのアップサイドタウンケーキ",
+    "name_en": "Pear Upside-Down Cake",
+    "stars": 3,
+    "ingredients": [
+      "Nestling Pear",
+      "Wheat",
+      "Egg"
+    ],
+    "sell_price_note": "345+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1218+"
+  },
+  {
+    "id": "recipe_pineapple_soft_serve",
+    "name_ja": "パイナップルソフトクリーム",
+    "name_en": "Pineapple Soft Serve",
+    "stars": 2,
+    "ingredients": [
+      "Pineapple",
+      "Slush Ice"
+    ],
+    "sell_price_note": "886+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 717+"
+  },
+  {
+    "id": "recipe_popcorn",
+    "name_ja": "ポップコーン",
+    "name_en": "Popcorn",
+    "stars": 2,
+    "ingredients": [
+      "Corn",
+      "Canola"
+    ],
+    "sell_price_note": "161+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 201+"
+  },
+  {
+    "id": "recipe_raspberry_jam_sandwich",
+    "name_ja": "ラズベリージャムサンドウィッチ",
+    "name_en": "Raspberry Jam Sandwich",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Raspberry"
+    ],
+    "sell_price_note": "29+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 549+"
+  },
+  {
+    "id": "recipe_red_velvet",
+    "name_ja": "レッドベルベット",
+    "name_en": "Red Velvet",
+    "stars": 5,
+    "ingredients": [
+      "Wheat",
+      "Cheese",
+      "Egg",
+      "Cocoa Bean",
+      "Vanilla"
+    ],
+    "sell_price_note": "783+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2458+"
+  },
+  {
+    "id": "recipe_spicy_macarons",
+    "name_ja": "",
+    "name_en": "Spicy Macarons",
+    "stars": 3,
+    "ingredients": [
+      "Chili Pepper",
+      "Almonds",
+      "Egg"
+    ],
+    "sell_price_note": "475+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1796+"
+  },
+  {
+    "id": "recipe_spiky_berry_pie",
+    "name_ja": "トゲトゲベリーパイ",
+    "name_en": "Spiky Berry Pie",
+    "stars": 5,
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Strawberry",
+      "Cactoberries",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "421+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 2188+"
+  },
+  {
+    "id": "recipe_stellar_milkshake",
+    "name_ja": "ステラ―ミルクシェイク",
+    "name_en": "Stellar Milkshake",
+    "stars": 3,
+    "ingredients": [
+      "Cosmic Figs",
+      "Milk",
+      "Slush Ice"
+    ],
+    "sell_price_note": "562+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1169+"
+  },
+  {
+    "id": "recipe_strawberry_pie",
+    "name_ja": "ストロベリーパイ",
+    "name_en": "Strawberry Pie",
+    "stars": 3,
+    "ingredients": [
+      "Strawberry",
+      "Wheat",
+      "Butter"
+    ],
+    "sell_price_note": "300+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1092+"
+  },
+  {
+    "id": "recipe_strawberry_shortcake",
+    "name_ja": "ストロベリーショートケーキ",
+    "name_en": "Strawberry Shortcake",
+    "stars": 3,
+    "ingredients": [
+      "Strawberry",
+      "Wheat",
+      "Egg"
+    ],
+    "sell_price_note": "342+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1173+"
+  },
+  {
+    "id": "recipe_stuffed_dates",
+    "name_ja": "デーツの詰め物",
+    "name_en": "Stuffed Dates",
+    "stars": 2,
+    "ingredients": [
+      "Almonds",
+      "Dates"
+    ],
+    "sell_price_note": "91+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1495+"
+  },
+  {
+    "id": "recipe_sugar_free_banana_muffin",
+    "name_ja": "砂糖不使用バナナマフィン",
+    "name_en": "Sugar-Free Banana Muffin",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Banana"
+    ],
+    "sell_price_note": "39+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 677+"
+  },
+  {
+    "id": "recipe_sugar_free_blueberry_muffin",
+    "name_ja": "砂糖不使用ブルーベリーマフィン",
+    "name_en": "Sugar-Free Blueberry Muffin",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Blueberry"
+    ],
+    "sell_price_note": "39+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 677+"
+  },
+  {
+    "id": "recipe_sugar_free_fruit_explosion_muffin",
+    "name_ja": "",
+    "name_en": "Sugar-Free Fruit Explosion Muffin",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Agave",
+      "Fruit"
+    ],
+    "sell_price_note": "66+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 354+"
+  },
+  {
+    "id": "recipe_sugar_free_fruit_muffin",
+    "name_ja": "砂糖不使用フルーツマフィン",
+    "name_en": "Sugar-Free Fruit Muffin",
+    "stars": 2,
+    "ingredients": [
+      "Wheat",
+      "Fruit"
+    ],
+    "sell_price_note": "13+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 117+"
+  },
+  {
+    "id": "recipe_sweet_popcorn",
+    "name_ja": "スイートポップコーン",
+    "name_en": "Sweet Popcorn",
+    "stars": 3,
+    "ingredients": [
+      "Corn",
+      "Canola",
+      "Agave"
+    ],
+    "sell_price_note": "209+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 390+"
+  },
+  {
+    "id": "recipe_sweet_tofu",
+    "name_ja": "スイート豆腐",
+    "name_en": "Sweet Tofu",
+    "stars": 2,
+    "ingredients": [
+      "Soya",
+      "Fruit"
+    ],
+    "sell_price_note": "100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 183+"
+  },
+  {
+    "id": "recipe_taiyaki",
+    "name_ja": "たい焼き",
+    "name_en": "Taiyaki",
+    "stars": 2,
+    "ingredients": [
+      "Sand Fish",
+      "Beans"
+    ],
+    "sell_price_note": "102+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 374+"
+  },
+  {
+    "id": "recipe_vanilla_macarons",
+    "name_ja": "バニラマカロン",
+    "name_en": "Vanilla Macarons",
+    "stars": 3,
+    "ingredients": [
+      "Almonds",
+      "Egg",
+      "Vanilla"
+    ],
+    "sell_price_note": "436+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: エターニティアイル / エナジー 1787+"
+  },
+  {
+    "id": "recipe_ambrosia_smoothie",
+    "name_ja": "アンブロシアスムージー",
+    "name_en": "Ambrosia Smoothie",
+    "stars": 2,
+    "ingredients": [
+      "Ambrosia",
+      "Plain Yogurt"
+    ],
+    "sell_price_note": "247+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1155+"
+  },
+  {
+    "id": "recipe_baked_feta_olives",
+    "name_ja": "焼きフェタチーズ＆オリーブ",
+    "name_en": "Baked Feta & Olives",
+    "stars": 2,
+    "ingredients": [
+      "Flyleaf Feta",
+      "Olives"
+    ],
+    "sell_price_note": "142+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 815+"
+  },
+  {
+    "id": "recipe_cape_gooseberry_smoothie",
+    "name_ja": "",
+    "name_en": "Cape Gooseberry Smoothie",
+    "stars": 2,
+    "ingredients": [
+      "Cape Gooseberry",
+      "Plain Yogurt"
+    ],
+    "sell_price_note": "227+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 781+"
+  },
+  {
+    "id": "recipe_faerie_rye_crackers",
+    "name_ja": "フェアリーライ麦クラッカー",
+    "name_en": "Faerie Rye Crackers",
+    "stars": 1,
+    "ingredients": [
+      "Faerie Rye"
+    ],
+    "sell_price_note": "74+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 126+"
+  },
+  {
+    "id": "recipe_golden_apple_smoothie",
+    "name_ja": "黄金のリンゴスムージー",
+    "name_en": "Golden Apple Smoothie",
+    "stars": 2,
+    "ingredients": [
+      "Golden Apple",
+      "Plain Yogurt"
+    ],
+    "sell_price_note": "299+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 985+"
+  },
+  {
+    "id": "recipe_greek_potatoes",
+    "name_ja": "ギリシャ風焼きジャガイモ",
+    "name_en": "Greek Potatoes",
+    "stars": 5,
+    "ingredients": [
+      "Potato",
+      "Salt Crystal",
+      "Garlic",
+      "Fruit",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "351+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 688+"
+  },
+  {
+    "id": "recipe_honeydew_smoothie",
+    "name_ja": "ハネジューメロンスムージー",
+    "name_en": "Honeydew Smoothie",
+    "stars": 2,
+    "ingredients": [
+      "Honeydew Melon",
+      "Plain Yogurt"
+    ],
+    "sell_price_note": "318+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 769+"
+  },
+  {
+    "id": "recipe_lightning_bolt",
+    "name_ja": "",
+    "name_en": "Lightning Bolt",
+    "stars": 4,
+    "ingredients": [
+      "Stygian Mudskipper",
+      "Lamprey",
+      "Lightning Spice",
+      "Sweets"
+    ],
+    "sell_price_note": "5000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 5000+"
+  },
+  {
+    "id": "recipe_olympian_tapenade",
+    "name_ja": "オリンピアタプナード",
+    "name_en": "Olympian Tapenade",
+    "stars": 4,
+    "ingredients": [
+      "Elysian Grain",
+      "Olives",
+      "Honeydew Melon",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "456+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1090+"
+  },
+  {
+    "id": "recipe_persimmon_smoothie",
+    "name_ja": "柿のスムージー",
+    "name_en": "Persimmon Smoothie",
+    "stars": 2,
+    "ingredients": [
+      "Persimmon",
+      "Plain Yogurt"
+    ],
+    "sell_price_note": "188+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1070+"
+  },
+  {
+    "id": "recipe_radicchio_slaw",
+    "name_ja": "ラディッキオのコールスロー",
+    "name_en": "Radicchio Slaw",
+    "stars": 4,
+    "ingredients": [
+      "Radicchio",
+      "Green Beans",
+      "Cauliflower",
+      "Radish"
+    ],
+    "sell_price_note": "739+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 835+"
+  },
+  {
+    "id": "recipe_saut_ed_porcini",
+    "name_ja": "ポルチーニ茸のソテー",
+    "name_en": "Sautéed Porcini",
+    "stars": 2,
+    "ingredients": [
+      "Porcini Mushrooms",
+      "Garlic"
+    ],
+    "sell_price_note": "136+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 500+"
+  },
+  {
+    "id": "recipe_simple_chia_pudding",
+    "name_ja": "シンプルなチアシード入りブティング",
+    "name_en": "Simple Chia Pudding",
+    "stars": 1,
+    "ingredients": [
+      "Chia Seeds"
+    ],
+    "sell_price_note": "7+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 80+"
+  },
+  {
+    "id": "recipe_sparkling_ambrosia",
+    "name_ja": "スパークリングアンブロシア",
+    "name_en": "Sparkling Ambrosia",
+    "stars": 2,
+    "ingredients": [
+      "Lightning Spice",
+      "Ambrosia"
+    ],
+    "sell_price_note": "175+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 883+"
+  },
+  {
+    "id": "recipe_spiral_strawberry_smoothie",
+    "name_ja": "うずまきイチゴのスムージー",
+    "name_en": "Spiral Strawberry Smoothie",
+    "stars": 2,
+    "ingredients": [
+      "Spiral Strawberries",
+      "Plain Yogurt"
+    ],
+    "sell_price_note": "221+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1410+"
+  },
+  {
+    "id": "recipe_tzatziki",
+    "name_ja": "ザジキソース",
+    "name_en": "Tzatziki",
+    "stars": 3,
+    "ingredients": [
+      "Cucumber",
+      "Plain Yogurt",
+      "Garlic"
+    ],
+    "sell_price_note": "460+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1094+"
+  },
+  {
+    "id": "recipe_a_very_unusual_tea_time",
+    "name_ja": "全然普通じゃないお茶会セット",
+    "name_en": "A Very Unusual Tea Time",
+    "stars": 4,
+    "ingredients": [
+      "Plain Yogurt",
+      "Spiral Strawberries",
+      "Sour Berries",
+      "Salt Crystal"
+    ],
+    "sell_price_note": "345+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2377+"
+  },
+  {
+    "id": "recipe_aquatic_escargot",
+    "name_ja": "アクア・エスカルゴ",
+    "name_en": "Aquatic Escargot",
+    "stars": 3,
+    "ingredients": [
+      "Trumpet Snail",
+      "Salt Crystal",
+      "Garlic"
+    ],
+    "sell_price_note": "182+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 581+"
+  },
+  {
+    "id": "recipe_arcane_garlic_crab",
+    "name_ja": "神秘のガーリッククラブ",
+    "name_en": "Arcane Garlic Crab",
+    "stars": 4,
+    "ingredients": [
+      "Sorcerer Hat Hermit Crab",
+      "Salt Crystal",
+      "Garlic",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "1300+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 3250+"
+  },
+  {
+    "id": "recipe_argossian_pizza",
+    "name_ja": "アルゴス風ピザ",
+    "name_en": "Argossian Pizza",
+    "stars": 5,
+    "ingredients": [
+      "Elysian Grain",
+      "Onion",
+      "Flyleaf Feta",
+      "Olives",
+      "Vegetable"
+    ],
+    "sell_price_note": "668+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1384+"
+  },
+  {
+    "id": "recipe_barley_salad",
+    "name_ja": "大麦サラダ",
+    "name_en": "Barley Salad",
+    "stars": 4,
+    "ingredients": [
+      "Barley",
+      "Cauliflower",
+      "Radish",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "280+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 453+"
+  },
+  {
+    "id": "recipe_cacio_e_pepe",
+    "name_ja": "カチョエペペ",
+    "name_en": "Cacio e Pepe",
+    "stars": 3,
+    "ingredients": [
+      "Elysian Grain",
+      "Flyleaf Feta",
+      "Black Pepper"
+    ],
+    "sell_price_note": "403+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 379+"
+  },
+  {
+    "id": "recipe_cape_gooseberry_chia_pancakes",
+    "name_ja": "食用ホオズキとチアシードのパンケーキ",
+    "name_en": "Cape Gooseberry Chia Pancakes",
+    "stars": 4,
+    "ingredients": [
+      "Cape Gooseberry",
+      "Chia Seeds",
+      "Shovel Bird Eggs",
+      "Wheat"
+    ],
+    "sell_price_note": "214+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 749+"
+  },
+  {
+    "id": "recipe_caprese_salad",
+    "name_ja": "カプレーゼサラダ",
+    "name_en": "Caprese Salad",
+    "stars": 5,
+    "ingredients": [
+      "Flyleaf Feta",
+      "Olives",
+      "Salt Crystal",
+      "Vegetable",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "244+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1092+"
+  },
+  {
+    "id": "recipe_cauliflower_steak",
+    "name_ja": "焼きカリフラワー",
+    "name_en": "Cauliflower Steak",
+    "stars": 1,
+    "ingredients": [
+      "Cauliflower"
+    ],
+    "sell_price_note": "30+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 165+"
+  },
+  {
+    "id": "recipe_chia_pudding",
+    "name_ja": "チアシード入りのプディング",
+    "name_en": "Chia Pudding",
+    "stars": 4,
+    "ingredients": [
+      "Chia Seeds",
+      "Rhubarb",
+      "Cinnamon",
+      "Sweets"
+    ],
+    "sell_price_note": "425+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 742+"
+  },
+  {
+    "id": "recipe_chia_seed_bread",
+    "name_ja": "チアシードパン",
+    "name_en": "Chia Seed Bread",
+    "stars": 3,
+    "ingredients": [
+      "Chia Seeds",
+      "Wheat",
+      "Shovel Bird Eggs"
+    ],
+    "sell_price_note": "122+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 478+"
+  },
+  {
+    "id": "recipe_chimera_skewer",
+    "name_ja": "",
+    "name_en": "Chimera Skewer",
+    "stars": 5,
+    "ingredients": [
+      "Hippocampus",
+      "Trumpet Snail",
+      "Flying Fish",
+      "Brussels Sprout",
+      "Fish"
+    ],
+    "sell_price_note": "481+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2720+"
+  },
+  {
+    "id": "recipe_electric_radicchio_persimmon_salad",
+    "name_ja": "ラディッキオと柿の電撃サラダ",
+    "name_en": "Electric Radicchio & Persimmon Salad",
+    "stars": 3,
+    "ingredients": [
+      "Radicchio",
+      "Persimmon",
+      "Lightning Spice"
+    ],
+    "sell_price_note": "303+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1176+"
+  },
+  {
+    "id": "recipe_flying_fish_quenelles",
+    "name_ja": "トビウオのクネル",
+    "name_en": "Flying Fish Quenelles",
+    "stars": 5,
+    "ingredients": [
+      "Flying Fish",
+      "Porcini Mushrooms",
+      "Flyleaf Feta",
+      "Vegetable",
+      "Protein"
+    ],
+    "sell_price_note": "325+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 890+"
+  },
+  {
+    "id": "recipe_garlic_steam_mussels",
+    "name_ja": "ガーリック蒸ムール貝",
+    "name_en": "Garlic Steam Mussels",
+    "stars": 3,
+    "ingredients": [
+      "Mussel",
+      "Onion",
+      "Garlic"
+    ],
+    "sell_price_note": "413+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 825+"
+  },
+  {
+    "id": "recipe_grecian_baked_fish",
+    "name_ja": "ギリシャ風魚のグリル",
+    "name_en": "Grecian Baked Fish",
+    "stars": 5,
+    "ingredients": [
+      "Stygian Mudskipper",
+      "Elysian Grain",
+      "Olives",
+      "Ambrosia",
+      "Salt Crystal"
+    ],
+    "sell_price_note": "2800+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 5000+"
+  },
+  {
+    "id": "recipe_greek_salad",
+    "name_ja": "ギリシャ風サラダ",
+    "name_en": "Greek Salad",
+    "stars": 5,
+    "ingredients": [
+      "Cucumber",
+      "Radish",
+      "Olives",
+      "Flyleaf Feta",
+      "Vegetable"
+    ],
+    "sell_price_note": "654+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1476+"
+  },
+  {
+    "id": "recipe_green_bean_casserole",
+    "name_ja": "サヤインゲンのキャセロール",
+    "name_en": "Green Bean Casserole",
+    "stars": 3,
+    "ingredients": [
+      "Green Beans",
+      "Porcini Mushrooms",
+      "Onion"
+    ],
+    "sell_price_note": "607+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 652+"
+  },
+  {
+    "id": "recipe_grilled_koi_gyro",
+    "name_ja": "コイのグリルのギロピタ",
+    "name_en": "Grilled Koi Gyro",
+    "stars": 5,
+    "ingredients": [
+      "Koi",
+      "Wheat",
+      "Cucumber",
+      "Olives",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "417+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1428+"
+  },
+  {
+    "id": "recipe_hermit_crab_pasta",
+    "name_ja": "ヤドカリのパスタ",
+    "name_en": "Hermit Crab Pasta",
+    "stars": 3,
+    "ingredients": [
+      "Sorcerer Hat Hermit Crab",
+      "Wheat",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "1100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2829+"
+  },
+  {
+    "id": "recipe_hippocampus_cepelinai_dumplings",
+    "name_ja": "",
+    "name_en": "Hippocampus Cepelinai Dumplings",
+    "stars": 5,
+    "ingredients": [
+      "Hippocampus",
+      "Potato",
+      "Spiral Strawberries",
+      "Onion",
+      "Black Pepper"
+    ],
+    "sell_price_note": "925+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2634+"
+  },
+  {
+    "id": "recipe_koi_sashimi",
+    "name_ja": "コイの刺し身",
+    "name_en": "Koi Sashimi",
+    "stars": 1,
+    "ingredients": [
+      "Koi"
+    ],
+    "sell_price_note": "60+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 290+"
+  },
+  {
+    "id": "recipe_lamprey_sashimi",
+    "name_ja": "ヤツメウナギの刺し身",
+    "name_en": "Lamprey Sashimi",
+    "stars": 1,
+    "ingredients": [
+      "Lamprey"
+    ],
+    "sell_price_note": "1800+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2930+"
+  },
+  {
+    "id": "recipe_loaded_breakfast_yogurt",
+    "name_ja": "豪華な朝ご飯ヨーグルト",
+    "name_en": "Loaded Breakfast Yogurt",
+    "stars": 4,
+    "ingredients": [
+      "Plain Yogurt",
+      "Oats",
+      "Spiral Strawberries",
+      "Ambrosia"
+    ],
+    "sell_price_note": "508+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2425+"
+  },
+  {
+    "id": "recipe_loaded_golden_apple_porridge",
+    "name_ja": "",
+    "name_en": "Loaded Golden Apple Porridge",
+    "stars": 3,
+    "ingredients": [
+      "Golden Apple",
+      "Oats",
+      "Ambrosia"
+    ],
+    "sell_price_note": "566+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1570+"
+  },
+  {
+    "id": "recipe_loaded_honeydew_porridge",
+    "name_ja": "ドリームアイスクリーム",
+    "name_en": "Loaded Honeydew Porridge",
+    "stars": 3,
+    "ingredients": [
+      "Honeydew Melon",
+      "Oats",
+      "Ambrosia"
+    ],
+    "sell_price_note": "588+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1328+"
+  },
+  {
+    "id": "recipe_loaded_persimmon_porridge",
+    "name_ja": "",
+    "name_en": "Loaded Persimmon Porridge",
+    "stars": 3,
+    "ingredients": [
+      "Persimmon",
+      "Oats",
+      "Ambrosia"
+    ],
+    "sell_price_note": "438+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1665+"
+  },
+  {
+    "id": "recipe_loaded_rhubarb_porridge",
+    "name_ja": "",
+    "name_en": "Loaded Rhubarb Porridge",
+    "stars": 3,
+    "ingredients": [
+      "Rhubarb",
+      "Oats",
+      "Ambrosia"
+    ],
+    "sell_price_note": "744+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1370+"
+  },
+  {
+    "id": "recipe_loaded_sea_grape_porridge",
+    "name_ja": "",
+    "name_en": "Loaded Sea Grape Porridge",
+    "stars": 3,
+    "ingredients": [
+      "Sea Grapes",
+      "Oats",
+      "Ambrosia"
+    ],
+    "sell_price_note": "431+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1142+"
+  },
+  {
+    "id": "recipe_lupine_cullen_skink",
+    "name_ja": "オオカミのカレンスキンク",
+    "name_en": "Lupine Cullen Skink",
+    "stars": 4,
+    "ingredients": [
+      "Sea Wolf",
+      "Onion",
+      "Potato",
+      "Plain Yogurt"
+    ],
+    "sell_price_note": "736+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1681+"
+  },
+  {
+    "id": "recipe_mussel_risotto",
+    "name_ja": "ムール貝のリゾット",
+    "name_en": "Mussel Risotto",
+    "stars": 5,
+    "ingredients": [
+      "Mussel",
+      "Rice",
+      "Olives",
+      "Garlic",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "377+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1488+"
+  },
+  {
+    "id": "recipe_oatmeal",
+    "name_ja": "オートミール",
+    "name_en": "Oatmeal",
+    "stars": 1,
+    "ingredients": [
+      "Oats"
+    ],
+    "sell_price_note": "118+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 210+"
+  },
+  {
+    "id": "recipe_olive_plate",
+    "name_ja": "オリーブ盛り合わせ",
+    "name_en": "Olive Plate",
+    "stars": 1,
+    "ingredients": [
+      "Olives"
+    ],
+    "sell_price_note": "42+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 610+"
+  },
+  {
+    "id": "recipe_persimmon_chia_pancakes",
+    "name_ja": "",
+    "name_en": "Persimmon Chia Pancakes",
+    "stars": 4,
+    "ingredients": [
+      "Persimmon",
+      "Wheat",
+      "Chia Seeds",
+      "Shovel Bird Eggs"
+    ],
+    "sell_price_note": "169+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1072+"
+  },
+  {
+    "id": "recipe_radicchio_stuffed_porcini",
+    "name_ja": "ラディッキオ詰めポルチーニ",
+    "name_en": "Radicchio-Stuffed Porcini",
+    "stars": 3,
+    "ingredients": [
+      "Radicchio",
+      "Porcini Mushrooms",
+      "Black Pepper"
+    ],
+    "sell_price_note": "370+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 677+"
+  },
+  {
+    "id": "recipe_roasted_barley_veggies",
+    "name_ja": "大麦と野菜のロースト",
+    "name_en": "Roasted Barley & Veggies",
+    "stars": 5,
+    "ingredients": [
+      "Barley",
+      "Brussels Sprout",
+      "Onion",
+      "Flyleaf Feta",
+      "Vegetable"
+    ],
+    "sell_price_note": "476+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1422+"
+  },
+  {
+    "id": "recipe_roasted_brussel_sprouts",
+    "name_ja": "ロースト芽キャベツ",
+    "name_en": "Roasted Brussel Sprouts",
+    "stars": 2,
+    "ingredients": [
+      "Brussels Sprout",
+      "Garlic"
+    ],
+    "sell_price_note": "104+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 959+"
+  },
+  {
+    "id": "recipe_roasted_green_beans",
+    "name_ja": "ローストサヤインゲン",
+    "name_en": "Roasted Green Beans",
+    "stars": 2,
+    "ingredients": [
+      "Green Beans",
+      "Garlic"
+    ],
+    "sell_price_note": "336+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 379+"
+  },
+  {
+    "id": "recipe_salt_baked_sea_wolf",
+    "name_ja": "オオカミウオの塩焼き",
+    "name_en": "Salt-Baked Sea Wolf",
+    "stars": 2,
+    "ingredients": [
+      "Sea Wolf",
+      "Salt Crystal"
+    ],
+    "sell_price_note": "123+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 602+"
+  },
+  {
+    "id": "recipe_salt_pickled_cauliflower",
+    "name_ja": "カリフラワーの塩漬け",
+    "name_en": "Salt-Pickled Cauliflower",
+    "stars": 3,
+    "ingredients": [
+      "Cauliflower",
+      "Salt Crystal",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "84+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 269+"
+  },
+  {
+    "id": "recipe_salt_pickled_garlic",
+    "name_ja": "ニンニクの塩漬け",
+    "name_en": "Salt-Pickled Garlic",
+    "stars": 3,
+    "ingredients": [
+      "Garlic",
+      "Salt Crystal",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "119+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 383+"
+  },
+  {
+    "id": "recipe_salt_pickled_green_beans",
+    "name_ja": "サヤインゲンの塩漬け",
+    "name_en": "Salt-Pickled Green Beans",
+    "stars": 3,
+    "ingredients": [
+      "Green Beans",
+      "Salt Crystal",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "341+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 246+"
+  },
+  {
+    "id": "recipe_salt_pickled_radicchio",
+    "name_ja": "ラディッキオの塩漬け",
+    "name_en": "Salt-Pickled Radicchio",
+    "stars": 3,
+    "ingredients": [
+      "Radicchio",
+      "Salt Crystal",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "226+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 474+"
+  },
+  {
+    "id": "recipe_salt_pickled_radish",
+    "name_ja": "ラディッシュの塩漬け",
+    "name_en": "Salt-Pickled Radish",
+    "stars": 3,
+    "ingredients": [
+      "Radish",
+      "Salt Crystal",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "235+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 314+"
+  },
+  {
+    "id": "recipe_salt_pickled_sea_grapes",
+    "name_ja": "ウミマスカットの塩漬け",
+    "name_en": "Salt-Pickled Sea Grapes",
+    "stars": 3,
+    "ingredients": [
+      "Sea Grapes",
+      "Salt Crystal",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "77+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 185+"
+  },
+  {
+    "id": "recipe_scottish_porridge",
+    "name_ja": "スコットランド風ポリッジ",
+    "name_en": "Scottish Porridge",
+    "stars": 2,
+    "ingredients": [
+      "Oats",
+      "Fruit"
+    ],
+    "sell_price_note": "139+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 255+"
+  },
+  {
+    "id": "recipe_sea_grape_chia_pancakes",
+    "name_ja": "ウミマスカットとチアシードのパンケーキ",
+    "name_en": "Sea Grape Chia Pancakes",
+    "stars": 4,
+    "ingredients": [
+      "Sea Grapes",
+      "Chia Seeds",
+      "Shovel Bird Eggs",
+      "Wheat"
+    ],
+    "sell_price_note": "162+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 549+"
+  },
+  {
+    "id": "recipe_seaweed_salad",
+    "name_ja": "海藻サラダ",
+    "name_en": "Seaweed Salad",
+    "stars": 4,
+    "ingredients": [
+      "Sea Grapes",
+      "Radish",
+      "Black Pepper",
+      "Vegetable"
+    ],
+    "sell_price_note": "365+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 382+"
+  },
+  {
+    "id": "recipe_shovel_bird_eggs_benedict",
+    "name_ja": "スコップ鳥のエッグベネディクト",
+    "name_en": "Shovel Bird Eggs Benedict",
+    "stars": 4,
+    "ingredients": [
+      "Shovel Bird Eggs",
+      "Elysian Grain",
+      "Spiral Strawberries",
+      "Salt Crystal"
+    ],
+    "sell_price_note": "420+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1522+"
+  },
+  {
+    "id": "recipe_soda_bread_feta",
+    "name_ja": "ソーダブレッド＆フェタチーズ",
+    "name_en": "Soda Bread & Feta",
+    "stars": 3,
+    "ingredients": [
+      "Wheat",
+      "Flyleaf Feta",
+      "Salt Crystal"
+    ],
+    "sell_price_note": "135+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 309+"
+  },
+  {
+    "id": "recipe_spanakopita",
+    "name_ja": "スパナコピタ",
+    "name_en": "Spanakopita",
+    "stars": 5,
+    "ingredients": [
+      "Spinach",
+      "Onion",
+      "Flyleaf Feta",
+      "Garlic",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "561+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 982+"
+  },
+  {
+    "id": "recipe_spiral_strawberry_chia_pancakes",
+    "name_ja": "うずまきイチゴとチアシードのパンケーキ",
+    "name_en": "Spiral Strawberry Chia Pancakes",
+    "stars": 4,
+    "ingredients": [
+      "Spiral Strawberries",
+      "Chia Seeds",
+      "Wheat",
+      "Shovel Bird Eggs"
+    ],
+    "sell_price_note": "207+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1452+"
+  },
+  {
+    "id": "recipe_sprout_stuffed_porcini",
+    "name_ja": "芽キャベツ詰めポルチーニ",
+    "name_en": "Sprout-Stuffed Porcini",
+    "stars": 3,
+    "ingredients": [
+      "Brussels Sprout",
+      "Porcini Mushrooms",
+      "Black Pepper"
+    ],
+    "sell_price_note": "235+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1063+"
+  },
+  {
+    "id": "recipe_squash_stuffed_porcini",
+    "name_ja": "カボチャの詰めポルチーニ",
+    "name_en": "Squash-Stuffed Porcini",
+    "stars": 3,
+    "ingredients": [
+      "Ring Squash",
+      "Porcini Mushrooms",
+      "Black Pepper"
+    ],
+    "sell_price_note": "250+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 400+"
+  },
+  {
+    "id": "recipe_squid_sashimi",
+    "name_ja": "",
+    "name_en": "Squid Sashimi",
+    "stars": 1,
+    "ingredients": [
+      "Squid"
+    ],
+    "sell_price_note": "600+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1650+"
+  },
+  {
+    "id": "recipe_steamed_mussels",
+    "name_ja": "蒸しムール貝",
+    "name_en": "Steamed Mussels",
+    "stars": 1,
+    "ingredients": [
+      "Mussel"
+    ],
+    "sell_price_note": "90+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 290+"
+  },
+  {
+    "id": "recipe_stuffed_ring_squash",
+    "name_ja": "ワッカカボチャの詰め物",
+    "name_en": "Stuffed Ring Squash",
+    "stars": 3,
+    "ingredients": [
+      "Ring Squash",
+      "Garlic",
+      "Ambrosia"
+    ],
+    "sell_price_note": "225+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 980+"
+  },
+  {
+    "id": "recipe_tuna_sashimi",
+    "name_ja": "マグロの刺し身",
+    "name_en": "Tuna Sashimi",
+    "stars": 1,
+    "ingredients": [
+      "Tuna"
+    ],
+    "sell_price_note": "114+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 610+"
+  },
+  {
+    "id": "recipe_aphrodite_s_delight",
+    "name_ja": "アフロディ―テ・デライト",
+    "name_en": "Aphrodite's Delight",
+    "stars": 2,
+    "ingredients": [
+      "Golden Apple",
+      "Ambrosia"
+    ],
+    "sell_price_note": "234+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1070+"
+  },
+  {
+    "id": "recipe_cape_gooseberry_sour_fondue",
+    "name_ja": "食用ホオズキすっぱフォンデュ",
+    "name_en": "Cape Gooseberry Sour Fondue",
+    "stars": 2,
+    "ingredients": [
+      "Cape Gooseberry",
+      "Sour Berries"
+    ],
+    "sell_price_note": "123+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 951+"
+  },
+  {
+    "id": "recipe_cinnamon_cake",
+    "name_ja": "シナモンケーキ",
+    "name_en": "Cinnamon Cake",
+    "stars": 4,
+    "ingredients": [
+      "Cinnamon",
+      "Plain Yogurt",
+      "Shovel Bird Eggs",
+      "Wheat"
+    ],
+    "sell_price_note": "348+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1330+"
+  },
+  {
+    "id": "recipe_cinnamon_cookies",
+    "name_ja": "シナモンクッキー",
+    "name_en": "Cinnamon Cookies",
+    "stars": 4,
+    "ingredients": [
+      "Cinnamon",
+      "Plain Yogurt",
+      "Wheat",
+      "Sweets"
+    ],
+    "sell_price_note": "256+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1037+"
+  },
+  {
+    "id": "recipe_golden_apple_pie",
+    "name_ja": "黄金のアップルパイ",
+    "name_en": "Golden Apple Pie",
+    "stars": 3,
+    "ingredients": [
+      "Golden Apple",
+      "Wheat",
+      "Shovel Bird Eggs"
+    ],
+    "sell_price_note": "268+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 894+"
+  },
+  {
+    "id": "recipe_honeydew_sour_fondue",
+    "name_ja": "ハネジューメロンのすっぱフォンデュ",
+    "name_en": "Honeydew Sour Fondue",
+    "stars": 2,
+    "ingredients": [
+      "Honeydew Melon",
+      "Sour Berries"
+    ],
+    "sell_price_note": "214+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 939+"
+  },
+  {
+    "id": "recipe_lightning_cake",
+    "name_ja": "イナズマケーキ",
+    "name_en": "Lightning Cake",
+    "stars": 4,
+    "ingredients": [
+      "Lightning Spice",
+      "Wheat",
+      "Plain Yogurt",
+      "Shovel Bird Eggs"
+    ],
+    "sell_price_note": "400+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1302+"
+  },
+  {
+    "id": "recipe_lightning_cookies",
+    "name_ja": "イナズマクッキー",
+    "name_en": "Lightning Cookies",
+    "stars": 4,
+    "ingredients": [
+      "Lightning Spice",
+      "Wheat",
+      "Plain Yogurt",
+      "Sweets"
+    ],
+    "sell_price_note": "308+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1009+"
+  },
+  {
+    "id": "recipe_merryweather_s_gingersnaps",
+    "name_ja": "メリーウェザーのジンジャークッキー",
+    "name_en": "Merryweather's Gingersnaps",
+    "stars": 5,
+    "ingredients": [
+      "Faerie Rye",
+      "Shovel Bird Eggs",
+      "Nutmeg",
+      "Ginger",
+      "Sour Berries"
+    ],
+    "sell_price_note": "443+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2596+"
+  },
+  {
+    "id": "recipe_nutmeg_cake",
+    "name_ja": "ナツメグケーキ",
+    "name_en": "Nutmeg Cake",
+    "stars": 4,
+    "ingredients": [
+      "Nutmeg",
+      "Wheat",
+      "Plain Yogurt",
+      "Shovel Bird Eggs"
+    ],
+    "sell_price_note": "370+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1891+"
+  },
+  {
+    "id": "recipe_nutmeg_cookies",
+    "name_ja": "ナツメグクッキー",
+    "name_en": "Nutmeg Cookies",
+    "stars": 4,
+    "ingredients": [
+      "Nutmeg",
+      "Wheat",
+      "Plain Yogurt",
+      "Sweets"
+    ],
+    "sell_price_note": "278+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1598+"
+  },
+  {
+    "id": "recipe_persimmon_pie",
+    "name_ja": "柿のパイ",
+    "name_en": "Persimmon Pie",
+    "stars": 3,
+    "ingredients": [
+      "Persimmon",
+      "Shovel Bird Eggs",
+      "Wheat"
+    ],
+    "sell_price_note": "149+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 984+"
+  },
+  {
+    "id": "recipe_persimmon_sour_fondue",
+    "name_ja": "柿のすっぱフォンデュ",
+    "name_en": "Persimmon Sour Fondue",
+    "stars": 2,
+    "ingredients": [
+      "Sour Berries",
+      "Persimmon"
+    ],
+    "sell_price_note": "84+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1240+"
+  },
+  {
+    "id": "recipe_rice_pudding",
+    "name_ja": "ライスブティング",
+    "name_en": "Rice Pudding",
+    "stars": 3,
+    "ingredients": [
+      "Rice",
+      "Vanilla",
+      "Oats"
+    ],
+    "sell_price_note": "293+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 579+"
+  },
+  {
+    "id": "recipe_sour_berry_dessert",
+    "name_ja": "すっぱベリーのデザート",
+    "name_en": "Sour Berry Dessert",
+    "stars": 2,
+    "ingredients": [
+      "Sour Berries",
+      "Ambrosia"
+    ],
+    "sell_price_note": "143+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1325+"
+  },
+  {
+    "id": "recipe_sour_berry_pie",
+    "name_ja": "すっぱベリーパイ",
+    "name_en": "Sour Berry Pie",
+    "stars": 3,
+    "ingredients": [
+      "Sour Berries",
+      "Wheat",
+      "Shovel Bird Eggs"
+    ],
+    "sell_price_note": "170+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1164+"
+  },
+  {
+    "id": "recipe_spicy_yogurt",
+    "name_ja": "スパイシーヨーグルト",
+    "name_en": "Spicy Yogurt",
+    "stars": 2,
+    "ingredients": [
+      "Plain Yogurt",
+      "Spices & Herbs"
+    ],
+    "sell_price_note": "175+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 602+"
+  },
+  {
+    "id": "recipe_spiral_strawberry_pie",
+    "name_ja": "うずまきイチゴのパイ",
+    "name_en": "Spiral Strawberry Pie",
+    "stars": 3,
+    "ingredients": [
+      "Spiral Strawberries",
+      "Shovel Bird Eggs",
+      "Wheat"
+    ],
+    "sell_price_note": "184+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1344+"
+  },
+  {
+    "id": "recipe_spiral_strawberry_sour_fondue",
+    "name_ja": "うずまきイチゴのすっぱフォンデュ",
+    "name_en": "Spiral Strawberry Sour Fondue",
+    "stars": 2,
+    "ingredients": [
+      "Spiral Strawberries",
+      "Sour Berries"
+    ],
+    "sell_price_note": "117+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1580+"
+  },
+  {
+    "id": "recipe_strawberry_rhubarb_pie",
+    "name_ja": "ストロベリー＆ルバーブパイ",
+    "name_en": "Strawberry Rhubarb Pie",
+    "stars": 4,
+    "ingredients": [
+      "Plain Yogurt",
+      "Spiral Strawberries",
+      "Rhubarb",
+      "Wheat"
+    ],
+    "sell_price_note": "601+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 1881+"
+  },
+  {
+    "id": "recipe_underworld_cake",
+    "name_ja": "死者の国のケーキ",
+    "name_en": "Underworld Cake",
+    "stars": 5,
+    "ingredients": [
+      "Plain Yogurt",
+      "Faerie Rye",
+      "Shovel Bird Eggs",
+      "Nutmeg",
+      "Ambrosia"
+    ],
+    "sell_price_note": "603+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 2746+"
+  },
+  {
+    "id": "recipe_vanilla_yogurt",
+    "name_ja": "バニラヨーグルト",
+    "name_en": "Vanilla Yogurt",
+    "stars": 2,
+    "ingredients": [
+      "Plain Yogurt",
+      "Vanilla"
+    ],
+    "sell_price_note": "221+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ストーリーブックベール / エナジー 789+"
+  },
+  {
+    "id": "recipe_alpine_fishcakes",
+    "name_ja": "アルプスフィッシュケーキ",
+    "name_en": "Alpine Fishcakes",
+    "stars": 2,
+    "ingredients": [
+      "Red Alpine Bass",
+      "Dill"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 2370+"
+  },
+  {
+    "id": "recipe_buttermilk_borscht",
+    "name_ja": "バターミルクのボルシチ",
+    "name_en": "Buttermilk Borscht",
+    "stars": 4,
+    "ingredients": [
+      "Beetroot",
+      "Dill",
+      "Milk",
+      "Egg"
+    ],
+    "sell_price_note": "766+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1656+"
+  },
+  {
+    "id": "recipe_fizzy_nectar_soda",
+    "name_ja": "フィジーネクターソーダ",
+    "name_en": "Fizzy Nectar Soda",
+    "stars": 2,
+    "ingredients": [
+      "Bonsai Star Fruit",
+      "Slush Ice"
+    ],
+    "sell_price_note": "247+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1197+"
+  },
+  {
+    "id": "recipe_rosehip_honey_tea",
+    "name_ja": "ローズヒップハニーティー",
+    "name_en": "Rosehip Honey Tea",
+    "stars": 1,
+    "ingredients": [
+      "Honey Coral"
+    ],
+    "sell_price_note": "210+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 570+"
+  },
+  {
+    "id": "recipe_scarlet_bouquet_salad",
+    "name_ja": "スカーレットブーケサラダ",
+    "name_en": "Scarlet Bouquet Salad",
+    "stars": 1,
+    "ingredients": [
+      "Scarlet Kale"
+    ],
+    "sell_price_note": "34+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 160+"
+  },
+  {
+    "id": "recipe_smoked_fish_charcuterie_spread",
+    "name_ja": "魚の燻製の盛り合わせ",
+    "name_en": "Smoked Fish Charcuterie Spread",
+    "stars": 4,
+    "ingredients": [
+      "Mountain Whitefish",
+      "Tuna",
+      "Wheat",
+      "Fish"
+    ],
+    "sell_price_note": "191+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1321+"
+  },
+  {
+    "id": "recipe_101_teeny_tiny_dalmatian_cupcakes",
+    "name_ja": "101匹わんちゃんのミニカップケーキ",
+    "name_en": "101 Teeny Tiny Dalmatian Cupcakes",
+    "stars": 4,
+    "ingredients": [
+      "Dark Chocolate Coffee Beans",
+      "Wheat",
+      "Egg",
+      "Sugarcane"
+    ],
+    "sell_price_note": "460+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 862+"
+  },
+  {
+    "id": "recipe_afternoon_tea_set",
+    "name_ja": "アフタヌーンティーセット",
+    "name_en": "Afternoon Tea Set",
+    "stars": 4,
+    "ingredients": [
+      "Dark Chocolate Coffee Beans",
+      "Pearly Barley",
+      "Pincushion Peach",
+      "Vegetable"
+    ],
+    "sell_price_note": "235+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 985+"
+  },
+  {
+    "id": "recipe_baked_whitefish_and_roasted_beets",
+    "name_ja": "白身の焼き魚とローストビーツ",
+    "name_en": "Baked Whitefish and Roasted Beets",
+    "stars": 2,
+    "ingredients": [
+      "Beetroot",
+      "Mountain Whitefish"
+    ],
+    "sell_price_note": "66+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 400+"
+  },
+  {
+    "id": "recipe_beet_iful_spaetzle",
+    "name_ja": "ビーツのパスタ",
+    "name_en": "Beet-iful Spaetzle",
+    "stars": 3,
+    "ingredients": [
+      "Beetroot",
+      "Egg",
+      "Wheat"
+    ],
+    "sell_price_note": "339+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 778+"
+  },
+  {
+    "id": "recipe_bread_bowl_pumpkin_soup",
+    "name_ja": "パンの器入りパンプキンスープ",
+    "name_en": "Bread Bowl Pumpkin Soup",
+    "stars": 4,
+    "ingredients": [
+      "Tigger Fish",
+      "Fairy Kamut",
+      "Milk",
+      "Pumpkin"
+    ],
+    "sell_price_note": "3900+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 4153+"
+  },
+  {
+    "id": "recipe_button_stew",
+    "name_ja": "",
+    "name_en": "Button Stew",
+    "stars": 2,
+    "ingredients": [
+      "Button Mushroom",
+      "Carrot"
+    ],
+    "sell_price_note": "135+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 375+"
+  },
+  {
+    "id": "recipe_eton_mess",
+    "name_ja": "イートンメス",
+    "name_en": "Eton Mess",
+    "stars": 3,
+    "ingredients": [
+      "Red Currants",
+      "Pincushion Peach",
+      "Egg"
+    ],
+    "sell_price_note": "407+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1994+"
+  },
+  {
+    "id": "recipe_felted_breakfast_spread",
+    "name_ja": "",
+    "name_en": "Felted Breakfast Spread",
+    "stars": 3,
+    "ingredients": [
+      "Button Mushroom",
+      "Egg",
+      "Satin-Finned Betta"
+    ],
+    "sell_price_note": "1000+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 2597+"
+  },
+  {
+    "id": "recipe_fishy_pineapple_jelly",
+    "name_ja": "海鮮パイナップルゼリー",
+    "name_en": "Fishy Pineapple Jelly",
+    "stars": 5,
+    "ingredients": [
+      "Jellied Fish",
+      "Measuring-Tape Snail",
+      "Crab",
+      "Scarlet Kale",
+      "Fish"
+    ],
+    "sell_price_note": "2700+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 5625+"
+  },
+  {
+    "id": "recipe_friendly_bento",
+    "name_ja": "フレンド弁当",
+    "name_en": "Friendly Bento",
+    "stars": 4,
+    "ingredients": [
+      "Tigger Fish",
+      "Scarlet Kale",
+      "Honey Coral",
+      "Vegetable"
+    ],
+    "sell_price_note": "2700+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 3877+"
+  },
+  {
+    "id": "recipe_honey_pancakes",
+    "name_ja": "ハチミツのパンケーキ",
+    "name_en": "Honey Pancakes",
+    "stars": 3,
+    "ingredients": [
+      "Honey Coral",
+      "Wheat",
+      "Egg"
+    ],
+    "sell_price_note": "555+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1263+"
+  },
+  {
+    "id": "recipe_honey_glazed_carrots",
+    "name_ja": "ニンジンのハチミツがけ",
+    "name_en": "Honey-Glazed Carrots",
+    "stars": 3,
+    "ingredients": [
+      "Carrot",
+      "Honey Coral",
+      "Dill"
+    ],
+    "sell_price_note": "362+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 944+"
+  },
+  {
+    "id": "recipe_horace_s_ham_sandwich",
+    "name_ja": "ホーレスのハムサンド",
+    "name_en": "Horace's Ham Sandwich",
+    "stars": 3,
+    "ingredients": [
+      "Pearly Barley",
+      "Cheese",
+      "Vegetable"
+    ],
+    "sell_price_note": "326+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 643+"
+  },
+  {
+    "id": "recipe_jellied_fish_terrine",
+    "name_ja": "ゼリーウツボのテリーヌ",
+    "name_en": "Jellied Fish Terrine",
+    "stars": 1,
+    "ingredients": [
+      "Jellied Fish"
+    ],
+    "sell_price_note": "1200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 2450+"
+  },
+  {
+    "id": "recipe_jellied_salad",
+    "name_ja": "ゼリーサラダ",
+    "name_en": "Jellied Salad",
+    "stars": 2,
+    "ingredients": [
+      "Jellied Fish",
+      "Scarlet Kale"
+    ],
+    "sell_price_note": "1300+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 2717+"
+  },
+  {
+    "id": "recipe_kanine_krunchies_cereal",
+    "name_ja": "",
+    "name_en": "Kanine Krunchies Cereal",
+    "stars": 2,
+    "ingredients": [
+      "Pearly Barley",
+      "Pincushion Peach"
+    ],
+    "sell_price_note": "107+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 796+"
+  },
+  {
+    "id": "recipe_pixie_pizza",
+    "name_ja": "妖精のピザ",
+    "name_en": "Pixie Pizza",
+    "stars": 5,
+    "ingredients": [
+      "Fairy Kamut",
+      "Fairy Sprinkles",
+      "Button Mushroom",
+      "Cheese",
+      "Tomato"
+    ],
+    "sell_price_note": "718+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1268+"
+  },
+  {
+    "id": "recipe_scarlet_kale_and_cheese_pinwheels",
+    "name_ja": "スカーレットケールとチーズのロールサンド",
+    "name_en": "Scarlet Kale and Cheese Pinwheels",
+    "stars": 3,
+    "ingredients": [
+      "Scarlet Kale",
+      "Cheese",
+      "Wheat"
+    ],
+    "sell_price_note": "294+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 694+"
+  },
+  {
+    "id": "recipe_stargazy_pie",
+    "name_ja": "スターゲイジ―パイ",
+    "name_en": "Stargazy Pie",
+    "stars": 4,
+    "ingredients": [
+      "Measuring-Tape Snail",
+      "Satin-Finned Betta",
+      "Red Alpine Bass",
+      "Wheat"
+    ],
+    "sell_price_note": "1900+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 5026+"
+  },
+  {
+    "id": "recipe_vintage_peach_trifle",
+    "name_ja": "ヴィンテージピーチとライフル",
+    "name_en": "Vintage Peach Trifle",
+    "stars": 5,
+    "ingredients": [
+      "Pincushion Peach",
+      "Pearly Barley",
+      "Milk",
+      "Sugarcane",
+      "Fruit"
+    ],
+    "sell_price_note": "544+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1752+"
+  },
+  {
+    "id": "recipe_beauty_and_the_beets_napoleon",
+    "name_ja": "ビーツのナポレオンケーキ",
+    "name_en": "Beauty and the Beets Napoleon",
+    "stars": 5,
+    "ingredients": [
+      "Red Currants",
+      "Beetroot",
+      "Butter",
+      "Egg",
+      "Milk"
+    ],
+    "sell_price_note": "1100+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 2782+"
+  },
+  {
+    "id": "recipe_beet_brownie_stack",
+    "name_ja": "ビーツブラウニーの山盛り",
+    "name_en": "Beet Brownie Stack",
+    "stars": 3,
+    "ingredients": [
+      "Beetroot",
+      "Egg",
+      "Sweets"
+    ],
+    "sell_price_note": "363+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 826+"
+  },
+  {
+    "id": "recipe_beet_sugar_sculpture",
+    "name_ja": "ビーツの飴細工",
+    "name_en": "Beet Sugar Sculpture",
+    "stars": 2,
+    "ingredients": [
+      "Beetroot",
+      "Sugarcane"
+    ],
+    "sell_price_note": "51+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 223+"
+  },
+  {
+    "id": "recipe_fairy_boot_cake",
+    "name_ja": "妖精のブーツケーキ",
+    "name_en": "Fairy Boot Cake",
+    "stars": 5,
+    "ingredients": [
+      "Fairy Kamut",
+      "Honey Coral",
+      "Dark Chocolate Coffee Beans",
+      "Egg",
+      "Butter"
+    ],
+    "sell_price_note": "1200+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 2052+"
+  },
+  {
+    "id": "recipe_fairy_bread",
+    "name_ja": "妖精のパン",
+    "name_en": "Fairy Bread",
+    "stars": 2,
+    "ingredients": [
+      "Fairy Kamut",
+      "Fairy Sprinkles"
+    ],
+    "sell_price_note": "243+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 360+"
+  },
+  {
+    "id": "recipe_fairy_wands",
+    "name_ja": "妖精の棒付きスイーツ",
+    "name_en": "Fairy Wands",
+    "stars": 3,
+    "ingredients": [
+      "Bonsai Star Fruit",
+      "Lollipop Fruit",
+      "Fruit"
+    ],
+    "sell_price_note": "229+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1028+"
+  },
+  {
+    "id": "recipe_pixie_ice_cream_dome_cake",
+    "name_ja": "妖精のドーム型アイスケーキ",
+    "name_en": "Pixie Ice Cream Dome Cake",
+    "stars": 4,
+    "ingredients": [
+      "Fairy Kamut",
+      "Fairy Sprinkles",
+      "Red Currants",
+      "Slush Ice"
+    ],
+    "sell_price_note": "554+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1489+"
+  },
+  {
+    "id": "recipe_red_currant_linzer_cookies",
+    "name_ja": "フサスグリのリンツァークッキー",
+    "name_en": "Red Currant Linzer Cookies",
+    "stars": 4,
+    "ingredients": [
+      "Red Currants",
+      "Butter",
+      "Wheat",
+      "Sugarcane"
+    ],
+    "sell_price_note": "365+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1379+"
+  },
+  {
+    "id": "recipe_red_currant_valley_cakes",
+    "name_ja": "",
+    "name_en": "Red Currant Valley Cakes",
+    "stars": 3,
+    "ingredients": [
+      "Red Currants",
+      "Milk",
+      "Egg"
+    ],
+    "sell_price_note": "676+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 1895+"
+  },
+  {
+    "id": "recipe_tigger_tails",
+    "name_ja": "ティガーテイルドッグ",
+    "name_en": "Tigger Tails",
+    "stars": 2,
+    "ingredients": [
+      "Lollipop Fruit",
+      "Fairy Sprinkles"
+    ],
+    "sell_price_note": "253+ スターコイン",
+    "unlocked": false,
+    "memo": "入手: ウィッシュブロッサム山 / エナジー 437+"
+  }
+]

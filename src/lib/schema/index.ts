@@ -1,0 +1,235 @@
+/* =========================================================================
+   DDV 16カテゴリのスキーマ（引き継ぎ資料 2章に対応）
+   凡例: 🔒 = Wiki等の外部データ由来（自動） / ✏️ = 自分専用・手動編集
+   ========================================================================= */
+
+/** 1. キャラクター */
+export interface Character {
+  id: string
+  name_ja: string
+  name_en: string          // 🔒
+  franchise: string        // 🔒 作品名
+  unlock_condition: string // 🔒 要約（日本語）
+  home_location: string    // 🔒
+  skill_assigned: string   // ✏️
+  owned: boolean           // ✏️
+  icon_path: string        // 画像取得後に埋める
+  memo: string             // ✏️
+}
+
+/** 2. 料理レシピ */
+export interface Recipe {
+  id: string
+  name_ja: string
+  name_en: string          // 🔒
+  stars: number            // 🔒
+  ingredients: string[]    // 🔒 カテゴリ名で保持
+  sell_price_note: string  // 🔒
+  unlocked: boolean        // ✏️
+  memo: string             // ✏️
+}
+
+/** 3. 素材 */
+export interface Material {
+  id: string
+  name_ja: string
+  name_en: string          // 🔒
+  category: string         // 🔒
+  obtain_method: string    // 🔒 要約
+  used_in_recipes: string[]// 🔒 recipes と ID 連携
+  stock_count: number      // ✏️
+  memo: string             // ✏️
+}
+
+/** 4. オトモ（コンパニオン） */
+export interface Companion {
+  id: string
+  name_ja: string
+  name_en: string          // 🔒
+  gather_type: string      // 🔒
+  source: string           // 🔒
+  owned: boolean           // ✏️
+  friendship_level: number // ✏️
+  is_equipped: boolean     // ✏️
+  icon_path: string        // ✏️
+  memo: string             // ✏️
+}
+
+/** 5. クエスト */
+export interface Quest {
+  id: string
+  name_ja: string
+  type: string             // 🔒
+  prerequisite: string     // 🔒
+  reward: string           // 🔒
+  completed: boolean       // ✏️
+  completed_date: string   // ✏️ ISO日付
+  memo: string             // ✏️
+}
+
+/** 6. イベント／スターパス */
+export interface EventItem {
+  id: string
+  name_ja: string          // 🔒 gamepedia 突合
+  period: string           // 🔒
+  related_events: string[] // 🔒
+  participated: boolean    // ✏️
+  reward_progress: string  // ✏️
+  memo: string             // ✏️
+}
+
+/** 7. 農作物 */
+export interface Crop {
+  id: string
+  name_ja: string
+  name_en: string          // 🔒 表示・突合用に追加
+  category: string         // 🔒
+  grow_area: string        // 🔒
+  used_in_recipes: string[]// 🔒
+  note: string             // 🔒
+  planted_count: number    // ✏️
+  harvested_total: number  // ✏️
+  memo: string             // ✏️
+}
+
+/** 8. 施設 */
+export interface Facility {
+  id: string
+  name_ja: string          // 🔒 gamepedia 突合
+  type: string             // 🔒
+  unlock_condition: string // 🔒
+  restock_time: string     // 🔒
+  note: string             // 🔒
+  visited_today: boolean   // ✏️
+  memo: string             // ✏️
+}
+
+/** 9. 動物（野生・餌やり） */
+export interface Animal {
+  id: string
+  name_ja: string
+  name_en: string               // 🔒 表示・突合用に追加
+  favorite_foods: string[]      // 🔒
+  habitat: string               // 🔒
+  appearance_schedule: string   // 🔒
+  becomes_companion: string     // 🔒
+  icon_path: string             // 代表画像（Classic変種）
+  fed_today: boolean            // ✏️
+  unlocked_as_companion: boolean// ✏️
+  memo: string                  // ✏️
+}
+
+/** 10. 不具合・バグ情報 */
+export interface Bug {
+  id: string
+  title: string            // 🔒
+  affected_platform: string// 🔒
+  description: string      // 🔒 要約
+  status: string           // 🔒
+  reported_date: string    // 🔒
+  source_url: string       // 🔒
+  personal_encountered: boolean // ✏️
+  workaround_tried: string      // ✏️
+  memo: string             // ✏️
+}
+
+/** 11. アップデート履歴 */
+export interface Update {
+  id: string
+  version: string          // 🔒
+  release_date: string     // 🔒
+  title: string            // 🔒
+  summary: string          // 🔒 要約
+  new_characters: string[] // 🔒 characters と ID 連携
+  new_features: string[]   // 🔒
+  bug_fixes: string[]      // 🔒
+  source_url: string       // 🔒
+  personal_notes: string   // ✏️
+}
+
+/** 12. 拡張パス */
+export interface Expansion {
+  id: string
+  name_ja: string          // 🔒 gamepedia 突合
+  release_date: string     // 🔒
+  price: string            // 🔒
+  included_realms: string[]// 🔒
+  required_progress: string// 🔒
+  owned: boolean           // ✏️
+  progress_notes: string   // ✏️
+}
+
+/** 13. 売値一覧（エリア別） */
+export interface Price {
+  id: string
+  item_id: string          // 🔒 他テーブルと ID 連携
+  item_name: string        // 🔒
+  sell_location: string    // 🔒
+  base_price: number       // 🔒
+  notes: string            // 🔒
+  memo: string             // ✏️
+}
+
+/** 14. 小技・裏技（記事型） */
+export interface Tip {
+  id: string
+  title: string            // 🔒
+  category: string         // 🔒
+  body_md: string          // 🔒 要約
+  related_ids: string[]    // 🔒
+  tried: boolean           // ✏️
+  useful_rating: number    // ✏️ 0-5
+  memo: string             // ✏️
+}
+
+/** 15. FAQ（記事型） */
+export interface Faq {
+  id: string
+  question: string         // 🔒
+  answer_md: string        // 🔒 要約
+  category: string         // 🔒
+  related_ids: string[]    // 🔒
+  still_confused: boolean  // ✏️
+  memo: string             // ✏️
+}
+
+/** 16. レルム進行ダッシュボード（集計ビュー・独立テーブルではない） */
+export interface Dashboard {
+  realms_unlocked_count: number   // ⚙️ 自動計算
+  realms_total_count: number      // ⚙️ 自動計算
+  current_dreamlight_balance: number // ✏️
+  next_target_realm_id: string    // ✏️
+  priority_reason: string         // ✏️
+  last_updated: string            // ✏️
+}
+
+/** カテゴリのメタ情報（Hub のメニュー・ルーティング・表示種別に使用） */
+export type DisplayType = 'image-grid' | 'table' | 'article' | 'dashboard'
+
+export interface CategoryMeta {
+  key: string          // ストア名 / ルート
+  name_ja: string
+  emoji: string        // 仮アイコン（後で画像アイコンに差し替え可）
+  display: DisplayType
+  implemented: boolean
+}
+
+/** 16カテゴリの定義（Hub & Spoke トップの一覧・表示出し分けの元） */
+export const CATEGORIES: CategoryMeta[] = [
+  { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
+  { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
+  { key: 'animals', name_ja: '動物', emoji: '🦊', display: 'image-grid', implemented: true },
+  { key: 'recipes', name_ja: '料理レシピ', emoji: '🍲', display: 'table', implemented: true },
+  { key: 'materials', name_ja: '素材', emoji: '🪵', display: 'table', implemented: true },
+  { key: 'crops', name_ja: '農作物', emoji: '🌾', display: 'table', implemented: true },
+  { key: 'prices', name_ja: '売値一覧', emoji: '💰', display: 'table', implemented: true },
+  { key: 'quests', name_ja: 'クエスト', emoji: '📜', display: 'table', implemented: true },
+  { key: 'facilities', name_ja: '施設', emoji: '🏛️', display: 'table', implemented: true },
+  { key: 'events', name_ja: 'イベント／スターパス', emoji: '🎉', display: 'table', implemented: true },
+  { key: 'expansions', name_ja: '拡張パス', emoji: '🗺️', display: 'table', implemented: true },
+  { key: 'updates', name_ja: 'アップデート履歴', emoji: '🆕', display: 'table', implemented: true },
+  { key: 'bugs', name_ja: '不具合・バグ情報', emoji: '🐛', display: 'table', implemented: true },
+  { key: 'tips', name_ja: '小技・裏技', emoji: '💡', display: 'article', implemented: true },
+  { key: 'faq', name_ja: 'FAQ', emoji: '❓', display: 'article', implemented: true },
+  { key: 'dashboard', name_ja: 'レルム進行', emoji: '📊', display: 'dashboard', implemented: true },
+]

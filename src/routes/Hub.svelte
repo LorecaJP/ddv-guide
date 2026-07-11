@@ -1,0 +1,66 @@
+<script lang="ts">
+  import { CATEGORIES } from '../lib/schema'
+  import { navigate } from '../lib/router'
+</script>
+
+<section class="hero">
+  <h1>どこから見る？</h1>
+  <p>16カテゴリのメニュー。画像で見分けるものは図鑑グリッド、数値ものは表で表示します。</p>
+</section>
+
+<div class="grid">
+  {#each CATEGORIES as c (c.key)}
+    <button class="tile" class:soon={!c.implemented} onclick={() => navigate(c.key)}>
+      <span class="emoji">{c.emoji}</span>
+      <span class="label">{c.name_ja}</span>
+      <span class="type">{c.display === 'image-grid' ? '図鑑' : c.display === 'table' ? '一覧表' : c.display === 'article' ? '記事' : 'ダッシュボード'}</span>
+      {#if !c.implemented}<span class="badge">準備中</span>{/if}
+    </button>
+  {/each}
+</div>
+
+<style>
+  .hero { margin: 6px 0 26px; }
+  .hero h1 { font-size: clamp(28px, 4vw, 40px); }
+  .hero p { color: var(--c-ink-soft); margin: 8px 0 0; max-width: 46ch; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--gap);
+  }
+  .tile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 18px 16px 16px;
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-radius: var(--radius);
+    box-shadow: 0 1px 0 var(--c-shadow);
+    text-align: left;
+    transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+  }
+  .tile:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px var(--c-shadow);
+    border-color: var(--c-accent);
+  }
+  .tile .emoji { font-size: 30px; line-height: 1; }
+  .tile .label { font-family: var(--font-display); font-weight: 600; font-size: 17px; }
+  .tile .type { font-size: 12px; color: var(--c-ink-soft); }
+  .tile.soon { opacity: 0.72; }
+  .badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--c-accent-ink);
+    background: var(--c-accent-soft);
+    padding: 2px 7px;
+    border-radius: 999px;
+  }
+</style>
