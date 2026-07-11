@@ -10,6 +10,8 @@
   let franchise = $state('all')
   let ownedOnly = $state(false)
   let selected = $state<Character | null>(null)
+  let broken = $state<Set<string>>(new Set())
+  const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
   async function load() {
     loading = true
@@ -70,9 +72,10 @@
     {#each filtered as c (c.id)}
       <button class="card" class:dim={!c.owned} onclick={() => (selected = c)}>
         <div class="thumb">
-          <span class="noimg">?</span>
-          {#if c.icon_path}
-            <img src={asset(c.icon_path)} alt={c.name_ja} loading="lazy" onerror={(e) => e.currentTarget.remove()} />
+          {#if c.icon_path && !broken.has(c.id)}
+            <img src={asset(c.icon_path)} alt={c.name_ja} loading="lazy" onerror={() => markBroken(c.id)} />
+          {:else}
+            <span class="noimg">?</span>
           {/if}
           {#if c.owned}<span class="own">✓</span>{/if}
         </div>
@@ -91,10 +94,9 @@
       <button class="close" onclick={() => (selected = null)}>✕</button>
       <div class="sheet-top">
         <div class="big-thumb">
-          <span class="noimg">?</span>
-          {#if selected.icon_path}
-            <img src={asset(selected.icon_path)} alt={selected.name_ja} onerror={(e) => e.currentTarget.remove()} />
-          {/if}
+          {#if selected.icon_path && !broken.has(selected.id)}
+            <img src={asset(selected.icon_path)} alt={selected.name_ja} onerror={() => selected && markBroken(selected.id)} />
+          {:else}<span class="noimg">?</span>{/if}
         </div>
         <div>
           <h2>{selected.name_ja}</h2>

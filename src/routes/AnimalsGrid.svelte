@@ -6,6 +6,8 @@
 
   let all = $state<Animal[]>([])
   let loading = $state(true)
+  let broken = $state<Set<string>>(new Set())
+  const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
   async function load() {
     loading = true
@@ -42,8 +44,9 @@
       <div class="card" class:done={a.unlocked_as_companion}>
         <div class="top">
           <div class="thumb">
-            <span class="emoji">🐾</span>
-            {#if a.icon_path}<img src={asset(a.icon_path)} alt={a.name_en} loading="lazy" onerror={(e) => e.currentTarget.remove()} />{/if}
+            {#if a.icon_path && !broken.has(a.id)}
+              <img src={asset(a.icon_path)} alt={a.name_en} loading="lazy" onerror={() => markBroken(a.id)} />
+            {:else}<span class="emoji">🐾</span>{/if}
           </div>
           <div class="titles">
             <span class="nm">{a.name_ja || a.name_en}</span>
