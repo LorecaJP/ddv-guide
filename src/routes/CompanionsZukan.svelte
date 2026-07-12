@@ -60,18 +60,17 @@
     if (selected?.id === c.id) selected = c
   }
   function toggleOwned(c: Companion) { c.owned = !c.owned; save(c) }
-  function toggleEquip(c: Companion) { c.is_equipped = !c.is_equipped; save(c) }
   function setFriend(c: Companion, v: number) { c.friendship_level = Math.max(0, Math.min(10, v | 0)); save(c) }
 </script>
 
 <div class="head">
   <h1>オトモ図鑑</h1>
-  <p class="sub">{ownedCount} / {all.length} 体 なかま ・ 種ごと（色は五十音順）。好物をあげて仲間に</p>
+  <p class="sub">{ownedCount} / {all.length} 体 入手 ・ 種ごと（色は五十音順）。好物をあげて仲間に</p>
 </div>
 
 <div class="controls">
   <input class="search" type="search" placeholder="名前・色・種で検索" bind:value={query} />
-  <label class="toggle"><input type="checkbox" bind:checked={ownedOnly} />なかまのみ</label>
+  <label class="toggle"><input type="checkbox" bind:checked={ownedOnly} />入手済みのみ</label>
 </div>
 
 {#if loading}
@@ -98,9 +97,11 @@
                 <span class="noimg"><span class="ph-mark">🐾</span><span class="ph-name">{c.color_ja}</span></span>
               {/if}
               {#if c.owned}<span class="own">✓</span>{/if}
-              {#if c.is_equipped}<span class="eq">★</span>{/if}
             </div>
-            <span class="nm">{c.color_ja}</span>
+            <span class="label">
+              <span class="sp">{c.gather_type}</span>
+              <span class="col">{c.color_ja}</span>
+            </span>
           </button>
         {/each}
       </div>
@@ -121,9 +122,9 @@
           {:else}<span class="noimg"><span class="ph-mark">🐾</span></span>{/if}
         </div>
         <div>
-          <h2>{selected.name_ja}</h2>
+          <h2>{selected.gather_type}</h2>
+          <p class="colname">{selected.color_ja}</p>
           <p class="en">{selected.name_en}</p>
-          <p class="chip solid">{selected.gather_type}</p>
         </div>
       </div>
       <dl class="facts">
@@ -138,15 +139,13 @@
             <button onclick={() => selected && setFriend(selected, selected.friendship_level + 1)}>＋</button>
           </div>
         </dd>
+        <dt>入手</dt>
+        <dd>
+          <button class="own-tgl" class:on={selected.owned} onclick={() => selected && toggleOwned(selected)}>
+            {selected.owned ? '✓ 入手済み' : '未入手'}
+          </button>
+        </dd>
       </dl>
-      <div class="btns">
-        <button class="tgl" class:on={selected.owned} onclick={() => selected && toggleOwned(selected)}>
-          {selected.owned ? '✓ なかま' : 'なかまにする'}
-        </button>
-        <button class="tgl" class:on={selected.is_equipped} onclick={() => selected && toggleEquip(selected)}>
-          {selected.is_equipped ? '★ 連れ歩き中' : '連れ歩く'}
-        </button>
-      </div>
     </div>
   </div>
 {/if}
@@ -170,35 +169,36 @@
   .card { display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 8px 12px; background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius); box-shadow: 0 1px 0 var(--c-shadow); transition: transform .12s, box-shadow .12s, border-color .12s; }
   .card:hover { transform: translateY(-2px); box-shadow: 0 10px 22px var(--c-shadow); border-color: var(--c-accent); }
   .card.dim { opacity: 0.62; }
-  .thumb { position: relative; width: 100%; aspect-ratio: 1/1; display: grid; place-items: center; background: var(--c-surface-2); border-radius: var(--radius-sm); overflow: hidden; }
+  /* 全身の縦長画像が入りきるよう縦長の枠＋contain */
+  .thumb { position: relative; width: 100%; aspect-ratio: 3 / 4; display: grid; place-items: center; background: var(--c-surface-2); border-radius: var(--radius-sm); overflow: hidden; }
   .thumb img { width: 100%; height: 100%; object-fit: contain; }
   .noimg { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; width: 100%; height: 100%; padding: 4px; text-align: center; background: linear-gradient(160deg, var(--c-surface-2), color-mix(in srgb, var(--c-accent-soft) 40%, var(--c-surface-2))); }
   .ph-mark { font-size: 22px; opacity: 0.5; }
   .ph-name { font-family: var(--font-display); font-weight: 600; font-size: 11px; color: var(--c-ink-soft); line-height: 1.1; }
   .own { position: absolute; top: 5px; right: 5px; width: 19px; height: 19px; border-radius: 50%; background: var(--c-accent); color: #fff; font-size: 11px; display: grid; place-items: center; }
-  .eq { position: absolute; top: 5px; left: 5px; width: 19px; height: 19px; border-radius: 50%; background: var(--c-magic); color: #fff; font-size: 10px; display: grid; place-items: center; }
-  .nm { font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; line-height: 1.15; }
+  .label { display: flex; flex-direction: column; align-items: center; line-height: 1.2; }
+  .label .sp { font-size: 11px; color: var(--c-ink-soft); }
+  .label .col { font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; }
 
   .chip { display: inline-block; margin: 2px 4px 2px 0; background: var(--c-surface-2); border: 1px solid var(--c-line); font-size: 12px; padding: 2px 8px; border-radius: 999px; }
-  .chip.solid { background: var(--c-accent-soft); color: var(--c-accent-ink); border: 0; font-weight: 600; }
   .muted { color: var(--c-ink-soft); }
 
   .backdrop { position: fixed; inset: 0; z-index: 30; background: rgba(20,16,10,.45); display: grid; place-items: center; padding: 20px; }
   .sheet { position: relative; width: min(440px, 94vw); background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius); padding: 22px; box-shadow: 0 24px 60px rgba(0,0,0,.3); }
   .close { position: absolute; top: 12px; right: 12px; background: var(--c-surface-2); border: 0; border-radius: 8px; width: 30px; height: 30px; color: var(--c-ink-soft); }
   .sheet-top { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; }
-  .big-thumb { width: 104px; height: 104px; flex: none; background: var(--c-surface-2); border-radius: var(--radius-sm); display: grid; place-items: center; overflow: hidden; }
+  .big-thumb { width: 96px; height: 128px; flex: none; background: var(--c-surface-2); border-radius: var(--radius-sm); display: grid; place-items: center; overflow: hidden; }
   .big-thumb img { width: 100%; height: 100%; object-fit: contain; }
   .sheet-top h2 { font-size: 22px; }
-  .en { color: var(--c-ink-soft); margin: 3px 0 8px; font-size: 13px; }
-  .facts { display: grid; grid-template-columns: 80px 1fr; gap: 10px 12px; margin: 4px 0 18px; font-size: 14px; align-items: center; }
+  .colname { font-family: var(--font-display); font-weight: 600; font-size: 16px; color: var(--c-accent-ink); margin: 2px 0 4px; }
+  .en { color: var(--c-ink-soft); margin: 0; font-size: 12px; }
+  .facts { display: grid; grid-template-columns: 80px 1fr; gap: 10px 12px; margin: 4px 0 4px; font-size: 14px; align-items: center; }
   .facts dt { color: var(--c-ink-soft); }
   .facts dd { margin: 0; }
   .stepper { display: inline-flex; align-items: center; gap: 8px; }
   .stepper button { width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink); font-weight: 700; font-size: 16px; }
   .stepper .val { min-width: 54px; text-align: center; font-family: var(--font-display); font-weight: 700; font-size: 18px; }
   .mx { font-size: 12px; color: var(--c-ink-soft); font-weight: 400; }
-  .btns { display: flex; gap: 10px; }
-  .tgl { flex: 1; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink); font-weight: 600; }
-  .tgl.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
+  .own-tgl { padding: 8px 16px; border-radius: var(--radius-sm); border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink); font-weight: 600; }
+  .own-tgl.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
 </style>
