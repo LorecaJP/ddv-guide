@@ -131,7 +131,7 @@
 
   .table-wrap { overflow-x: auto; border: 1px solid var(--c-line); border-radius: var(--radius); }
   table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 620px; }
-  thead th { position: sticky; top: 60px; background: var(--c-surface-2); color: var(--c-ink-soft); text-align: left; font-weight: 700; padding: 11px 14px; white-space: nowrap; border-bottom: 1px solid var(--c-line); }
+  thead th { background: var(--c-surface-2); color: var(--c-ink-soft); text-align: left; font-weight: 700; padding: 11px 14px; white-space: nowrap; border-bottom: 1px solid var(--c-line); }
   th.sortable { cursor: pointer; user-select: none; }
   th.sortable:hover { color: var(--c-ink); }
   th.num, td.num { text-align: right; }

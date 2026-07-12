@@ -128,7 +128,7 @@
   },
   {
     "id": "mat_spices_herbs",
-    "name_ja": "スパイス&amp;ハーブ類",
+    "name_ja": "スパイス&ハーブ類",
     "name_en": "Spices & Herbs",
     "category": "調理カテゴリ（任意の該当素材）",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",

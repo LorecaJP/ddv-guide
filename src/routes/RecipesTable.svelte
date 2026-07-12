@@ -9,9 +9,10 @@
   // 素材ページからの遷移時は ?ing=材料名 で初期検索
   let query = $state($route.params.ing ?? '')
   let starFilter = $state(0) // 0 = すべて
-  let unlockedOnly = $state(false)
-  let sortKey = $state<'name' | 'stars' | 'sell'>('stars')
-  let sortDir = $state<'asc' | 'desc'>('desc')
+  let statusFilter = $state('all') // 'all' | 'unlocked' | 'locked'
+  let expanded = $state<Set<string>>(new Set())
+
+  const CAT_ORDER = ['前菜', '主菜', 'デザート']
 
   async function load() {
     loading = true
@@ -21,160 +22,149 @@
   }
   load()
 
-  // 売値の数値化（"556+ スターコイン" → 556）
-  function sellNum(r: Recipe): number {
-    const m = r.sell_price_note.match(/(\d+)/)
-    return m ? parseInt(m[1], 10) : 0
-  }
-
   const unlockedCount = $derived(all.filter((r) => r.unlocked).length)
+  const key = (r: Recipe) => r.name_ja || r.name_en
 
-  const view = $derived(
-    all
-      .filter((r) => {
-        if (unlockedOnly && !r.unlocked) return false
+  const groups = $derived(
+    (() => {
+      const filtered = all.filter((r) => {
+        if (statusFilter === 'unlocked' && !r.unlocked) return false
+        if (statusFilter === 'locked' && r.unlocked) return false
         if (starFilter && r.stars !== starFilter) return false
         if (query) {
           const q = query.toLowerCase()
-          const hay = `${r.name_ja}${r.name_en}${r.ingredients.join('')}`.toLowerCase()
+          const hay = `${r.name_ja}${r.name_en}${r.ingredients.join('')}${r.ingredients_ja.join('')}`.toLowerCase()
           if (!hay.includes(q)) return false
         }
         return true
       })
-      .sort((a, b) => {
-        let d = 0
-        if (sortKey === 'name') d = a.name_en.localeCompare(b.name_en)
-        else if (sortKey === 'stars') d = a.stars - b.stars
-        else d = sellNum(a) - sellNum(b)
-        return sortDir === 'asc' ? d : -d
-      }),
+      const map = new Map<string, Recipe[]>()
+      for (const r of filtered) {
+        const c = r.category || 'その他'
+        if (!map.has(c)) map.set(c, [])
+        map.get(c)!.push(r)
+      }
+      const out = [...map.entries()].map(([category, items]) => {
+        items.sort((a, b) => {
+          // 日本語名ありを五十音で先に、英語名のみは後ろに
+          const aj = !!a.name_ja
+          const bj = !!b.name_ja
+          if (aj !== bj) return aj ? -1 : 1
+          return key(a).localeCompare(key(b), 'ja')
+        })
+        return { category, unlocked: items.filter((i) => i.unlocked).length, items }
+      })
+      out.sort((a, b) => {
+        const ia = CAT_ORDER.indexOf(a.category)
+        const ib = CAT_ORDER.indexOf(b.category)
+        return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib)
+      })
+      return out
+    })(),
   )
-
-  function setSort(k: 'name' | 'stars' | 'sell') {
-    if (sortKey === k) sortDir = sortDir === 'asc' ? 'desc' : 'asc'
-    else {
-      sortKey = k
-      sortDir = k === 'name' ? 'asc' : 'desc'
-    }
-  }
 
   async function toggleUnlocked(r: Recipe) {
     r.unlocked = !r.unlocked
     await put('recipes', $state.snapshot(r))
     all = [...all]
   }
-
-  const arrow = (k: string) => (sortKey === k ? (sortDir === 'asc' ? ' ▲' : ' ▼') : '')
+  function toggleExpand(id: string) {
+    const s = new Set(expanded)
+    s.has(id) ? s.delete(id) : s.add(id)
+    expanded = s
+  }
+  const sell = (r: Recipe) => r.sell_price_note.replace(' スターコイン', '')
 </script>
 
 <div class="head">
   <h1>料理レシピ</h1>
-  <p class="sub">{all.length} 件 ・ 解放済み {unlockedCount} 件（★は必要材料数）</p>
+  <p class="sub">{all.length} 件 ・ 解放済み {unlockedCount} 件（★は必要材料数）。料理名タップで材料・売値</p>
 </div>
 
 <div class="controls">
   <input class="search" type="search" placeholder="料理名・材料で検索" bind:value={query} />
-  <div class="stars-filter">
-    <button class:on={starFilter === 0} onclick={() => (starFilter = 0)}>全★</button>
-    {#each [1, 2, 3, 4, 5] as s}
-      <button class:on={starFilter === s} onclick={() => (starFilter = s)}>{s}★</button>
-    {/each}
+  <div class="row2">
+    <div class="stars-filter">
+      <button class:on={starFilter === 0} onclick={() => (starFilter = 0)}>全★</button>
+      {#each [1, 2, 3, 4, 5] as s}
+        <button class:on={starFilter === s} onclick={() => (starFilter = s)}>{s}★</button>
+      {/each}
+    </div>
+    <select bind:value={statusFilter} aria-label="解放状態で絞り込み">
+      <option value="all">解放：すべて</option>
+      <option value="unlocked">解放済み</option>
+      <option value="locked">未解放</option>
+    </select>
   </div>
-  <label class="toggle"><input type="checkbox" bind:checked={unlockedOnly} />解放済みのみ</label>
 </div>
 
 {#if loading}
   <p class="muted">読み込み中…</p>
 {:else}
-  <p class="count muted">{view.length} 件表示</p>
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th class="c-name sortable" onclick={() => setSort('name')}>料理名{arrow('name')}</th>
-          <th class="c-star sortable" onclick={() => setSort('stars')}>★{arrow('stars')}</th>
-          <th class="c-ing">材料</th>
-          <th class="c-sell sortable" onclick={() => setSort('sell')}>売値{arrow('sell')}</th>
-          <th class="c-own">解放</th>
-        </tr>
-      </thead>
-      <tbody>
-        {#each view as r (r.id)}
-          <tr class:done={r.unlocked}>
-            <td class="c-name">
-              <span class="nm">{r.name_ja || r.name_en}</span>
-              {#if r.name_ja}<span class="en">{r.name_en}</span>{/if}
-            </td>
-            <td class="c-star"><span class="stars">{'★'.repeat(r.stars)}</span></td>
-            <td class="c-ing">
-              {#each r.ingredients as ing}<span class="chip">{ing}</span>{/each}
-            </td>
-            <td class="c-sell">{r.sell_price_note.replace(' スターコイン', '')}</td>
-            <td class="c-own">
-              <button class="ownbtn" class:on={r.unlocked} onclick={() => toggleUnlocked(r)} title="解放トグル">
+  {#each groups as g (g.category)}
+    <section class="cat">
+      <div class="cat-head"><h2>{g.category}<span class="cnt">{g.unlocked}/{g.items.length}</span></h2></div>
+      <ul class="list">
+        {#each g.items as r (r.id)}
+          <li class="item" class:done={r.unlocked}>
+            <div class="line">
+              <button class="main" onclick={() => toggleExpand(r.id)}>
+                <span class="nm">{r.name_ja || r.name_en}</span>
+                {#if r.name_ja}<span class="en">{r.name_en}</span>{/if}
+              </button>
+              <span class="stars">{'★'.repeat(r.stars)}</span>
+              <button class="own" class:on={r.unlocked} onclick={() => toggleUnlocked(r)} title="解放トグル">
                 {r.unlocked ? '✓' : '—'}
               </button>
-            </td>
-          </tr>
+            </div>
+            {#if expanded.has(r.id)}
+              <div class="detail">
+                <div class="d-row"><span class="lbl">材料</span>
+                  <span class="chips">{#each r.ingredients_ja as ing}<span class="chip">{ing}</span>{/each}</span>
+                </div>
+                <div class="d-row"><span class="lbl">売値</span><span class="sell">{sell(r)}</span></div>
+              </div>
+            {/if}
+          </li>
         {/each}
-      </tbody>
-    </table>
-    {#if view.length === 0}<p class="muted pad">該当なし。</p>{/if}
-  </div>
-  <p class="note muted">
-    ※ 日本語名（name_ja）は未突合（後で gamepedia と照合予定）。売値・材料・★は Fandom 由来の事実データ。
-  </p>
+      </ul>
+    </section>
+  {/each}
+  {#if groups.length === 0}<p class="muted">該当なし。</p>{/if}
 {/if}
 
 <style>
   .head h1 { font-size: clamp(24px, 3.4vw, 34px); }
-  .sub { color: var(--c-ink-soft); margin: 6px 0 18px; font-size: 14px; }
-  .controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin-bottom: 12px; }
-  .search {
-    flex: 1 1 220px; font-family: var(--font-body); padding: 9px 12px;
-    border: 1px solid var(--c-line); border-radius: var(--radius-sm);
-    background: var(--c-surface); color: var(--c-ink);
-  }
+  .sub { color: var(--c-ink-soft); margin: 6px 0 16px; font-size: 14px; }
+  .controls { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+  .search { font-family: var(--font-body); padding: 9px 12px; border: 1px solid var(--c-line); border-radius: var(--radius-sm); background: var(--c-surface); color: var(--c-ink); }
+  .row2 { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
   .stars-filter { display: inline-flex; gap: 4px; }
-  .stars-filter button {
-    border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft);
-    padding: 7px 10px; border-radius: var(--radius-sm); font-size: 13px; font-weight: 600;
-  }
+  .stars-filter button { border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft); padding: 7px 10px; border-radius: var(--radius-sm); font-size: 13px; font-weight: 600; }
   .stars-filter button.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
-  .toggle { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; color: var(--c-ink-soft); }
-  .count { font-size: 13px; margin: 0 0 8px; }
+  .row2 select { font-family: var(--font-body); padding: 8px 10px; border: 1px solid var(--c-line); border-radius: var(--radius-sm); background: var(--c-surface); color: var(--c-ink); }
 
-  .table-wrap { overflow-x: auto; border: 1px solid var(--c-line); border-radius: var(--radius); }
-  table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 640px; }
-  thead th {
-    position: sticky; top: 60px; z-index: 1;
-    background: var(--c-surface-2); color: var(--c-ink-soft);
-    text-align: left; font-weight: 700; padding: 11px 14px; white-space: nowrap;
-    border-bottom: 1px solid var(--c-line);
-  }
-  th.sortable { cursor: pointer; user-select: none; }
-  th.sortable:hover { color: var(--c-ink); }
-  tbody td { padding: 10px 14px; border-bottom: 1px solid var(--c-line); vertical-align: top; }
-  tbody tr:hover { background: color-mix(in srgb, var(--c-accent-soft) 30%, transparent); }
-  tr.done { background: color-mix(in srgb, var(--c-accent-soft) 20%, transparent); }
+  .cat { margin-bottom: 22px; }
+  .cat-head { border-bottom: 2px solid var(--c-accent-soft); padding-bottom: 8px; margin-bottom: 8px; }
+  .cat-head h2 { font-size: 20px; display: flex; align-items: baseline; gap: 10px; }
+  .cnt { font-size: 13px; color: var(--c-ink-soft); font-weight: 400; }
 
-  .c-name .nm { font-family: var(--font-display); font-weight: 600; display: block; }
-  .c-name .en { font-size: 11px; color: var(--c-ink-soft); }
-  .c-star { white-space: nowrap; }
-  .stars { color: var(--c-accent); letter-spacing: 1px; }
-  .c-ing { min-width: 220px; }
-  .chip {
-    display: inline-block; margin: 2px 4px 2px 0;
-    background: var(--c-surface-2); color: var(--c-ink);
-    font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--c-line);
-  }
-  .c-sell { white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 600; }
-  .ownbtn {
-    width: 30px; height: 30px; border-radius: 8px;
-    border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft);
-  }
-  .ownbtn.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
+  .list { list-style: none; padding: 0; margin: 0; }
+  .item { border-bottom: 1px solid var(--c-line); }
+  .item.done { background: color-mix(in srgb, var(--c-accent-soft) 22%, transparent); }
+  .line { display: flex; align-items: center; gap: 10px; padding: 10px 4px; }
+  .main { flex: 1 1 auto; min-width: 0; background: none; border: 0; text-align: left; padding: 4px 2px; display: flex; flex-direction: column; }
+  .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
+  .en { font-size: 11px; color: var(--c-ink-soft); }
+  .stars { flex: none; color: var(--c-accent); letter-spacing: 1px; font-size: 13px; white-space: nowrap; }
+  .own { flex: none; width: 34px; height: 32px; border-radius: 8px; border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft); font-weight: 700; }
+  .own.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
+
+  .detail { padding: 4px 6px 12px; display: flex; flex-direction: column; gap: 8px; }
+  .d-row { display: flex; gap: 10px; align-items: baseline; }
+  .lbl { flex: none; font-size: 11px; font-weight: 700; color: var(--c-accent-ink); background: var(--c-accent-soft); padding: 2px 8px; border-radius: 999px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; }
+  .chip { background: var(--c-surface-2); border: 1px solid var(--c-line); font-size: 12px; padding: 2px 8px; border-radius: 999px; }
+  .sell { font-variant-numeric: tabular-nums; font-weight: 600; }
   .muted { color: var(--c-ink-soft); }
-  .pad { padding: 16px; }
-  .note { font-size: 12px; margin-top: 12px; }
 </style>

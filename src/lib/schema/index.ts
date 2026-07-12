@@ -24,7 +24,9 @@ export interface Recipe {
   name_ja: string
   name_en: string          // 🔒
   stars: number            // 🔒
-  ingredients: string[]    // 🔒 カテゴリ名で保持
+  ingredients: string[]    // 🔒 材料（英語）
+  ingredients_ja: string[] // 🔒 材料（日本語）
+  category: string         // 🔒 前菜/主菜/デザート
   sell_price_note: string  // 🔒
   unlocked: boolean        // ✏️
   memo: string             // ✏️
