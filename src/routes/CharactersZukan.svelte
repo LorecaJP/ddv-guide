@@ -8,6 +8,7 @@
   let loading = $state(true)
   let query = $state('')
   let ownedOnly = $state(false)
+  let roleFilter = $state('all') // 'all' | '' (未設定) | ロール名
   let selected = $state<Character | null>(null)
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
@@ -27,6 +28,11 @@
     (() => {
       const filtered = all.filter((c) => {
         if (ownedOnly && !c.owned) return false
+        if (roleFilter === '') {
+          if (c.skill_assigned) return false // 未設定のみ
+        } else if (roleFilter !== 'all') {
+          if (c.skill_assigned !== roleFilter) return false
+        }
         if (query) {
           const q = query.toLowerCase()
           if (!`${c.name_ja}${c.name_en}`.toLowerCase().includes(q)) return false
@@ -80,6 +86,11 @@
 
 <div class="controls">
   <input class="search" type="search" placeholder="名前で検索（日本語 / 英語）" bind:value={query} />
+  <select bind:value={roleFilter} aria-label="割り当てロールで絞り込み">
+    <option value="all">すべてのロール</option>
+    <option value="">未設定</option>
+    {#each SKILLS as s}<option value={s}>{s}</option>{/each}
+  </select>
   <label class="toggle">
     <input type="checkbox" bind:checked={ownedOnly} />解放済みのみ
   </label>
