@@ -50,7 +50,7 @@
   const ownedCount = $derived(all.filter((c) => c.owned).length)
 
   // DDV の割り当てロール（得意分野・整理用タグ。DLC分の時空歪曲/紙精を含む）
-  const SKILLS = ['園芸', '釣り', '採掘', '発掘', '採取', '時空歪曲', '紙精']
+  const SKILLS = ['園芸', '釣り', '採掘', '発掘', '採取', '時空歪曲', '紙精捕獲']
 
   async function save(c: Character) {
     await put('characters', $state.snapshot(c))
