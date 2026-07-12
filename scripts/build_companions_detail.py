@@ -20,8 +20,9 @@ def parse_schedule(text):
         groups.setdefault(v,[]).append(day)
     if not groups: return ""
     if len(groups)==1 and sum(len(ds) for ds in groups.values())==7:
-        return "毎日 "+list(groups.keys())[0]
-    return " / ".join(f"{''.join(ds)} {v}" for v,ds in groups.items())
+        return "毎日：" + list(groups.keys())[0]
+    # 「曜日・曜日：時間」を改行区切りで（見やすく）
+    return "\n".join(f"{'・'.join(ds)}：{v}" for v,ds in groups.items())
 
 variant={}   # (種, 色) -> {habitat, schedule}
 sp_food={}   # 種 -> 好物(日本語)

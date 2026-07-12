@@ -7,7 +7,6 @@
   let all = $state<Character[]>([])
   let loading = $state(true)
   let query = $state('')
-  let franchise = $state('all')
   let ownedOnly = $state(false)
   let selected = $state<Character | null>(null)
   let broken = $state<Set<string>>(new Set())
@@ -23,18 +22,29 @@
   }
   load()
 
-  const franchises = $derived([...new Set(all.map((c) => c.franchise))].sort())
-
-  const filtered = $derived(
-    all.filter((c) => {
-      if (ownedOnly && !c.owned) return false
-      if (franchise !== 'all' && c.franchise !== franchise) return false
-      if (query) {
-        const q = query.toLowerCase()
-        if (!(`${c.name_ja}${c.name_en}`.toLowerCase().includes(q))) return false
+  // 作品ごとにまとめ、作品内は五十音順。作品は五十音順。
+  const groups = $derived(
+    (() => {
+      const filtered = all.filter((c) => {
+        if (ownedOnly && !c.owned) return false
+        if (query) {
+          const q = query.toLowerCase()
+          if (!`${c.name_ja}${c.name_en}`.toLowerCase().includes(q)) return false
+        }
+        return true
+      })
+      const map = new Map<string, Character[]>()
+      for (const c of filtered) {
+        if (!map.has(c.franchise)) map.set(c.franchise, [])
+        map.get(c.franchise)!.push(c)
       }
-      return true
-    }),
+      const out = [...map.entries()].map(([franchise, items]) => {
+        items.sort((a, b) => a.name_ja.localeCompare(b.name_ja, 'ja'))
+        return { franchise, owned: items.filter((i) => i.owned).length, items }
+      })
+      out.sort((a, b) => a.franchise.localeCompare(b.franchise, 'ja'))
+      return out
+    })(),
   )
 
   const ownedCount = $derived(all.filter((c) => c.owned).length)
@@ -70,10 +80,6 @@
 
 <div class="controls">
   <input class="search" type="search" placeholder="名前で検索（日本語 / 英語）" bind:value={query} />
-  <select bind:value={franchise}>
-    <option value="all">すべての作品</option>
-    {#each franchises as f}<option value={f}>{f}</option>{/each}
-  </select>
   <label class="toggle">
     <input type="checkbox" bind:checked={ownedOnly} />解放済みのみ
   </label>
@@ -82,23 +88,29 @@
 {#if loading}
   <p class="muted">読み込み中…</p>
 {:else}
-  <div class="zukan">
-    {#each filtered as c (c.id)}
-      <button class="card" class:dim={!c.owned} onclick={() => (selected = c)}>
-        <div class="thumb">
-          {#if c.icon_path && !broken.has(c.id)}
-            <img src={asset(c.icon_path)} alt={c.name_ja} loading="lazy" onerror={() => markBroken(c.id)} />
-          {:else}
-            <span class="noimg"><span class="ph-mark">👤</span><span class="ph-name">{c.name_ja}</span></span>
-          {/if}
-          {#if c.owned}<span class="own">✓</span>{/if}
-        </div>
-        <span class="nm">{c.name_ja}</span>
-        <span class="fr">{c.franchise}</span>
-      </button>
-    {/each}
-  </div>
-  {#if filtered.length === 0}<p class="muted">該当なし。</p>{/if}
+  {#each groups as g (g.franchise)}
+    <section class="franchise">
+      <div class="fr-head">
+        <h2>{g.franchise}<span class="cnt">{g.owned}/{g.items.length}</span></h2>
+      </div>
+      <div class="zukan">
+        {#each g.items as c (c.id)}
+          <button class="card" class:dim={!c.owned} onclick={() => (selected = c)}>
+            <div class="thumb">
+              {#if c.icon_path && !broken.has(c.id)}
+                <img src={asset(c.icon_path)} alt={c.name_ja} loading="lazy" onerror={() => markBroken(c.id)} />
+              {:else}
+                <span class="noimg"><span class="ph-mark">👤</span><span class="ph-name">{c.name_ja}</span></span>
+              {/if}
+              {#if c.owned}<span class="own">✓</span>{/if}
+            </div>
+            <span class="nm">{c.name_ja}</span>
+          </button>
+        {/each}
+      </div>
+    </section>
+  {/each}
+  {#if groups.length === 0}<p class="muted">該当なし。</p>{/if}
 {/if}
 
 {#if selected}
@@ -141,10 +153,13 @@
           </div>
         </dd>
         <dt>メモ</dt><dd>{selected.memo || '—'}</dd>
+        <dt>解放</dt>
+        <dd>
+          <button class="own-tgl" class:on={selected.owned} onclick={() => selected && toggleOwned(selected)}>
+            {selected.owned ? '✓ 解放済み' : '未解放'}
+          </button>
+        </dd>
       </dl>
-      <button class="own-btn" class:on={selected.owned} onclick={() => selected && toggleOwned(selected)}>
-        {selected.owned ? '✓ 解放済み（タップで未解放に）' : '未解放（タップで解放に）'}
-      </button>
     </div>
   </div>
 {/if}
@@ -166,6 +181,10 @@
   .search { flex: 1 1 240px; }
   .toggle { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; color: var(--c-ink-soft); }
 
+  .franchise { margin-bottom: 26px; }
+  .fr-head { border-bottom: 2px solid var(--c-accent-soft); padding-bottom: 8px; margin-bottom: 14px; }
+  .fr-head h2 { font-size: 20px; display: flex; align-items: baseline; gap: 10px; }
+  .cnt { font-size: 13px; color: var(--c-ink-soft); font-weight: 400; }
   .zukan {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -210,7 +229,6 @@
     display: grid; place-items: center;
   }
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 14px; text-align: center; }
-  .fr { font-size: 11px; color: var(--c-ink-soft); text-align: center; }
 
   .muted { color: var(--c-ink-soft); }
 
@@ -261,10 +279,6 @@
   }
   .lv { min-width: 56px; text-align: center; font-family: var(--font-display); font-weight: 700; font-size: 18px; }
   .lvmax { font-size: 12px; color: var(--c-ink-soft); font-weight: 400; }
-  .own-btn {
-    width: 100%; padding: 11px; border-radius: var(--radius-sm);
-    border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink);
-    font-weight: 600;
-  }
-  .own-btn.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
+  .own-tgl { padding: 8px 16px; border-radius: var(--radius-sm); border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink); font-weight: 600; }
+  .own-tgl.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
 </style>

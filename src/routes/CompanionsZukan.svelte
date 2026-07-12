@@ -187,7 +187,7 @@
   .label .sp { font-size: 11px; color: var(--c-ink-soft); }
   .label .col { font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; }
   .card-hab { font-size: 10px; color: var(--c-ink-soft); text-align: center; line-height: 1.1; margin-top: 1px; }
-  .sched { font-size: 13px; line-height: 1.5; }
+  .sched { font-size: 13px; line-height: 1.6; white-space: pre-line; }
 
   .chip { display: inline-block; margin: 2px 4px 2px 0; background: var(--c-surface-2); border: 1px solid var(--c-line); font-size: 12px; padding: 2px 8px; border-radius: 999px; }
   .muted { color: var(--c-ink-soft); }

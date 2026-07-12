@@ -15,7 +15,7 @@
     "favorite_foods": [
       "カスタードクリームとフルーツ"
     ],
-    "appearance_schedule": "月水金 午後12時～午前12時 / 木日 終日"
+    "appearance_schedule": "月・水・金：午後12時～午前12時\n木・日：終日"
   },
   {
     "id": "comp_black_fox",
@@ -33,7 +33,7 @@
     "favorite_foods": [
       "シロチョウザメ"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_black_rabbit",
@@ -51,7 +51,7 @@
     "favorite_foods": [
       "ニンジン"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_black_raccoon",
@@ -69,7 +69,7 @@
     "favorite_foods": [
       "ブルーベリー"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_black_sea_turtle",
@@ -87,7 +87,7 @@
     "favorite_foods": [
       "海藻"
     ],
-    "appearance_schedule": "月 終日"
+    "appearance_schedule": "月：終日"
   },
   {
     "id": "comp_black_squirrel",
@@ -105,7 +105,7 @@
     "favorite_foods": [
       "ピーナッツ"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_black_and_brown_monkey",
@@ -123,7 +123,7 @@
     "favorite_foods": [
       "カスタードクリームとフルーツ"
     ],
-    "appearance_schedule": "火木日 午後12時～午前12時 / 水土 終日"
+    "appearance_schedule": "火・木・日：午後12時～午前12時\n水・土：終日"
   },
   {
     "id": "comp_black_and_gray_monkey",
@@ -141,7 +141,7 @@
     "favorite_foods": [
       "カスタードクリームとフルーツ"
     ],
-    "appearance_schedule": "火 終日"
+    "appearance_schedule": "火：終日"
   },
   {
     "id": "comp_black_and_white_capybara",
@@ -159,7 +159,7 @@
     "favorite_foods": [
       "キャベツ"
     ],
-    "appearance_schedule": "火木 終日 / 金土日 午後12時～午前12時"
+    "appearance_schedule": "火・木：終日\n金・土・日：午後12時～午前12時"
   },
   {
     "id": "comp_blue_baby_dragon",
@@ -180,7 +180,7 @@
       "マグマ",
       "きらめくマグマ"
     ],
-    "appearance_schedule": "火水木金 終日"
+    "appearance_schedule": "火・水・木・金：終日"
   },
   {
     "id": "comp_blue_crocodile",
@@ -198,7 +198,7 @@
     "favorite_foods": [
       "ロブスター"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_blue_fox",
@@ -216,7 +216,7 @@
     "favorite_foods": [
       "シロチョウザメ"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_blue_pegasus",
@@ -235,7 +235,7 @@
       "ブルグルサラダ",
       "フィッシュクレオール"
     ],
-    "appearance_schedule": "月火水 終日"
+    "appearance_schedule": "月・火・水：終日"
   },
   {
     "id": "comp_blue_raccoon",
@@ -253,7 +253,7 @@
     "favorite_foods": [
       "ブルーベリー"
     ],
-    "appearance_schedule": "水 終日"
+    "appearance_schedule": "水：終日"
   },
   {
     "id": "comp_blue_raven",
@@ -271,7 +271,7 @@
     "favorite_foods": [
       "★5の料理"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_blue_striped_capybara",
@@ -289,7 +289,7 @@
     "favorite_foods": [
       "キャベツ"
     ],
-    "appearance_schedule": "月火水 午前12時～午後12時 / 木土 終日"
+    "appearance_schedule": "月・火・水：午前12時～午後12時\n木・土：終日"
   },
   {
     "id": "comp_blue_and_red_striped_cobra",
@@ -307,7 +307,7 @@
     "favorite_foods": [
       "卵"
     ],
-    "appearance_schedule": "月火土 午後12時～午前12時 / 木日 終日"
+    "appearance_schedule": "月・火・土：午後12時～午前12時\n木・日：終日"
   },
   {
     "id": "comp_brown_owl",
@@ -325,7 +325,7 @@
     "favorite_foods": [
       "大麦"
     ],
-    "appearance_schedule": "月火水木金 終日"
+    "appearance_schedule": "月・火・水・木・金：終日"
   },
   {
     "id": "comp_brown_rabbit",
@@ -343,7 +343,7 @@
     "favorite_foods": [
       "ニンジン"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_brown_raven",
@@ -361,7 +361,7 @@
     "favorite_foods": [
       "★5の料理"
     ],
-    "appearance_schedule": "火 終日"
+    "appearance_schedule": "火：終日"
   },
   {
     "id": "comp_brown_sea_turtle",
@@ -379,7 +379,7 @@
     "favorite_foods": [
       "海藻"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_calico_rabbit",
@@ -397,7 +397,7 @@
     "favorite_foods": [
       "ニンジン"
     ],
-    "appearance_schedule": "木 終日"
+    "appearance_schedule": "木：終日"
   },
   {
     "id": "comp_classic_capybara",
@@ -415,7 +415,7 @@
     "favorite_foods": [
       "キャベツ"
     ],
-    "appearance_schedule": "毎日 終日"
+    "appearance_schedule": "毎日：終日"
   },
   {
     "id": "comp_classic_cobra",
@@ -433,7 +433,7 @@
     "favorite_foods": [
       "卵"
     ],
-    "appearance_schedule": "毎日 終日"
+    "appearance_schedule": "毎日：終日"
   },
   {
     "id": "comp_classic_crocodile",
@@ -451,7 +451,7 @@
     "favorite_foods": [
       "ロブスター"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_classic_fox",
@@ -469,7 +469,7 @@
     "favorite_foods": [
       "シロチョウザメ"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_classic_monkey",
@@ -487,7 +487,7 @@
     "favorite_foods": [
       "カスタードクリームとフルーツ"
     ],
-    "appearance_schedule": "毎日 終日"
+    "appearance_schedule": "毎日：終日"
   },
   {
     "id": "comp_classic_rabbit",
@@ -505,7 +505,7 @@
     "favorite_foods": [
       "ニンジン"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_classic_raccoon",
@@ -523,7 +523,7 @@
     "favorite_foods": [
       "ブルーベリー"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_classic_raven",
@@ -541,7 +541,7 @@
     "favorite_foods": [
       "★5の料理"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_classic_sea_turtle",
@@ -559,7 +559,7 @@
     "favorite_foods": [
       "海藻"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_classic_squirrel",
@@ -577,7 +577,7 @@
     "favorite_foods": [
       "ピーナッツ"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_dark_owl",
@@ -595,7 +595,7 @@
     "favorite_foods": [
       "大麦"
     ],
-    "appearance_schedule": "土日 終日"
+    "appearance_schedule": "土・日：終日"
   },
   {
     "id": "comp_emerald_sunbird",
@@ -613,7 +613,7 @@
     "favorite_foods": [
       "各種類によって異なる"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_golden_crocodile",
@@ -631,7 +631,7 @@
     "favorite_foods": [
       "ロブスター"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_golden_sunbird",
@@ -649,7 +649,7 @@
     "favorite_foods": [
       "各種類によって異なる"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_gray_spotted_capybara",
@@ -667,7 +667,7 @@
     "favorite_foods": [
       "キャベツ"
     ],
-    "appearance_schedule": "月火水 午後12時～午前12時 / 金日 終日"
+    "appearance_schedule": "月・火・水：午後12時～午前12時\n金・日：終日"
   },
   {
     "id": "comp_gray_squirrel",
@@ -685,7 +685,7 @@
     "favorite_foods": [
       "ピーナッツ"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_green_baby_dragon",
@@ -706,7 +706,7 @@
       "マグマ",
       "きらめくマグマ"
     ],
-    "appearance_schedule": "月火水木 午前10時~午後6時 / 日 AM10:00~PM18:00"
+    "appearance_schedule": "月・火・水・木：午前10時~午後6時\n日：AM10:00~PM18:00"
   },
   {
     "id": "comp_green_and_white_striped_cobra",
@@ -724,7 +724,7 @@
     "favorite_foods": [
       "卵"
     ],
-    "appearance_schedule": "木 終日"
+    "appearance_schedule": "木：終日"
   },
   {
     "id": "comp_light_owl",
@@ -742,7 +742,7 @@
     "favorite_foods": [
       "大麦"
     ],
-    "appearance_schedule": "毎日 午後3時~午後8時"
+    "appearance_schedule": "毎日：午後3時~午後8時"
   },
   {
     "id": "comp_orchid_sunbird",
@@ -760,7 +760,7 @@
     "favorite_foods": [
       "各種類によって異なる"
     ],
-    "appearance_schedule": "金 終日"
+    "appearance_schedule": "金：終日"
   },
   {
     "id": "comp_peach_pegasus",
@@ -779,7 +779,7 @@
       "ブルグルサラダ",
       "フィッシュクレオール"
     ],
-    "appearance_schedule": "毎日 午前6時~午後2時"
+    "appearance_schedule": "毎日：午前6時~午後2時"
   },
   {
     "id": "comp_pink_crocodile",
@@ -797,7 +797,7 @@
     "favorite_foods": [
       "ロブスター"
     ],
-    "appearance_schedule": "土 終日"
+    "appearance_schedule": "土：終日"
   },
   {
     "id": "comp_pink_pegasus",
@@ -816,7 +816,7 @@
       "ブルグルサラダ",
       "フィッシュクレオール"
     ],
-    "appearance_schedule": "木金土日 終日"
+    "appearance_schedule": "木・金・土・日：終日"
   },
   {
     "id": "comp_pink_spotted_cobra",
@@ -834,7 +834,7 @@
     "favorite_foods": [
       "卵"
     ],
-    "appearance_schedule": "月金 終日 / 水木日 午前12時～午後12時"
+    "appearance_schedule": "月・金：終日\n水・木・日：午前12時～午後12時"
   },
   {
     "id": "comp_purple_baby_dragon",
@@ -855,7 +855,7 @@
       "マグマ",
       "きらめくマグマ"
     ],
-    "appearance_schedule": "毎日 午前12時~午後12時"
+    "appearance_schedule": "毎日：午前12時~午後12時"
   },
   {
     "id": "comp_purple_owl",
@@ -873,7 +873,7 @@
     "favorite_foods": [
       "大麦"
     ],
-    "appearance_schedule": "毎日 午前12時~午前9時"
+    "appearance_schedule": "毎日：午前12時~午前9時"
   },
   {
     "id": "comp_purple_sea_turtle",
@@ -891,7 +891,7 @@
     "favorite_foods": [
       "海藻"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_red_baby_dragon",
@@ -912,7 +912,7 @@
       "マグマ",
       "きらめくマグマ"
     ],
-    "appearance_schedule": "土日 終日"
+    "appearance_schedule": "土・日：終日"
   },
   {
     "id": "comp_red_crocodile",
@@ -930,7 +930,7 @@
     "favorite_foods": [
       "ロブスター"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_red_fox",
@@ -948,7 +948,7 @@
     "favorite_foods": [
       "シロチョウザメ"
     ],
-    "appearance_schedule": "土 終日"
+    "appearance_schedule": "土：終日"
   },
   {
     "id": "comp_red_raccoon",
@@ -966,7 +966,7 @@
     "favorite_foods": [
       "ブルーベリー"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_red_raven",
@@ -984,7 +984,7 @@
     "favorite_foods": [
       "★5の料理"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_red_squirrel",
@@ -1002,7 +1002,7 @@
     "favorite_foods": [
       "ピーナッツ"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_red_sunbird",
@@ -1020,7 +1020,7 @@
     "favorite_foods": [
       "各種類によって異なる"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_red_and_beige_monkey",
@@ -1038,7 +1038,7 @@
     "favorite_foods": [
       "カスタードクリームとフルーツ"
     ],
-    "appearance_schedule": "月水金 午前12時～午後12時 / 火土 終日"
+    "appearance_schedule": "月・水・金：午前12時～午後12時\n火・土：終日"
   },
   {
     "id": "comp_red_and_white_striped_capybara",
@@ -1056,7 +1056,7 @@
     "favorite_foods": [
       "キャベツ"
     ],
-    "appearance_schedule": "土 終日"
+    "appearance_schedule": "土：終日"
   },
   {
     "id": "comp_turquoise_sunbird",
@@ -1074,7 +1074,7 @@
     "favorite_foods": [
       "各種類によって異なる"
     ],
-    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "月・水・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_white_crocodile",
@@ -1092,7 +1092,7 @@
     "favorite_foods": [
       "ロブスター"
     ],
-    "appearance_schedule": "日 終日"
+    "appearance_schedule": "日：終日"
   },
   {
     "id": "comp_white_fox",
@@ -1110,7 +1110,7 @@
     "favorite_foods": [
       "シロチョウザメ"
     ],
-    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "月・木・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_white_rabbit",
@@ -1128,7 +1128,7 @@
     "favorite_foods": [
       "ニンジン"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_white_raccoon",
@@ -1146,7 +1146,7 @@
     "favorite_foods": [
       "ブルーベリー"
     ],
-    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
+    "appearance_schedule": "火・木・金：終日\n日：午前12時～午後12時"
   },
   {
     "id": "comp_white_raven",
@@ -1164,7 +1164,7 @@
     "favorite_foods": [
       "★5の料理"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_white_sea_turtle",
@@ -1182,7 +1182,7 @@
     "favorite_foods": [
       "海藻"
     ],
-    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
+    "appearance_schedule": "火・水・土：終日\n日：午後12時～午前12時"
   },
   {
     "id": "comp_white_squirrel",
@@ -1200,7 +1200,7 @@
     "favorite_foods": [
       "ピーナッツ"
     ],
-    "appearance_schedule": "日 終日"
+    "appearance_schedule": "日：終日"
   },
   {
     "id": "comp_yellow_pegasus",
@@ -1219,7 +1219,7 @@
       "ブルグルサラダ",
       "フィッシュクレオール"
     ],
-    "appearance_schedule": "火水木金土 午後6時~午後12時"
+    "appearance_schedule": "火・水・木・金・土：午後6時~午後12時"
   },
   {
     "id": "comp_yellow_and_purple_striped_cobra",
@@ -1237,6 +1237,6 @@
     "favorite_foods": [
       "卵"
     ],
-    "appearance_schedule": "火土 終日 / 水木日 午後12時～午前12時"
+    "appearance_schedule": "火・土：終日\n水・木・日：午後12時～午前12時"
   }
 ]
