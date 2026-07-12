@@ -7,8 +7,10 @@
   let all = $state<Companion[]>([])
   let loading = $state(true)
   let query = $state('')
-  let ownedOnly = $state(false)
+  let statusFilter = $state('all') // 'all' | 'owned' | 'unowned'
+  let levelFilter = $state('all') // 'all' | 'max' | 'notmax'
   let selected = $state<Companion | null>(null)
+  const MAX_LV = 5
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
@@ -26,7 +28,11 @@
   const groups = $derived(
     (() => {
       const filtered = all.filter((c) => {
-        if (ownedOnly && !c.owned) return false
+        if (statusFilter === 'owned' && !c.owned) return false
+        if (statusFilter === 'unowned' && c.owned) return false
+        const lvl = Math.max(1, c.friendship_level || 1)
+        if (levelFilter === 'max' && lvl < MAX_LV) return false
+        if (levelFilter === 'notmax' && lvl >= MAX_LV) return false
         if (query) {
           const q = query.toLowerCase()
           if (!`${c.name_ja}${c.name_en}${c.gather_type}`.toLowerCase().includes(q)) return false
@@ -75,7 +81,16 @@
 
 <div class="controls">
   <input class="search" type="search" placeholder="名前・色・種で検索" bind:value={query} />
-  <label class="toggle"><input type="checkbox" bind:checked={ownedOnly} />入手済みのみ</label>
+  <select bind:value={statusFilter} aria-label="入手状態で絞り込み">
+    <option value="all">入手：すべて</option>
+    <option value="owned">入手済み</option>
+    <option value="unowned">未入手</option>
+  </select>
+  <select bind:value={levelFilter} aria-label="レベルで絞り込み">
+    <option value="all">Lv：すべて</option>
+    <option value="notmax">MAX未満</option>
+    <option value="max">MAX（5）</option>
+  </select>
 </div>
 
 {#if loading}
@@ -161,8 +176,8 @@
   .head h1 { font-size: clamp(24px, 3.4vw, 34px); }
   .sub { color: var(--c-ink-soft); margin: 6px 0 18px; font-size: 14px; }
   .controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 22px; }
-  .search { flex: 1 1 220px; font-family: var(--font-body); padding: 9px 12px; border: 1px solid var(--c-line); border-radius: var(--radius-sm); background: var(--c-surface); color: var(--c-ink); }
-  .toggle { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; color: var(--c-ink-soft); }
+  .search, .controls select { font-family: var(--font-body); padding: 9px 12px; border: 1px solid var(--c-line); border-radius: var(--radius-sm); background: var(--c-surface); color: var(--c-ink); }
+  .search { flex: 1 1 220px; }
 
   .species { margin-bottom: 26px; }
   .sp-head { border-bottom: 2px solid var(--c-accent-soft); padding-bottom: 8px; margin-bottom: 14px; }

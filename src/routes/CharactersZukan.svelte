@@ -7,8 +7,10 @@
   let all = $state<Character[]>([])
   let loading = $state(true)
   let query = $state('')
-  let ownedOnly = $state(false)
+  let statusFilter = $state('all') // 'all' | 'owned' | 'unowned'
+  let levelFilter = $state('all') // 'all' | 'max' | 'notmax'
   let roleFilter = $state('all') // 'all' | '' (未設定) | ロール名
+  const MAX_LV = 10
   let selected = $state<Character | null>(null)
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
@@ -36,7 +38,11 @@
   const groups = $derived(
     (() => {
       const filtered = all.filter((c) => {
-        if (ownedOnly && !c.owned) return false
+        if (statusFilter === 'owned' && !c.owned) return false
+        if (statusFilter === 'unowned' && c.owned) return false
+        const lvl = Math.max(1, c.friendship_level || 1)
+        if (levelFilter === 'max' && lvl < MAX_LV) return false
+        if (levelFilter === 'notmax' && lvl >= MAX_LV) return false
         if (roleFilter === '') {
           if (c.skill_assigned) return false // 未設定のみ
         } else if (roleFilter !== 'all') {
@@ -100,9 +106,16 @@
     <option value="">未設定</option>
     {#each SKILLS as s}<option value={s}>{s}</option>{/each}
   </select>
-  <label class="toggle">
-    <input type="checkbox" bind:checked={ownedOnly} />解放済みのみ
-  </label>
+  <select bind:value={statusFilter} aria-label="解放状態で絞り込み">
+    <option value="all">解放：すべて</option>
+    <option value="owned">解放済み</option>
+    <option value="unowned">未解放</option>
+  </select>
+  <select bind:value={levelFilter} aria-label="レベルで絞り込み">
+    <option value="all">Lv：すべて</option>
+    <option value="notmax">MAX未満</option>
+    <option value="max">MAX（10）</option>
+  </select>
 </div>
 
 {#if loading}
@@ -199,7 +212,6 @@
     color: var(--c-ink);
   }
   .search { flex: 1 1 240px; }
-  .toggle { display: inline-flex; align-items: center; gap: 7px; font-size: 14px; color: var(--c-ink-soft); }
 
   .franchise { margin-bottom: 26px; }
   .fr-head { border-bottom: 2px solid var(--c-accent-soft); padding-bottom: 8px; margin-bottom: 14px; }
