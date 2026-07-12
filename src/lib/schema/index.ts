@@ -45,10 +45,13 @@ export interface Material {
 /** 4. オトモ（コンパニオン） */
 export interface Companion {
   id: string
-  name_ja: string
+  name_ja: string          // 🔒 種名（色名）
   name_en: string          // 🔒
-  gather_type: string      // 🔒
-  source: string           // 🔒
+  gather_type: string      // 🔒 種（日本語）
+  color_ja: string         // 🔒 色名（日本語・並べ替え用）
+  source: string           // 🔒 生息地（日本語）
+  habitat: string          // 🔒 生息地（日本語）
+  favorite_foods: string[] // 🔒 好物（日本語）
   owned: boolean           // ✏️
   friendship_level: number // ✏️
   is_equipped: boolean     // ✏️
@@ -219,7 +222,6 @@ export interface CategoryMeta {
 export const CATEGORIES: CategoryMeta[] = [
   { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
   { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
-  { key: 'animals', name_ja: '動物', emoji: '🦊', display: 'image-grid', implemented: true },
   { key: 'recipes', name_ja: '料理レシピ', emoji: '🍲', display: 'table', implemented: true },
   { key: 'materials', name_ja: '素材', emoji: '🪵', display: 'table', implemented: true },
   { key: 'crops', name_ja: '農作物', emoji: '🌾', display: 'table', implemented: true },

@@ -6,7 +6,6 @@
   import RecipesTable from './routes/RecipesTable.svelte'
   import MaterialsTable from './routes/MaterialsTable.svelte'
   import CompanionsZukan from './routes/CompanionsZukan.svelte'
-  import AnimalsGrid from './routes/AnimalsGrid.svelte'
   import DataTable from './routes/DataTable.svelte'
   import ArticleList from './routes/ArticleList.svelte'
   import LinkList from './routes/LinkList.svelte'
@@ -46,8 +45,6 @@
     <MaterialsTable />
   {:else if current === 'companions'}
     <CompanionsZukan />
-  {:else if current === 'animals'}
-    <AnimalsGrid />
   {:else if LINK_CATEGORIES.includes(current)}
     <LinkList storeKey={current} />
   {:else if meta?.display === 'dashboard'}

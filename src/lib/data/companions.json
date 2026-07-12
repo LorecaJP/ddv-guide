@@ -1,818 +1,1194 @@
 [
   {
     "id": "comp_beige_monkey",
-    "name_ja": "",
+    "name_ja": "サル（ベージュ）",
     "name_en": "Beige Monkey",
     "gather_type": "サル",
-    "source": "The Ruins",
+    "source": "遺跡",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_beige_monkey.webp",
-    "memo": "好物: Pastry Cream and Fruits"
+    "memo": "",
+    "color_ja": "ベージュ",
+    "habitat": "遺跡",
+    "favorite_foods": [
+      "Pastry Cream and Fruits"
+    ]
   },
   {
     "id": "comp_black_fox",
-    "name_ja": "",
+    "name_ja": "キツネ（ブラック）",
     "name_en": "Black Fox",
     "gather_type": "キツネ",
-    "source": "Frosted Heights",
+    "source": "氷の高原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_fox.webp",
-    "memo": "好物: White Sturgeon"
+    "memo": "",
+    "color_ja": "ブラック",
+    "habitat": "氷の高原",
+    "favorite_foods": [
+      "シロチョウザメ"
+    ]
   },
   {
     "id": "comp_black_rabbit",
-    "name_ja": "",
+    "name_ja": "ウサギ（ブラック）",
     "name_en": "Black Rabbit",
     "gather_type": "ウサギ",
-    "source": "Peaceful Meadow",
+    "source": "平和の草原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_rabbit.webp",
-    "memo": "好物: Carrot"
+    "memo": "",
+    "color_ja": "ブラック",
+    "habitat": "平和の草原",
+    "favorite_foods": [
+      "ニンジン"
+    ]
   },
   {
     "id": "comp_black_raccoon",
-    "name_ja": "",
+    "name_ja": "アライグマ（ブラック）",
     "name_en": "Black Raccoon",
     "gather_type": "アライグマ",
-    "source": "Forest of Valor",
+    "source": "勇気の森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_raccoon.webp",
-    "memo": "好物: Blueberry"
+    "memo": "",
+    "color_ja": "ブラック",
+    "habitat": "勇気の森",
+    "favorite_foods": [
+      "ブルーベリー"
+    ]
   },
   {
     "id": "comp_black_sea_turtle",
-    "name_ja": "",
+    "name_ja": "ウミガメ（ブラック）",
     "name_en": "Black Sea Turtle",
     "gather_type": "ウミガメ",
-    "source": "Dazzle Beach",
+    "source": "輝きの浜辺",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_sea_turtle.webp",
-    "memo": "好物: Seaweed"
+    "memo": "",
+    "color_ja": "ブラック",
+    "habitat": "輝きの浜辺",
+    "favorite_foods": [
+      "海藻"
+    ]
   },
   {
     "id": "comp_black_squirrel",
-    "name_ja": "",
+    "name_ja": "リス（ブラック）",
     "name_en": "Black Squirrel",
     "gather_type": "リス",
-    "source": "Plaza",
+    "source": "プラザ",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_squirrel.webp",
-    "memo": "好物: Peanut"
+    "memo": "",
+    "color_ja": "ブラック",
+    "habitat": "プラザ",
+    "favorite_foods": [
+      "ピーナッツ"
+    ]
   },
   {
     "id": "comp_black_and_brown_monkey",
-    "name_ja": "",
+    "name_ja": "サル（ブラック&ブラウン）",
     "name_en": "Black and Brown Monkey",
     "gather_type": "サル",
-    "source": "The Ruins",
+    "source": "遺跡",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_and_brown_monkey.webp",
-    "memo": "好物: Pastry Cream and Fruits"
+    "memo": "",
+    "color_ja": "ブラック&ブラウン",
+    "habitat": "遺跡",
+    "favorite_foods": [
+      "Pastry Cream and Fruits"
+    ]
   },
   {
     "id": "comp_black_and_gray_monkey",
-    "name_ja": "",
+    "name_ja": "サル（ブラック&グレー）",
     "name_en": "Black and Gray Monkey",
     "gather_type": "サル",
-    "source": "The Ruins",
+    "source": "遺跡",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_and_gray_monkey.webp",
-    "memo": "好物: Pastry Cream and Fruits"
+    "memo": "",
+    "color_ja": "ブラック&グレー",
+    "habitat": "遺跡",
+    "favorite_foods": [
+      "Pastry Cream and Fruits"
+    ]
   },
   {
     "id": "comp_black_and_white_capybara",
-    "name_ja": "",
+    "name_ja": "カピバラ（ブラック&ホワイト）",
     "name_en": "Black and White Capybara",
     "gather_type": "カピバラ",
-    "source": "The Promenade",
+    "source": "ラグーン",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_and_white_capybara.webp",
-    "memo": "好物: Cabbage"
+    "memo": "",
+    "color_ja": "ブラック&ホワイト",
+    "habitat": "ラグーン",
+    "favorite_foods": [
+      "キャベツ"
+    ]
   },
   {
     "id": "comp_blue_baby_dragon",
-    "name_ja": "",
+    "name_ja": "ドラゴン（ブルー）",
     "name_en": "Blue Baby Dragon",
-    "gather_type": "ベビードラゴン",
-    "source": "The Wild Woods",
+    "gather_type": "ドラゴン",
+    "source": "荒れの森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_baby_dragon.webp",
-    "memo": "好物: Pure Ice/Shiny Pure Ice/Magma/Shiny Magma"
+    "memo": "",
+    "color_ja": "ブルー",
+    "habitat": "荒れの森",
+    "favorite_foods": [
+      "Pure Ice",
+      "Shiny Pure Ice",
+      "Magma",
+      "Shiny Magma"
+    ]
   },
   {
     "id": "comp_blue_crocodile",
-    "name_ja": "",
+    "name_ja": "ワニ（ブルー）",
     "name_en": "Blue Crocodile",
     "gather_type": "ワニ",
-    "source": "Glade of Trust",
+    "source": "信頼の湿地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_crocodile.webp",
-    "memo": "好物: Lobster"
+    "memo": "",
+    "color_ja": "ブルー",
+    "habitat": "信頼の湿地",
+    "favorite_foods": [
+      "ロブスター"
+    ]
   },
   {
     "id": "comp_blue_fox",
-    "name_ja": "",
+    "name_ja": "キツネ（ブルー）",
     "name_en": "Blue Fox",
     "gather_type": "キツネ",
-    "source": "Frosted Heights",
+    "source": "氷の高原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_fox.webp",
-    "memo": "好物: White Sturgeon"
+    "memo": "",
+    "color_ja": "ブルー",
+    "habitat": "氷の高原",
+    "favorite_foods": [
+      "シロチョウザメ"
+    ]
   },
   {
     "id": "comp_blue_pegasus",
-    "name_ja": "",
+    "name_ja": "ペガサス（ブルー）",
     "name_en": "Blue Pegasus",
     "gather_type": "ペガサス",
-    "source": "The Fiery Plains",
+    "source": "炎の平原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "",
-    "memo": "好物: Bulgur Salad/Fish Creole"
+    "memo": "",
+    "color_ja": "ブルー",
+    "habitat": "炎の平原",
+    "favorite_foods": [
+      "Bulgur Salad",
+      "Fish Creole"
+    ]
   },
   {
     "id": "comp_blue_raccoon",
-    "name_ja": "",
+    "name_ja": "アライグマ（ブルー）",
     "name_en": "Blue Raccoon",
     "gather_type": "アライグマ",
-    "source": "Forest of Valor",
+    "source": "勇気の森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_raccoon.webp",
-    "memo": "好物: Blueberry"
+    "memo": "",
+    "color_ja": "ブルー",
+    "habitat": "勇気の森",
+    "favorite_foods": [
+      "ブルーベリー"
+    ]
   },
   {
     "id": "comp_blue_raven",
-    "name_ja": "",
+    "name_ja": "カラス（ブルー）",
     "name_en": "Blue Raven",
-    "gather_type": "ワタリガラス",
-    "source": "Forgotten Lands",
+    "gather_type": "カラス",
+    "source": "忘却の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_raven.webp",
-    "memo": "好物: Large Seafood Platter"
+    "memo": "",
+    "color_ja": "ブルー",
+    "habitat": "忘却の地",
+    "favorite_foods": [
+      "Large Seafood Platter"
+    ]
   },
   {
     "id": "comp_blue_striped_capybara",
-    "name_ja": "",
+    "name_ja": "カピバラ（ブルーストライプ）",
     "name_en": "Blue Striped Capybara",
     "gather_type": "カピバラ",
-    "source": "The Promenade",
+    "source": "ラグーン",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_striped_capybara.webp",
-    "memo": "好物: Cabbage"
+    "memo": "",
+    "color_ja": "ブルーストライプ",
+    "habitat": "ラグーン",
+    "favorite_foods": [
+      "キャベツ"
+    ]
   },
   {
     "id": "comp_blue_and_red_striped_cobra",
-    "name_ja": "",
+    "name_ja": "コブラ（ブルー&レッドストライプ）",
     "name_en": "Blue and Red Striped Cobra",
     "gather_type": "コブラ",
-    "source": "The Wastes",
+    "source": "辺境の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_and_red_striped_cobra.webp",
-    "memo": "好物: Egg"
+    "memo": "",
+    "color_ja": "ブルー&レッドストライプ",
+    "habitat": "辺境の地",
+    "favorite_foods": [
+      "卵"
+    ]
   },
   {
     "id": "comp_brown_owl",
-    "name_ja": "",
+    "name_ja": "フクロウ（ブラウン）",
     "name_en": "Brown Owl",
     "gather_type": "フクロウ",
-    "source": "The Library of Lore",
+    "source": "萬話の館",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_brown_owl.webp",
-    "memo": "好物: Barley"
+    "memo": "",
+    "color_ja": "ブラウン",
+    "habitat": "萬話の館",
+    "favorite_foods": [
+      "大麦"
+    ]
   },
   {
     "id": "comp_brown_rabbit",
-    "name_ja": "",
+    "name_ja": "ウサギ（ブラウン）",
     "name_en": "Brown Rabbit",
     "gather_type": "ウサギ",
-    "source": "Peaceful Meadow",
+    "source": "平和の草原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_brown_rabbit.webp",
-    "memo": "好物: Carrot"
+    "memo": "",
+    "color_ja": "ブラウン",
+    "habitat": "平和の草原",
+    "favorite_foods": [
+      "ニンジン"
+    ]
   },
   {
     "id": "comp_brown_raven",
-    "name_ja": "",
+    "name_ja": "カラス（ブラウン）",
     "name_en": "Brown Raven",
-    "gather_type": "ワタリガラス",
-    "source": "Forgotten Lands",
+    "gather_type": "カラス",
+    "source": "忘却の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_brown_raven.webp",
-    "memo": "好物: Large Seafood Platter"
+    "memo": "",
+    "color_ja": "ブラウン",
+    "habitat": "忘却の地",
+    "favorite_foods": [
+      "Large Seafood Platter"
+    ]
   },
   {
     "id": "comp_brown_sea_turtle",
-    "name_ja": "",
+    "name_ja": "ウミガメ（ブラウン）",
     "name_en": "Brown Sea Turtle",
     "gather_type": "ウミガメ",
-    "source": "Dazzle Beach",
+    "source": "輝きの浜辺",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_brown_sea_turtle.webp",
-    "memo": "好物: Seaweed"
+    "memo": "",
+    "color_ja": "ブラウン",
+    "habitat": "輝きの浜辺",
+    "favorite_foods": [
+      "海藻"
+    ]
   },
   {
     "id": "comp_calico_rabbit",
-    "name_ja": "",
+    "name_ja": "ウサギ（マダラ）",
     "name_en": "Calico Rabbit",
     "gather_type": "ウサギ",
-    "source": "Peaceful Meadow",
+    "source": "平和の草原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_calico_rabbit.webp",
-    "memo": "好物: Carrot"
+    "memo": "",
+    "color_ja": "マダラ",
+    "habitat": "平和の草原",
+    "favorite_foods": [
+      "ニンジン"
+    ]
   },
   {
     "id": "comp_classic_capybara",
-    "name_ja": "",
+    "name_ja": "カピバラ（ベーシック）",
     "name_en": "Classic Capybara",
     "gather_type": "カピバラ",
-    "source": "The Promenade",
+    "source": "ラグーン",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_capybara.webp",
-    "memo": "好物: Cabbage"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "ラグーン",
+    "favorite_foods": [
+      "キャベツ"
+    ]
   },
   {
     "id": "comp_classic_cobra",
-    "name_ja": "",
+    "name_ja": "コブラ（ベーシック）",
     "name_en": "Classic Cobra",
     "gather_type": "コブラ",
-    "source": "The Wastes",
+    "source": "辺境の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_cobra.webp",
-    "memo": "好物: Egg"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "辺境の地",
+    "favorite_foods": [
+      "卵"
+    ]
   },
   {
     "id": "comp_classic_crocodile",
-    "name_ja": "",
+    "name_ja": "ワニ（ベーシック）",
     "name_en": "Classic Crocodile",
     "gather_type": "ワニ",
-    "source": "Glade of Trust",
+    "source": "信頼の湿地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_crocodile.webp",
-    "memo": "好物: Lobster"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "信頼の湿地",
+    "favorite_foods": [
+      "ロブスター"
+    ]
   },
   {
     "id": "comp_classic_fox",
-    "name_ja": "",
+    "name_ja": "キツネ（ベーシック）",
     "name_en": "Classic Fox",
     "gather_type": "キツネ",
-    "source": "Frosted Heights",
+    "source": "氷の高原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_fox.webp",
-    "memo": "好物: White Sturgeon"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "氷の高原",
+    "favorite_foods": [
+      "シロチョウザメ"
+    ]
   },
   {
     "id": "comp_classic_monkey",
-    "name_ja": "",
+    "name_ja": "サル（ベーシック）",
     "name_en": "Classic Monkey",
     "gather_type": "サル",
-    "source": "The Ruins",
+    "source": "遺跡",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_monkey.webp",
-    "memo": "好物: Pastry Cream and Fruits"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "遺跡",
+    "favorite_foods": [
+      "Pastry Cream and Fruits"
+    ]
   },
   {
     "id": "comp_classic_rabbit",
-    "name_ja": "",
+    "name_ja": "ウサギ（ベーシック）",
     "name_en": "Classic Rabbit",
     "gather_type": "ウサギ",
-    "source": "Peaceful Meadow",
+    "source": "平和の草原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_rabbit.webp",
-    "memo": "好物: Carrot"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "平和の草原",
+    "favorite_foods": [
+      "ニンジン"
+    ]
   },
   {
     "id": "comp_classic_raccoon",
-    "name_ja": "",
+    "name_ja": "アライグマ（ベーシック）",
     "name_en": "Classic Raccoon",
     "gather_type": "アライグマ",
-    "source": "Forest of Valor",
+    "source": "勇気の森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_raccoon.webp",
-    "memo": "好物: Blueberry"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "勇気の森",
+    "favorite_foods": [
+      "ブルーベリー"
+    ]
   },
   {
     "id": "comp_classic_raven",
-    "name_ja": "",
+    "name_ja": "カラス（ベーシック）",
     "name_en": "Classic Raven",
-    "gather_type": "ワタリガラス",
-    "source": "Forgotten Lands",
+    "gather_type": "カラス",
+    "source": "忘却の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_raven.webp",
-    "memo": "好物: Large Seafood Platter"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "忘却の地",
+    "favorite_foods": [
+      "Large Seafood Platter"
+    ]
   },
   {
     "id": "comp_classic_sea_turtle",
-    "name_ja": "",
+    "name_ja": "ウミガメ（ベーシック）",
     "name_en": "Classic Sea Turtle",
     "gather_type": "ウミガメ",
-    "source": "Dazzle Beach",
+    "source": "輝きの浜辺",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_sea_turtle.webp",
-    "memo": "好物: Seaweed"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "輝きの浜辺",
+    "favorite_foods": [
+      "海藻"
+    ]
   },
   {
     "id": "comp_classic_squirrel",
-    "name_ja": "",
+    "name_ja": "リス（ベーシック）",
     "name_en": "Classic Squirrel",
     "gather_type": "リス",
-    "source": "Plaza",
+    "source": "プラザ",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_squirrel.webp",
-    "memo": "好物: Peanut"
+    "memo": "",
+    "color_ja": "ベーシック",
+    "habitat": "プラザ",
+    "favorite_foods": [
+      "ピーナッツ"
+    ]
   },
   {
     "id": "comp_dark_owl",
-    "name_ja": "",
+    "name_ja": "フクロウ（ダーク）",
     "name_en": "Dark Owl",
     "gather_type": "フクロウ",
-    "source": "The Library of Lore",
+    "source": "萬話の館",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_dark_owl.webp",
-    "memo": "好物: Barley"
+    "memo": "",
+    "color_ja": "ダーク",
+    "habitat": "萬話の館",
+    "favorite_foods": [
+      "大麦"
+    ]
   },
   {
     "id": "comp_emerald_sunbird",
-    "name_ja": "",
+    "name_ja": "タイヨウチョウ（エメラルド）",
     "name_en": "Emerald Sunbird",
     "gather_type": "タイヨウチョウ",
-    "source": "Sunlit Plateau",
+    "source": "太陽の台地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_emerald_sunbird.webp",
-    "memo": "好物: Green Passion Lily/Sunflower/Pink Bromeliad/Red Bromeliad/Pink Houseleek"
+    "memo": "",
+    "color_ja": "エメラルド",
+    "habitat": "太陽の台地",
+    "favorite_foods": [
+      "Green Passion Lily",
+      "Sunflower",
+      "Pink Bromeliad",
+      "Red Bromeliad",
+      "Pink Houseleek"
+    ]
   },
   {
     "id": "comp_golden_crocodile",
-    "name_ja": "",
+    "name_ja": "ワニ（ゴールド）",
     "name_en": "Golden Crocodile",
     "gather_type": "ワニ",
-    "source": "Glade of Trust",
+    "source": "信頼の湿地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_golden_crocodile.webp",
-    "memo": "好物: Lobster"
+    "memo": "",
+    "color_ja": "ゴールド",
+    "habitat": "信頼の湿地",
+    "favorite_foods": [
+      "ロブスター"
+    ]
   },
   {
     "id": "comp_golden_sunbird",
-    "name_ja": "",
+    "name_ja": "タイヨウチョウ（ゴールド）",
     "name_en": "Golden Sunbird",
     "gather_type": "タイヨウチョウ",
-    "source": "Sunlit Plateau",
+    "source": "太陽の台地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_golden_sunbird.webp",
-    "memo": "好物: Green Passion Lily/Sunflower/Pink Bromeliad/Red Bromeliad/Pink Houseleek"
+    "memo": "",
+    "color_ja": "ゴールド",
+    "habitat": "太陽の台地",
+    "favorite_foods": [
+      "Green Passion Lily",
+      "Sunflower",
+      "Pink Bromeliad",
+      "Red Bromeliad",
+      "Pink Houseleek"
+    ]
   },
   {
     "id": "comp_gray_spotted_capybara",
-    "name_ja": "",
+    "name_ja": "カピバラ（グレーのまだら）",
     "name_en": "Gray Spotted Capybara",
     "gather_type": "カピバラ",
-    "source": "The Promenade",
+    "source": "ラグーン",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_gray_spotted_capybara.webp",
-    "memo": "好物: Cabbage"
+    "memo": "",
+    "color_ja": "グレーのまだら",
+    "habitat": "ラグーン",
+    "favorite_foods": [
+      "キャベツ"
+    ]
   },
   {
     "id": "comp_gray_squirrel",
-    "name_ja": "",
+    "name_ja": "リス（グレー）",
     "name_en": "Gray Squirrel",
     "gather_type": "リス",
-    "source": "Plaza",
+    "source": "プラザ",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_gray_squirrel.webp",
-    "memo": "好物: Peanut"
+    "memo": "",
+    "color_ja": "グレー",
+    "habitat": "プラザ",
+    "favorite_foods": [
+      "ピーナッツ"
+    ]
   },
   {
     "id": "comp_green_baby_dragon",
-    "name_ja": "",
+    "name_ja": "ドラゴン（グリーン）",
     "name_en": "Green Baby Dragon",
-    "gather_type": "ベビードラゴン",
-    "source": "The Wild Woods",
+    "gather_type": "ドラゴン",
+    "source": "荒れの森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_green_baby_dragon.webp",
-    "memo": "好物: Pure Ice/Shiny Pure Ice/Magma/Shiny Magma"
+    "memo": "",
+    "color_ja": "グリーン",
+    "habitat": "荒れの森",
+    "favorite_foods": [
+      "Pure Ice",
+      "Shiny Pure Ice",
+      "Magma",
+      "Shiny Magma"
+    ]
   },
   {
     "id": "comp_green_and_white_striped_cobra",
-    "name_ja": "",
+    "name_ja": "コブラ（グリーン&ホワイトストライプ）",
     "name_en": "Green and White Striped Cobra",
     "gather_type": "コブラ",
-    "source": "The Wastes",
+    "source": "辺境の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_green_and_white_striped_cobra.webp",
-    "memo": "好物: Egg"
+    "memo": "",
+    "color_ja": "グリーン&ホワイトストライプ",
+    "habitat": "辺境の地",
+    "favorite_foods": [
+      "卵"
+    ]
   },
   {
     "id": "comp_light_owl",
-    "name_ja": "",
+    "name_ja": "フクロウ（ライト）",
     "name_en": "Light Owl",
     "gather_type": "フクロウ",
-    "source": "The Library of Lore",
+    "source": "萬話の館",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_light_owl.webp",
-    "memo": "好物: Barley"
+    "memo": "",
+    "color_ja": "ライト",
+    "habitat": "萬話の館",
+    "favorite_foods": [
+      "大麦"
+    ]
   },
   {
     "id": "comp_orchid_sunbird",
-    "name_ja": "",
+    "name_ja": "タイヨウチョウ（オーキッド）",
     "name_en": "Orchid Sunbird",
     "gather_type": "タイヨウチョウ",
-    "source": "Sunlit Plateau",
+    "source": "太陽の台地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_orchid_sunbird.webp",
-    "memo": "好物: Green Passion Lily/Sunflower/Pink Bromeliad/Red Bromeliad/Pink Houseleek"
+    "memo": "",
+    "color_ja": "オーキッド",
+    "habitat": "太陽の台地",
+    "favorite_foods": [
+      "Green Passion Lily",
+      "Sunflower",
+      "Pink Bromeliad",
+      "Red Bromeliad",
+      "Pink Houseleek"
+    ]
   },
   {
     "id": "comp_peach_pegasus",
-    "name_ja": "",
+    "name_ja": "ペガサス（ピーチ）",
     "name_en": "Peach Pegasus",
     "gather_type": "ペガサス",
-    "source": "The Fiery Plains",
+    "source": "炎の平原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "",
-    "memo": "好物: Bulgur Salad/Fish Creole"
+    "memo": "",
+    "color_ja": "ピーチ",
+    "habitat": "炎の平原",
+    "favorite_foods": [
+      "Bulgur Salad",
+      "Fish Creole"
+    ]
   },
   {
     "id": "comp_pink_crocodile",
-    "name_ja": "",
+    "name_ja": "ワニ（ピンク）",
     "name_en": "Pink Crocodile",
     "gather_type": "ワニ",
-    "source": "Glade of Trust",
+    "source": "信頼の湿地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_pink_crocodile.webp",
-    "memo": "好物: Lobster"
+    "memo": "",
+    "color_ja": "ピンク",
+    "habitat": "信頼の湿地",
+    "favorite_foods": [
+      "ロブスター"
+    ]
   },
   {
     "id": "comp_pink_pegasus",
-    "name_ja": "",
+    "name_ja": "ペガサス（ピンク）",
     "name_en": "Pink Pegasus",
     "gather_type": "ペガサス",
-    "source": "The Fiery Plains",
+    "source": "炎の平原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "",
-    "memo": "好物: Bulgur Salad/Fish Creole"
+    "memo": "",
+    "color_ja": "ピンク",
+    "habitat": "炎の平原",
+    "favorite_foods": [
+      "Bulgur Salad",
+      "Fish Creole"
+    ]
   },
   {
     "id": "comp_pink_spotted_cobra",
-    "name_ja": "",
+    "name_ja": "コブラ（ピンクのまだら）",
     "name_en": "Pink Spotted Cobra",
     "gather_type": "コブラ",
-    "source": "The Wastes",
+    "source": "辺境の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_pink_spotted_cobra.webp",
-    "memo": "好物: Egg"
+    "memo": "",
+    "color_ja": "ピンクのまだら",
+    "habitat": "辺境の地",
+    "favorite_foods": [
+      "卵"
+    ]
   },
   {
     "id": "comp_purple_baby_dragon",
-    "name_ja": "",
+    "name_ja": "ドラゴン（パープル）",
     "name_en": "Purple Baby Dragon",
-    "gather_type": "ベビードラゴン",
-    "source": "The Wild Woods",
+    "gather_type": "ドラゴン",
+    "source": "荒れの森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_purple_baby_dragon.webp",
-    "memo": "好物: Pure Ice/Shiny Pure Ice/Magma/Shiny Magma"
+    "memo": "",
+    "color_ja": "パープル",
+    "habitat": "荒れの森",
+    "favorite_foods": [
+      "Pure Ice",
+      "Shiny Pure Ice",
+      "Magma",
+      "Shiny Magma"
+    ]
   },
   {
     "id": "comp_purple_owl",
-    "name_ja": "",
+    "name_ja": "フクロウ（パープル）",
     "name_en": "Purple Owl",
     "gather_type": "フクロウ",
-    "source": "The Library of Lore",
+    "source": "萬話の館",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_purple_owl.webp",
-    "memo": "好物: Barley"
+    "memo": "",
+    "color_ja": "パープル",
+    "habitat": "萬話の館",
+    "favorite_foods": [
+      "大麦"
+    ]
   },
   {
     "id": "comp_purple_sea_turtle",
-    "name_ja": "",
+    "name_ja": "ウミガメ（パープル）",
     "name_en": "Purple Sea Turtle",
     "gather_type": "ウミガメ",
-    "source": "Dazzle Beach",
+    "source": "輝きの浜辺",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_purple_sea_turtle.webp",
-    "memo": "好物: Seaweed"
+    "memo": "",
+    "color_ja": "パープル",
+    "habitat": "輝きの浜辺",
+    "favorite_foods": [
+      "海藻"
+    ]
   },
   {
     "id": "comp_red_baby_dragon",
-    "name_ja": "",
+    "name_ja": "ドラゴン（レッド）",
     "name_en": "Red Baby Dragon",
-    "gather_type": "ベビードラゴン",
-    "source": "The Wild Woods",
+    "gather_type": "ドラゴン",
+    "source": "荒れの森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_baby_dragon.webp",
-    "memo": "好物: Pure Ice/Shiny Pure Ice/Magma/Shiny Magma"
+    "memo": "",
+    "color_ja": "レッド",
+    "habitat": "荒れの森",
+    "favorite_foods": [
+      "Pure Ice",
+      "Shiny Pure Ice",
+      "Magma",
+      "Shiny Magma"
+    ]
   },
   {
     "id": "comp_red_crocodile",
-    "name_ja": "",
+    "name_ja": "ワニ（レッド）",
     "name_en": "Red Crocodile",
     "gather_type": "ワニ",
-    "source": "Glade of Trust",
+    "source": "信頼の湿地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_crocodile.webp",
-    "memo": "好物: Lobster"
+    "memo": "",
+    "color_ja": "レッド",
+    "habitat": "信頼の湿地",
+    "favorite_foods": [
+      "ロブスター"
+    ]
   },
   {
     "id": "comp_red_fox",
-    "name_ja": "",
+    "name_ja": "キツネ（レッド）",
     "name_en": "Red Fox",
     "gather_type": "キツネ",
-    "source": "Frosted Heights",
+    "source": "氷の高原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_fox.webp",
-    "memo": "好物: White Sturgeon"
+    "memo": "",
+    "color_ja": "レッド",
+    "habitat": "氷の高原",
+    "favorite_foods": [
+      "シロチョウザメ"
+    ]
   },
   {
     "id": "comp_red_raccoon",
-    "name_ja": "",
+    "name_ja": "アライグマ（レッド）",
     "name_en": "Red Raccoon",
     "gather_type": "アライグマ",
-    "source": "Forest of Valor",
+    "source": "勇気の森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_raccoon.webp",
-    "memo": "好物: Blueberry"
+    "memo": "",
+    "color_ja": "レッド",
+    "habitat": "勇気の森",
+    "favorite_foods": [
+      "ブルーベリー"
+    ]
   },
   {
     "id": "comp_red_raven",
-    "name_ja": "",
+    "name_ja": "カラス（レッド）",
     "name_en": "Red Raven",
-    "gather_type": "ワタリガラス",
-    "source": "Forgotten Lands",
+    "gather_type": "カラス",
+    "source": "忘却の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_raven.webp",
-    "memo": "好物: Large Seafood Platter"
+    "memo": "",
+    "color_ja": "レッド",
+    "habitat": "忘却の地",
+    "favorite_foods": [
+      "Large Seafood Platter"
+    ]
   },
   {
     "id": "comp_red_squirrel",
-    "name_ja": "",
+    "name_ja": "リス（レッド）",
     "name_en": "Red Squirrel",
     "gather_type": "リス",
-    "source": "Plaza",
+    "source": "プラザ",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_squirrel.webp",
-    "memo": "好物: Peanut"
+    "memo": "",
+    "color_ja": "レッド",
+    "habitat": "プラザ",
+    "favorite_foods": [
+      "ピーナッツ"
+    ]
   },
   {
     "id": "comp_red_sunbird",
-    "name_ja": "",
+    "name_ja": "タイヨウチョウ（レッド）",
     "name_en": "Red Sunbird",
     "gather_type": "タイヨウチョウ",
-    "source": "Sunlit Plateau",
+    "source": "太陽の台地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_sunbird.webp",
-    "memo": "好物: Green Passion Lily/Sunflower/Pink Bromeliad/Red Bromeliad/Pink Houseleek"
+    "memo": "",
+    "color_ja": "レッド",
+    "habitat": "太陽の台地",
+    "favorite_foods": [
+      "Green Passion Lily",
+      "Sunflower",
+      "Pink Bromeliad",
+      "Red Bromeliad",
+      "Pink Houseleek"
+    ]
   },
   {
     "id": "comp_red_and_beige_monkey",
-    "name_ja": "",
+    "name_ja": "サル（レッド&ベージュ）",
     "name_en": "Red and Beige Monkey",
     "gather_type": "サル",
-    "source": "The Ruins",
+    "source": "遺跡",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_and_beige_monkey.webp",
-    "memo": "好物: Pastry Cream and Fruits"
+    "memo": "",
+    "color_ja": "レッド&ベージュ",
+    "habitat": "遺跡",
+    "favorite_foods": [
+      "Pastry Cream and Fruits"
+    ]
   },
   {
     "id": "comp_red_and_white_striped_capybara",
-    "name_ja": "",
+    "name_ja": "カピバラ（レッド&ホワイトストライプ）",
     "name_en": "Red and White Striped Capybara",
     "gather_type": "カピバラ",
-    "source": "The Promenade",
+    "source": "ラグーン",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_and_white_striped_capybara.webp",
-    "memo": "好物: Cabbage"
+    "memo": "",
+    "color_ja": "レッド&ホワイトストライプ",
+    "habitat": "ラグーン",
+    "favorite_foods": [
+      "キャベツ"
+    ]
   },
   {
     "id": "comp_turquoise_sunbird",
-    "name_ja": "",
+    "name_ja": "タイヨウチョウ（ターコイズ）",
     "name_en": "Turquoise Sunbird",
     "gather_type": "タイヨウチョウ",
-    "source": "Sunlit Plateau",
+    "source": "太陽の台地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_turquoise_sunbird.webp",
-    "memo": "好物: Green Passion Lily/Sunflower/Pink Bromeliad/Red Bromeliad/Pink Houseleek"
+    "memo": "",
+    "color_ja": "ターコイズ",
+    "habitat": "太陽の台地",
+    "favorite_foods": [
+      "Green Passion Lily",
+      "Sunflower",
+      "Pink Bromeliad",
+      "Red Bromeliad",
+      "Pink Houseleek"
+    ]
   },
   {
     "id": "comp_white_crocodile",
-    "name_ja": "",
+    "name_ja": "ワニ（ホワイト）",
     "name_en": "White Crocodile",
     "gather_type": "ワニ",
-    "source": "Glade of Trust",
+    "source": "信頼の湿地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_white_crocodile.webp",
-    "memo": "好物: Lobster"
+    "memo": "",
+    "color_ja": "ホワイト",
+    "habitat": "信頼の湿地",
+    "favorite_foods": [
+      "ロブスター"
+    ]
   },
   {
     "id": "comp_white_fox",
-    "name_ja": "",
+    "name_ja": "キツネ（ホワイト）",
     "name_en": "White Fox",
     "gather_type": "キツネ",
-    "source": "Frosted Heights",
+    "source": "氷の高原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_white_fox.webp",
-    "memo": "好物: White Sturgeon"
+    "memo": "",
+    "color_ja": "ホワイト",
+    "habitat": "氷の高原",
+    "favorite_foods": [
+      "シロチョウザメ"
+    ]
   },
   {
     "id": "comp_white_rabbit",
-    "name_ja": "",
+    "name_ja": "ウサギ（ホワイト）",
     "name_en": "White Rabbit",
     "gather_type": "ウサギ",
-    "source": "Peaceful Meadow",
+    "source": "平和の草原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_white_rabbit.webp",
-    "memo": "好物: Carrot"
+    "memo": "",
+    "color_ja": "ホワイト",
+    "habitat": "平和の草原",
+    "favorite_foods": [
+      "ニンジン"
+    ]
   },
   {
     "id": "comp_white_raccoon",
-    "name_ja": "",
+    "name_ja": "アライグマ（ホワイト）",
     "name_en": "White Raccoon",
     "gather_type": "アライグマ",
-    "source": "Forest of Valor",
+    "source": "勇気の森",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_white_raccoon.webp",
-    "memo": "好物: Blueberry"
+    "memo": "",
+    "color_ja": "ホワイト",
+    "habitat": "勇気の森",
+    "favorite_foods": [
+      "ブルーベリー"
+    ]
   },
   {
     "id": "comp_white_raven",
-    "name_ja": "",
+    "name_ja": "カラス（ホワイト）",
     "name_en": "White Raven",
-    "gather_type": "ワタリガラス",
-    "source": "Forgotten Lands",
+    "gather_type": "カラス",
+    "source": "忘却の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_white_raven.webp",
-    "memo": "好物: Large Seafood Platter"
+    "memo": "",
+    "color_ja": "ホワイト",
+    "habitat": "忘却の地",
+    "favorite_foods": [
+      "Large Seafood Platter"
+    ]
   },
   {
     "id": "comp_white_sea_turtle",
-    "name_ja": "",
+    "name_ja": "ウミガメ（ホワイト）",
     "name_en": "White Sea Turtle",
     "gather_type": "ウミガメ",
-    "source": "Dazzle Beach",
+    "source": "輝きの浜辺",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_white_sea_turtle.webp",
-    "memo": "好物: Seaweed"
+    "memo": "",
+    "color_ja": "ホワイト",
+    "habitat": "輝きの浜辺",
+    "favorite_foods": [
+      "海藻"
+    ]
   },
   {
     "id": "comp_white_squirrel",
-    "name_ja": "",
+    "name_ja": "リス（ホワイト）",
     "name_en": "White Squirrel",
     "gather_type": "リス",
-    "source": "Plaza",
+    "source": "プラザ",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_white_squirrel.webp",
-    "memo": "好物: Peanut"
+    "memo": "",
+    "color_ja": "ホワイト",
+    "habitat": "プラザ",
+    "favorite_foods": [
+      "ピーナッツ"
+    ]
   },
   {
     "id": "comp_yellow_pegasus",
-    "name_ja": "",
+    "name_ja": "ペガサス（イエロー）",
     "name_en": "Yellow Pegasus",
     "gather_type": "ペガサス",
-    "source": "The Fiery Plains",
+    "source": "炎の平原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "",
-    "memo": "好物: Bulgur Salad/Fish Creole"
+    "memo": "",
+    "color_ja": "イエロー",
+    "habitat": "炎の平原",
+    "favorite_foods": [
+      "Bulgur Salad",
+      "Fish Creole"
+    ]
   },
   {
     "id": "comp_yellow_and_purple_striped_cobra",
-    "name_ja": "",
+    "name_ja": "コブラ（イエロー&パープルストライプ）",
     "name_en": "Yellow and Purple Striped Cobra",
     "gather_type": "コブラ",
-    "source": "The Wastes",
+    "source": "辺境の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_yellow_and_purple_striped_cobra.webp",
-    "memo": "好物: Egg"
+    "memo": "",
+    "color_ja": "イエロー&パープルストライプ",
+    "habitat": "辺境の地",
+    "favorite_foods": [
+      "卵"
+    ]
   }
 ]
