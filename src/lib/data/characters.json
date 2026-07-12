@@ -895,5 +895,44 @@
     "icon_path": "images/characters/char_phil.webp",
     "memo": "",
     "friendship_level": 0
+  },
+  {
+    "id": "char_winnie_the_pooh",
+    "name_ja": "くまのプーさん",
+    "name_en": "Winnie the Pooh",
+    "franchise": "くまのプーさん",
+    "unlock_condition": "",
+    "home_location": "",
+    "skill_assigned": "",
+    "friendship_level": 0,
+    "owned": false,
+    "icon_path": "images/characters/char_winnie_the_pooh.webp",
+    "memo": ""
+  },
+  {
+    "id": "char_piglet",
+    "name_ja": "ピグレット",
+    "name_en": "Piglet",
+    "franchise": "くまのプーさん",
+    "unlock_condition": "",
+    "home_location": "",
+    "skill_assigned": "",
+    "friendship_level": 0,
+    "owned": false,
+    "icon_path": "images/characters/char_piglet.webp",
+    "memo": ""
+  },
+  {
+    "id": "char_eeyore",
+    "name_ja": "イーヨー",
+    "name_en": "Eeyore",
+    "franchise": "くまのプーさん",
+    "unlock_condition": "",
+    "home_location": "",
+    "skill_assigned": "",
+    "friendship_level": 0,
+    "owned": false,
+    "icon_path": "images/characters/char_eeyore.webp",
+    "memo": ""
   }
 ]
