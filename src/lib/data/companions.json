@@ -1247,7 +1247,9 @@
     "color_ja": "ゴールド",
     "source": "探求の谷",
     "habitat": "探求の谷",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "フサスグリ"
+    ],
     "appearance_schedule": "毎日：7時~8時",
     "owned": false,
     "friendship_level": 0,
@@ -1263,7 +1265,9 @@
     "color_ja": "トゥルーノース",
     "source": "牧場の高原",
     "habitat": "牧場の高原",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "フサスグリ"
+    ],
     "appearance_schedule": "火・木・土：終日",
     "owned": false,
     "friendship_level": 0,
@@ -1279,7 +1283,9 @@
     "color_ja": "ブラック",
     "source": "銀ヶ峰",
     "habitat": "銀ヶ峰",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "フサスグリ"
+    ],
     "appearance_schedule": "毎日：5時~11時",
     "owned": false,
     "friendship_level": 0,
@@ -1295,7 +1301,9 @@
     "color_ja": "ブルー",
     "source": "願いの小径",
     "habitat": "願いの小径",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "フサスグリ"
+    ],
     "appearance_schedule": "毎日：18時~20時",
     "owned": false,
     "friendship_level": 0,
@@ -1311,7 +1319,9 @@
     "color_ja": "ベーシック",
     "source": "願い咲く牧場",
     "habitat": "願い咲く牧場",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "フサスグリ"
+    ],
     "appearance_schedule": "月・水・金・日：終日",
     "owned": false,
     "friendship_level": 0,
@@ -1327,7 +1337,10 @@
     "color_ja": "ブラウン",
     "source": "ペイズリーパーク",
     "habitat": "ペイズリーパーク",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "針山ピーチ",
+      "ボタンマッシュルーム"
+    ],
     "appearance_schedule": "月・水・金・日：12時~24時",
     "owned": false,
     "friendship_level": 0,
@@ -1343,7 +1356,10 @@
     "color_ja": "ホワイト",
     "source": "モディッシュ湿地",
     "habitat": "モディッシュ湿地",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "針山ピーチ",
+      "ボタンマッシュルーム"
+    ],
     "appearance_schedule": "火・木・土・日：12時~24時",
     "owned": false,
     "friendship_level": 0,
@@ -1359,7 +1375,10 @@
     "color_ja": "パターン",
     "source": "オートクチュール台地",
     "habitat": "オートクチュール台地",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "針山ピーチ",
+      "ボタンマッシュルーム"
+    ],
     "appearance_schedule": "毎日：終日（曇り/雨のみ）",
     "owned": false,
     "friendship_level": 0,
@@ -1375,7 +1394,10 @@
     "color_ja": "ベーシック",
     "source": "ランウェイリバー",
     "habitat": "ランウェイリバー",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "針山ピーチ",
+      "ボタンマッシュルーム"
+    ],
     "appearance_schedule": "毎日：0時~12時",
     "owned": false,
     "friendship_level": 0,
@@ -1391,7 +1413,9 @@
     "color_ja": "ピンク",
     "source": "妖精の平原",
     "habitat": "妖精の平原",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "サンゴのハチミツ"
+    ],
     "appearance_schedule": "毎日：終日",
     "owned": false,
     "friendship_level": 0,
@@ -1407,7 +1431,9 @@
     "color_ja": "ブルー",
     "source": "ハチミツの滝",
     "habitat": "ハチミツの滝",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "サンゴのハチミツ"
+    ],
     "appearance_schedule": "毎日：終日（曇り/晴れのみ）",
     "owned": false,
     "friendship_level": 0,
@@ -1423,7 +1449,9 @@
     "color_ja": "ホワイト",
     "source": "100エーカーの野原",
     "habitat": "100エーカーの野原",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "サンゴのハチミツ"
+    ],
     "appearance_schedule": "毎日：20時~24時",
     "owned": false,
     "friendship_level": 0,
@@ -1439,7 +1467,9 @@
     "color_ja": "ベーシック",
     "source": "サンデーショア",
     "habitat": "サンデーショア",
-    "favorite_foods": [],
+    "favorite_foods": [
+      "サンゴのハチミツ"
+    ],
     "appearance_schedule": "毎日：7時~20時",
     "owned": false,
     "friendship_level": 0,
