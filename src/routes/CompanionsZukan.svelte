@@ -40,11 +40,15 @@
       }
       const out = [...map.entries()].map(([species, items]) => {
         items.sort((a, b) => a.color_ja.localeCompare(b.color_ja, 'ja'))
-        const sample = items[0]
+        const first = items[0]
+        const habUniform = items.every((i) => i.habitat === first.habitat)
+        const foodKey = (i: Companion) => i.favorite_foods.join('|')
+        const foodUniform = items.every((i) => foodKey(i) === foodKey(first))
         return {
           species,
-          habitat: sample?.habitat ?? '',
-          foods: sample?.favorite_foods ?? [],
+          habUniform,
+          habitat: habUniform ? (first?.habitat ?? '') : '',
+          foods: foodUniform ? (first?.favorite_foods ?? []) : [],
           owned: items.filter((i) => i.owned).length,
           items,
         }
@@ -60,7 +64,8 @@
     if (selected?.id === c.id) selected = c
   }
   function toggleOwned(c: Companion) { c.owned = !c.owned; save(c) }
-  function setFriend(c: Companion, v: number) { c.friendship_level = Math.max(0, Math.min(10, v | 0)); save(c) }
+  function setLevel(c: Companion, v: number) { c.friendship_level = Math.max(1, Math.min(5, v | 0)); save(c) }
+  const lv = (c: Companion) => Math.max(1, c.friendship_level || 1)
 </script>
 
 <div class="head">
@@ -102,6 +107,7 @@
               <span class="sp">{c.gather_type}</span>
               <span class="col">{c.color_ja}</span>
             </span>
+            {#if !g.habUniform && c.habitat}<span class="card-hab">📍{c.habitat}</span>{/if}
           </button>
         {/each}
       </div>
@@ -131,12 +137,13 @@
         <dt>生息地</dt><dd>{selected.habitat || '—'}</dd>
         <dt>好物</dt>
         <dd>{#if selected.favorite_foods.length}{#each selected.favorite_foods as f}<span class="chip">{f}</span>{/each}{:else}—{/if}</dd>
-        <dt>フレンドLv</dt>
+        <dt>出現時間</dt><dd class="sched">{selected.appearance_schedule || '—'}</dd>
+        <dt>オトモLv</dt>
         <dd>
           <div class="stepper">
-            <button onclick={() => selected && setFriend(selected, selected.friendship_level - 1)}>−</button>
-            <span class="val">{selected.friendship_level}<span class="mx"> / 10</span></span>
-            <button onclick={() => selected && setFriend(selected, selected.friendship_level + 1)}>＋</button>
+            <button onclick={() => selected && setLevel(selected, lv(selected) - 1)}>−</button>
+            <span class="val">{lv(selected)}<span class="mx"> / 5</span></span>
+            <button onclick={() => selected && setLevel(selected, lv(selected) + 1)}>＋</button>
           </div>
         </dd>
         <dt>入手</dt>
@@ -179,6 +186,8 @@
   .label { display: flex; flex-direction: column; align-items: center; line-height: 1.2; }
   .label .sp { font-size: 11px; color: var(--c-ink-soft); }
   .label .col { font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; }
+  .card-hab { font-size: 10px; color: var(--c-ink-soft); text-align: center; line-height: 1.1; margin-top: 1px; }
+  .sched { font-size: 13px; line-height: 1.5; }
 
   .chip { display: inline-block; margin: 2px 4px 2px 0; background: var(--c-surface-2); border: 1px solid var(--c-line); font-size: 12px; padding: 2px 8px; border-radius: 999px; }
   .muted { color: var(--c-ink-soft); }

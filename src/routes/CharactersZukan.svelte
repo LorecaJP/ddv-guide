@@ -56,7 +56,7 @@
     save(c)
   }
   function setLevel(c: Character, v: number) {
-    c.friendship_level = Math.max(0, Math.min(10, v | 0))
+    c.friendship_level = Math.max(1, Math.min(10, v | 0))
     save(c)
   }
 </script>
@@ -135,9 +135,9 @@
         <dt>フレンドLv</dt>
         <dd>
           <div class="stepper">
-            <button onclick={() => selected && setLevel(selected, selected.friendship_level - 1)} aria-label="下げる">−</button>
-            <span class="lv">{selected.friendship_level || 0}<span class="lvmax"> / 10</span></span>
-            <button onclick={() => selected && setLevel(selected, selected.friendship_level + 1)} aria-label="上げる">＋</button>
+            <button onclick={() => selected && setLevel(selected, Math.max(1, selected.friendship_level || 1) - 1)} aria-label="下げる">−</button>
+            <span class="lv">{Math.max(1, selected.friendship_level || 1)}<span class="lvmax"> / 10</span></span>
+            <button onclick={() => selected && setLevel(selected, Math.max(1, selected.friendship_level || 1) + 1)} aria-label="上げる">＋</button>
           </div>
         </dd>
         <dt>メモ</dt><dd>{selected.memo || '—'}</dd>

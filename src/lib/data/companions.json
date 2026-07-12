@@ -13,8 +13,9 @@
     "color_ja": "ベージュ",
     "habitat": "遺跡",
     "favorite_foods": [
-      "Pastry Cream and Fruits"
-    ]
+      "カスタードクリームとフルーツ"
+    ],
+    "appearance_schedule": "月水金 午後12時～午前12時 / 木日 終日"
   },
   {
     "id": "comp_black_fox",
@@ -31,7 +32,8 @@
     "habitat": "氷の高原",
     "favorite_foods": [
       "シロチョウザメ"
-    ]
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_black_rabbit",
@@ -48,7 +50,8 @@
     "habitat": "平和の草原",
     "favorite_foods": [
       "ニンジン"
-    ]
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_black_raccoon",
@@ -65,7 +68,8 @@
     "habitat": "勇気の森",
     "favorite_foods": [
       "ブルーベリー"
-    ]
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_black_sea_turtle",
@@ -82,7 +86,8 @@
     "habitat": "輝きの浜辺",
     "favorite_foods": [
       "海藻"
-    ]
+    ],
+    "appearance_schedule": "月 終日"
   },
   {
     "id": "comp_black_squirrel",
@@ -99,24 +104,26 @@
     "habitat": "プラザ",
     "favorite_foods": [
       "ピーナッツ"
-    ]
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_black_and_brown_monkey",
     "name_ja": "サル（ブラック&ブラウン）",
     "name_en": "Black and Brown Monkey",
     "gather_type": "サル",
-    "source": "遺跡",
+    "source": "中庭",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_and_brown_monkey.webp",
     "memo": "",
     "color_ja": "ブラック&ブラウン",
-    "habitat": "遺跡",
+    "habitat": "中庭",
     "favorite_foods": [
-      "Pastry Cream and Fruits"
-    ]
+      "カスタードクリームとフルーツ"
+    ],
+    "appearance_schedule": "火木日 午後12時～午前12時 / 水土 終日"
   },
   {
     "id": "comp_black_and_gray_monkey",
@@ -132,25 +139,27 @@
     "color_ja": "ブラック&グレー",
     "habitat": "遺跡",
     "favorite_foods": [
-      "Pastry Cream and Fruits"
-    ]
+      "カスタードクリームとフルーツ"
+    ],
+    "appearance_schedule": "火 終日"
   },
   {
     "id": "comp_black_and_white_capybara",
     "name_ja": "カピバラ（ブラック&ホワイト）",
     "name_en": "Black and White Capybara",
     "gather_type": "カピバラ",
-    "source": "ラグーン",
+    "source": "プロムナード",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_black_and_white_capybara.webp",
     "memo": "",
     "color_ja": "ブラック&ホワイト",
-    "habitat": "ラグーン",
+    "habitat": "プロムナード",
     "favorite_foods": [
       "キャベツ"
-    ]
+    ],
+    "appearance_schedule": "火木 終日 / 金土日 午後12時～午前12時"
   },
   {
     "id": "comp_blue_baby_dragon",
@@ -166,11 +175,12 @@
     "color_ja": "ブルー",
     "habitat": "荒れの森",
     "favorite_foods": [
-      "Pure Ice",
-      "Shiny Pure Ice",
-      "Magma",
-      "Shiny Magma"
-    ]
+      "ピュアアイス",
+      "きらめくピュアアイス",
+      "マグマ",
+      "きらめくマグマ"
+    ],
+    "appearance_schedule": "火水木金 終日"
   },
   {
     "id": "comp_blue_crocodile",
@@ -187,7 +197,8 @@
     "habitat": "信頼の湿地",
     "favorite_foods": [
       "ロブスター"
-    ]
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_blue_fox",
@@ -204,7 +215,8 @@
     "habitat": "氷の高原",
     "favorite_foods": [
       "シロチョウザメ"
-    ]
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_blue_pegasus",
@@ -220,9 +232,10 @@
     "color_ja": "ブルー",
     "habitat": "炎の平原",
     "favorite_foods": [
-      "Bulgur Salad",
-      "Fish Creole"
-    ]
+      "ブルグルサラダ",
+      "フィッシュクレオール"
+    ],
+    "appearance_schedule": "月火水 終日"
   },
   {
     "id": "comp_blue_raccoon",
@@ -239,7 +252,8 @@
     "habitat": "勇気の森",
     "favorite_foods": [
       "ブルーベリー"
-    ]
+    ],
+    "appearance_schedule": "水 終日"
   },
   {
     "id": "comp_blue_raven",
@@ -255,42 +269,45 @@
     "color_ja": "ブルー",
     "habitat": "忘却の地",
     "favorite_foods": [
-      "Large Seafood Platter"
-    ]
+      "★5の料理"
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_blue_striped_capybara",
     "name_ja": "カピバラ（ブルーストライプ）",
     "name_en": "Blue Striped Capybara",
     "gather_type": "カピバラ",
-    "source": "ラグーン",
+    "source": "闇の林",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_striped_capybara.webp",
     "memo": "",
     "color_ja": "ブルーストライプ",
-    "habitat": "ラグーン",
+    "habitat": "闇の林",
     "favorite_foods": [
       "キャベツ"
-    ]
+    ],
+    "appearance_schedule": "月火水 午前12時～午後12時 / 木土 終日"
   },
   {
     "id": "comp_blue_and_red_striped_cobra",
     "name_ja": "コブラ（ブルー&レッドストライプ）",
     "name_en": "Blue and Red Striped Cobra",
     "gather_type": "コブラ",
-    "source": "辺境の地",
+    "source": "荒廃の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_blue_and_red_striped_cobra.webp",
     "memo": "",
     "color_ja": "ブルー&レッドストライプ",
-    "habitat": "辺境の地",
+    "habitat": "荒廃の地",
     "favorite_foods": [
       "卵"
-    ]
+    ],
+    "appearance_schedule": "月火土 午後12時～午前12時 / 木日 終日"
   },
   {
     "id": "comp_brown_owl",
@@ -307,7 +324,8 @@
     "habitat": "萬話の館",
     "favorite_foods": [
       "大麦"
-    ]
+    ],
+    "appearance_schedule": "月火水木金 終日"
   },
   {
     "id": "comp_brown_rabbit",
@@ -324,7 +342,8 @@
     "habitat": "平和の草原",
     "favorite_foods": [
       "ニンジン"
-    ]
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_brown_raven",
@@ -340,8 +359,9 @@
     "color_ja": "ブラウン",
     "habitat": "忘却の地",
     "favorite_foods": [
-      "Large Seafood Platter"
-    ]
+      "★5の料理"
+    ],
+    "appearance_schedule": "火 終日"
   },
   {
     "id": "comp_brown_sea_turtle",
@@ -358,7 +378,8 @@
     "habitat": "輝きの浜辺",
     "favorite_foods": [
       "海藻"
-    ]
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_calico_rabbit",
@@ -375,41 +396,44 @@
     "habitat": "平和の草原",
     "favorite_foods": [
       "ニンジン"
-    ]
+    ],
+    "appearance_schedule": "木 終日"
   },
   {
     "id": "comp_classic_capybara",
     "name_ja": "カピバラ（ベーシック）",
     "name_en": "Classic Capybara",
     "gather_type": "カピバラ",
-    "source": "ラグーン",
+    "source": "草原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_capybara.webp",
     "memo": "",
     "color_ja": "ベーシック",
-    "habitat": "ラグーン",
+    "habitat": "草原",
     "favorite_foods": [
       "キャベツ"
-    ]
+    ],
+    "appearance_schedule": "毎日 終日"
   },
   {
     "id": "comp_classic_cobra",
     "name_ja": "コブラ（ベーシック）",
     "name_en": "Classic Cobra",
     "gather_type": "コブラ",
-    "source": "辺境の地",
+    "source": "平原",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_cobra.webp",
     "memo": "",
     "color_ja": "ベーシック",
-    "habitat": "辺境の地",
+    "habitat": "平原",
     "favorite_foods": [
       "卵"
-    ]
+    ],
+    "appearance_schedule": "毎日 終日"
   },
   {
     "id": "comp_classic_crocodile",
@@ -426,7 +450,8 @@
     "habitat": "信頼の湿地",
     "favorite_foods": [
       "ロブスター"
-    ]
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_classic_fox",
@@ -443,24 +468,26 @@
     "habitat": "氷の高原",
     "favorite_foods": [
       "シロチョウザメ"
-    ]
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_classic_monkey",
     "name_ja": "サル（ベーシック）",
     "name_en": "Classic Monkey",
     "gather_type": "サル",
-    "source": "遺跡",
+    "source": "波止場",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_classic_monkey.webp",
     "memo": "",
     "color_ja": "ベーシック",
-    "habitat": "遺跡",
+    "habitat": "波止場",
     "favorite_foods": [
-      "Pastry Cream and Fruits"
-    ]
+      "カスタードクリームとフルーツ"
+    ],
+    "appearance_schedule": "毎日 終日"
   },
   {
     "id": "comp_classic_rabbit",
@@ -477,7 +504,8 @@
     "habitat": "平和の草原",
     "favorite_foods": [
       "ニンジン"
-    ]
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_classic_raccoon",
@@ -494,7 +522,8 @@
     "habitat": "勇気の森",
     "favorite_foods": [
       "ブルーベリー"
-    ]
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_classic_raven",
@@ -510,8 +539,9 @@
     "color_ja": "ベーシック",
     "habitat": "忘却の地",
     "favorite_foods": [
-      "Large Seafood Platter"
-    ]
+      "★5の料理"
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_classic_sea_turtle",
@@ -528,7 +558,8 @@
     "habitat": "輝きの浜辺",
     "favorite_foods": [
       "海藻"
-    ]
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_classic_squirrel",
@@ -545,7 +576,8 @@
     "habitat": "プラザ",
     "favorite_foods": [
       "ピーナッツ"
-    ]
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_dark_owl",
@@ -562,7 +594,8 @@
     "habitat": "萬話の館",
     "favorite_foods": [
       "大麦"
-    ]
+    ],
+    "appearance_schedule": "土日 終日"
   },
   {
     "id": "comp_emerald_sunbird",
@@ -578,12 +611,9 @@
     "color_ja": "エメラルド",
     "habitat": "太陽の台地",
     "favorite_foods": [
-      "Green Passion Lily",
-      "Sunflower",
-      "Pink Bromeliad",
-      "Red Bromeliad",
-      "Pink Houseleek"
-    ]
+      "各種類によって異なる"
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_golden_crocodile",
@@ -600,7 +630,8 @@
     "habitat": "信頼の湿地",
     "favorite_foods": [
       "ロブスター"
-    ]
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_golden_sunbird",
@@ -616,12 +647,9 @@
     "color_ja": "ゴールド",
     "habitat": "太陽の台地",
     "favorite_foods": [
-      "Green Passion Lily",
-      "Sunflower",
-      "Pink Bromeliad",
-      "Red Bromeliad",
-      "Pink Houseleek"
-    ]
+      "各種類によって異なる"
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_gray_spotted_capybara",
@@ -638,7 +666,8 @@
     "habitat": "ラグーン",
     "favorite_foods": [
       "キャベツ"
-    ]
+    ],
+    "appearance_schedule": "月火水 午後12時～午前12時 / 金日 終日"
   },
   {
     "id": "comp_gray_squirrel",
@@ -655,27 +684,29 @@
     "habitat": "プラザ",
     "favorite_foods": [
       "ピーナッツ"
-    ]
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_green_baby_dragon",
     "name_ja": "ドラゴン（グリーン）",
     "name_en": "Green Baby Dragon",
     "gather_type": "ドラゴン",
-    "source": "荒れの森",
+    "source": "落下の要塞",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_green_baby_dragon.webp",
     "memo": "",
     "color_ja": "グリーン",
-    "habitat": "荒れの森",
+    "habitat": "落下の要塞",
     "favorite_foods": [
-      "Pure Ice",
-      "Shiny Pure Ice",
-      "Magma",
-      "Shiny Magma"
-    ]
+      "ピュアアイス",
+      "きらめくピュアアイス",
+      "マグマ",
+      "きらめくマグマ"
+    ],
+    "appearance_schedule": "月火水木 午前10時~午後6時 / 日 AM10:00~PM18:00"
   },
   {
     "id": "comp_green_and_white_striped_cobra",
@@ -692,24 +723,26 @@
     "habitat": "辺境の地",
     "favorite_foods": [
       "卵"
-    ]
+    ],
+    "appearance_schedule": "木 終日"
   },
   {
     "id": "comp_light_owl",
     "name_ja": "フクロウ（ライト）",
     "name_en": "Light Owl",
     "gather_type": "フクロウ",
-    "source": "萬話の館",
+    "source": "書物の里",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_light_owl.webp",
     "memo": "",
     "color_ja": "ライト",
-    "habitat": "萬話の館",
+    "habitat": "書物の里",
     "favorite_foods": [
       "大麦"
-    ]
+    ],
+    "appearance_schedule": "毎日 午後3時~午後8時"
   },
   {
     "id": "comp_orchid_sunbird",
@@ -725,30 +758,28 @@
     "color_ja": "オーキッド",
     "habitat": "太陽の台地",
     "favorite_foods": [
-      "Green Passion Lily",
-      "Sunflower",
-      "Pink Bromeliad",
-      "Red Bromeliad",
-      "Pink Houseleek"
-    ]
+      "各種類によって異なる"
+    ],
+    "appearance_schedule": "金 終日"
   },
   {
     "id": "comp_peach_pegasus",
     "name_ja": "ペガサス（ピーチ）",
     "name_en": "Peach Pegasus",
     "gather_type": "ペガサス",
-    "source": "炎の平原",
+    "source": "オリンポス山",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "",
     "memo": "",
     "color_ja": "ピーチ",
-    "habitat": "炎の平原",
+    "habitat": "オリンポス山",
     "favorite_foods": [
-      "Bulgur Salad",
-      "Fish Creole"
-    ]
+      "ブルグルサラダ",
+      "フィッシュクレオール"
+    ],
+    "appearance_schedule": "毎日 午前6時~午後2時"
   },
   {
     "id": "comp_pink_crocodile",
@@ -765,79 +796,84 @@
     "habitat": "信頼の湿地",
     "favorite_foods": [
       "ロブスター"
-    ]
+    ],
+    "appearance_schedule": "土 終日"
   },
   {
     "id": "comp_pink_pegasus",
     "name_ja": "ペガサス（ピンク）",
     "name_en": "Pink Pegasus",
     "gather_type": "ペガサス",
-    "source": "炎の平原",
+    "source": "至福者の野",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "",
     "memo": "",
     "color_ja": "ピンク",
-    "habitat": "炎の平原",
+    "habitat": "至福者の野",
     "favorite_foods": [
-      "Bulgur Salad",
-      "Fish Creole"
-    ]
+      "ブルグルサラダ",
+      "フィッシュクレオール"
+    ],
+    "appearance_schedule": "木金土日 終日"
   },
   {
     "id": "comp_pink_spotted_cobra",
     "name_ja": "コブラ（ピンクのまだら）",
     "name_en": "Pink Spotted Cobra",
     "gather_type": "コブラ",
-    "source": "辺境の地",
+    "source": "オアシス",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_pink_spotted_cobra.webp",
     "memo": "",
     "color_ja": "ピンクのまだら",
-    "habitat": "辺境の地",
+    "habitat": "オアシス",
     "favorite_foods": [
       "卵"
-    ]
+    ],
+    "appearance_schedule": "月金 終日 / 水木日 午前12時～午後12時"
   },
   {
     "id": "comp_purple_baby_dragon",
     "name_ja": "ドラゴン（パープル）",
     "name_en": "Purple Baby Dragon",
     "gather_type": "ドラゴン",
-    "source": "荒れの森",
+    "source": "豆の",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_purple_baby_dragon.webp",
     "memo": "",
     "color_ja": "パープル",
-    "habitat": "荒れの森",
+    "habitat": "豆の",
     "favorite_foods": [
-      "Pure Ice",
-      "Shiny Pure Ice",
-      "Magma",
-      "Shiny Magma"
-    ]
+      "ピュアアイス",
+      "きらめくピュアアイス",
+      "マグマ",
+      "きらめくマグマ"
+    ],
+    "appearance_schedule": "毎日 午前12時~午後12時"
   },
   {
     "id": "comp_purple_owl",
     "name_ja": "フクロウ（パープル）",
     "name_en": "Purple Owl",
     "gather_type": "フクロウ",
-    "source": "萬話の館",
+    "source": "書物の里",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_purple_owl.webp",
     "memo": "",
     "color_ja": "パープル",
-    "habitat": "萬話の館",
+    "habitat": "書物の里",
     "favorite_foods": [
       "大麦"
-    ]
+    ],
+    "appearance_schedule": "毎日 午前12時~午前9時"
   },
   {
     "id": "comp_purple_sea_turtle",
@@ -854,27 +890,29 @@
     "habitat": "輝きの浜辺",
     "favorite_foods": [
       "海藻"
-    ]
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_red_baby_dragon",
     "name_ja": "ドラゴン（レッド）",
     "name_en": "Red Baby Dragon",
     "gather_type": "ドラゴン",
-    "source": "荒れの森",
+    "source": "ティーポットの滝",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_baby_dragon.webp",
     "memo": "",
     "color_ja": "レッド",
-    "habitat": "荒れの森",
+    "habitat": "ティーポットの滝",
     "favorite_foods": [
-      "Pure Ice",
-      "Shiny Pure Ice",
-      "Magma",
-      "Shiny Magma"
-    ]
+      "ピュアアイス",
+      "きらめくピュアアイス",
+      "マグマ",
+      "きらめくマグマ"
+    ],
+    "appearance_schedule": "土日 終日"
   },
   {
     "id": "comp_red_crocodile",
@@ -891,7 +929,8 @@
     "habitat": "信頼の湿地",
     "favorite_foods": [
       "ロブスター"
-    ]
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_red_fox",
@@ -908,7 +947,8 @@
     "habitat": "氷の高原",
     "favorite_foods": [
       "シロチョウザメ"
-    ]
+    ],
+    "appearance_schedule": "土 終日"
   },
   {
     "id": "comp_red_raccoon",
@@ -925,7 +965,8 @@
     "habitat": "勇気の森",
     "favorite_foods": [
       "ブルーベリー"
-    ]
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_red_raven",
@@ -941,8 +982,9 @@
     "color_ja": "レッド",
     "habitat": "忘却の地",
     "favorite_foods": [
-      "Large Seafood Platter"
-    ]
+      "★5の料理"
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_red_squirrel",
@@ -959,7 +1001,8 @@
     "habitat": "プラザ",
     "favorite_foods": [
       "ピーナッツ"
-    ]
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_red_sunbird",
@@ -975,29 +1018,27 @@
     "color_ja": "レッド",
     "habitat": "太陽の台地",
     "favorite_foods": [
-      "Green Passion Lily",
-      "Sunflower",
-      "Pink Bromeliad",
-      "Red Bromeliad",
-      "Pink Houseleek"
-    ]
+      "各種類によって異なる"
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_red_and_beige_monkey",
     "name_ja": "サル（レッド&ベージュ）",
     "name_en": "Red and Beige Monkey",
     "gather_type": "サル",
-    "source": "遺跡",
+    "source": "展望の地",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "images/companions/comp_red_and_beige_monkey.webp",
     "memo": "",
     "color_ja": "レッド&ベージュ",
-    "habitat": "遺跡",
+    "habitat": "展望の地",
     "favorite_foods": [
-      "Pastry Cream and Fruits"
-    ]
+      "カスタードクリームとフルーツ"
+    ],
+    "appearance_schedule": "月水金 午前12時～午後12時 / 火土 終日"
   },
   {
     "id": "comp_red_and_white_striped_capybara",
@@ -1014,7 +1055,8 @@
     "habitat": "ラグーン",
     "favorite_foods": [
       "キャベツ"
-    ]
+    ],
+    "appearance_schedule": "土 終日"
   },
   {
     "id": "comp_turquoise_sunbird",
@@ -1030,12 +1072,9 @@
     "color_ja": "ターコイズ",
     "habitat": "太陽の台地",
     "favorite_foods": [
-      "Green Passion Lily",
-      "Sunflower",
-      "Pink Bromeliad",
-      "Red Bromeliad",
-      "Pink Houseleek"
-    ]
+      "各種類によって異なる"
+    ],
+    "appearance_schedule": "月水金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_white_crocodile",
@@ -1052,7 +1091,8 @@
     "habitat": "信頼の湿地",
     "favorite_foods": [
       "ロブスター"
-    ]
+    ],
+    "appearance_schedule": "日 終日"
   },
   {
     "id": "comp_white_fox",
@@ -1069,7 +1109,8 @@
     "habitat": "氷の高原",
     "favorite_foods": [
       "シロチョウザメ"
-    ]
+    ],
+    "appearance_schedule": "月木土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_white_rabbit",
@@ -1086,7 +1127,8 @@
     "habitat": "平和の草原",
     "favorite_foods": [
       "ニンジン"
-    ]
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_white_raccoon",
@@ -1103,7 +1145,8 @@
     "habitat": "勇気の森",
     "favorite_foods": [
       "ブルーベリー"
-    ]
+    ],
+    "appearance_schedule": "火木金 終日 / 日 午前12時～午後12時"
   },
   {
     "id": "comp_white_raven",
@@ -1119,8 +1162,9 @@
     "color_ja": "ホワイト",
     "habitat": "忘却の地",
     "favorite_foods": [
-      "Large Seafood Platter"
-    ]
+      "★5の料理"
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_white_sea_turtle",
@@ -1137,7 +1181,8 @@
     "habitat": "輝きの浜辺",
     "favorite_foods": [
       "海藻"
-    ]
+    ],
+    "appearance_schedule": "火水土 終日 / 日 午後12時～午前12時"
   },
   {
     "id": "comp_white_squirrel",
@@ -1154,25 +1199,27 @@
     "habitat": "プラザ",
     "favorite_foods": [
       "ピーナッツ"
-    ]
+    ],
+    "appearance_schedule": "日 終日"
   },
   {
     "id": "comp_yellow_pegasus",
     "name_ja": "ペガサス（イエロー）",
     "name_en": "Yellow Pegasus",
     "gather_type": "ペガサス",
-    "source": "炎の平原",
+    "source": "巨象の影",
     "owned": false,
     "friendship_level": 0,
     "is_equipped": false,
     "icon_path": "",
     "memo": "",
     "color_ja": "イエロー",
-    "habitat": "炎の平原",
+    "habitat": "巨象の影",
     "favorite_foods": [
-      "Bulgur Salad",
-      "Fish Creole"
-    ]
+      "ブルグルサラダ",
+      "フィッシュクレオール"
+    ],
+    "appearance_schedule": "火水木金土 午後6時~午後12時"
   },
   {
     "id": "comp_yellow_and_purple_striped_cobra",
@@ -1189,6 +1236,7 @@
     "habitat": "辺境の地",
     "favorite_foods": [
       "卵"
-    ]
+    ],
+    "appearance_schedule": "火土 終日 / 水木日 午後12時～午前12時"
   }
 ]

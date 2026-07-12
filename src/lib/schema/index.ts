@@ -50,8 +50,9 @@ export interface Companion {
   gather_type: string      // 🔒 種（日本語）
   color_ja: string         // 🔒 色名（日本語・並べ替え用）
   source: string           // 🔒 生息地（日本語）
-  habitat: string          // 🔒 生息地（日本語）
+  habitat: string          // 🔒 生息地（日本語・色違いごと）
   favorite_foods: string[] // 🔒 好物（日本語）
+  appearance_schedule: string // 🔒 出現時間（曜日・時間）
   owned: boolean           // ✏️
   friendship_level: number // ✏️
   is_equipped: boolean     // ✏️
