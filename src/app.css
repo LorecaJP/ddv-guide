@@ -77,4 +77,9 @@ a { color: inherit; text-decoration: none; }
 button {
   font-family: var(--font-body);
   cursor: pointer;
+  /* iOS: ダブルタップによる拡大とタップ遅延を防ぎ、連打がしっかり反応するように */
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }

@@ -13,12 +13,21 @@
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
+  // 旧ロール名 → 新名称（ユーザーの割り当てを保持するための移行）
+  const ROLE_MIGRATE: Record<string, string> = { 釣り: '魚釣り', 採取: '収集', 発掘: '土掘り' }
+
   async function load() {
     loading = true
     await seedAll()
-    all = (await getAll<Character>('characters')).sort((a, b) =>
-      a.name_ja.localeCompare(b.name_ja, 'ja'),
-    )
+    const rows = await getAll<Character>('characters')
+    for (const c of rows) {
+      const mapped = ROLE_MIGRATE[c.skill_assigned]
+      if (mapped) {
+        c.skill_assigned = mapped
+        await put('characters', $state.snapshot(c))
+      }
+    }
+    all = rows.sort((a, b) => a.name_ja.localeCompare(b.name_ja, 'ja'))
     loading = false
   }
   load()
@@ -55,8 +64,8 @@
 
   const ownedCount = $derived(all.filter((c) => c.owned).length)
 
-  // DDV の割り当てロール（得意分野・整理用タグ。DLC分の時空歪曲/紙精を含む）
-  const SKILLS = ['園芸', '釣り', '採掘', '発掘', '採取', '時空歪曲', '紙精捕獲']
+  // DDV の割り当てロール（得意分野・整理用タグ。DLC分の時空歪曲/紙精捕獲を含む）
+  const SKILLS = ['園芸', '魚釣り', '採掘', '土掘り', '収集', '時空歪曲', '紙精捕獲']
 
   async function save(c: Character) {
     await put('characters', $state.snapshot(c))
