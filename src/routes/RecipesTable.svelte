@@ -13,7 +13,7 @@
   let categoryFilter = $state('all') // 'all' | 前菜/主菜/デザート
   let realmFilter = $state('all') // 'all' | コンテンツ名
   let expanded = $state<Set<string>>(new Set())
-  const REALMS = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場']
+  const REALMS = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場', 'ハニーグローの森']
 
   const CAT_ORDER = ['前菜', '主菜', 'デザート']
 
@@ -34,7 +34,9 @@
         if (statusFilter === 'unlocked' && !r.unlocked) return false
         if (statusFilter === 'locked' && r.unlocked) return false
         if (categoryFilter !== 'all' && r.category !== categoryFilter) return false
-        if (realmFilter !== 'all' && r.realm !== realmFilter) return false
+        if (realmFilter === '__none__') {
+          if (r.realm) return false
+        } else if (realmFilter !== 'all' && r.realm !== realmFilter) return false
         if (starFilter && r.stars !== starFilter) return false
         if (query) {
           const q = query.toLowerCase()
@@ -109,6 +111,7 @@
     <select bind:value={realmFilter} aria-label="コンテンツで絞り込み">
       <option value="all">コンテンツ：すべて</option>
       {#each REALMS as rlm}<option value={rlm}>{rlm}</option>{/each}
+      <option value="__none__">（コンテンツ未設定）</option>
     </select>
   </div>
 </div>
