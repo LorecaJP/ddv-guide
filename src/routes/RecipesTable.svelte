@@ -10,7 +10,10 @@
   let query = $state($route.params.ing ?? '')
   let starFilter = $state(0) // 0 = すべて
   let statusFilter = $state('all') // 'all' | 'unlocked' | 'locked'
+  let categoryFilter = $state('all') // 'all' | 前菜/主菜/デザート
+  let realmFilter = $state('all') // 'all' | コンテンツ名
   let expanded = $state<Set<string>>(new Set())
+  const REALMS = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場']
 
   const CAT_ORDER = ['前菜', '主菜', 'デザート']
 
@@ -30,6 +33,8 @@
       const filtered = all.filter((r) => {
         if (statusFilter === 'unlocked' && !r.unlocked) return false
         if (statusFilter === 'locked' && r.unlocked) return false
+        if (categoryFilter !== 'all' && r.category !== categoryFilter) return false
+        if (realmFilter !== 'all' && r.realm !== realmFilter) return false
         if (starFilter && r.stars !== starFilter) return false
         if (query) {
           const q = query.toLowerCase()
@@ -94,6 +99,16 @@
       <option value="all">解放：すべて</option>
       <option value="unlocked">解放済み</option>
       <option value="locked">未解放</option>
+    </select>
+    <select bind:value={categoryFilter} aria-label="分類で絞り込み">
+      <option value="all">分類：すべて</option>
+      <option value="前菜">前菜</option>
+      <option value="主菜">主菜</option>
+      <option value="デザート">デザート</option>
+    </select>
+    <select bind:value={realmFilter} aria-label="コンテンツで絞り込み">
+      <option value="all">コンテンツ：すべて</option>
+      {#each REALMS as rlm}<option value={rlm}>{rlm}</option>{/each}
     </select>
   </div>
 </div>

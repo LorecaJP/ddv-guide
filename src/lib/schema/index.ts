@@ -27,6 +27,7 @@ export interface Recipe {
   ingredients: string[]    // 🔒 材料（英語）
   ingredients_ja: string[] // 🔒 材料（日本語）
   category: string         // 🔒 前菜/主菜/デザート
+  realm: string            // 🔒 コンテンツ（バレー/永遠の島/物語の谷/願い咲く牧場）
   sell_price_note: string  // 🔒
   unlocked: boolean        // ✏️
   memo: string             // ✏️

@@ -8,6 +8,7 @@ import requests, re, json
 API="https://disneydreamlightvalley.fandom.com/api.php"
 H={"User-Agent":"personal-ddv-archive/1.0 (individual use; contact: N/A)"}
 PAGES=["Meals/Dreamlight Valley","Meals/Eternity Isle","Meals/Storybook Vale","Meals/Wishblossom Mountains"]
+REALM_JA={"Meals/Dreamlight Valley":"バレー","Meals/Eternity Isle":"永遠の島","Meals/Storybook Vale":"物語の谷","Meals/Wishblossom Mountains":"願い咲く牧場"}
 CAT_JA={"appetizer":"前菜","appetizers":"前菜","entree":"主菜","entrees":"主菜","dessert":"デザート","desserts":"デザート"}
 
 def fetch(t):
@@ -18,7 +19,9 @@ def fetch(t):
     return ""
 
 name2cat={}
+name2realm={}
 for page in PAGES:
+    realm=REALM_JA[page]
     txt=fetch(page)
     # セクション見出しで分割: ===[[File:...]] Appetizers ===
     parts=re.split(r"\n===+([^=\n]+?)===+", txt)
@@ -35,7 +38,10 @@ for page in PAGES:
             if not cur: continue
             for row in re.split(r"\n\|-", seg):
                 mn=re.search(r"\{\{IDb\|([^}|]+)\}\}", row) or re.search(r"70x70px[^\]]*\]\]\s*<br>\s*\[\[([^\]|]+)", row)
-                if mn: name2cat[mn.group(1).strip()]=cur
+                if mn:
+                    nm=mn.group(1).strip()
+                    name2cat[nm]=cur
+                    name2realm.setdefault(nm, realm)  # 最初に出た(=所属)コンテンツ
 
 print("カテゴリ判定:", len(name2cat), "件")
 
@@ -45,10 +51,14 @@ en2ja={m["name_en"]:m["name_ja"] for m in mats if m["name_ja"]}
 
 recs=json.load(open("src/lib/data/recipes.json"))
 catcount={}
+realmcount={}
 for r in recs:
     r["category"]=name2cat.get(r["name_en"],"")
+    r["realm"]=name2realm.get(r["name_en"],"")
     r["ingredients_ja"]=[en2ja.get(i,i).replace("&amp;","&") for i in r["ingredients"]]
     catcount[r["category"] or "(未分類)"]=catcount.get(r["category"] or "(未分類)",0)+1
+    realmcount[r["realm"] or "(不明)"]=realmcount.get(r["realm"] or "(不明)",0)+1
+print("コンテンツ内訳:", realmcount)
 json.dump(recs,open("src/lib/data/recipes.json","w"),ensure_ascii=False,indent=2)
 print("カテゴリ内訳:", catcount)
 # 材料翻訳サンプル
