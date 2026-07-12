@@ -9,7 +9,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_mickey.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_minnie",
@@ -21,7 +22,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_minnie.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_donald",
@@ -33,7 +35,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_donald.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_goofy",
@@ -45,7 +48,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_goofy.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_scrooge",
@@ -57,7 +61,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_scrooge.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_daisy",
@@ -69,7 +74,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_daisy.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_merlin",
@@ -81,7 +87,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_merlin.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_ursula",
@@ -93,7 +100,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_ursula.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_ariel",
@@ -105,7 +113,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_ariel.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_prince_eric",
@@ -117,7 +126,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_prince_eric.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_mother_gothel",
@@ -129,7 +139,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_mother_gothel.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_rapunzel",
@@ -141,7 +152,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_rapunzel.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_flynn_rider",
@@ -153,7 +165,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_walle",
@@ -165,7 +178,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_walle.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_eve",
@@ -177,7 +191,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_eve.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_maui",
@@ -189,7 +204,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_maui.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_moana",
@@ -201,7 +217,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_moana.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_remy",
@@ -213,7 +230,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_remy.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_kristoff",
@@ -225,7 +243,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_kristoff.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_anna",
@@ -237,7 +256,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_anna.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_elsa",
@@ -249,7 +269,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_elsa.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_olaf",
@@ -261,7 +282,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_olaf.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_scar",
@@ -273,7 +295,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_scar.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_simba",
@@ -285,7 +308,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_simba.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_nala",
@@ -297,7 +321,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_nala.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_timon",
@@ -309,7 +334,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_pumbaa",
@@ -321,7 +347,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_woody",
@@ -333,7 +360,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_woody.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_buzz_lightyear",
@@ -345,7 +373,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_buzz_lightyear.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_stitch",
@@ -357,7 +386,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_stitch.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_mirabel",
@@ -369,7 +399,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_mirabel.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_fairy_godmother",
@@ -381,7 +412,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_fairy_godmother.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_cinderella",
@@ -393,7 +425,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_vanellope",
@@ -405,7 +438,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_vanellope.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_belle",
@@ -417,7 +451,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_belle.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_beast",
@@ -429,7 +464,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_beast.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_lumiere",
@@ -441,7 +477,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_cogsworth",
@@ -453,7 +490,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_gaston",
@@ -465,7 +503,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_gaston.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_jack_skellington",
@@ -477,7 +516,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_jack_skellington.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_sally",
@@ -489,7 +529,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_jafar",
@@ -501,7 +542,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_jafar.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_aladdin",
@@ -513,7 +555,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_aladdin.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_jasmine",
@@ -525,7 +568,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_jasmine.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_mike_wazowski",
@@ -537,7 +581,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_mike_wazowski.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_sulley",
@@ -549,7 +594,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_sulley.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_oswald",
@@ -561,7 +607,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_oswald.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_mulan",
@@ -573,7 +620,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_mushu",
@@ -585,7 +633,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_tiana",
@@ -597,7 +646,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_tiana.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_merida",
@@ -609,7 +659,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_hades",
@@ -621,7 +672,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_alice",
@@ -633,7 +685,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_cheshire_cat",
@@ -645,7 +698,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_peter_pan",
@@ -657,7 +711,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_tinker_bell",
@@ -669,7 +724,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_the_forgotten",
@@ -681,7 +737,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_maleficent",
@@ -693,7 +750,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_aurora",
@@ -705,7 +763,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_joy",
@@ -717,7 +776,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_sadness",
@@ -729,7 +789,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_snow_white",
@@ -741,7 +802,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_tigger",
@@ -753,7 +815,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_cruella",
@@ -765,7 +828,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_lady",
@@ -777,7 +841,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_tramp",
@@ -789,7 +854,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_pocahontas",
@@ -801,7 +867,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_hercules",
@@ -813,7 +880,8 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_hercules.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   },
   {
     "id": "char_phil",
@@ -825,6 +893,7 @@
     "skill_assigned": "",
     "owned": false,
     "icon_path": "images/characters/char_phil.webp",
-    "memo": ""
+    "memo": "",
+    "friendship_level": 0
   }
 ]

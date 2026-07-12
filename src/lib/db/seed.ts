@@ -22,7 +22,7 @@ import { getAll, bulkPut } from './idb'
 
 // 各カテゴリの ✏️ フィールド（マージ時に既存値を優先して保持する）
 const EDITABLE: Record<string, string[]> = {
-  characters: ['skill_assigned', 'owned', 'memo'],
+  characters: ['skill_assigned', 'friendship_level', 'owned', 'memo'],
   recipes: ['unlocked', 'memo'],
   materials: ['stock_count', 'memo'],
   companions: ['owned', 'friendship_level', 'is_equipped', 'memo'],

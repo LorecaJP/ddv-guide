@@ -11,8 +11,9 @@ export interface Character {
   franchise: string        // 🔒 作品名
   unlock_condition: string // 🔒 要約（日本語）
   home_location: string    // 🔒
-  skill_assigned: string   // ✏️
-  owned: boolean           // ✏️
+  skill_assigned: string   // ✏️ 割り当てロール（釣り/採掘 等）
+  friendship_level: number // ✏️ フレンドレベル 0-10
+  owned: boolean           // ✏️ 解放済みか
   icon_path: string        // 画像取得後に埋める
   memo: string             // ✏️
 }

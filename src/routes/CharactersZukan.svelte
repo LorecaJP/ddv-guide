@@ -39,11 +39,25 @@
 
   const ownedCount = $derived(all.filter((c) => c.owned).length)
 
-  async function toggleOwned(c: Character) {
-    c.owned = !c.owned
+  // DDV の村人ロール（活動ボーナス）
+  const SKILLS = ['園芸', '釣り', '採掘', '発掘', '採取']
+
+  async function save(c: Character) {
     await put('characters', $state.snapshot(c))
     all = [...all] // 再描画トリガ
     if (selected?.id === c.id) selected = c
+  }
+  function toggleOwned(c: Character) {
+    c.owned = !c.owned
+    save(c)
+  }
+  function setSkill(c: Character, v: string) {
+    c.skill_assigned = v
+    save(c)
+  }
+  function setLevel(c: Character, v: number) {
+    c.friendship_level = Math.max(0, Math.min(10, v | 0))
+    save(c)
   }
 </script>
 
@@ -75,7 +89,7 @@
           {#if c.icon_path && !broken.has(c.id)}
             <img src={asset(c.icon_path)} alt={c.name_ja} loading="lazy" onerror={() => markBroken(c.id)} />
           {:else}
-            <span class="noimg">?</span>
+            <span class="noimg"><span class="ph-mark">👤</span><span class="ph-name">{c.name_ja}</span></span>
           {/if}
           {#if c.owned}<span class="own">✓</span>{/if}
         </div>
@@ -96,7 +110,7 @@
         <div class="big-thumb">
           {#if selected.icon_path && !broken.has(selected.id)}
             <img src={asset(selected.icon_path)} alt={selected.name_ja} onerror={() => selected && markBroken(selected.id)} />
-          {:else}<span class="noimg">?</span>{/if}
+          {:else}<span class="noimg"><span class="ph-mark">👤</span></span>{/if}
         </div>
         <div>
           <h2>{selected.name_ja}</h2>
@@ -107,11 +121,29 @@
       <dl class="facts">
         <dt>解放条件</dt><dd>{selected.unlock_condition || '（未登録）'}</dd>
         <dt>居住地</dt><dd>{selected.home_location || '（未登録）'}</dd>
-        <dt>割り当てスキル</dt><dd>{selected.skill_assigned || '（未設定）'}</dd>
+        <dt>割り当てロール</dt>
+        <dd>
+          <select
+            class="skill"
+            value={selected.skill_assigned}
+            onchange={(e) => selected && setSkill(selected, e.currentTarget.value)}
+          >
+            <option value="">未設定</option>
+            {#each SKILLS as s}<option value={s}>{s}</option>{/each}
+          </select>
+        </dd>
+        <dt>フレンドLv</dt>
+        <dd>
+          <div class="stepper">
+            <button onclick={() => selected && setLevel(selected, selected.friendship_level - 1)} aria-label="下げる">−</button>
+            <span class="lv">{selected.friendship_level || 0}<span class="lvmax"> / 10</span></span>
+            <button onclick={() => selected && setLevel(selected, selected.friendship_level + 1)} aria-label="上げる">＋</button>
+          </div>
+        </dd>
         <dt>メモ</dt><dd>{selected.memo || '—'}</dd>
       </dl>
       <button class="own-btn" class:on={selected.owned} onclick={() => selected && toggleOwned(selected)}>
-        {selected.owned ? '✓ 解放済み' : '未解放にマーク中 → 解放にする'}
+        {selected.owned ? '✓ 解放済み（タップで未解放に）' : '未解放（タップで解放に）'}
       </button>
     </div>
   </div>
@@ -164,7 +196,13 @@
     overflow: hidden;
   }
   .thumb img { width: 100%; height: 100%; object-fit: contain; }
-  .noimg { font-family: var(--font-display); font-size: 30px; color: var(--c-ink-soft); }
+  .noimg {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px;
+    width: 100%; height: 100%; padding: 6px; text-align: center;
+    background: linear-gradient(160deg, var(--c-surface-2), color-mix(in srgb, var(--c-accent-soft) 40%, var(--c-surface-2)));
+  }
+  .ph-mark { font-size: 26px; opacity: 0.55; }
+  .ph-name { font-family: var(--font-display); font-weight: 600; font-size: 12px; color: var(--c-ink-soft); line-height: 1.15; }
   .own {
     position: absolute; top: 6px; right: 6px;
     width: 20px; height: 20px; border-radius: 50%;
@@ -209,9 +247,20 @@
     background: var(--c-accent-soft); color: var(--c-accent-ink);
     font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px;
   }
-  .facts { display: grid; grid-template-columns: 88px 1fr; gap: 8px 12px; margin: 4px 0 18px; font-size: 14px; }
+  .facts { display: grid; grid-template-columns: 96px 1fr; gap: 10px 12px; margin: 4px 0 18px; font-size: 14px; align-items: center; }
   .facts dt { color: var(--c-ink-soft); }
   .facts dd { margin: 0; }
+  .skill {
+    font-family: var(--font-body); padding: 7px 10px; border: 1px solid var(--c-line);
+    border-radius: var(--radius-sm); background: var(--c-bg); color: var(--c-ink); font-size: 14px; min-width: 120px;
+  }
+  .stepper { display: inline-flex; align-items: center; gap: 8px; }
+  .stepper button {
+    width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--c-line);
+    background: var(--c-surface-2); color: var(--c-ink); font-weight: 700; font-size: 16px;
+  }
+  .lv { min-width: 56px; text-align: center; font-family: var(--font-display); font-weight: 700; font-size: 18px; }
+  .lvmax { font-size: 12px; color: var(--c-ink-soft); font-weight: 400; }
   .own-btn {
     width: 100%; padding: 11px; border-radius: var(--radius-sm);
     border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink);
