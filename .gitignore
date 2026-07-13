@@ -4,6 +4,6 @@ dist
 *.local
 .vite
 
-# 著作権配慮: ディズニー/Gameloft の画像は公開リポジトリに含めない
-# （ローカル版では表示され、公開版では「?」プレースホルダになる）
-public/images/
+# 画像は Disney Dreamlight Valley Wiki (Fandom) 由来。
+# ディズニーより本サイト内での利用許諾を得たため、公開版に含める（コミット対象）。
+# ※ 画像実体はローカル(public/images/)にあり、コミットして push すると公開されます。

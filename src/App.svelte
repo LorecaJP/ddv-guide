@@ -56,7 +56,7 @@
 </main>
 
 <footer class="foot container">
-  個人利用・非公開。画像・データ出典: Disney Dreamlight Valley Wiki (Fandom)。画像は個人参照用。
+  個人運営の攻略メモ。データ・画像出典: Disney Dreamlight Valley Wiki (Fandom, CC BY-SA)。
 </footer>
 
 <style>
