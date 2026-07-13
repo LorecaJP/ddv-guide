@@ -1,6 +1,38 @@
 <script lang="ts">
   import { CATEGORIES } from '../lib/schema'
   import { navigate } from '../lib/router'
+  import { seedAll } from '../lib/db/seed'
+  import { getAll } from '../lib/db/idb'
+
+  // カテゴリごとの「達成」判定フィールド（真偽で数える）。無いものは件数のみ表示。
+  const PROGRESS_FIELD: Record<string, string> = {
+    characters: 'owned',
+    companions: 'owned',
+    recipes: 'unlocked',
+    materials: 'unlocked',
+    quests: 'completed',
+    events: 'participated',
+    expansions: 'owned',
+  }
+
+  type Stat = { total: number; done: number | null }
+  let stats = $state<Record<string, Stat>>({})
+
+  async function load() {
+    await seedAll()
+    const keys = CATEGORIES.filter((c) => c.key !== 'dashboard').map((c) => c.key)
+    const entries = await Promise.all(
+      keys.map(async (k): Promise<[string, Stat]> => {
+        const rows = await getAll<Record<string, any>>(k)
+        const f = PROGRESS_FIELD[k]
+        return [k, { total: rows.length, done: f ? rows.filter((r) => r[f]).length : null }]
+      }),
+    )
+    stats = Object.fromEntries(entries)
+  }
+  load()
+
+  const pct = (s: Stat) => (s.total ? Math.round(((s.done ?? 0) / s.total) * 100) : 0)
 </script>
 
 <section class="hero">
@@ -10,10 +42,21 @@
 
 <div class="grid">
   {#each CATEGORIES as c (c.key)}
+    {@const s = stats[c.key]}
     <button class="tile" class:soon={!c.implemented} onclick={() => navigate(c.key)}>
       <span class="emoji">{c.emoji}</span>
       <span class="label">{c.name_ja}</span>
       <span class="type">{c.display === 'image-grid' ? '図鑑' : c.display === 'table' ? '一覧表' : c.display === 'links' ? 'リンク集' : 'ダッシュボード'}</span>
+      {#if s}
+        {#if s.done !== null}
+          <span class="prog">
+            <span class="pnum">{s.done}<span class="ptot"> / {s.total}</span></span>
+            <span class="bar"><span class="fill" style="width:{pct(s)}%"></span></span>
+          </span>
+        {:else if s.total > 0}
+          <span class="count">{s.total} 件</span>
+        {/if}
+      {/if}
       {#if !c.implemented}<span class="badge">準備中</span>{/if}
     </button>
   {/each}
@@ -52,6 +95,14 @@
   .tile .label { font-family: var(--font-display); font-weight: 600; font-size: 17px; }
   .tile .type { font-size: 12px; color: var(--c-ink-soft); }
   .tile.soon { opacity: 0.72; }
+
+  .prog { width: 100%; margin-top: 4px; display: flex; flex-direction: column; gap: 4px; }
+  .pnum { font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--c-ink); }
+  .ptot { font-weight: 400; color: var(--c-ink-soft); }
+  .bar { height: 5px; width: 100%; background: var(--c-surface-2); border-radius: 999px; overflow: hidden; }
+  .fill { display: block; height: 100%; background: var(--c-accent); border-radius: 999px; }
+  .count { margin-top: 2px; font-size: 12px; color: var(--c-ink-soft); font-variant-numeric: tabular-nums; }
+
   .badge {
     position: absolute;
     top: 12px;

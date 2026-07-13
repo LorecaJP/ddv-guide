@@ -2,18 +2,30 @@
   import type { Recipe } from '../lib/schema'
   import { seedAll } from '../lib/db/seed'
   import { getAll, put } from '../lib/db/idb'
-  import { route } from '../lib/router'
+  import { route, setParams } from '../lib/router'
 
+  const P = $route.params
   let all = $state<Recipe[]>([])
   let loading = $state(true)
   // 素材ページからの遷移時は ?ing=材料名 で初期検索
-  let query = $state($route.params.ing ?? '')
-  let starFilter = $state(0) // 0 = すべて
-  let statusFilter = $state('all') // 'all' | 'unlocked' | 'locked'
-  let categoryFilter = $state('all') // 'all' | 前菜/主菜/デザート
-  let realmFilter = $state('all') // 'all' | コンテンツ名
+  let query = $state(P.q ?? P.ing ?? '')
+  let starFilter = $state(Number(P.star) || 0) // 0 = すべて
+  let statusFilter = $state(P.status ?? 'all') // 'all' | 'unlocked' | 'locked'
+  let categoryFilter = $state(P.cat ?? 'all') // 'all' | 前菜/主菜/デザート
+  let realmFilter = $state(P.realm ?? 'all') // 'all' | コンテンツ名
   let expanded = $state<Set<string>>(new Set())
   const REALMS = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場', 'ハニーグローの森']
+
+  // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
+  $effect(() => {
+    setParams('recipes', {
+      q: query,
+      star: starFilter ? String(starFilter) : '',
+      status: statusFilter,
+      cat: categoryFilter,
+      realm: realmFilter,
+    })
+  })
 
   const CAT_ORDER = ['前菜', '主菜', 'デザート']
 
