@@ -41,6 +41,7 @@ export interface Material {
   category: string         // 🔒
   obtain_method: string    // 🔒 要約
   used_in_recipes: string[]// 🔒 recipes と ID 連携
+  unlocked: boolean        // ✏️ 解放済みか
   stock_count: number      // ✏️
   memo: string             // ✏️
 }

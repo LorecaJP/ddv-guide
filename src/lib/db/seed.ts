@@ -24,7 +24,7 @@ import { getAll, bulkPut } from './idb'
 const EDITABLE: Record<string, string[]> = {
   characters: ['skill_assigned', 'friendship_level', 'owned', 'memo'],
   recipes: ['unlocked', 'memo'],
-  materials: ['stock_count', 'memo'],
+  materials: ['unlocked', 'stock_count', 'memo'],
   companions: ['owned', 'friendship_level', 'is_equipped', 'memo'],
   animals: ['fed_today', 'unlocked_as_companion', 'memo'],
   crops: ['planted_count', 'harvested_total', 'memo'],
