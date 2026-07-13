@@ -2,8 +2,8 @@ import { defineConfig } from 'vite'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// GitHub Pages（プロジェクトページ）でもローカルでも動くよう相対ベース。
-// もし https://<user>.github.io/ddv-guide/ で公開するなら base を '/ddv-guide/' に変更。
+// 相対ベース。GitHub Pages のサブパス（https://lorecajp.github.io/ddv-guide/）でも
+// ローカルでも動く（ハッシュルーターのため base '/ddv-guide/' への変更は不要・確認済み）。
 export default defineConfig({
   base: './',
   plugins: [

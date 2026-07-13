@@ -1,11 +1,12 @@
-# DDV 攻略メモ（個人用）
+# DDV 攻略メモ
 
-Disney Dreamlight Valley の攻略情報を自分専用にまとめる非公開サイト。**個人利用のみ**。
+Disney Dreamlight Valley の攻略情報を自分用にまとめた個人運営サイト。
+公開: **https://lorecajp.github.io/ddv-guide/** （`noindex`。画像は Disney 許諾のもと掲載）
 
 ## 技術
 - Svelte 5 + Vite + TypeScript
-- データ保存: **IndexedDB**（ブラウザローカル。🔒外部データは静的JSONからシード、✏️自分用フィールドは端末に保存）
-- ホスティング想定: GitHub Pages（`.github/workflows/deploy.yml`）
+- データ保存: **IndexedDB**（ブラウザローカル。🔒外部データは静的JSONからシード、✏️自分用フィールドは端末に保存。端末間移行はダッシュボードのバックアップ/復元）
+- ホスティング: GitHub Pages（`main` への push で `.github/workflows/deploy.yml` が自動デプロイ）
 
 ## 開発
 ```bash
@@ -21,17 +22,18 @@ npm run preview    # ビルド結果をプレビュー
 src/
   app.css                 デザイントークン（CSS変数。ddv-prototypes.jsx の値に差し替え予定）
   lib/
-    schema/index.ts       16カテゴリの TypeScript 型 + カテゴリメタ(CATEGORIES)
+    schema/index.ts       15カテゴリの TypeScript 型 + カテゴリメタ(CATEGORIES)
     db/idb.ts             最小 IndexedDB ラッパー
     db/seed.ts            静的JSON → IndexedDB（✏️編集を保持してマージ）
-    data/characters.json  キャラ69体（🔒データ）
+    db/transfer.ts        データ移行（✏️＋dashboard の書き出し/読み込み）
+    data/characters.json  キャラ72体（🔒データ）
     router.ts             ハッシュルーター + asset() パスヘルパー
   routes/
-    Hub.svelte            トップ = ④ハブ＆スポーク（16カテゴリメニュー）
+    Hub.svelte            トップ = ④ハブ＆スポーク（15カテゴリメニュー・進捗表示）
     CharactersZukan.svelte キャラ詳細 = ②図鑑グリッド（検索/作品フィルタ/解放トグル）
     CategoryPlaceholder.svelte 未実装カテゴリの案内
 public/
-  images/characters/*.webp  キャラ肖像（ローカル参照）
+  images/characters|companions/*.webp  肖像（リポジトリにコミット＝公開）
 ```
 
 ## データの追加（タスクC の続き）
