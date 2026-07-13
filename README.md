@@ -39,8 +39,5 @@ public/
 2. `src/lib/db/seed.ts` に `seedStore(...)` を1行追加
 3. 表示は `src/routes/` に対応コンポーネントを足し、`App.svelte` で分岐
 
-## 画像・著作権
-画像・データは Disney Dreamlight Valley Wiki (Fandom) 由来。画像は Disney/Gameloft の著作物で、**個人参照用**として保持。再配布・公開再アップロードはしない。本文の説明は Fandom 英語版を日本語で要約（直訳の丸写しはしない）。
-
 ## デザイントークン
 `src/app.css` の `:root` は**仮パレット**。`ddv-prototypes.jsx` のカラー値を受領後、ここを差し替えるだけで全体に反映される。フォントは Fraunces（見出し）+ Manrope（本文）。
