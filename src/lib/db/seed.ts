@@ -27,7 +27,8 @@ const SEED_LOADERS: Record<string, () => Promise<{ default: Record<string, any>[
 }
 
 // 各カテゴリの ✏️ フィールド（マージ時に既存値を優先して保持する）
-const EDITABLE: Record<string, string[]> = {
+// バックアップ/復元(transfer.ts)でも「移行対象＝自分用フィールド」の定義として再利用する。
+export const EDITABLE: Record<string, string[]> = {
   characters: ['skill_assigned', 'friendship_level', 'owned', 'memo'],
   recipes: ['unlocked', 'memo'],
   materials: ['unlocked', 'stock_count', 'memo'],
