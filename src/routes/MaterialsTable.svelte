@@ -2,14 +2,20 @@
   import type { Material } from '../lib/schema'
   import { seedAll } from '../lib/db/seed'
   import { getAll, put } from '../lib/db/idb'
-  import { navigate } from '../lib/router'
+  import { navigate, route, setParams } from '../lib/router'
 
+  const P = $route.params
   let all = $state<Material[]>([])
   let loading = $state(true)
-  let query = $state('')
-  let statusFilter = $state('all') // 'all' | 'unlocked' | 'locked'
-  let catFilter = $state('all')
+  let query = $state(P.q ?? '')
+  let statusFilter = $state(P.status ?? 'all') // 'all' | 'unlocked' | 'locked'
+  let catFilter = $state(P.cat ?? 'all')
   let expanded = $state<Set<string>>(new Set())
+
+  // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
+  $effect(() => {
+    setParams('materials', { q: query, status: statusFilter, cat: catFilter })
+  })
 
   async function load() {
     loading = true

@@ -2,16 +2,26 @@
   import type { Character } from '../lib/schema'
   import { seedAll } from '../lib/db/seed'
   import { getAll, put } from '../lib/db/idb'
-  import { asset } from '../lib/router'
+  import { asset, route, setParams } from '../lib/router'
 
+  const P = $route.params
   let all = $state<Character[]>([])
   let loading = $state(true)
-  let query = $state('')
-  let statusFilter = $state('all') // 'all' | 'owned' | 'unowned'
-  let levelFilter = $state('all') // 'all' | 'max' | 'notmax'
-  let roleFilter = $state('all') // 'all' | '' (未設定) | ロール名
+  let query = $state(P.q ?? '')
+  let statusFilter = $state(P.status ?? 'all') // 'all' | 'owned' | 'unowned'
+  let levelFilter = $state(P.lv ?? 'all') // 'all' | 'max' | 'notmax'
+  let roleFilter = $state(P.role ?? 'all') // 'all' | '' (未設定) | ロール名
   const MAX_LV = 10
   let selected = $state<Character | null>(null)
+
+  // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
+  $effect(() => {
+    setParams('characters', { q: query, role: roleFilter, status: statusFilter, lv: levelFilter })
+  })
+  // モーダルは Esc で閉じる
+  function onKey(e: KeyboardEvent) {
+    if (e.key === 'Escape') selected = null
+  }
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
@@ -92,6 +102,8 @@
   }
 </script>
 
+<svelte:window onkeydown={onKey} />
+
 <div class="head">
   <div>
     <h1>キャラクター図鑑</h1>
@@ -149,8 +161,8 @@
 {#if selected}
   <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
   <div class="backdrop" onclick={() => (selected = null)}>
-    <div class="sheet" onclick={(e) => e.stopPropagation()}>
-      <button class="close" onclick={() => (selected = null)}>✕</button>
+    <div class="sheet" role="dialog" aria-modal="true" aria-label={selected.name_ja} tabindex="-1" onclick={(e) => e.stopPropagation()}>
+      <button class="close" onclick={() => (selected = null)} aria-label="閉じる">✕</button>
       <div class="sheet-top">
         <div class="big-thumb">
           {#if selected.icon_path && !broken.has(selected.id)}

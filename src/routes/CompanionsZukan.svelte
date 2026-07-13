@@ -2,15 +2,24 @@
   import type { Companion } from '../lib/schema'
   import { seedAll } from '../lib/db/seed'
   import { getAll, put } from '../lib/db/idb'
-  import { asset } from '../lib/router'
+  import { asset, route, setParams } from '../lib/router'
 
+  const P = $route.params
   let all = $state<Companion[]>([])
   let loading = $state(true)
-  let query = $state('')
-  let statusFilter = $state('all') // 'all' | 'owned' | 'unowned'
-  let levelFilter = $state('all') // 'all' | 'max' | 'notmax'
+  let query = $state(P.q ?? '')
+  let statusFilter = $state(P.status ?? 'all') // 'all' | 'owned' | 'unowned'
+  let levelFilter = $state(P.lv ?? 'all') // 'all' | 'max' | 'notmax'
   let selected = $state<Companion | null>(null)
   const MAX_LV = 5
+
+  // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
+  $effect(() => {
+    setParams('companions', { q: query, status: statusFilter, lv: levelFilter })
+  })
+  function onKey(e: KeyboardEvent) {
+    if (e.key === 'Escape') selected = null
+  }
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
@@ -74,6 +83,8 @@
   const lv = (c: Companion) => Math.max(1, c.friendship_level || 1)
 </script>
 
+<svelte:window onkeydown={onKey} />
+
 <div class="head">
   <h1>オトモ図鑑</h1>
   <p class="sub">{ownedCount} / {all.length} 体 入手 ・ 種ごと（色は五十音順）。好物をあげて仲間に</p>
@@ -134,8 +145,8 @@
 {#if selected}
   <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
   <div class="backdrop" onclick={() => (selected = null)}>
-    <div class="sheet" onclick={(e) => e.stopPropagation()}>
-      <button class="close" onclick={() => (selected = null)}>✕</button>
+    <div class="sheet" role="dialog" aria-modal="true" aria-label={`${selected.gather_type} ${selected.color_ja}`} tabindex="-1" onclick={(e) => e.stopPropagation()}>
+      <button class="close" onclick={() => (selected = null)} aria-label="閉じる">✕</button>
       <div class="sheet-top">
         <div class="big-thumb">
           {#if selected.icon_path && !broken.has(selected.id)}

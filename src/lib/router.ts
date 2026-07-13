@@ -41,6 +41,21 @@ export function navigate(category: string | null, params?: Record<string, string
   location.hash = `#/${category}${qs ? `?${qs}` : ''}`
 }
 
+/**
+ * 現在のカテゴリの検索/フィルタ状態を URL クエリに反映する。
+ * history.replaceState を使うため、履歴（戻る）を汚さず・hashchange も発火しない
+ * （＝再描画ループにならない）。空文字/未指定のキーは省く。
+ * これにより「戻る」「リロード」「PWA再訪」「URL共有」で絞り込み条件が保持される。
+ */
+export function setParams(category: string, params: Record<string, string>): void {
+  const qs = Object.entries(params)
+    .filter(([, v]) => v !== '' && v != null)
+    .map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`)
+    .join('&')
+  const hash = `#/${category}${qs ? `?${qs}` : ''}`
+  history.replaceState(history.state, '', hash)
+}
+
 /** public/ 配下のアセットを base 付きで参照（GitHub Pages のサブパス対応） */
 export function asset(path: string): string {
   const base = import.meta.env.BASE_URL // 例: './' または '/ddv-guide/'

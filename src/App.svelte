@@ -7,11 +7,8 @@
   import MaterialsTable from './routes/MaterialsTable.svelte'
   import CompanionsZukan from './routes/CompanionsZukan.svelte'
   import DataTable from './routes/DataTable.svelte'
-  import ArticleList from './routes/ArticleList.svelte'
   import LinkList from './routes/LinkList.svelte'
   import Dashboard from './routes/Dashboard.svelte'
-
-  const LINK_CATEGORIES = ['tips', 'faq', 'bugs']
   import CategoryPlaceholder from './routes/CategoryPlaceholder.svelte'
 
   const current = $derived($route.category)
@@ -45,12 +42,10 @@
     <MaterialsTable />
   {:else if current === 'companions'}
     <CompanionsZukan />
-  {:else if LINK_CATEGORIES.includes(current)}
+  {:else if meta?.display === 'links'}
     <LinkList storeKey={current} />
   {:else if meta?.display === 'dashboard'}
     <Dashboard />
-  {:else if meta?.display === 'article'}
-    <ArticleList storeKey={current} />
   {:else if meta?.display === 'table'}
     <DataTable storeKey={current} />
   {:else if meta}
@@ -61,7 +56,7 @@
 </main>
 
 <footer class="foot container">
-  個人利用・非公開。画像・データ出典: Disney Dreamlight Valley Wiki (Fandom)。画像は個人参照用。
+  個人運営の攻略メモ。データ・画像出典: Disney Dreamlight Valley Wiki (Fandom, CC BY-SA)。
 </footer>
 
 <style>

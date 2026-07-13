@@ -110,15 +110,4 @@ export const TABLE_CONFIG: Record<string, TableConfig> = {
     editable: ['personal_notes'],
     note: 'Fandom の Version history から随時追記してください。',
   },
-  bugs: {
-    columns: [
-      { key: 'title', label: 'タイトル', kind: 'text', sortable: true },
-      { key: 'affected_platform', label: '対象環境', kind: 'text' },
-      { key: 'status', label: '状態', kind: 'text' },
-      { key: 'personal_encountered', label: '遭遇', kind: 'toggle', onLabel: '✓', offLabel: '—' },
-    ],
-    searchKeys: ['title', 'description'],
-    editable: ['personal_encountered', 'workaround_tried', 'memo'],
-    note: '不具合はユーザーが追記していく想定（現状は器のみ）。',
-  },
 }

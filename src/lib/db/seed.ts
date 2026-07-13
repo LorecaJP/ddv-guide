@@ -3,30 +3,36 @@
    既存レコードがある場合は ✏️（自分専用）フィールドを保持したまま
    🔒（外部データ）フィールドだけ最新化するマージを行う。
    ========================================================================= */
-import charactersSeed from '../data/characters.json'
-import recipesSeed from '../data/recipes.json'
-import materialsSeed from '../data/materials.json'
-import companionsSeed from '../data/companions.json'
-import animalsSeed from '../data/animals.json'
-import cropsSeed from '../data/crops.json'
-import pricesSeed from '../data/prices.json'
-import questsSeed from '../data/quests.json'
-import facilitiesSeed from '../data/facilities.json'
-import eventsSeed from '../data/events.json'
-import expansionsSeed from '../data/expansions.json'
-import updatesSeed from '../data/updates.json'
-import tipsSeed from '../data/tips.json'
-import faqSeed from '../data/faq.json'
-import bugsSeed from '../data/bugs.json'
 import { getAll, bulkPut } from './idb'
 
+/* データ（🔒静的JSON）は動的 import で個別チャンクに分割する。
+   これにより初期ロードの JS はアプリ本体だけになり（データ計 約0.5MB は別チャンク）、
+   アプリ更新時にデータチャンクのキャッシュが再利用できる。
+   dist の *.js は PWA(workbox) がプリキャッシュするためオフラインでも従来どおり動く。 */
+const SEED_LOADERS: Record<string, () => Promise<{ default: Record<string, any>[] }>> = {
+  characters: () => import('../data/characters.json'),
+  recipes: () => import('../data/recipes.json'),
+  materials: () => import('../data/materials.json'),
+  companions: () => import('../data/companions.json'),
+  crops: () => import('../data/crops.json'),
+  prices: () => import('../data/prices.json'),
+  quests: () => import('../data/quests.json'),
+  facilities: () => import('../data/facilities.json'),
+  events: () => import('../data/events.json'),
+  expansions: () => import('../data/expansions.json'),
+  updates: () => import('../data/updates.json'),
+  tips: () => import('../data/tips.json'),
+  faq: () => import('../data/faq.json'),
+  bugs: () => import('../data/bugs.json'),
+}
+
 // 各カテゴリの ✏️ フィールド（マージ時に既存値を優先して保持する）
-const EDITABLE: Record<string, string[]> = {
+// バックアップ/復元(transfer.ts)でも「移行対象＝自分用フィールド」の定義として再利用する。
+export const EDITABLE: Record<string, string[]> = {
   characters: ['skill_assigned', 'friendship_level', 'owned', 'memo'],
   recipes: ['unlocked', 'memo'],
   materials: ['unlocked', 'stock_count', 'memo'],
   companions: ['owned', 'friendship_level', 'is_equipped', 'memo'],
-  animals: ['fed_today', 'unlocked_as_companion', 'memo'],
   crops: ['planted_count', 'harvested_total', 'memo'],
   prices: ['memo'],
   quests: ['completed', 'completed_date', 'memo'],
@@ -39,8 +45,9 @@ const EDITABLE: Record<string, string[]> = {
   bugs: ['personal_encountered', 'workaround_tried', 'memo'],
 }
 
-async function seedStore(store: string, seed: Record<string, any>[]): Promise<void> {
+async function seedStore(store: string): Promise<void> {
   const editable = EDITABLE[store] ?? []
+  const seed = (await SEED_LOADERS[store]()).default
   const existing = await getAll<Record<string, any>>(store)
   const byId = new Map(existing.map((r) => [r.id, r]))
   const merged = seed.map((row) => {
@@ -61,22 +68,6 @@ let seeded = false
 /** アプリ起動時に1回呼ぶ。全カテゴリの静的データを投入。 */
 export async function seedAll(): Promise<void> {
   if (seeded) return
-  await Promise.all([
-    seedStore('characters', charactersSeed as any[]),
-    seedStore('recipes', recipesSeed as any[]),
-    seedStore('materials', materialsSeed as any[]),
-    seedStore('companions', companionsSeed as any[]),
-    seedStore('animals', animalsSeed as any[]),
-    seedStore('crops', cropsSeed as any[]),
-    seedStore('prices', pricesSeed as any[]),
-    seedStore('quests', questsSeed as any[]),
-    seedStore('facilities', facilitiesSeed as any[]),
-    seedStore('events', eventsSeed as any[]),
-    seedStore('expansions', expansionsSeed as any[]),
-    seedStore('updates', updatesSeed as any[]),
-    seedStore('tips', tipsSeed as any[]),
-    seedStore('faq', faqSeed as any[]),
-    seedStore('bugs', bugsSeed as any[]),
-  ])
+  await Promise.all(Object.keys(SEED_LOADERS).map((store) => seedStore(store)))
   seeded = true
 }

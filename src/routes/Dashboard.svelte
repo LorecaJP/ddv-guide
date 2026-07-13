@@ -1,8 +1,58 @@
 <script lang="ts">
   import { seedAll } from '../lib/db/seed'
   import { getAll } from '../lib/db/idb'
+  import { exportData, importData } from '../lib/db/transfer'
 
   const REALMS_TOTAL = 13 // Fandom Category:Realms
+
+  // ---- データ移行（バックアップ / 復元）----
+  let ioMsg = $state('')
+  let ioBusy = $state(false)
+
+  async function doExport() {
+    ioBusy = true
+    ioMsg = ''
+    try {
+      const data = await exportData()
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      const day = new Date().toISOString().slice(0, 10).replace(/-/g, '')
+      a.href = url
+      a.download = `ddv-guide-backup-${day}.json`
+      a.click()
+      URL.revokeObjectURL(url)
+      const total = Object.values(data.stores).reduce((n, arr) => n + arr.length, 0)
+      ioMsg = `書き出しました（${total} 件）。このファイルを新しい端末で読み込んでください。`
+    } catch (e) {
+      ioMsg = '書き出しに失敗しました: ' + (e instanceof Error ? e.message : String(e))
+    } finally {
+      ioBusy = false
+    }
+  }
+
+  async function onImportFile(e: Event) {
+    const input = e.currentTarget as HTMLInputElement
+    const file = input.files?.[0]
+    if (!file) return
+    if (!confirm('このバックアップの内容を、いまの端末のデータに上書き適用します。よろしいですか？')) {
+      input.value = ''
+      return
+    }
+    ioBusy = true
+    ioMsg = ''
+    try {
+      const json = JSON.parse(await file.text())
+      const res = await importData(json)
+      ioMsg = `復元しました（${res.stores} カテゴリ・${res.rows} 件）。再読み込みします…`
+      setTimeout(() => location.reload(), 900)
+    } catch (e) {
+      ioMsg = '読み込みに失敗しました: ' + (e instanceof Error ? e.message : String(e))
+    } finally {
+      ioBusy = false
+      input.value = ''
+    }
+  }
 
   let loading = $state(true)
   let stats = $state<{ label: string; done: number; total: number; key: string }[]>([])
@@ -33,19 +83,17 @@
     loading = true
     loadLocal()
     await seedAll()
-    const [chars, comps, recipes, quests, animals] = await Promise.all([
+    const [chars, comps, recipes, quests] = await Promise.all([
       getAll<any>('characters'),
       getAll<any>('companions'),
       getAll<any>('recipes'),
       getAll<any>('quests'),
-      getAll<any>('animals'),
     ])
     stats = [
       { key: 'characters', label: 'キャラクター 解放', done: chars.filter((c) => c.owned).length, total: chars.length },
       { key: 'companions', label: 'オトモ なかま', done: comps.filter((c) => c.owned).length, total: comps.length },
       { key: 'recipes', label: '料理レシピ 解放', done: recipes.filter((r) => r.unlocked).length, total: recipes.length },
       { key: 'quests', label: 'クエスト 達成', done: quests.filter((q) => q.completed).length, total: quests.length },
-      { key: 'animals', label: '動物 仲間化', done: animals.filter((a) => a.unlocked_as_companion).length, total: animals.length },
     ]
     loading = false
   }
@@ -98,6 +146,21 @@
       <textarea rows="2" bind:value={priority} onchange={saveLocal} placeholder="なぜそこを優先するか"></textarea>
     </label>
   </div>
+
+  <div class="card wide io-card">
+    <span class="lbl">データのバックアップ / 復元</span>
+    <p class="io-note">
+      進捗（解放・レベル・メモ・所持など）はこの端末のブラウザに保存されます。機種変更や別ブラウザに移すときは、書き出したファイルを新しい端末で読み込んでください。
+    </p>
+    <div class="io-row">
+      <button class="io-btn" onclick={doExport} disabled={ioBusy}>⬇ 書き出し（バックアップ）</button>
+      <label class="io-btn file" class:disabled={ioBusy}>
+        ⬆ 読み込み（復元）
+        <input type="file" accept="application/json,.json" onchange={onImportFile} disabled={ioBusy} hidden />
+      </label>
+    </div>
+    {#if ioMsg}<p class="io-msg">{ioMsg}</p>{/if}
+  </div>
 {/if}
 
 <style>
@@ -121,4 +184,17 @@
   .field { display: flex; flex-direction: column; gap: 6px; }
   .field input, .field textarea { font-family: var(--font-body); padding: 9px 12px; border: 1px solid var(--c-line); border-radius: var(--radius-sm); background: var(--c-bg); color: var(--c-ink); resize: vertical; }
   .muted { color: var(--c-ink-soft); }
+
+  .io-card { gap: 12px; }
+  .io-note { color: var(--c-ink-soft); font-size: 13px; margin: 2px 0 0; line-height: 1.7; }
+  .io-row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .io-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-family: var(--font-body); font-weight: 700; font-size: 14px;
+    padding: 10px 16px; border-radius: var(--radius-sm);
+    border: 1px solid var(--c-accent); background: var(--c-accent); color: #fff;
+  }
+  .io-btn.file { background: var(--c-surface-2); color: var(--c-ink); border-color: var(--c-line); cursor: pointer; }
+  .io-btn:disabled, .io-btn.disabled { opacity: 0.55; pointer-events: none; }
+  .io-msg { font-size: 13px; color: var(--c-accent-ink); margin: 2px 0 0; }
 </style>
