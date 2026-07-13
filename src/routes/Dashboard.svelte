@@ -33,19 +33,17 @@
     loading = true
     loadLocal()
     await seedAll()
-    const [chars, comps, recipes, quests, animals] = await Promise.all([
+    const [chars, comps, recipes, quests] = await Promise.all([
       getAll<any>('characters'),
       getAll<any>('companions'),
       getAll<any>('recipes'),
       getAll<any>('quests'),
-      getAll<any>('animals'),
     ])
     stats = [
       { key: 'characters', label: 'キャラクター 解放', done: chars.filter((c) => c.owned).length, total: chars.length },
       { key: 'companions', label: 'オトモ なかま', done: comps.filter((c) => c.owned).length, total: comps.length },
       { key: 'recipes', label: '料理レシピ 解放', done: recipes.filter((r) => r.unlocked).length, total: recipes.length },
       { key: 'quests', label: 'クエスト 達成', done: quests.filter((q) => q.completed).length, total: quests.length },
-      { key: 'animals', label: '動物 仲間化', done: animals.filter((a) => a.unlocked_as_companion).length, total: animals.length },
     ]
     loading = false
   }

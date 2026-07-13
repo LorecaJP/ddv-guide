@@ -3,6 +3,7 @@
   import { getAll, put } from '../lib/db/idb'
   import { TABLE_CONFIG } from '../lib/tableConfig'
   import { CATEGORIES } from '../lib/schema'
+  import { route, setParams } from '../lib/router'
 
   let { storeKey }: { storeKey: string } = $props()
 
@@ -15,19 +16,34 @@
   let sortKey = $state('')
   let sortDir = $state<'asc' | 'desc'>('desc')
 
-  async function load() {
+  async function load(sk: string) {
     loading = true
     await seedAll()
-    rows = await getAll<Record<string, any>>(storeKey)
-    if (cfg.defaultSort) {
-      sortKey = cfg.defaultSort.key
-      sortDir = cfg.defaultSort.dir
+    let data = await getAll<Record<string, any>>(sk)
+    // 売値ページ: アイテム名を料理の日本語名に差し替え（item_id で recipes と連携）
+    if (sk === 'prices') {
+      const recipes = await getAll<Record<string, any>>('recipes')
+      const ja = new Map(recipes.map((r) => [r.id, r.name_ja]))
+      data = data.map((r) => ({ ...r, item_name: ja.get(r.item_id) || r.item_name }))
     }
+    rows = data
     loading = false
   }
+
+  // storeKey 変更（＝カテゴリ遷移）時: URL パラメータから初期化してロード
   $effect(() => {
-    storeKey // re-run when storeKey changes
-    load()
+    const sk = storeKey
+    const p = $route.params
+    query = p.q ?? ''
+    sortKey = p.sort ?? cfg.defaultSort?.key ?? ''
+    sortDir = (p.dir === 'asc' || p.dir === 'desc' ? p.dir : cfg.defaultSort?.dir) ?? 'desc'
+    load(sk)
+  })
+
+  // 検索/並び替えを URL に保持（戻る/リロード/共有で復元）
+  $effect(() => {
+    if (loading) return
+    setParams(storeKey, { q: query, sort: sortKey, dir: sortDir })
   })
 
   function cellSortVal(row: Record<string, any>, key: string): number | string {

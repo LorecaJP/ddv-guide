@@ -6,6 +6,11 @@
 import { CATEGORIES } from '../schema'
 
 const DB_NAME = 'ddv-guide'
+// ⚠️ マイグレーション規約:
+//   objectStore は onupgradeneeded でしか作れない。CATEGORIES に新カテゴリ（=新ストア）を
+//   追加したら、この DB_VERSION を必ず +1 すること。上げないと、既にDBを持つ端末では
+//   onupgradeneeded が再発火せず新ストアが作られない → seed/読み込みが例外になる。
+//   （過去に「動物」ストアが未生成のまま seed され初回ロードが固まる不具合の原因がこれ）
 const DB_VERSION = 1
 
 // dashboard は集計ビューなので独立ストアは持たない
