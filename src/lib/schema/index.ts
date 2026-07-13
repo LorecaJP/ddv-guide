@@ -1,6 +1,7 @@
 /* =========================================================================
-   DDV 16カテゴリのスキーマ（引き継ぎ資料 2章に対応）
+   DDV 15カテゴリのスキーマ（引き継ぎ資料 2章に対応）
    凡例: 🔒 = Wiki等の外部データ由来（自動） / ✏️ = 自分専用・手動編集
+   ※ 旧「動物」カテゴリは廃止し、オトモ図鑑（種ごと集約）に統合済み。
    ========================================================================= */
 
 /** 1. キャラクター */
@@ -113,20 +114,7 @@ export interface Facility {
   memo: string             // ✏️
 }
 
-/** 9. 動物（野生・餌やり） */
-export interface Animal {
-  id: string
-  name_ja: string
-  name_en: string               // 🔒 表示・突合用に追加
-  favorite_foods: string[]      // 🔒
-  habitat: string               // 🔒
-  appearance_schedule: string   // 🔒
-  becomes_companion: string     // 🔒
-  icon_path: string             // 代表画像（Classic変種）
-  fed_today: boolean            // ✏️
-  unlocked_as_companion: boolean// ✏️
-  memo: string                  // ✏️
-}
+/** 9. （欠番）旧「動物」カテゴリは廃止し、オトモ図鑑に統合済み */
 
 /** 10. 不具合・バグ情報 */
 export interface Bug {
@@ -213,7 +201,7 @@ export interface Dashboard {
 }
 
 /** カテゴリのメタ情報（Hub のメニュー・ルーティング・表示種別に使用） */
-export type DisplayType = 'image-grid' | 'table' | 'article' | 'dashboard'
+export type DisplayType = 'image-grid' | 'table' | 'links' | 'dashboard'
 
 export interface CategoryMeta {
   key: string          // ストア名 / ルート
@@ -223,7 +211,7 @@ export interface CategoryMeta {
   implemented: boolean
 }
 
-/** 16カテゴリの定義（Hub & Spoke トップの一覧・表示出し分けの元） */
+/** 15カテゴリの定義（Hub & Spoke トップの一覧・表示出し分けの元） */
 export const CATEGORIES: CategoryMeta[] = [
   { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
   { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
@@ -236,8 +224,8 @@ export const CATEGORIES: CategoryMeta[] = [
   { key: 'events', name_ja: 'イベント／スターパス', emoji: '🎉', display: 'table', implemented: true },
   { key: 'expansions', name_ja: '拡張パス', emoji: '🗺️', display: 'table', implemented: true },
   { key: 'updates', name_ja: 'アップデート履歴', emoji: '🆕', display: 'table', implemented: true },
-  { key: 'bugs', name_ja: '不具合・バグ情報', emoji: '🐛', display: 'table', implemented: true },
-  { key: 'tips', name_ja: '小技・裏技', emoji: '💡', display: 'article', implemented: true },
-  { key: 'faq', name_ja: 'FAQ', emoji: '❓', display: 'article', implemented: true },
+  { key: 'bugs', name_ja: '不具合・バグ情報', emoji: '🐛', display: 'links', implemented: true },
+  { key: 'tips', name_ja: '小技・裏技', emoji: '💡', display: 'links', implemented: true },
+  { key: 'faq', name_ja: 'FAQ', emoji: '❓', display: 'links', implemented: true },
   { key: 'dashboard', name_ja: 'レルム進行', emoji: '📊', display: 'dashboard', implemented: true },
 ]

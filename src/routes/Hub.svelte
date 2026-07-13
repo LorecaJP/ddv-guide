@@ -5,7 +5,7 @@
 
 <section class="hero">
   <h1>どこから見る？</h1>
-  <p>16カテゴリのメニュー。画像で見分けるものは図鑑グリッド、数値ものは表で表示します。</p>
+  <p>15カテゴリのメニュー。画像で見分けるものは図鑑グリッド、数値ものは表で表示します。</p>
 </section>
 
 <div class="grid">
@@ -13,7 +13,7 @@
     <button class="tile" class:soon={!c.implemented} onclick={() => navigate(c.key)}>
       <span class="emoji">{c.emoji}</span>
       <span class="label">{c.name_ja}</span>
-      <span class="type">{c.display === 'image-grid' ? '図鑑' : c.display === 'table' ? '一覧表' : c.display === 'article' ? '記事' : 'ダッシュボード'}</span>
+      <span class="type">{c.display === 'image-grid' ? '図鑑' : c.display === 'table' ? '一覧表' : c.display === 'links' ? 'リンク集' : 'ダッシュボード'}</span>
       {#if !c.implemented}<span class="badge">準備中</span>{/if}
     </button>
   {/each}

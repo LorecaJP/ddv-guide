@@ -7,7 +7,7 @@
   const typeLabel: Record<string, string> = {
     'image-grid': '図鑑グリッド（②）で表示予定',
     table: 'ソート・フィルタ可能な一覧表で表示予定',
-    article: 'タイトルリスト＋タップ展開の記事型で表示予定',
+    links: '参照元へのリンク集で表示予定',
     dashboard: '集計ダッシュボードで表示予定',
   }
 </script>

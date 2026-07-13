@@ -7,7 +7,6 @@ import charactersSeed from '../data/characters.json'
 import recipesSeed from '../data/recipes.json'
 import materialsSeed from '../data/materials.json'
 import companionsSeed from '../data/companions.json'
-import animalsSeed from '../data/animals.json'
 import cropsSeed from '../data/crops.json'
 import pricesSeed from '../data/prices.json'
 import questsSeed from '../data/quests.json'
@@ -26,7 +25,6 @@ const EDITABLE: Record<string, string[]> = {
   recipes: ['unlocked', 'memo'],
   materials: ['unlocked', 'stock_count', 'memo'],
   companions: ['owned', 'friendship_level', 'is_equipped', 'memo'],
-  animals: ['fed_today', 'unlocked_as_companion', 'memo'],
   crops: ['planted_count', 'harvested_total', 'memo'],
   prices: ['memo'],
   quests: ['completed', 'completed_date', 'memo'],
@@ -66,7 +64,6 @@ export async function seedAll(): Promise<void> {
     seedStore('recipes', recipesSeed as any[]),
     seedStore('materials', materialsSeed as any[]),
     seedStore('companions', companionsSeed as any[]),
-    seedStore('animals', animalsSeed as any[]),
     seedStore('crops', cropsSeed as any[]),
     seedStore('prices', pricesSeed as any[]),
     seedStore('quests', questsSeed as any[]),
