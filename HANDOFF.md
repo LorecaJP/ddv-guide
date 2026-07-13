@@ -39,6 +39,7 @@ ddv-guide/
       tableConfig.ts            設定駆動テーブルの列定義（カテゴリごと）
       db/idb.ts                 最小 IndexedDB ラッパー
       db/seed.ts                静的JSON→IndexedDB（✏️編集を保持してマージ）
+      db/transfer.ts            データ移行（✏️＋dashboardをJSON書き出し/読み込み。端末間バックアップ）
       router.ts                 ハッシュルーター＋asset()（BASE_URL対応）
       data/*.json               各カテゴリのデータ（下記）
     routes/
