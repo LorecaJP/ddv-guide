@@ -67,6 +67,15 @@ export async function put<T>(store: string, value: T): Promise<void> {
   })
 }
 
+export async function del(store: string, id: string): Promise<void> {
+  const db = await openDB()
+  return new Promise((resolve, reject) => {
+    const req = tx(db, store, 'readwrite').delete(id)
+    req.onsuccess = () => resolve()
+    req.onerror = () => reject(req.error)
+  })
+}
+
 export async function count(store: string): Promise<number> {
   const db = await openDB()
   return new Promise((resolve, reject) => {
