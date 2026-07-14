@@ -800,7 +800,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜書物の里（The Bind）",
+    "obtain_method": "採取｜書物の里",
     "icon_path": "images/flowers/flower_beige_tale_cone_flower.webp",
     "unlocked": false,
     "memo": ""
@@ -813,7 +813,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜書物の里（The Bind）",
+    "obtain_method": "採取｜書物の里",
     "icon_path": "images/flowers/flower_blue_tale_cone_flower.webp",
     "unlocked": false,
     "memo": ""
@@ -826,7 +826,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜書物の里（The Bind）",
+    "obtain_method": "採取｜書物の里",
     "icon_path": "images/flowers/flower_olive_green_tale_cone_flower.webp",
     "unlocked": false,
     "memo": ""
@@ -839,7 +839,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜書物の里（The Bind）",
+    "obtain_method": "採取｜書物の里",
     "icon_path": "images/flowers/flower_yellow_tale_cone_flower.png",
     "unlocked": false,
     "memo": ""

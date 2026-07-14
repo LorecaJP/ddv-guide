@@ -148,6 +148,7 @@
                 <span class="noimg"><span class="ph-mark">👤</span><span class="ph-name">{c.name_ja}</span></span>
               {/if}
               {#if c.owned}<span class="own">✓</span>{/if}
+              <span class="lv-badge" class:max={Math.max(1, c.friendship_level || 1) >= MAX_LV}>Lv{Math.max(1, c.friendship_level || 1)}</span>
             </div>
             <span class="nm">{c.name_ja}</span>
           </button>
@@ -272,6 +273,13 @@
     background: var(--c-accent); color: #fff; font-size: 12px;
     display: grid; place-items: center;
   }
+  .lv-badge {
+    position: absolute; bottom: 6px; left: 6px;
+    background: color-mix(in srgb, var(--c-ink) 72%, transparent); color: #fff;
+    font-size: 11px; font-weight: 700; line-height: 1;
+    padding: 3px 6px; border-radius: 999px; font-variant-numeric: tabular-nums;
+  }
+  .lv-badge.max { background: var(--c-accent); }
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 14px; text-align: center; }
 
   .muted { color: var(--c-ink-soft); }

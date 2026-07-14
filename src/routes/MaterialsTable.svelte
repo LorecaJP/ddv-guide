@@ -11,9 +11,13 @@
   let statusFilter = $state(P.status ?? 'all') // 'all' | 'unlocked' | 'locked'
   let catFilter = $state(P.cat ?? 'all')
   let realmFilter = $state(P.realm ?? 'all')
-  let expanded = $state<Set<string>>(new Set())
+  let selected = $state<Material | null>(null)
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
+
+  function onKey(e: KeyboardEvent) {
+    if (e.key === 'Escape') selected = null
+  }
 
   // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
   $effect(() => {
@@ -72,32 +76,29 @@
   })())
   const shownCount = $derived(groups.reduce((n, g) => n + g.items.length, 0))
 
-  async function toggleUnlocked(m: Material) {
-    m.unlocked = !m.unlocked
-    await put('materials', $state.snapshot(m))
-    all = [...all]
-  }
-
-  function toggleExpand(id: string) {
-    const s = new Set(expanded)
-    s.has(id) ? s.delete(id) : s.add(id)
-    expanded = s
-  }
-
   // 名前を「本体」と「(色)」に分割（(色)は丸ごと2行目へ。全角/半角括弧対応）
   const splitName = (n: string) => {
     const m = n.match(/^(.*\S)([（(][^（(）)]*[)）])$/)
     return m ? { base: m[1], paren: m[2] } : { base: n, paren: '' }
   }
+
+  async function toggleUnlocked(m: Material) {
+    m.unlocked = !m.unlocked
+    await put('materials', $state.snapshot(m))
+    all = [...all]
+    if (selected?.id === m.id) selected = m
+  }
 </script>
 
+<svelte:window onkeydown={onKey} />
+
 <div class="head">
-  <h1>素材</h1>
-  <p class="sub">{all.length} 種 ・ 解放済み {unlockedCount} 種（素材名タップで入手方法・レシピ）</p>
+  <h1>食材</h1>
+  <p class="sub">{all.length} 種 ・ 解放済み {unlockedCount} 種（名前タップで入手方法・レシピ）</p>
 </div>
 
 <div class="controls">
-  <input class="search" type="search" placeholder="素材名で検索" bind:value={query} />
+  <input class="search" type="search" placeholder="食材名で検索" bind:value={query} />
   <div class="row2">
     <select bind:value={realmFilter} aria-label="世界で絞り込み">
       <option value="all">世界：すべて</option>
@@ -126,47 +127,67 @@
         {#each g.items as m (m.id)}
           {@const nm = splitName(m.name_ja || m.name_en)}
           <li class="item" class:done={m.unlocked}>
-            <div class="line">
-              <button class="main" onclick={() => toggleExpand(m.id)}>
-                <span class="mthumb">
-                  {#if m.icon_path && !broken.has(m.id)}
-                    <img src={asset(m.icon_path)} alt="" loading="lazy" onerror={() => markBroken(m.id)} />
-                  {:else}<span class="ph">🧺</span>{/if}
-                </span>
-                <span class="txt">
-                  <span class="nm">{nm.base}{#if nm.paren}<span class="paren">{nm.paren}</span>{/if}</span>
-                  {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
-                </span>
-              </button>
+            <button class="main" onclick={() => (selected = m)}>
+              <span class="mthumb">
+                {#if m.icon_path && !broken.has(m.id)}
+                  <img src={asset(m.icon_path)} alt="" loading="lazy" onerror={() => markBroken(m.id)} />
+                {:else}<span class="ph">🧺</span>{/if}
+              </span>
+              <span class="txt">
+                <span class="nm">{nm.base}{#if nm.paren}<span class="paren">{nm.paren}</span>{/if}</span>
+                {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
+              </span>
               {#if m.realms?.length}<span class="realm-badge">{m.realms.join('・')}</span>{/if}
-              <button class="own" class:on={m.unlocked} onclick={() => toggleUnlocked(m)} title="解放トグル">
-                {m.unlocked ? '✓' : '—'}
-              </button>
-            </div>
-            {#if expanded.has(m.id)}
-              <div class="detail">
-                <div class="d-row">
-                  <span class="lbl">入手方法</span>
-                  <span class="obtain">{m.obtain_method || '—'}</span>
-                </div>
-                <div class="d-row">
-                  <span class="lbl">使うレシピ</span>
-                  {#if m.used_in_recipes.length}
-                    <button class="recipes-btn" onclick={() => navigate('recipes', { ing: m.name_en })}>
-                      {m.used_in_recipes.length}件を見る
-                    </button>
-                  {:else}
-                    <span class="obtain">なし</span>
-                  {/if}
-                </div>
-              </div>
-            {/if}
+              {#if m.unlocked}<span class="tick">✓</span>{/if}
+            </button>
           </li>
         {/each}
       </ul>
     </section>
   {/each}
   {#if shownCount === 0}<p class="muted">該当なし。</p>{/if}
+{/if}
+
+{#if selected}
+  <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
+  <div class="backdrop" onclick={() => (selected = null)}>
+    <div class="sheet" role="dialog" aria-modal="true" aria-label={selected.name_ja || selected.name_en} tabindex="-1" onclick={(e) => e.stopPropagation()}>
+      <button class="close" onclick={() => (selected = null)} aria-label="閉じる">✕</button>
+      <div class="sheet-top">
+        <div class="big-thumb">
+          {#if selected.icon_path && !broken.has(selected.id)}
+            <img src={asset(selected.icon_path)} alt="" onerror={() => selected && markBroken(selected.id)} />
+          {:else}<span class="ph-big">🧺</span>{/if}
+        </div>
+        <div>
+          <h2>{selected.name_ja || selected.name_en}</h2>
+          {#if selected.name_ja}<p class="en">{selected.name_en}</p>{/if}
+          <p class="chips">
+            <span class="chip">{selected.category}</span>
+            {#each selected.realms ?? [] as r}<span class="chip realm">{r}</span>{/each}
+          </p>
+        </div>
+      </div>
+      <dl class="facts">
+        <dt>入手方法</dt><dd>{selected.obtain_method || '—'}</dd>
+        <dt>使うレシピ</dt>
+        <dd>
+          {#if selected.used_in_recipes.length}
+            <button class="recipes-btn" onclick={() => selected && navigate('recipes', { ing: selected.name_en })}>
+              {selected.used_in_recipes.length}件を見る
+            </button>
+          {:else}なし{/if}
+        </dd>
+        {#if selected.memo}<dt>メモ</dt><dd>{selected.memo}</dd>{/if}
+        <dt>解放</dt>
+        <dd>
+          <button class="own-tgl" class:on={selected.unlocked} onclick={() => selected && toggleUnlocked(selected)}>
+            {selected.unlocked ? '✓ 解放済み' : '未解放'}
+          </button>
+        </dd>
+      </dl>
+    </div>
+  </div>
 {/if}
 
 <style>
@@ -185,13 +206,13 @@
   .list { list-style: none; padding: 0; margin: 0; }
   .item { border-bottom: 1px solid var(--c-line); }
   .item.done { background: color-mix(in srgb, var(--c-accent-soft) 22%, transparent); }
-  .line { display: flex; align-items: center; gap: 8px; padding: 10px 4px; }
-  .main { flex: 1 1 auto; min-width: 0; background: none; border: 0; text-align: left; padding: 4px 2px; display: flex; align-items: center; gap: 10px; }
+  .main { width: 100%; background: none; border: 0; text-align: left; padding: 10px 4px; display: flex; align-items: center; gap: 10px; cursor: pointer; }
   .mthumb { flex: none; width: 40px; height: 40px; display: grid; place-items: center; background: var(--c-surface-2); border-radius: 8px; overflow: hidden; }
   .mthumb img { width: 100%; height: 100%; object-fit: contain; }
   .mthumb .ph { font-size: 20px; opacity: 0.5; }
-  .txt { display: flex; flex-direction: column; min-width: 0; }
+  .txt { flex: 1 1 auto; display: flex; flex-direction: column; min-width: 0; }
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
+  .nm .paren { white-space: nowrap; }
   .en { font-size: 11px; color: var(--c-ink-soft); }
   .realm-badge {
     flex: none;
@@ -204,15 +225,28 @@
     text-align: center;
     white-space: nowrap;
   }
-  .nm .paren { white-space: nowrap; }
-  .own { flex: none; width: 34px; height: 32px; border-radius: 8px; border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft); font-weight: 700; cursor: pointer; }
-  .own.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
+  .tick { flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--c-accent); color: #fff; font-size: 12px; display: grid; place-items: center; }
 
-  .detail { padding: 4px 6px 12px 56px; display: flex; flex-direction: column; gap: 8px; }
-  .d-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
-  .lbl { flex: none; font-size: 11px; font-weight: 700; color: var(--c-accent-ink); background: var(--c-accent-soft); padding: 2px 8px; border-radius: 999px; }
-  .obtain { font-size: 13px; color: var(--c-ink-soft); }
-  .recipes-btn { font-size: 13px; font-weight: 700; color: var(--c-accent-ink); background: none; border: 0; padding: 0; cursor: pointer; }
-  .recipes-btn:hover { text-decoration: underline; }
   .muted { color: var(--c-ink-soft); }
+
+  /* モーダル */
+  .backdrop { position: fixed; inset: 0; z-index: 30; background: rgba(20,16,10,0.45); display: grid; place-items: center; padding: 20px; }
+  .sheet { position: relative; width: min(420px, 94vw); background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius); padding: 22px; box-shadow: 0 24px 60px rgba(0,0,0,0.3); }
+  .close { position: absolute; top: 12px; right: 12px; background: var(--c-surface-2); border: 0; border-radius: 8px; width: 30px; height: 30px; color: var(--c-ink-soft); }
+  .sheet-top { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; }
+  .big-thumb { width: 84px; height: 84px; flex: none; background: var(--c-surface-2); border-radius: var(--radius-sm); display: grid; place-items: center; overflow: hidden; }
+  .big-thumb img { width: 100%; height: 100%; object-fit: contain; }
+  .ph-big { font-size: 34px; opacity: 0.5; }
+  .sheet-top h2 { font-size: 20px; }
+  .en { color: var(--c-ink-soft); margin: 3px 0 8px; font-size: 13px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
+  .chip { display: inline-block; background: var(--c-accent-soft); color: var(--c-accent-ink); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
+  .chip.realm { background: var(--c-surface-2); color: var(--c-ink-soft); }
+  .facts { display: grid; grid-template-columns: 84px 1fr; gap: 10px 12px; margin: 4px 0 0; font-size: 14px; align-items: center; }
+  .facts dt { color: var(--c-ink-soft); }
+  .facts dd { margin: 0; }
+  .recipes-btn { font-size: 14px; font-weight: 700; color: var(--c-accent-ink); background: none; border: 0; padding: 0; cursor: pointer; }
+  .recipes-btn:hover { text-decoration: underline; }
+  .own-tgl { padding: 8px 16px; border-radius: var(--radius-sm); border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink); font-weight: 600; }
+  .own-tgl.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
 </style>
