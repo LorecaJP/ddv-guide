@@ -1830,7 +1830,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "採取｜エターニティ島（煌めく砂丘）",
+    "obtain_method": "採取｜永遠の島（煌めく砂丘）",
     "icon_path": "images/ingredients/mat_agave.png",
     "used_in_recipes": [
       "recipe_arepas_con_queso",
@@ -1856,7 +1856,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "ガストンの店で購入（エターニティ島）",
+    "obtain_method": "ガストンの店で購入（永遠の島）",
     "icon_path": "images/ingredients/mat_pork.png",
     "used_in_recipes": [
       "recipe_baked_beans",
@@ -1914,7 +1914,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "採取｜エターニティ島・煌めく砂丘（地面）※栽培不可・Bell Pepperとは別素材",
+    "obtain_method": "採取｜永遠の島・煌めく砂丘（地面）※栽培不可・ピーマンとは別素材",
     "icon_path": "images/ingredients/mat_paprika.png",
     "used_in_recipes": [
       "recipe_barbecued_pretty_pink_starfish",
@@ -1950,7 +1950,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約60分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・ワイルドタングル）｜成長 約60分",
     "icon_path": "images/ingredients/mat_cabbage.png",
     "used_in_recipes": [
       "recipe_coleslaw",
@@ -2022,7 +2022,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約60分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・煌めく砂丘）｜成長 約60分",
     "icon_path": "images/ingredients/mat_beans.png",
     "used_in_recipes": [
       "recipe_baked_beans",
@@ -2044,7 +2044,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "採取｜エターニティ島（古の上陸地）",
+    "obtain_method": "採取｜永遠の島（古の上陸地）",
     "icon_path": "images/ingredients/mat_cumin.png",
     "used_in_recipes": [
       "recipe_best_fish_forever",
@@ -2085,7 +2085,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "採取｜エターニティ島（ワイルドタングル）",
+    "obtain_method": "採取｜永遠の島（ワイルドタングル）",
     "icon_path": "images/ingredients/mat_almonds.png",
     "used_in_recipes": [
       "recipe_caramel_macarons",
@@ -2110,7 +2110,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "採取｜エターニティ島・古の上陸地（展望台/遺跡）の地面",
+    "obtain_method": "採取｜永遠の島・古の上陸地（展望台/遺跡）の地面",
     "icon_path": "images/ingredients/mat_majestea.png",
     "used_in_recipes": [
       "recipe_royal_ice_tea",
@@ -2229,7 +2229,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "ガストンの店で購入（エターニティ島）",
+    "obtain_method": "ガストンの店で購入（永遠の島）",
     "icon_path": "images/ingredients/mat_poultry.png",
     "used_in_recipes": [
       "recipe_ajiaco",
@@ -2258,7 +2258,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・古代の入植地）｜成長 約10分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・古代の入植地）｜成長 約10分",
     "icon_path": "images/ingredients/mat_celery.png",
     "used_in_recipes": [
       "recipe_best_fish_forever",
@@ -2277,7 +2277,7 @@
       "永遠の島",
       "物語の谷"
     ],
-    "obtain_method": "採取｜エターニティ島（ワイルドタングル）・物語の谷",
+    "obtain_method": "採取｜永遠の島（ワイルドタングル）・物語の谷",
     "icon_path": "images/ingredients/mat_cinnamon.png",
     "used_in_recipes": [
       "recipe_apple_sauce",
@@ -2351,7 +2351,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "採取｜エターニティ島の地面から採取（種の販売なし）",
+    "obtain_method": "採取｜永遠の島の地面から採取（種の販売なし）",
     "icon_path": "images/ingredients/mat_bamboo.png",
     "used_in_recipes": [
       "recipe_braised_bamboo_shoots",
@@ -2368,7 +2368,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "ガストンの店で購入（エターニティ島）",
+    "obtain_method": "ガストンの店で購入（永遠の島）",
     "icon_path": "images/ingredients/mat_venison.png",
     "used_in_recipes": [
       "recipe_cheeseburger",
@@ -2390,7 +2390,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約120分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・ワイルドタングル）｜成長 約120分",
     "icon_path": "images/ingredients/mat_ruby_lentils.png",
     "used_in_recipes": [
       "recipe_crimson_burger",
@@ -2441,7 +2441,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約75分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・煌めく砂丘）｜成長 約75分",
     "icon_path": "images/ingredients/mat_flute_root.png",
     "used_in_recipes": [
       "recipe_lo_fries",
@@ -2458,7 +2458,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・古代の入植地）｜成長 約15分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・古代の入植地）｜成長 約15分",
     "icon_path": "images/ingredients/mat_yam.png",
     "used_in_recipes": [
       "recipe_lo_fries"
@@ -2474,7 +2474,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約240分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・ワイルドタングル）｜成長 約240分",
     "icon_path": "images/ingredients/mat_turnip.png",
     "used_in_recipes": [
       "recipe_milky_way_stew",
@@ -2590,7 +2590,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約40分",
+    "obtain_method": "栽培｜種:グーフィーの露店（永遠の島・煌めく砂丘）｜成長 約40分",
     "icon_path": "images/ingredients/mat_broccoli.png",
     "used_in_recipes": [
       "recipe_sweet_and_sour_stir_fry"
@@ -2623,7 +2623,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "採取｜エターニティ島（地面）",
+    "obtain_method": "採取｜永遠の島（地面）",
     "icon_path": "images/ingredients/mat_strawberry.png",
     "used_in_recipes": [
       "recipe_basil_berry_salad",
@@ -2766,7 +2766,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "購入｜グーフィーの露店（物語の谷・荒れ森/The Wild Woods）｜240コイン",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・荒れ森）｜240コイン",
     "icon_path": "images/ingredients/mat_plain_yogurt.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -2801,7 +2801,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里/The Bind）｜150コイン",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里）｜150コイン",
     "icon_path": "images/ingredients/mat_flyleaf_feta.png",
     "used_in_recipes": [
       "recipe_argossian_pizza",
@@ -2849,7 +2849,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜物語の谷・書物の里（The Bind）の地面",
+    "obtain_method": "採取｜物語の谷・書物の里の地面",
     "icon_path": "images/ingredients/mat_cape_gooseberry.png",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
@@ -2987,7 +2987,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜物語の谷・神話の楽園（Mythopia）の地面",
+    "obtain_method": "採取｜物語の谷・神話の楽園の地面",
     "icon_path": "images/ingredients/mat_lightning_spice.png",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
@@ -3007,7 +3007,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "購入｜グーフィーの露店（物語の谷・神話の楽園/Mythopia）※現物購入・栽培不可",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・神話の楽園）※現物購入・栽培不可",
     "icon_path": "images/ingredients/mat_elysian_grain.png",
     "used_in_recipes": [
       "recipe_argossian_pizza",
@@ -3192,7 +3192,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜物語の谷・書物の里（The Bind）のサワーベリーの木",
+    "obtain_method": "採取｜物語の谷・書物の里のサワーベリーの木",
     "icon_path": "images/ingredients/mat_sour_berries.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -3215,7 +3215,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "採取｜物語の谷・書物の里（The Bind）の地面 ※釣りではない",
+    "obtain_method": "採取｜物語の谷・書物の里の地面 ※釣りではない",
     "icon_path": "images/ingredients/mat_trumpet_snail.png",
     "used_in_recipes": [
       "recipe_aquatic_escargot",
@@ -3287,7 +3287,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里/The Bind）｜160コイン ※穴掘りではない",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里）｜160コイン ※穴掘りではない",
     "icon_path": "images/ingredients/mat_shovel_bird_eggs.png",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
@@ -3447,7 +3447,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "釣り｜物語の谷・書物の里（The Bind）の静水（泡なし）",
+    "obtain_method": "釣り｜物語の谷・書物の里の静水（泡なし）",
     "icon_path": "images/ingredients/mat_sea_grapes.png",
     "used_in_recipes": [
       "recipe_loaded_sea_grape_porridge",
@@ -3483,7 +3483,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・書物の里/The Bind）｜成長 約30分",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・書物の里）｜成長 約30分",
     "icon_path": "images/ingredients/mat_ring_squash.png",
     "used_in_recipes": [
       "recipe_squash_stuffed_porcini",
@@ -3552,7 +3552,7 @@
     "realms": [
       "願い咲く牧場"
     ],
-    "obtain_method": "採取｜願い咲く牧場・願いのアルプス（Wishing Alps）の地面",
+    "obtain_method": "採取｜願い咲く牧場・願いのアルプスの地面",
     "icon_path": "images/ingredients/mat_dill.png",
     "used_in_recipes": [
       "recipe_alpine_fishcakes",
@@ -3760,7 +3760,7 @@
     "realms": [
       "願い咲く牧場"
     ],
-    "obtain_method": "採取｜願い咲く牧場・グラマーガルチ（Glamour Gulch）の地面 ※通常のキノコとは別",
+    "obtain_method": "採取｜願い咲く牧場・グラマーガルチの地面 ※通常のキノコとは別",
     "icon_path": "images/ingredients/mat_button_mushroom.png",
     "used_in_recipes": [
       "recipe_button_stew",
@@ -3850,7 +3850,7 @@
     "realms": [
       "願い咲く牧場"
     ],
-    "obtain_method": "採取｜願い咲く牧場・妖精の地（Pixie Acres）の地面",
+    "obtain_method": "採取｜願い咲く牧場・妖精の地の地面",
     "icon_path": "images/ingredients/mat_fairy_sprinkles.png",
     "used_in_recipes": [
       "recipe_fairy_bread",

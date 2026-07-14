@@ -384,7 +384,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜レミー（レミーのおいしいレストラン）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜レミー（レミーのおいしいレストラン）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_anyone_can_cook_book.png",
     "unlocked": false,
     "memo": ""
@@ -397,7 +397,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜スティッチ（リロ&スティッチ）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜スティッチ（リロ&スティッチ）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_ice_cream_stand.png",
     "unlocked": false,
     "memo": ""
@@ -410,7 +410,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ベル/野獣（美女と野獣）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ベル/野獣（美女と野獣）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_embossed_book.png",
     "unlocked": false,
     "memo": ""
@@ -423,7 +423,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜フェアリーゴッドマザー（シンデレラ）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜フェアリーゴッドマザー（シンデレラ）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_design_sketchbook.png",
     "unlocked": false,
     "memo": ""
@@ -436,7 +436,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ヴァネロペ（シュガー・ラッシュ）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ヴァネロペ（シュガー・ラッシュ）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_handheld_lootfindr.png",
     "unlocked": false,
     "memo": ""
@@ -449,7 +449,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜マーリン（王様の剣）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜マーリン（王様の剣）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_blue_potion.png",
     "unlocked": false,
     "memo": ""
@@ -462,7 +462,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜シンバ/ナラ（ライオン・キング）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜シンバ/ナラ（ライオン・キング）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_grubby_log.png",
     "unlocked": false,
     "memo": ""
@@ -475,7 +475,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜アリエル/エリック（リトル・マーメイド）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜アリエル/エリック（リトル・マーメイド）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_dinglehopper.webp",
     "unlocked": false,
     "memo": ""
@@ -488,7 +488,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ミッキー&フレンズと行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ミッキー&フレンズと一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_pink_bow.webp",
     "unlocked": false,
     "memo": ""
@@ -501,7 +501,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ジャック（ナイトメアー・ビフォア・クリスマス）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ジャック（ナイトメアー・ビフォア・クリスマス）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_deadly_nightshade.png",
     "unlocked": false,
     "memo": ""
@@ -514,7 +514,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜アナ/エルサ 他（アナと雪の女王）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜アナ/エルサ 他（アナと雪の女王）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_lute.png",
     "unlocked": false,
     "memo": ""
@@ -527,7 +527,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ラプンツェル（塔の上のラプンツェル）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜ラプンツェル（塔の上のラプンツェル）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_paper_lantern.png",
     "unlocked": false,
     "memo": ""
@@ -540,7 +540,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜イヴ/ウォーリー（WALL・E）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜イヴ/ウォーリー（ウォーリー）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_fire_extinguisher.webp",
     "unlocked": false,
     "memo": ""
@@ -553,7 +553,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜モアナ/マウイ（モアナと伝説の海）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜モアナ/マウイ（モアナと伝説の海）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_wooden_oar.webp",
     "unlocked": false,
     "memo": ""
@@ -566,7 +566,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜バズ/ウッディ（トイ・ストーリー）と行動(Hang Out)すると出現率UP",
+    "obtain_method": "砂時計｜永遠の島 全域で常時ランダムドロップ｜バズ/ウッディ（トイ・ストーリー）と一緒に行動すると出現率アップ",
     "icon_path": "images/hourglass/hg_wooden_toy_block.webp",
     "unlocked": false,
     "memo": ""

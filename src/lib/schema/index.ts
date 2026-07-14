@@ -233,7 +233,7 @@ export const CATEGORIES: CategoryMeta[] = [
   { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
   { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
   { key: 'recipes', name_ja: '料理レシピ', emoji: '🍲', display: 'table', implemented: true },
-  { key: 'materials', name_ja: '素材', emoji: '🍎', display: 'table', implemented: true },
+  { key: 'materials', name_ja: '食材', emoji: '🍎', display: 'table', implemented: true },
   { key: 'crafting', name_ja: 'クラフト素材', emoji: '⛏️', display: 'table', implemented: true },
   { key: 'flowers', name_ja: '花', emoji: '🌸', display: 'table', implemented: true },
   { key: 'hourglass', name_ja: '砂時計', emoji: '⏳', display: 'table', implemented: true },
