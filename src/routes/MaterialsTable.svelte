@@ -89,26 +89,37 @@
     if (selected?.id === m.id) selected = m
   }
 
-  // 入手方法を「本体｜（世界・エリア）｜成長…」の複数行に整形。
-  // （…）が場所を表すときは先頭に世界名を付ける（波紋/泡/採取法などは付けない）。
+  // 入手方法を「手段（栽培｜）」＋「詳細行（種:露店 / （世界・エリア） / 成長…）」に整形。
+  // 詳細行は手段の内側にぶら下げて表示（（…）を種と同じ位置に揃える）。
+  // （…）が場所のときだけ先頭に世界名を付ける（波紋/泡/採取法や既出realmには付けない）。
   const REALM_NAMES = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場', 'ハニーグローの森']
   const NON_PLACE = /波紋|泡|木から|茂み|地面|サボテン|ハチの巣|なし|再生|ランダム/
   const formatObtain = (obtain: string, realms: string[]) => {
     const o = (obtain || '').trim()
-    if (!o) return ['—']
-    const m = o.match(/^(.*?)([（(][^（(）)]*[)）])(.*)$/)
-    if (!m) return [o]
+    if (!o) return { method: '', lines: ['—'] }
+    let method = ''
+    let rest = o
+    const bar = o.indexOf('｜')
+    if (bar > 0 && bar <= 4) {
+      method = o.slice(0, bar)
+      rest = o.slice(bar + 1)
+    }
+    const m = rest.match(/^(.*?)([（(][^（(）)]*[)）])(.*)$/)
+    if (!m) {
+      const lines = rest.split(/[｜|]/).map((x) => x.trim()).filter(Boolean)
+      return { method, lines: lines.length ? lines : [rest] }
+    }
     const pre = m[1].replace(/[｜|]\s*$/, '').trim()
     let inner = m[2].slice(1, -1)
     const post = m[3].replace(/^[\s｜|・／/]+/, '').trim()
     const world = (realms || []).join('・')
-    const hasRealm = REALM_NAMES.some((r) => inner.includes(r) || pre.includes(r))
+    const hasRealm = REALM_NAMES.some((r) => inner.includes(r) || pre.includes(r) || method.includes(r))
     if (world && !hasRealm && !NON_PLACE.test(inner)) inner = `${world}・${inner}`
     const lines: string[] = []
     if (pre) lines.push(pre)
     lines.push(`（${inner}）`)
     if (post) lines.push(post)
-    return lines
+    return { method, lines }
   }
 </script>
 
@@ -171,6 +182,7 @@
 {/if}
 
 {#if selected}
+  {@const ob = formatObtain(selected.obtain_method, selected.realms)}
   <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
   <div class="backdrop" onclick={() => (selected = null)}>
     <div class="sheet" role="dialog" aria-modal="true" aria-label={selected.name_ja || selected.name_en} tabindex="-1" onclick={(e) => e.stopPropagation()}>
@@ -192,7 +204,10 @@
       </div>
       <dl class="facts">
         <dt>入手方法</dt>
-        <dd>{#each formatObtain(selected.obtain_method, selected.realms) as line}<span class="obtain-line">{line}</span>{/each}</dd>
+        <dd class="obtain-dd">
+          {#if ob.method}<span class="o-method">{ob.method}｜</span>{/if}
+          <span class="o-lines">{#each ob.lines as line}<span class="o-line">{line}</span>{/each}</span>
+        </dd>
         <dt>使うレシピ</dt>
         <dd>
           {#if selected.used_in_recipes.length}
@@ -261,8 +276,11 @@
   .big-thumb img { width: 100%; height: 100%; object-fit: contain; }
   .ph-big { font-size: 34px; opacity: 0.5; }
   .sheet-top h2 { font-size: 20px; padding-right: 34px; }
-  .obtain-line { display: block; }
-  .obtain-line:not(:first-child) { color: var(--c-ink-soft); }
+  .obtain-dd { display: flex; align-items: baseline; gap: 2px; }
+  .o-method { flex: none; }
+  .o-lines { display: flex; flex-direction: column; min-width: 0; }
+  .o-line { display: block; }
+  .o-line:not(:first-child) { color: var(--c-ink-soft); }
   .en { color: var(--c-ink-soft); margin: 3px 0 8px; font-size: 13px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
   .chip { display: inline-block; background: var(--c-accent-soft); color: var(--c-accent-ink); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }
