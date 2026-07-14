@@ -42,6 +42,13 @@
   })())
   const unlockedCount = $derived(all.filter((m) => m.unlocked).length)
 
+  // 世界バッジの表示：4大レルム全部なら「全世界」に短縮（長すぎて名前欄を潰さないよう）
+  const CORE_REALMS = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場']
+  const realmLabel = (rs: string[] | undefined) => {
+    if (!rs?.length) return ''
+    return CORE_REALMS.every((r) => rs.includes(r)) ? '全世界' : rs.join('・')
+  }
+
   const groups = $derived((() => {
     const q = query.toLowerCase()
     const filtered = all.filter((m) => {
@@ -140,7 +147,7 @@
                   {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
                 </span>
               </button>
-              {#if m.realms?.length}<span class="realm-badge">{m.realms.join('・')}</span>{/if}
+              {#if m.realms?.length}<span class="realm-badge">{realmLabel(m.realms)}</span>{/if}
               <button class="own" class:on={m.unlocked} onclick={() => toggleUnlocked(m)} title="入手トグル">
                 {m.unlocked ? '✓' : '—'}
               </button>
@@ -186,14 +193,19 @@
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
   .en { font-size: 11px; color: var(--c-ink-soft); }
   .realm-badge {
-    flex: none;
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: 42%;
     font-size: 11px;
     font-weight: 600;
     color: var(--c-ink-soft);
     background: var(--c-surface-2);
     padding: 2px 8px;
-    border-radius: 999px;
-    white-space: nowrap;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 1.3;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
   .own { flex: none; width: 34px; height: 32px; border-radius: 8px; border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft); font-weight: 700; cursor: pointer; }
   .own.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
