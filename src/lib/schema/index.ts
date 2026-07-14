@@ -1,5 +1,5 @@
 /* =========================================================================
-   DDV 14カテゴリのスキーマ（引き継ぎ資料 2章に対応）
+   DDV 15カテゴリのスキーマ（引き継ぎ資料 2章に対応）
    凡例: 🔒 = Wiki等の外部データ由来（自動） / ✏️ = 自分専用・手動編集
    ※ 旧「動物」カテゴリは廃止し、オトモ図鑑（種ごと集約）に統合済み。
    ========================================================================= */
@@ -45,6 +45,19 @@ export interface Material {
   obtain_method: string    // 🔒 入手方法（エリア・釣り場・栽培時間など）
   icon_path: string        // 🔒 素材アイコン（mydreamlightvalley 由来）
   used_in_recipes: string[]// 🔒 recipes と ID 連携
+  unlocked: boolean        // ✏️ 解放済みか
+  memo: string             // ✏️
+}
+
+/** 3b. クラフト素材（鉱石・宝石・木材・石材など。料理素材とは別カテゴリ） */
+export interface CraftMaterial {
+  id: string
+  name_ja: string
+  name_en: string          // 🔒
+  category: string         // 🔒 種別（宝石/鉱石/木材/石材/その他）
+  realms: string[]         // 🔒 入手できる世界（バレー/永遠の島/物語の谷/願い咲く牧場）
+  obtain_method: string    // 🔒 入手方法（採掘/採取エリアなど）
+  icon_path: string        // 🔒 素材アイコン（mydreamlightvalley 由来）
   unlocked: boolean        // ✏️ 解放済みか
   memo: string             // ✏️
 }
@@ -202,12 +215,13 @@ export interface CategoryMeta {
   implemented: boolean
 }
 
-/** 14カテゴリの定義（Hub & Spoke トップの一覧・表示出し分けの元） */
+/** 15カテゴリの定義（Hub & Spoke トップの一覧・表示出し分けの元） */
 export const CATEGORIES: CategoryMeta[] = [
   { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
   { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
   { key: 'recipes', name_ja: '料理レシピ', emoji: '🍲', display: 'table', implemented: true },
-  { key: 'materials', name_ja: '素材', emoji: '🪵', display: 'table', implemented: true },
+  { key: 'materials', name_ja: '素材', emoji: '🍎', display: 'table', implemented: true },
+  { key: 'crafting', name_ja: 'クラフト素材', emoji: '⛏️', display: 'table', implemented: true },
   { key: 'prices', name_ja: '売値一覧', emoji: '💰', display: 'table', implemented: true },
   { key: 'quests', name_ja: 'クエスト', emoji: '📜', display: 'table', implemented: true },
   { key: 'facilities', name_ja: '施設', emoji: '🏛️', display: 'table', implemented: true },

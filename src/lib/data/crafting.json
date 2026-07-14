@@ -1,0 +1,453 @@
+[
+  {
+    "id": "craft_garnet",
+    "name_ja": "ガーネット",
+    "name_en": "Garnet",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（広場・のどかな草原に多い）",
+    "icon_path": "images/crafting/craft_garnet.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_peridot",
+    "name_ja": "ペリドット",
+    "name_en": "Peridot",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（のどかな草原・ダズル・ビーチに多い）",
+    "icon_path": "images/crafting/craft_peridot.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_aquamarine",
+    "name_ja": "アクアマリン",
+    "name_en": "Aquamarine",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（ダズル・ビーチ・勇気の森に多い）",
+    "icon_path": "images/crafting/craft_aquamarine.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_amethyst",
+    "name_ja": "アメジスト",
+    "name_en": "Amethyst",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（凍てつく高地・忘れられた地に多い）",
+    "icon_path": "images/crafting/craft_amethyst.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_emerald",
+    "name_ja": "エメラルド",
+    "name_en": "Emerald",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（勇気の森・信頼の谷に多い）",
+    "icon_path": "images/crafting/craft_emerald.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_ruby",
+    "name_ja": "ルビー",
+    "name_en": "Ruby",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜ヴィタリス鉱山（陽だまりの高原の洞窟）",
+    "icon_path": "images/crafting/craft_ruby.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_diamond",
+    "name_ja": "ダイヤモンド",
+    "name_en": "Diamond",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに（忘れられた地に多い）",
+    "icon_path": "images/crafting/craft_diamond.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_citrine",
+    "name_ja": "シトリン",
+    "name_en": "Citrine",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（信頼の谷・陽だまりの高原に多い）",
+    "icon_path": "images/crafting/craft_citrine.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_quartz",
+    "name_ja": "クォーツ",
+    "name_en": "Quartz",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（永遠の島・古の上陸地に多い）",
+    "icon_path": "images/crafting/craft_quartz.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_onyx",
+    "name_ja": "オニキス",
+    "name_en": "Onyx",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る（バレー全域）",
+    "icon_path": "images/crafting/craft_onyx.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_tourmaline",
+    "name_ja": "トルマリン",
+    "name_en": "Tourmaline",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（陽だまりの高原・凍てつく高地に多い）",
+    "icon_path": "images/crafting/craft_tourmaline.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_topaz",
+    "name_ja": "トパーズ",
+    "name_en": "Topaz",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（広場に多い）",
+    "icon_path": "images/crafting/craft_topaz.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_garnet",
+    "name_ja": "きらめくガーネット",
+    "name_en": "Shiny Garnet",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_garnet.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_peridot",
+    "name_ja": "きらめくペリドット",
+    "name_en": "Shiny Peridot",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_peridot.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_aquamarine",
+    "name_ja": "きらめくアクアマリン",
+    "name_en": "Shiny Aquamarine",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_aquamarine.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_amethyst",
+    "name_ja": "きらめくアメジスト",
+    "name_en": "Shiny Amethyst",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_amethyst.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_emerald",
+    "name_ja": "きらめくエメラルド",
+    "name_en": "Shiny Emerald",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_emerald.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_ruby",
+    "name_ja": "きらめくルビー",
+    "name_en": "Shiny Ruby",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（ヴィタリス鉱山）",
+    "icon_path": "images/crafting/craft_shiny_ruby.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_diamond",
+    "name_ja": "きらめくダイヤモンド",
+    "name_en": "Shiny Diamond",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（忘れられた地）",
+    "icon_path": "images/crafting/craft_shiny_diamond.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_citrine",
+    "name_ja": "きらめくシトリン",
+    "name_en": "Shiny Citrine",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_citrine.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_tourmaline",
+    "name_ja": "きらめくトルマリン",
+    "name_en": "Shiny Tourmaline",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_tourmaline.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_topaz",
+    "name_ja": "きらめくトパーズ",
+    "name_en": "Shiny Topaz",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_topaz.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_iron_ore",
+    "name_ja": "鉄鉱石",
+    "name_en": "Iron Ore",
+    "category": "鉱石",
+    "realms": [
+      "バレー",
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（勇気の森・信頼の谷・陽だまりの高原・凍てつく高地・忘れられた地）",
+    "icon_path": "images/crafting/craft_iron_ore.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_coal_ore",
+    "name_ja": "石炭鉱石",
+    "name_en": "Coal Ore",
+    "category": "鉱石",
+    "realms": [
+      "バレー",
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（バレー全域）",
+    "icon_path": "images/crafting/craft_coal_ore.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_softwood",
+    "name_ja": "やわらかい木材",
+    "name_en": "Softwood",
+    "category": "木材",
+    "realms": [
+      "バレー",
+      "永遠の島"
+    ],
+    "obtain_method": "採取｜地面や木の周辺（広場・のどかな草原・勇気の森・信頼の谷）",
+    "icon_path": "images/crafting/craft_softwood.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_hardwood",
+    "name_ja": "かたい木材",
+    "name_en": "Hardwood",
+    "category": "木材",
+    "realms": [
+      "バレー",
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採取｜地面や大きな木の周辺（勇気の森・信頼の谷・陽だまりの高原・凍てつく高地）",
+    "icon_path": "images/crafting/craft_hardwood.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_dry_wood",
+    "name_ja": "かわいた木材",
+    "name_en": "Dry Wood",
+    "category": "木材",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採取｜地面から（陽だまりの高原・凍てつく高地・忘れられた地）",
+    "icon_path": "images/crafting/craft_dry_wood.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_stone",
+    "name_ja": "石",
+    "name_en": "Stone",
+    "category": "石材",
+    "realms": [
+      "バレー",
+      "永遠の島",
+      "物語の谷",
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜岩をつるはしで砕く（全エリア共通）",
+    "icon_path": "images/crafting/craft_stone.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_clay",
+    "name_ja": "粘土",
+    "name_en": "Clay",
+    "category": "石材",
+    "realms": [
+      "バレー",
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採取｜シャベルで地面を掘る（信頼の谷・陽だまりの高原・忘れられた地）",
+    "icon_path": "images/crafting/craft_clay.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_sand",
+    "name_ja": "砂",
+    "name_en": "Sand",
+    "category": "石材",
+    "realms": [
+      "バレー",
+      "永遠の島"
+    ],
+    "obtain_method": "採取｜ダズル・ビーチをシャベルで掘る／青い岩を砕く",
+    "icon_path": "images/crafting/craft_sand.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_marble",
+    "name_ja": "大理石",
+    "name_en": "Marble",
+    "category": "石材",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜大理石の塊をつるはしで砕く（物語の谷・神話の楽園）",
+    "icon_path": "images/crafting/craft_marble.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_mist",
+    "name_ja": "ミスト",
+    "name_en": "Mist",
+    "category": "その他",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "入手｜永遠の島で障害物撤去・砂時計など（時の裂け目専用の資源）",
+    "icon_path": "images/crafting/craft_mist.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_cotton",
+    "name_ja": "コットン",
+    "name_en": "Cotton",
+    "category": "その他",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "栽培｜グーフィーの売店で種を購入し栽培（陽だまりの高原）。野生でも採取可",
+    "icon_path": "images/crafting/craft_cotton.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_night_shard",
+    "name_ja": "ナイトシャード",
+    "name_en": "Night Shard",
+    "category": "その他",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採取｜夜に光る地面をシャベルで掘る／闇のトゲ撤去（バレー各地）",
+    "icon_path": "images/crafting/craft_night_shard.png",
+    "unlocked": false,
+    "memo": ""
+  }
+]
