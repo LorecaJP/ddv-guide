@@ -1,5 +1,5 @@
 /* =========================================================================
-   DDV 15カテゴリのスキーマ（引き継ぎ資料 2章に対応）
+   DDV 14カテゴリのスキーマ（引き継ぎ資料 2章に対応）
    凡例: 🔒 = Wiki等の外部データ由来（自動） / ✏️ = 自分専用・手動編集
    ※ 旧「動物」カテゴリは廃止し、オトモ図鑑（種ごと集約）に統合済み。
    ========================================================================= */
@@ -89,19 +89,8 @@ export interface EventItem {
   memo: string             // ✏️
 }
 
-/** 7. 農作物 */
-export interface Crop {
-  id: string
-  name_ja: string
-  name_en: string          // 🔒 表示・突合用に追加
-  category: string         // 🔒
-  grow_area: string        // 🔒
-  used_in_recipes: string[]// 🔒
-  note: string             // 🔒
-  planted_count: number    // ✏️
-  harvested_total: number  // ✏️
-  memo: string             // ✏️
-}
+/** 7. （欠番）旧「農作物」カテゴリは廃止し、素材の種別(category)に統合済み。
+       栽培場所は素材の obtain_method に取り込み済み。 */
 
 /** 8. 施設 */
 export interface Facility {
@@ -212,13 +201,12 @@ export interface CategoryMeta {
   implemented: boolean
 }
 
-/** 15カテゴリの定義（Hub & Spoke トップの一覧・表示出し分けの元） */
+/** 14カテゴリの定義（Hub & Spoke トップの一覧・表示出し分けの元） */
 export const CATEGORIES: CategoryMeta[] = [
   { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
   { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
   { key: 'recipes', name_ja: '料理レシピ', emoji: '🍲', display: 'table', implemented: true },
   { key: 'materials', name_ja: '素材', emoji: '🪵', display: 'table', implemented: true },
-  { key: 'crops', name_ja: '農作物', emoji: '🌾', display: 'table', implemented: true },
   { key: 'prices', name_ja: '売値一覧', emoji: '💰', display: 'table', implemented: true },
   { key: 'quests', name_ja: 'クエスト', emoji: '📜', display: 'table', implemented: true },
   { key: 'facilities', name_ja: '施設', emoji: '🏛️', display: 'table', implemented: true },

@@ -29,19 +29,6 @@ export interface TableConfig {
 }
 
 export const TABLE_CONFIG: Record<string, TableConfig> = {
-  crops: {
-    columns: [
-      { key: 'name', label: '作物名', kind: 'title', primaryKey: 'name_ja', subKey: 'name_en', sortable: true },
-      { key: 'category', label: '種別', kind: 'text' },
-      { key: 'grow_area', label: '栽培/入手', kind: 'text' },
-      { key: 'used_in_recipes', label: '使用レシピ', kind: 'number', sortable: true, align: 'right' },
-      { key: 'planted_count', label: '植えた', kind: 'stepper', min: 0, align: 'right' },
-      { key: 'harvested_total', label: '収穫累計', kind: 'stepper', min: 0, align: 'right' },
-    ],
-    searchKeys: ['name_ja', 'name_en'],
-    editable: ['planted_count', 'harvested_total', 'memo'],
-    note: 'materials の栽培アイテムから導出。使用レシピは料理との ID 連携。',
-  },
   prices: {
     columns: [
       { key: 'item_name', label: 'アイテム', kind: 'text', sortable: true },
