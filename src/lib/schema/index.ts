@@ -106,6 +106,19 @@ export interface Mount {
   memo: string             // ✏️
 }
 
+/** 4c. 紙精（スニペット。物語の谷でロイヤルネットで捕まえる紙の生き物） */
+export interface Snippet {
+  id: string
+  name_ja: string          // 🔒
+  name_en: string          // 🔒
+  category: string         // 🔒 種別（生息エリア／セット など）
+  obtain_method: string    // 🔒 捕獲場所・条件（日本語）
+  note: string             // 🔒 備考（日本語）
+  icon_path: string        // 🔒 画像
+  owned: boolean           // ✏️ 捕獲済みか
+  memo: string             // ✏️
+}
+
 /** 5. クエスト */
 export interface Quest {
   id: string
@@ -246,6 +259,7 @@ export const CATEGORIES: CategoryMeta[] = [
   { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
   { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
   { key: 'mounts', name_ja: '騎乗動物', emoji: '🐴', display: 'image-grid', implemented: true },
+  { key: 'snippets', name_ja: '紙精', emoji: '📃', display: 'image-grid', implemented: true },
   { key: 'recipes', name_ja: '料理レシピ', emoji: '🍲', display: 'table', implemented: true },
   { key: 'materials', name_ja: '食材', emoji: '🍎', display: 'table', implemented: true },
   { key: 'crafting', name_ja: 'クラフト素材', emoji: '⛏️', display: 'table', implemented: true },

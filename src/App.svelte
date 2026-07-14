@@ -9,6 +9,7 @@
   import ItemTable from './routes/ItemTable.svelte'
   import CompanionsZukan from './routes/CompanionsZukan.svelte'
   import MountsZukan from './routes/MountsZukan.svelte'
+  import SnippetsZukan from './routes/SnippetsZukan.svelte'
   import DataTable from './routes/DataTable.svelte'
   import LinkList from './routes/LinkList.svelte'
   import Dashboard from './routes/Dashboard.svelte'
@@ -80,6 +81,8 @@
     <CompanionsZukan />
   {:else if current === 'mounts'}
     <MountsZukan />
+  {:else if current === 'snippets'}
+    <SnippetsZukan />
   {:else if meta?.display === 'links'}
     <LinkList storeKey={current} />
   {:else if meta?.display === 'dashboard'}

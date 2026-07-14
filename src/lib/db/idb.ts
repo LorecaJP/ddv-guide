@@ -11,7 +11,7 @@ const DB_NAME = 'ddv-guide'
 //   追加したら、この DB_VERSION を必ず +1 すること。上げないと、既にDBを持つ端末では
 //   onupgradeneeded が再発火せず新ストアが作られない → seed/読み込みが例外になる。
 //   （過去に「動物」ストアが未生成のまま seed され初回ロードが固まる不具合の原因がこれ）
-const DB_VERSION = 4 // v2: crafting 追加 / v3: flowers・hourglass 追加 / v4: mounts（騎乗動物）追加
+const DB_VERSION = 5 // v2: crafting / v3: flowers・hourglass / v4: mounts / v5: snippets（紙精）追加
 
 // dashboard は集計ビューなので独立ストアは持たない
 export const STORE_KEYS = CATEGORIES.filter((c) => c.key !== 'dashboard').map((c) => c.key)
