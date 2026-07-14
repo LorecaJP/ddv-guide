@@ -449,5 +449,1019 @@
     "icon_path": "images/crafting/craft_night_shard.png",
     "unlocked": false,
     "memo": ""
+  },
+  {
+    "id": "craft_sapphire",
+    "name_ja": "サファイア",
+    "name_en": "Sapphire",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（陽だまりの高原の鉱山など）",
+    "icon_path": "images/crafting/craft_sapphire.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_sapphire",
+    "name_ja": "きらめくサファイア",
+    "name_en": "Shiny Sapphire",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_sapphire.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_vitalys_crystal",
+    "name_ja": "ヴィタリスクリスタル",
+    "name_en": "Vitalys Crystal",
+    "category": "宝石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜ヴィタリス鉱山（陽だまりの高原）。道具強化用・Shiny無し",
+    "icon_path": "images/crafting/craft_vitalys_crystal.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_alexandrite",
+    "name_ja": "アレキサンドライト",
+    "name_en": "Alexandrite",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（煌めく砂丘：荒野・オアシス）",
+    "icon_path": "images/crafting/craft_alexandrite.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_jade",
+    "name_ja": "翡翠（ジェイド）",
+    "name_en": "Jade",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（古の上陸地：中庭・展望の地）",
+    "icon_path": "images/crafting/craft_jade.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_spinel",
+    "name_ja": "スピネル",
+    "name_en": "Spinel",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（ワイルドタングル：木立・遊歩道）",
+    "icon_path": "images/crafting/craft_spinel.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_blue_zircon",
+    "name_ja": "ブルージルコン",
+    "name_en": "Blue Zircon",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（ワイルドタングル：ラグーン）",
+    "icon_path": "images/crafting/craft_blue_zircon.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_bumblestone",
+    "name_ja": "バンブルストーン",
+    "name_en": "Bumblestone",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（煌めく砂丘：ボーダーランド。入手困難）",
+    "icon_path": "images/crafting/craft_bumblestone.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_evergem",
+    "name_ja": "エバージェム",
+    "name_en": "Evergem",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（古の上陸地：遺跡）",
+    "icon_path": "images/crafting/craft_evergem.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_alexandrite",
+    "name_ja": "きらめくアレキサンドライト",
+    "name_en": "Shiny Alexandrite",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_alexandrite.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_jade",
+    "name_ja": "きらめく翡翠",
+    "name_en": "Shiny Jade",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_jade.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_spinel",
+    "name_ja": "きらめくスピネル",
+    "name_en": "Shiny Spinel",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_spinel.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_blue_zircon",
+    "name_ja": "きらめくブルージルコン",
+    "name_en": "Shiny Blue Zircon",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_blue_zircon.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_bumblestone",
+    "name_ja": "きらめくバンブルストーン",
+    "name_en": "Shiny Bumblestone",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_bumblestone.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_evergem",
+    "name_ja": "きらめくエバージェム",
+    "name_en": "Shiny Evergem",
+    "category": "宝石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_evergem.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_opal",
+    "name_ja": "オパール",
+    "name_en": "Opal",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩から（物語の谷）",
+    "icon_path": "images/crafting/craft_opal.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_star_sapphire",
+    "name_ja": "スターサファイア",
+    "name_en": "Star Sapphire",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩から（物語の谷）",
+    "icon_path": "images/crafting/craft_star_sapphire.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_pure_ice",
+    "name_ja": "純氷",
+    "name_en": "Pure Ice",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩から（物語の谷）",
+    "icon_path": "images/crafting/craft_pure_ice.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_magma",
+    "name_ja": "マグマ",
+    "name_en": "Magma",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩から（物語の谷）",
+    "icon_path": "images/crafting/craft_magma.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_opal",
+    "name_ja": "きらめくオパール",
+    "name_en": "Shiny Opal",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_opal.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_star_sapphire",
+    "name_ja": "きらめくスターサファイア",
+    "name_en": "Shiny Star Sapphire",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_star_sapphire.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_pure_ice",
+    "name_ja": "きらめく純氷",
+    "name_en": "Shiny Pure Ice",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_pure_ice.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_magma",
+    "name_ja": "きらめくマグマ",
+    "name_en": "Shiny Magma",
+    "category": "宝石",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜岩からまれに出る希少版（通常版と同じ産地）",
+    "icon_path": "images/crafting/craft_shiny_magma.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_gold_nugget",
+    "name_ja": "金塊",
+    "name_en": "Gold Nugget",
+    "category": "鉱石",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採掘｜岩から（陽だまりの高原・凍てつく高地・忘れられた地・ヴィタリス鉱山）",
+    "icon_path": "images/crafting/craft_gold_nugget.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_copper",
+    "name_ja": "銅",
+    "name_en": "Copper",
+    "category": "鉱石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（永遠の島 全域）",
+    "icon_path": "images/crafting/craft_copper.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_tin",
+    "name_ja": "錫",
+    "name_en": "Tin",
+    "category": "鉱石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（永遠の島）",
+    "icon_path": "images/crafting/craft_tin.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_iron_ingot",
+    "name_ja": "鉄インゴット",
+    "name_en": "Iron Ingot",
+    "category": "精錬",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "精錬｜作業台で加工（鉄鉱石×5＋石炭×10）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_gold_ingot",
+    "name_ja": "金インゴット",
+    "name_en": "Gold Ingot",
+    "category": "精錬",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "精錬｜作業台で加工（金塊×5＋石炭×1）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_zinc",
+    "name_ja": "亜鉛",
+    "name_en": "Zinc",
+    "category": "鉱石",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採掘｜岩から（ワイルドタングル各エリア）",
+    "icon_path": "images/crafting/craft_zinc.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_amber",
+    "name_ja": "琥珀（アンバー）",
+    "name_en": "Amber",
+    "category": "その他",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "発掘｜シャベルで穴掘り（ワイルドタングル）",
+    "icon_path": "images/crafting/craft_amber.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_oasis_glass",
+    "name_ja": "オアシスガラス",
+    "name_en": "Oasis Glass",
+    "category": "その他",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "発掘/採掘｜砂を掘る・鍾乳石を壊す（煌めく砂丘）",
+    "icon_path": "images/crafting/craft_oasis_glass.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_tropical_wood",
+    "name_ja": "トロピカルウッド",
+    "name_en": "Tropical Wood",
+    "category": "木材",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "採取｜木の根元（ワイルドタングル：草原）",
+    "icon_path": "images/crafting/craft_tropical_wood.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_bronze_ingot",
+    "name_ja": "ブロンズインゴット",
+    "name_en": "Bronze Ingot",
+    "category": "精錬",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "精錬｜作業台でクラフト（銅＋石炭＋亜鉛）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_brass_ingot",
+    "name_ja": "真鍮インゴット",
+    "name_en": "Brass Ingot",
+    "category": "精錬",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "精錬｜作業台でクラフト（銅＋石炭＋スズ）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_mechanical_parts",
+    "name_ja": "機械部品",
+    "name_en": "Mechanical Parts",
+    "category": "精錬",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "精錬｜作業台でクラフト（ブロンズ＋真鍮インゴット）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_electric_power",
+    "name_ja": "電力",
+    "name_en": "Electric Power",
+    "category": "精錬",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "精錬｜作業台でクラフト（銅＋デンキウナギ）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_dark_wood",
+    "name_ja": "ダークウッド",
+    "name_en": "Dark Wood",
+    "category": "木材",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採取｜忘れられた地の地面で拾う",
+    "icon_path": "images/crafting/craft_dark_wood.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_petrified_wood",
+    "name_ja": "石化した木材",
+    "name_en": "Petrified Wood",
+    "category": "木材",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採掘｜書物の里等の鉱脈を採掘",
+    "icon_path": "images/crafting/craft_petrified_wood.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_pine_cone",
+    "name_ja": "松ぼっくり",
+    "name_en": "Pine Cone",
+    "category": "木材",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採取｜書物の里の地面で拾う",
+    "icon_path": "images/crafting/craft_pine_cone.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_reclaimed_barn_wood",
+    "name_ja": "再生された納屋の木材",
+    "name_en": "Reclaimed Barn Wood",
+    "category": "木材",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採取｜願いのアルプスの地面で拾う",
+    "icon_path": "images/crafting/craft_reclaimed_barn_wood.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_driftwood",
+    "name_ja": "流木",
+    "name_en": "Driftwood",
+    "category": "木材",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "釣り｜ハニーグローの森の水辺（冒険パック1）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_weathered_driftwood",
+    "name_ja": "風化した流木",
+    "name_en": "Weathered Driftwood",
+    "category": "木材",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "採取｜ハニーグローの森（冒険パック1）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_pebbles",
+    "name_ja": "小石",
+    "name_en": "Pebbles",
+    "category": "石材",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "採取｜ビーチや高原の地面で拾う",
+    "icon_path": "images/crafting/craft_pebbles.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_gravel",
+    "name_ja": "砂利",
+    "name_en": "Gravel",
+    "category": "石材",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "穴掘り｜神話の楽園の各地を掘る",
+    "icon_path": "images/crafting/craft_gravel.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_volcanic_rock",
+    "name_ja": "火山岩",
+    "name_en": "Volcanic Rock",
+    "category": "石材",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "穴掘り｜物語の谷の各地を掘る",
+    "icon_path": "images/crafting/craft_volcanic_rock.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_soft_limestone",
+    "name_ja": "軟らかい石灰岩",
+    "name_en": "Soft Limestone",
+    "category": "石材",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "採掘｜ハニーグローの森の鉱脈（冒険パック1）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_mud",
+    "name_ja": "泥",
+    "name_en": "Mud",
+    "category": "その他",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "穴掘り｜書物の里・エバーアフターを掘る",
+    "icon_path": "images/crafting/craft_mud.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_soil",
+    "name_ja": "土",
+    "name_en": "Soil",
+    "category": "その他",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "穴掘り｜地面を掘って入手",
+    "icon_path": "images/crafting/craft_soil.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_rich_soil",
+    "name_ja": "肥沃な土",
+    "name_en": "Rich Soil",
+    "category": "その他",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "収穫｜作物の収穫時に入手",
+    "icon_path": "images/crafting/craft_rich_soil.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_moss",
+    "name_ja": "コケ",
+    "name_en": "Moss",
+    "category": "繊維",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採取｜苔むした丸太や地面から",
+    "icon_path": "images/crafting/craft_moss.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_common_club_rush",
+    "name_ja": "フトイ（イグサ）",
+    "name_en": "Common Club Rush",
+    "category": "繊維",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "採取｜エバーアフターの地面で拾う",
+    "icon_path": "images/crafting/craft_common_club_rush.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_posidonia",
+    "name_ja": "ポシドニア（海草）",
+    "name_en": "Posidonia",
+    "category": "繊維",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "釣り｜神話の楽園の水面で釣る",
+    "icon_path": "images/crafting/craft_posidonia.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_sequin_strands",
+    "name_ja": "スパンコールの糸",
+    "name_en": "Sequin Strands",
+    "category": "繊維",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採取｜グラマーガルチで採集",
+    "icon_path": "images/crafting/craft_sequin_strands.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_glass",
+    "name_ja": "ガラス",
+    "name_en": "Glass",
+    "category": "精錬",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "精錬｜砂を作業台で加工",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_fabric",
+    "name_ja": "布地",
+    "name_en": "Fabric",
+    "category": "精錬",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "精錬｜綿花5個を作業台で加工",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_broken_weapon",
+    "name_ja": "壊れた武器",
+    "name_en": "Broken Weapon",
+    "category": "その他",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "穴掘り｜神話の楽園の地面",
+    "icon_path": "images/crafting/craft_broken_weapon.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_fairy_bubbles",
+    "name_ja": "妖精の泡",
+    "name_en": "Fairy Bubbles",
+    "category": "その他",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "穴掘り｜エバーアフター（荒れ森）の地面",
+    "icon_path": "images/crafting/craft_fairy_bubbles.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_sea_monster_tooth",
+    "name_ja": "海の怪物の歯",
+    "name_en": "Sea Monster Tooth",
+    "category": "その他",
+    "realms": [
+      "物語の谷"
+    ],
+    "obtain_method": "釣り｜エバーアフター（荒れ森）",
+    "icon_path": "images/crafting/craft_sea_monster_tooth.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_pyrite",
+    "name_ja": "黄鉄鉱（パイライト）",
+    "name_en": "Pyrite",
+    "category": "宝石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜願いのアルプスの鉱脈",
+    "icon_path": "images/crafting/craft_pyrite.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_pyrite",
+    "name_ja": "きらめく黄鉄鉱",
+    "name_en": "Shiny Pyrite",
+    "category": "宝石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜願いのアルプスの鉱脈（低確率）",
+    "icon_path": "images/crafting/craft_shiny_pyrite.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_jasper",
+    "name_ja": "碧玉（ジャスパー）",
+    "name_en": "Jasper",
+    "category": "宝石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜グラマーガルチの鉱脈",
+    "icon_path": "images/crafting/craft_jasper.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_jasper",
+    "name_ja": "きらめく碧玉",
+    "name_en": "Shiny Jasper",
+    "category": "宝石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜グラマーガルチの鉱脈（低確率）",
+    "icon_path": "images/crafting/craft_shiny_jasper.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_honeycomb_stone",
+    "name_ja": "ハニカムストーン",
+    "name_en": "Honeycomb Stone",
+    "category": "宝石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜妖精の地の鉱脈",
+    "icon_path": "images/crafting/craft_honeycomb_stone.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_honeycomb_stone",
+    "name_ja": "きらめくハニカムストーン",
+    "name_en": "Shiny Honeycomb Stone",
+    "category": "宝石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜妖精の地の鉱脈（低確率）",
+    "icon_path": "images/crafting/craft_shiny_honeycomb_stone.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_honey_agate",
+    "name_ja": "ハニーアゲート",
+    "name_en": "Honey Agate",
+    "category": "宝石",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "採掘｜ハニーグローの森の崖の鉱脈",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_shiny_honey_agate",
+    "name_ja": "きらめくハニーアゲート",
+    "name_en": "Shiny Honey Agate",
+    "category": "宝石",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "採掘｜ハニーグローの森の鉱脈（低確率）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_silver_ore",
+    "name_ja": "銀鉱石",
+    "name_en": "Silver Ore",
+    "category": "鉱石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜願いのアルプスの岩",
+    "icon_path": "images/crafting/craft_silver_ore.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_grassy_ore",
+    "name_ja": "草鉱石",
+    "name_en": "Grassy Ore",
+    "category": "鉱石",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜妖精の地の鉱脈",
+    "icon_path": "images/crafting/craft_grassy_ore.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_beady_soil",
+    "name_ja": "粒状の土",
+    "name_en": "Beady Soil",
+    "category": "その他",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "穴掘り｜グラマーガルチの地面",
+    "icon_path": "images/crafting/craft_beady_soil.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_pixie_dust",
+    "name_ja": "ピクシーダスト",
+    "name_en": "Pixie Dust",
+    "category": "その他",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜願い咲く牧場全域（設計図修理用）",
+    "icon_path": "images/crafting/craft_pixie_dust.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_rusty_hinge",
+    "name_ja": "錆びた蝶番",
+    "name_en": "Rusty Hinge",
+    "category": "その他",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "穴掘り｜願いのアルプスの地面",
+    "icon_path": "images/crafting/craft_rusty_hinge.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_antique_clothes_iron",
+    "name_ja": "アンティークのアイロン",
+    "name_en": "Antique Clothes Iron",
+    "category": "その他",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採掘｜グラマーガルチの黒い岩",
+    "icon_path": "images/crafting/craft_antique_clothes_iron.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_copter_seeds",
+    "name_ja": "翼果の種",
+    "name_en": "Copter Seeds",
+    "category": "その他",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採取｜妖精の地の地面",
+    "icon_path": "images/crafting/craft_copter_seeds.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_giant_acorns",
+    "name_ja": "巨大などんぐり",
+    "name_en": "Giant Acorns",
+    "category": "その他",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "穴掘り｜妖精の地の地面",
+    "icon_path": "images/crafting/craft_giant_acorns.png",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_old_braided_rope",
+    "name_ja": "古い編みロープ",
+    "name_en": "Old Braided Rope",
+    "category": "繊維",
+    "realms": [
+      "願い咲く牧場"
+    ],
+    "obtain_method": "釣り｜願いのアルプスの水面（泡なし）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_tree_resin",
+    "name_ja": "樹脂",
+    "name_en": "Tree Resin",
+    "category": "その他",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "穴掘り｜ハニーグローの森の地面",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_oak_leaves",
+    "name_ja": "オークの葉",
+    "name_en": "Oak Leaves",
+    "category": "その他",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "採取｜ハニーグローの森の木の下",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_fog_dust",
+    "name_ja": "霧のダスト",
+    "name_en": "Fog Dust",
+    "category": "その他",
+    "realms": [
+      "ハニーグローの森"
+    ],
+    "obtain_method": "採取｜ハニーグローの森のランタン近くの霧",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
   }
 ]
