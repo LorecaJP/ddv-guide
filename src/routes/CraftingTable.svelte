@@ -59,13 +59,25 @@
       if (!byCat.has(c)) byCat.set(c, [])
       byCat.get(c)!.push(m)
     }
-    const sortJa = (a: CraftMaterial, b: CraftMaterial) =>
-      (a.name_ja || a.name_en).localeCompare(b.name_ja || b.name_en, 'ja')
+    // 五十音順。ただし「きらめく○○」は元の「○○」の直後に並べる（ノーマル→Shinyのペア）
+    const isShiny = (m: CraftMaterial) => m.name_en.startsWith('Shiny ')
+    const baseEn = (m: CraftMaterial) => m.name_en.replace(/^Shiny /, '')
+    const sortItems = (items: CraftMaterial[]) => {
+      const normalJa = new Map<string, string>()
+      for (const m of items) if (!isShiny(m)) normalJa.set(m.name_en, m.name_ja || m.name_en)
+      const repKey = (m: CraftMaterial) =>
+        normalJa.get(baseEn(m)) ?? (m.name_ja || m.name_en).replace(/^きらめく/, '')
+      return [...items].sort((a, b) => {
+        const rk = repKey(a).localeCompare(repKey(b), 'ja')
+        if (rk !== 0) return rk
+        return (isShiny(a) ? 1 : 0) - (isShiny(b) ? 1 : 0)
+      })
+    }
     const keys = [...byCat.keys()].sort((a, b) => {
       const ia = order.indexOf(a), ib = order.indexOf(b)
       return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib)
     })
-    return keys.map((c) => ({ category: c, items: byCat.get(c)!.sort(sortJa) }))
+    return keys.map((c) => ({ category: c, items: sortItems(byCat.get(c)!) }))
   })())
   const shownCount = $derived(groups.reduce((n, g) => n + g.items.length, 0))
 
