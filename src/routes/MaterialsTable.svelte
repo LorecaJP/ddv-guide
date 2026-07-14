@@ -187,14 +187,19 @@
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
   .en { font-size: 11px; color: var(--c-ink-soft); }
   .realm-badge {
-    flex: none;
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: 42%;
     font-size: 11px;
     font-weight: 600;
     color: var(--c-ink-soft);
     background: var(--c-surface-2);
     padding: 2px 8px;
-    border-radius: 999px;
-    white-space: nowrap;
+    border-radius: 12px;
+    text-align: center;
+    line-height: 1.3;
+    white-space: normal;
+    overflow-wrap: anywhere;
   }
   .own { flex: none; width: 34px; height: 32px; border-radius: 8px; border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft); font-weight: 700; cursor: pointer; }
   .own.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }

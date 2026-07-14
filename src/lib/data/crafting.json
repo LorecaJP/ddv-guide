@@ -1519,5 +1519,21 @@
     "icon_path": "images/crafting/craft_snowball.webp",
     "unlocked": false,
     "memo": ""
+  },
+  {
+    "id": "craft_red_algae",
+    "name_ja": "紅藻",
+    "name_en": "Red Algae",
+    "category": "繊維",
+    "realms": [
+      "バレー",
+      "永遠の島",
+      "物語の谷",
+      "願い咲く牧場"
+    ],
+    "obtain_method": "釣り｜全エリアでまれにドロップ（波紋の内外問わず）。紅藻1個→海藻5個に分解可",
+    "icon_path": "images/crafting/craft_red_algae.webp",
+    "unlocked": false,
+    "memo": ""
   }
 ]
