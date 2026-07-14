@@ -30,7 +30,7 @@ const SEED_LOADERS: Record<string, () => Promise<{ default: Record<string, any>[
 export const EDITABLE: Record<string, string[]> = {
   characters: ['skill_assigned', 'friendship_level', 'owned', 'memo'],
   recipes: ['unlocked', 'memo'],
-  materials: ['unlocked', 'stock_count', 'memo'],
+  materials: ['unlocked', 'memo'],
   companions: ['owned', 'friendship_level', 'is_equipped', 'memo'],
   prices: ['memo'],
   quests: ['completed', 'completed_date', 'memo'],
