@@ -148,7 +148,7 @@
                 <span class="noimg"><span class="ph-mark">👤</span><span class="ph-name">{c.name_ja}</span></span>
               {/if}
               {#if c.owned}<span class="own">✓</span>{/if}
-              <span class="lv-badge" class:max={Math.max(1, c.friendship_level || 1) >= MAX_LV}>Lv{Math.max(1, c.friendship_level || 1)}</span>
+              <span class="lv-badge" class:max={Math.max(1, c.friendship_level || 1) >= MAX_LV}>{Math.max(1, c.friendship_level || 1) >= MAX_LV ? 'MAX' : 'Lv' + Math.max(1, c.friendship_level || 1)}</span>
             </div>
             <span class="nm">{c.name_ja}</span>
           </button>
@@ -310,7 +310,7 @@
     display: grid; place-items: center; overflow: hidden;
   }
   .big-thumb img { width: 100%; height: 100%; object-fit: contain; }
-  .sheet-top h2 { font-size: 22px; }
+  .sheet-top h2 { font-size: 22px; padding-right: 34px; }
   .en { color: var(--c-ink-soft); margin: 3px 0 8px; font-size: 13px; }
   .chip {
     display: inline-block; margin: 0;

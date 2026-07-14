@@ -108,6 +108,16 @@
     if (selected?.id === r.id) selected = r
   }
   const sell = (r: Recipe) => r.sell_price_note.replace(' スターコイン', '')
+  // メモ「入手: X / エナジー Y+」から エナジー値を取り出す（入手はクリーンな realm を使う）
+  const energyOf = (r: Recipe) => {
+    const m = (r.memo || '').match(/エナジー\s*([0-9０-９]+\+?)/)
+    return m ? m[1] : ''
+  }
+  // 標準パターン以外のメモだけ表示（ハニーグロー注記など）
+  const extraMemo = (r: Recipe) => {
+    const mm = (r.memo || '').trim()
+    return /^入手:.*エナジー/.test(mm) ? '' : mm
+  }
   // モーダル内の材料リスト（日本語名＋英語名＋アイコン）
   const ingList = (r: Recipe) =>
     r.ingredients_ja.map((ja, i) => {
@@ -216,8 +226,10 @@
         </div>
       </div>
       <dl class="facts">
+        <dt>入手</dt><dd>{selected.realm || '—'}</dd>
+        {#if energyOf(selected)}<dt>エナジー</dt><dd>{energyOf(selected)}</dd>{/if}
         <dt>売値</dt><dd>{sell(selected)}</dd>
-        {#if selected.memo}<dt>メモ</dt><dd>{selected.memo}</dd>{/if}
+        {#if extraMemo(selected)}<dt>メモ</dt><dd>{extraMemo(selected)}</dd>{/if}
         <dt>解放</dt>
         <dd>
           <button class="own-tgl" class:on={selected.unlocked} onclick={() => selected && toggleUnlocked(selected)}>
@@ -267,7 +279,7 @@
   .big-thumb { width: 92px; height: 92px; flex: none; background: var(--c-surface-2); border-radius: var(--radius-sm); display: grid; place-items: center; overflow: hidden; }
   .big-thumb img { width: 100%; height: 100%; object-fit: contain; }
   .ph-big { font-size: 34px; opacity: 0.5; }
-  .sheet-top h2 { font-size: 20px; }
+  .sheet-top h2 { font-size: 20px; padding-right: 34px; }
   .en { color: var(--c-ink-soft); margin: 3px 0 8px; font-size: 13px; }
   .chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0; }
   .stars-lg { color: var(--c-accent); letter-spacing: 1px; font-size: 14px; }
