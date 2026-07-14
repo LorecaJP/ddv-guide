@@ -8,6 +8,7 @@
   import CraftingTable from './routes/CraftingTable.svelte'
   import ItemTable from './routes/ItemTable.svelte'
   import CompanionsZukan from './routes/CompanionsZukan.svelte'
+  import MountsZukan from './routes/MountsZukan.svelte'
   import DataTable from './routes/DataTable.svelte'
   import LinkList from './routes/LinkList.svelte'
   import Dashboard from './routes/Dashboard.svelte'
@@ -77,6 +78,8 @@
       placeholder="⏳" ownLabel="入手" />
   {:else if current === 'companions'}
     <CompanionsZukan />
+  {:else if current === 'mounts'}
+    <MountsZukan />
   {:else if meta?.display === 'links'}
     <LinkList storeKey={current} />
   {:else if meta?.display === 'dashboard'}
