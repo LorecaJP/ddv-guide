@@ -8,7 +8,8 @@
     "ability_note": "固有能力「プッシュ」＝石ブロックを押して感圧板を作動させ道を開く。共通能力（絆レベルで解放）＝騎乗したまま自動水やり・穴掘り・ナイトソーン除去・収穫・採掘。",
     "icon_path": "images/mounts/mount_wishblossom_horse.webp",
     "owned": false,
-    "memo": ""
+    "memo": "",
+    "friendship_level": 1
   },
   {
     "id": "mount_maximus",
@@ -19,7 +20,8 @@
     "ability_note": "作品：塔の上のラプンツェル。固有能力「リープ」＝大きな溝や壊れた橋を飛び越え、妖精の粉で修復する。共通能力も絆で解放。カスタマイズ不可。",
     "icon_path": "images/mounts/mount_maximus.webp",
     "owned": false,
-    "memo": ""
+    "memo": "",
+    "friendship_level": 1
   },
   {
     "id": "mount_khan",
@@ -30,7 +32,8 @@
     "ability_note": "作品：ムーラン。固有能力「キック」＝木製バリケードを蹴り壊す（Lv4で金属バリアも破壊可）。共通能力も絆で解放。カスタマイズ不可。",
     "icon_path": "images/mounts/mount_khan.webp",
     "owned": false,
-    "memo": ""
+    "memo": "",
+    "friendship_level": 1
   },
   {
     "id": "mount_pegasus",
@@ -41,7 +44,8 @@
     "ability_note": "作品：ヘラクレス。固有能力「グライド」＝上昇気流に乗って飛行し橋のない場所へ移動（ハニーフォールズへの初入場に必須）。共通能力も絆で解放。カスタマイズ不可。",
     "icon_path": "images/mounts/mount_pegasus.webp",
     "owned": false,
-    "memo": ""
+    "memo": "",
+    "friendship_level": 1
   },
   {
     "id": "mount_sven",
@@ -52,6 +56,7 @@
     "ability_note": "作品：アナと雪の女王（トナカイ）。固有の障害物突破能力は持たず、共通能力（自動水やり・穴掘り・ナイトソーン除去・収穫・採掘）のみ。フレンドLv6でブランケット等の報酬あり。カスタマイズ不可。",
     "icon_path": "images/mounts/mount_sven.webp",
     "owned": false,
-    "memo": ""
+    "memo": "",
+    "friendship_level": 1
   }
 ]

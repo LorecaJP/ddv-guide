@@ -40,7 +40,7 @@ export const EDITABLE: Record<string, string[]> = {
   flowers: ['unlocked', 'memo'],
   hourglass: ['unlocked', 'memo'],
   companions: ['owned', 'friendship_level', 'is_equipped', 'memo'],
-  mounts: ['owned', 'memo'],
+  mounts: ['owned', 'friendship_level', 'memo'],
   snippets: ['owned', 'memo'],
   prices: ['memo'],
   quests: ['completed', 'completed_date', 'memo'],

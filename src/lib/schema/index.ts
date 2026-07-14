@@ -103,6 +103,7 @@ export interface Mount {
   ability_note: string     // 🔒 特殊能力・備考（日本語）
   icon_path: string        // 🔒 画像
   owned: boolean           // ✏️ 入手済みか
+  friendship_level: number // ✏️ 友情レベル 1-10
   memo: string             // ✏️
 }
 
