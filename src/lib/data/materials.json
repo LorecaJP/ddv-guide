@@ -4,14 +4,14 @@
     "name_ja": "ニシン",
     "name_en": "Herring",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜ダズル・ビーチ・信頼の谷（白い波紋/青い泡）",
+    "icon_path": "images/ingredients/mat_herring.png",
     "used_in_recipes": [
       "recipe_arendellian_pickled_herring",
       "recipe_pickled_herring",
       "recipe_sweet_herring"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -19,7 +19,8 @@
     "name_ja": "レモン",
     "name_en": "Lemon",
     "category": "フルーツ",
-    "obtain_method": "採取・グーフィーの露店で購入",
+    "obtain_method": "採取｜勇気の森・信頼の谷（木から）",
+    "icon_path": "images/ingredients/mat_lemon.png",
     "used_in_recipes": [
       "recipe_arendellian_pickled_herring",
       "recipe_brandade_de_morue",
@@ -46,7 +47,6 @@
       "recipe_tuna_burger"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -54,7 +54,8 @@
     "name_ja": "玉ねぎ",
     "name_en": "Onion",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（勇気の森）｜成長 約75分",
+    "icon_path": "images/ingredients/mat_onion.png",
     "used_in_recipes": [
       "recipe_arendellian_pickled_herring",
       "recipe_argossian_pizza",
@@ -87,7 +88,6 @@
       "recipe_wonton_soup"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -95,7 +95,8 @@
     "name_ja": "ニンニク",
     "name_en": "Garlic",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜勇気の森",
+    "icon_path": "images/ingredients/mat_garlic.png",
     "used_in_recipes": [
       "recipe_aquatic_escargot",
       "recipe_arcane_garlic_crab",
@@ -127,7 +128,6 @@
       "recipe_tzatziki"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -136,6 +136,7 @@
     "name_en": "Spices & Herbs",
     "category": "スパイス・ハーブ",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "icon_path": "",
     "used_in_recipes": [
       "recipe_arcane_garlic_crab",
       "recipe_arendellian_pickled_herring",
@@ -175,7 +176,6 @@
       "recipe_veggie_casserole"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -183,7 +183,8 @@
     "name_ja": "ピーマン",
     "name_en": "Bell Pepper",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（勇気の森）｜成長 約15分",
+    "icon_path": "images/ingredients/mat_bell_pepper.png",
     "used_in_recipes": [
       "recipe_bell_pepper_puffs",
       "recipe_ghostly_fish_steak",
@@ -191,7 +192,6 @@
       "recipe_veggie_skewers"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -200,6 +200,7 @@
     "name_en": "Egg",
     "category": "卵・ナッツ",
     "obtain_method": "シェ・レミーで購入",
+    "icon_path": "images/ingredients/mat_egg.png",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
       "recipe_basil_omelet",
@@ -248,7 +249,6 @@
       "recipe_zucchini_puffs"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -257,6 +257,7 @@
     "name_en": "Cheese",
     "category": "乳製品",
     "obtain_method": "シェ・レミーで購入",
+    "icon_path": "images/ingredients/mat_cheese.png",
     "used_in_recipes": [
       "recipe_arepas_con_queso",
       "recipe_basil_omelet",
@@ -298,7 +299,6 @@
       "recipe_zucchini_puffs"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -306,7 +306,8 @@
     "name_ja": "小麦",
     "name_en": "Wheat",
     "category": "穀物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（のどかな草原）｜成長 約1分",
+    "icon_path": "images/ingredients/mat_wheat.png",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
       "recipe_baozi",
@@ -409,7 +410,6 @@
       "recipe_yakisoba"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -418,6 +418,7 @@
     "name_en": "Milk",
     "category": "乳製品",
     "obtain_method": "シェ・レミーで購入",
+    "icon_path": "images/ingredients/mat_milk.png",
     "used_in_recipes": [
       "recipe_basil_omelet",
       "recipe_beauty_and_the_beets_napoleon",
@@ -447,7 +448,6 @@
       "recipe_vintage_peach_trifle"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -455,7 +455,8 @@
     "name_ja": "唐辛子",
     "name_en": "Chili Pepper",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（陽だまりの高原）｜成長 約45分",
+    "icon_path": "images/ingredients/mat_chili_pepper.png",
     "used_in_recipes": [
       "recipe_chili_pepper_puffs",
       "recipe_fish_tacos",
@@ -471,7 +472,6 @@
       "recipe_vegetarian_taco"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -479,12 +479,12 @@
     "name_ja": "キクのお茶の葉",
     "name_en": "Chrysanthemum Tea Leaves",
     "category": "茶葉",
-    "obtain_method": "",
+    "obtain_method": "ムーランのお茶屋台で入手",
+    "icon_path": "images/ingredients/mat_chrysanthemum_tea_leaves.png",
     "used_in_recipes": [
       "recipe_chrysanthemum_tea"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -492,14 +492,14 @@
     "name_ja": "ブルーベリー",
     "name_en": "Blueberry",
     "category": "フルーツ",
-    "obtain_method": "採取・グーフィーの露店で購入",
+    "obtain_method": "採取｜勇気の森・きらめきの浜辺（茂みから）",
+    "icon_path": "images/ingredients/mat_blueberry.png",
     "used_in_recipes": [
       "recipe_basil_berry_salad",
       "recipe_chrysanthemum_tea",
       "recipe_sugar_free_blueberry_muffin"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -507,14 +507,14 @@
     "name_ja": "コーヒー豆",
     "name_en": "Coffee Bean",
     "category": "フルーツ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜信頼の谷（茂みから）",
+    "icon_path": "images/ingredients/mat_coffee_bean.png",
     "used_in_recipes": [
       "recipe_coffee",
       "recipe_latte",
       "recipe_mocha"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -522,7 +522,8 @@
     "name_ja": "じゃがいも",
     "name_en": "Potato",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（忘れられた地）｜成長 約35分",
+    "icon_path": "images/ingredients/mat_potato.png",
     "used_in_recipes": [
       "recipe_ajiaco",
       "recipe_brandade_de_morue",
@@ -546,7 +547,6 @@
       "recipe_vegetarian_stew"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -555,6 +555,7 @@
     "name_en": "Vegetable",
     "category": "農作物",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "icon_path": "",
     "used_in_recipes": [
       "recipe_afternoon_tea_set",
       "recipe_argossian_pizza",
@@ -608,22 +609,21 @@
       "recipe_walleye_en_papillote"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_dreamlight_fruit",
-    "name_ja": "",
+    "name_ja": "ドリームライトの実",
     "name_en": "Dreamlight Fruit",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜陽だまりの高原・信頼の谷・凍てつく高地・忘れられた地（木から）",
+    "icon_path": "images/ingredients/mat_dreamlight_fruit.png",
     "used_in_recipes": [
       "recipe_dream_fizz",
       "recipe_marvelous_jam",
       "recipe_sweet_udon"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -631,7 +631,8 @@
     "name_ja": "スラッシュ",
     "name_en": "Slush Ice",
     "category": "その他",
-    "obtain_method": "シェ・レミーで購入",
+    "obtain_method": "シェ・レミーで購入（謎の味クエスト後）",
+    "icon_path": "images/ingredients/mat_slush_ice.png",
     "used_in_recipes": [
       "recipe_dream_fizz",
       "recipe_fizzy_nectar_soda",
@@ -642,7 +643,6 @@
       "recipe_stellar_milkshake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -650,7 +650,8 @@
     "name_ja": "サトウキビ",
     "name_en": "Sugarcane",
     "category": "甘味料",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "グーフィーの店で購入（ダズル・ビーチ）／栽培",
+    "icon_path": "images/ingredients/mat_sugarcane.png",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
       "recipe_apple_cider_glazed_salmon",
@@ -667,7 +668,6 @@
       "recipe_vintage_peach_trifle"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -675,13 +675,13 @@
     "name_ja": "ナス",
     "name_en": "Eggplant",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（凍てつく高地）｜成長 約180分",
+    "icon_path": "images/ingredients/mat_eggplant.png",
     "used_in_recipes": [
       "recipe_eggplant_puffs",
       "recipe_ratatouille"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -689,7 +689,8 @@
     "name_ja": "菜の花",
     "name_en": "Canola",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（勇気の森）｜成長 約35分",
+    "icon_path": "images/ingredients/mat_canola.png",
     "used_in_recipes": [
       "recipe_braised_bamboo_shoots",
       "recipe_fish_n_chips",
@@ -707,7 +708,6 @@
       "recipe_sweet_popcorn"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -715,7 +715,8 @@
     "name_ja": "トマト",
     "name_en": "Tomato",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（きらめきの浜辺）｜成長 約25分",
+    "icon_path": "images/ingredients/mat_tomato.png",
     "used_in_recipes": [
       "recipe_bouillabaisse",
       "recipe_bulgur_salad",
@@ -752,7 +753,6 @@
       "recipe_veggie_pasta"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -760,7 +760,8 @@
     "name_ja": "キュウリ",
     "name_en": "Cucumber",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（凍てつく高地）｜成長 約75分",
+    "icon_path": "images/ingredients/mat_cucumber.png",
     "used_in_recipes": [
       "recipe_bulgur_salad",
       "recipe_gazpacho",
@@ -772,7 +773,6 @@
       "recipe_tzatziki"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -780,7 +780,8 @@
     "name_ja": "レタス",
     "name_en": "Lettuce",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（のどかな草原）｜成長 約3分",
+    "icon_path": "images/ingredients/mat_lettuce.png",
     "used_in_recipes": [
       "recipe_carp_salad",
       "recipe_fish_salad",
@@ -794,28 +795,28 @@
       "recipe_tasty_salad"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_jasmine_tea_leaves",
-    "name_ja": "",
+    "name_ja": "ジャスミン茶の葉",
     "name_en": "Jasmine Tea Leaves",
     "category": "茶葉",
-    "obtain_method": "",
+    "obtain_method": "ムーランのお茶屋台で入手",
+    "icon_path": "images/ingredients/mat_jasmine_tea_leaves.png",
     "used_in_recipes": [
       "recipe_jasmine_tea"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_seafood",
-    "name_ja": "",
+    "name_ja": "魚介（種類指定なし）",
     "name_en": "Seafood",
     "category": "魚介",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "icon_path": "",
     "used_in_recipes": [
       "recipe_bouillabaisse",
       "recipe_chowder",
@@ -830,7 +831,6 @@
       "recipe_sweet_udon"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -838,14 +838,14 @@
     "name_ja": "カカオ豆",
     "name_en": "Cocoa Bean",
     "category": "甘味料",
-    "obtain_method": "採取・グーフィーの露店で購入",
+    "obtain_method": "採取｜信頼の谷・陽だまりの高原（カカオの木）",
+    "icon_path": "images/ingredients/mat_cocoa_bean.png",
     "used_in_recipes": [
       "recipe_chocolate_macarons",
       "recipe_mocha",
       "recipe_red_velvet"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -853,13 +853,13 @@
     "name_ja": "オクラ",
     "name_en": "Okra",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（信頼の谷）｜成長 約120分",
+    "icon_path": "images/ingredients/mat_okra.png",
     "used_in_recipes": [
       "recipe_gumbo",
       "recipe_okra_soup"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -867,12 +867,12 @@
     "name_ja": "ウーロン茶の葉",
     "name_en": "Oolong Tea Leaves",
     "category": "茶葉",
-    "obtain_method": "",
+    "obtain_method": "ムーランのお茶屋台で入手",
+    "icon_path": "images/ingredients/mat_oolong_tea_leaves.png",
     "used_in_recipes": [
       "recipe_oolong_tea"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -880,13 +880,13 @@
     "name_ja": "ラズベリー",
     "name_en": "Raspberry",
     "category": "フルーツ",
-    "obtain_method": "採取・グーフィーの露店で購入",
+    "obtain_method": "採取｜広場・のどかな草原（茂みから）",
+    "icon_path": "images/ingredients/mat_raspberry.png",
     "used_in_recipes": [
       "recipe_oolong_tea",
       "recipe_raspberry_jam_sandwich"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -894,13 +894,13 @@
     "name_ja": "カキ",
     "name_en": "Oyster",
     "category": "魚介",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
+    "icon_path": "images/ingredients/mat_oyster.png",
     "used_in_recipes": [
       "recipe_braised_abalone",
       "recipe_oyster_platter"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -908,7 +908,8 @@
     "name_ja": "ミント",
     "name_en": "Mint",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜凍てつく高地",
+    "icon_path": "images/ingredients/mat_mint.png",
     "used_in_recipes": [
       "recipe_barbecued_brilliant_blue_starfish",
       "recipe_biryani",
@@ -917,7 +918,6 @@
       "recipe_peppermint_tea"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -925,13 +925,13 @@
     "name_ja": "ネギ",
     "name_en": "Leek",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（忘れられた地）｜成長 約120分",
+    "icon_path": "images/ingredients/mat_leek.png",
     "used_in_recipes": [
       "recipe_leek_soup",
       "recipe_potato_leek_soup"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -939,14 +939,14 @@
     "name_ja": "カボチャ",
     "name_en": "Pumpkin",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（忘れられた地）｜成長 約240分",
+    "icon_path": "images/ingredients/mat_pumpkin.png",
     "used_in_recipes": [
       "recipe_bread_bowl_pumpkin_soup",
       "recipe_pumpkin_puffs",
       "recipe_pumpkin_soup"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -954,7 +954,8 @@
     "name_ja": "ショウガ",
     "name_en": "Ginger",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜忘れられた地",
+    "icon_path": "images/ingredients/mat_ginger.png",
     "used_in_recipes": [
       "recipe_braised_bamboo_shoots",
       "recipe_maguro_sushi",
@@ -966,7 +967,6 @@
       "recipe_teriyaki_salmon"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -974,13 +974,13 @@
     "name_ja": "アスパラガス",
     "name_en": "Asparagus",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（凍てつく高地）｜成長 約135分",
+    "icon_path": "images/ingredients/mat_asparagus.png",
     "used_in_recipes": [
       "recipe_ghostly_fish_steak",
       "recipe_roasted_asparagus"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -988,7 +988,8 @@
     "name_ja": "キノコ",
     "name_en": "Mushroom",
     "category": "キノコ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜勇気の森・信頼の谷（地面）",
+    "icon_path": "images/ingredients/mat_mushroom.png",
     "used_in_recipes": [
       "recipe_braised_abalone",
       "recipe_lioness_feast",
@@ -999,7 +1000,6 @@
       "recipe_veggie_skewers"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1008,6 +1008,7 @@
     "name_en": "Butter",
     "category": "乳製品",
     "obtain_method": "シェ・レミーで購入",
+    "icon_path": "images/ingredients/mat_butter.png",
     "used_in_recipes": [
       "recipe_baked_carp",
       "recipe_beauty_and_the_beets_napoleon",
@@ -1037,7 +1038,6 @@
       "recipe_veggie_pie"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1045,7 +1045,8 @@
     "name_ja": "米",
     "name_en": "Rice",
     "category": "穀物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（信頼の谷）｜成長 約50分",
+    "icon_path": "images/ingredients/mat_rice.png",
     "used_in_recipes": [
       "recipe_biryani",
       "recipe_blend_of_the_bayou",
@@ -1072,7 +1073,6 @@
       "recipe_teriyaki_salmon"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1080,7 +1080,8 @@
     "name_ja": "大豆",
     "name_en": "Soya",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（陽だまりの高原）｜成長 約90分",
+    "icon_path": "images/ingredients/mat_soya.png",
     "used_in_recipes": [
       "recipe_baozi",
       "recipe_braised_bamboo_shoots",
@@ -1095,7 +1096,6 @@
       "recipe_vegetarian_turnip_tartiflette"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1103,7 +1103,8 @@
     "name_ja": "海藻",
     "name_en": "Seaweed",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜全エリアの水面（波紋なし）",
+    "icon_path": "images/ingredients/mat_seaweed.png",
     "used_in_recipes": [
       "recipe_dragon_roll_maki",
       "recipe_fugu_sushi",
@@ -1117,7 +1118,6 @@
       "recipe_tekka_maki"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1125,7 +1125,8 @@
     "name_ja": "トウモロコシ",
     "name_en": "Corn",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（きらめきの浜辺）｜成長 約12分",
+    "icon_path": "images/ingredients/mat_corn.png",
     "used_in_recipes": [
       "recipe_ajiaco",
       "recipe_arepas_con_queso",
@@ -1141,7 +1142,6 @@
       "recipe_vegetarian_taco"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1149,13 +1149,13 @@
     "name_ja": "サクランボ",
     "name_en": "Cherry",
     "category": "フルーツ",
-    "obtain_method": "採取・グーフィーの露店で購入",
+    "obtain_method": "採取｜凍てつく高地・陽だまりの高原（木から）",
+    "icon_path": "images/ingredients/mat_cherry.png",
     "used_in_recipes": [
       "recipe_cupcakes",
       "recipe_tea_sandwiches"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1164,6 +1164,7 @@
     "name_en": "Fish",
     "category": "魚",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "icon_path": "",
     "used_in_recipes": [
       "recipe_chimera_skewer",
       "recipe_fish_creole",
@@ -1186,7 +1187,6 @@
       "recipe_tea_sandwiches"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1194,7 +1194,8 @@
     "name_ja": "ズッキーニ",
     "name_en": "Zucchini",
     "category": "農作物",
-    "obtain_method": "栽培・Goofy’s Stall",
+    "obtain_method": "栽培｜種:グーフィーの露店（陽だまりの高原）｜成長 約40分",
+    "icon_path": "images/ingredients/mat_zucchini.png",
     "used_in_recipes": [
       "recipe_pan_fried_angler_fish",
       "recipe_ratatouille",
@@ -1202,7 +1203,6 @@
       "recipe_zucchini_puffs"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1210,13 +1210,13 @@
     "name_ja": "リンゴ",
     "name_en": "Apple",
     "category": "フルーツ",
-    "obtain_method": "採取・グーフィーの露店で購入",
+    "obtain_method": "採取｜広場・忘れられた地（木から）",
+    "icon_path": "images/ingredients/mat_apple.png",
     "used_in_recipes": [
       "recipe_apple_cider_glazed_salmon",
       "recipe_apple_sauce"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1224,7 +1224,8 @@
     "name_ja": "サーモン",
     "name_en": "Salmon",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜凍てつく高地・陽だまりの高原（白い波紋）",
+    "icon_path": "images/ingredients/mat_salmon.png",
     "used_in_recipes": [
       "recipe_apple_cider_glazed_salmon",
       "recipe_sake_maki",
@@ -1232,7 +1233,6 @@
       "recipe_teriyaki_salmon"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1240,13 +1240,13 @@
     "name_ja": "コイ",
     "name_en": "Carp",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜勇気の森・陽だまりの高原（青い泡）",
+    "icon_path": "images/ingredients/mat_carp.png",
     "used_in_recipes": [
       "recipe_baked_carp",
       "recipe_carp_salad"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1254,7 +1254,8 @@
     "name_ja": "バジル",
     "name_en": "Basil",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜のどかな草原",
+    "icon_path": "images/ingredients/mat_basil.png",
     "used_in_recipes": [
       "recipe_basil_berry_salad",
       "recipe_basil_omelet",
@@ -1264,7 +1265,6 @@
       "recipe_walleye_en_papillote"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1272,7 +1272,8 @@
     "name_ja": "エビ",
     "name_en": "Shrimp",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜ダズル・ビーチ（青い泡）",
+    "icon_path": "images/ingredients/mat_shrimp.png",
     "used_in_recipes": [
       "recipe_bouillabaisse",
       "recipe_gumbo",
@@ -1280,7 +1281,6 @@
       "recipe_wonton_soup"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1288,14 +1288,14 @@
     "name_ja": "タラ",
     "name_en": "Cod",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜ダズル・ビーチ・信頼の谷・忘れられた地（白い波紋）",
+    "icon_path": "images/ingredients/mat_cod.png",
     "used_in_recipes": [
       "recipe_brandade_de_morue",
       "recipe_cheesy_crispy_baked_cod",
       "recipe_crispy_baked_cod"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1303,12 +1303,12 @@
     "name_ja": "ホタテ",
     "name_en": "Scallop",
     "category": "魚介",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
+    "icon_path": "images/ingredients/mat_scallop.png",
     "used_in_recipes": [
       "recipe_creamy_garlic_scallops"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1316,13 +1316,13 @@
     "name_ja": "フグ",
     "name_en": "Fugu",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜ダズル・ビーチ（海・金の泡・雷雨時のみ）",
+    "icon_path": "images/ingredients/mat_fugu.png",
     "used_in_recipes": [
       "recipe_fugu_sushi",
       "recipe_steamed_fugu"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1330,13 +1330,13 @@
     "name_ja": "アチコチの魚",
     "name_en": "Here and There Fish",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜全エリア（朝・夜のみ／波紋なし）",
+    "icon_path": "images/ingredients/mat_here_and_there_fish.png",
     "used_in_recipes": [
       "recipe_ghostly_fish_steak",
       "recipe_lioness_feast"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1344,7 +1344,8 @@
     "name_ja": "オレガノ",
     "name_en": "Oregano",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜広場",
+    "icon_path": "images/ingredients/mat_oregano.png",
     "used_in_recipes": [
       "recipe_ghostly_fish_steak",
       "recipe_lioness_feast",
@@ -1354,7 +1355,6 @@
       "recipe_walleye_en_papillote"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1362,26 +1362,26 @@
     "name_ja": "ほうれん草",
     "name_en": "Spinach",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（信頼の谷）｜成長 約60分",
+    "icon_path": "images/ingredients/mat_spinach.png",
     "used_in_recipes": [
       "recipe_kronk_s_spinach_puffs",
       "recipe_spanakopita"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_lancetfish",
-    "name_ja": "",
+    "name_ja": "ミズウオ",
     "name_en": "Lancetfish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜忘れられた地（青い泡）",
+    "icon_path": "images/ingredients/mat_lancetfish.png",
     "used_in_recipes": [
       "recipe_lancetfish_paella"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1389,12 +1389,12 @@
     "name_ja": "メカジキ",
     "name_en": "Swordfish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜ダズル・ビーチ（海・金の泡）",
+    "icon_path": "images/ingredients/mat_swordfish.png",
     "used_in_recipes": [
       "recipe_lemon_garlic_swordfish"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1402,12 +1402,12 @@
     "name_ja": "ロブスター",
     "name_en": "Lobster",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜信頼の谷（金の泡）",
+    "icon_path": "images/ingredients/mat_lobster.png",
     "used_in_recipes": [
       "recipe_lobster_roll"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1415,7 +1415,8 @@
     "name_ja": "マグロ",
     "name_en": "Tuna",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜信頼の谷・忘れられた地（白い波紋）",
+    "icon_path": "images/ingredients/mat_tuna.png",
     "used_in_recipes": [
       "recipe_maguro_sushi",
       "recipe_smoked_fish_charcuterie_spread",
@@ -1424,7 +1425,6 @@
       "recipe_tuna_sashimi"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1432,13 +1432,13 @@
     "name_ja": "アンコウ",
     "name_en": "Anglerfish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜忘れられた地（金の泡）",
+    "icon_path": "images/ingredients/mat_anglerfish.png",
     "used_in_recipes": [
       "recipe_pan_fried_angler_fish",
       "recipe_smoked_peanuts_and_anglerfish"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1446,12 +1446,12 @@
     "name_ja": "バス",
     "name_en": "Bass",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜のどかな草原・勇気の森・陽だまりの高原・凍てつく高地（波紋なし/白い波紋）",
+    "icon_path": "images/ingredients/mat_bass.png",
     "used_in_recipes": [
       "recipe_pan_seared_bass_vegetables"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1459,12 +1459,12 @@
     "name_ja": "ティラピア",
     "name_en": "Tilapia",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜陽だまりの高原・凍てつく高地（青い泡）",
+    "icon_path": "images/ingredients/mat_tilapia.png",
     "used_in_recipes": [
       "recipe_pan_seared_tilapia_vegetables"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1472,13 +1472,13 @@
     "name_ja": "ピーナッツ",
     "name_en": "Peanut",
     "category": "卵・ナッツ",
-    "obtain_method": "シェ・レミーで購入",
+    "obtain_method": "シェ・レミーで購入（レミーのレシピ本クエスト後）",
+    "icon_path": "images/ingredients/mat_peanut.png",
     "used_in_recipes": [
       "recipe_peanut_butter_sandwich",
       "recipe_smoked_peanuts_and_anglerfish"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1486,27 +1486,27 @@
     "name_ja": "シロチョウザメ",
     "name_en": "White Sturgeon",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜凍てつく高地（金の泡）",
+    "icon_path": "images/ingredients/mat_white_sturgeon.png",
     "used_in_recipes": [
       "recipe_poached_basil_butter_sturgeon"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_rainbow_trout",
-    "name_ja": "",
+    "name_ja": "レインボートラウト",
     "name_en": "Rainbow Trout",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜のどかな草原・勇気の森（白い波紋/青い泡）",
+    "icon_path": "images/ingredients/mat_rainbow_trout.png",
     "used_in_recipes": [
       "recipe_milky_way_stew",
       "recipe_rainbouillabaisse",
       "recipe_seared_rainbow_trout"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1514,12 +1514,12 @@
     "name_ja": "パーチ",
     "name_en": "Perch",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜勇気の森・陽だまりの高原（白い波紋）",
+    "icon_path": "images/ingredients/mat_perch.png",
     "used_in_recipes": [
       "recipe_simple_fried_perch"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1527,12 +1527,12 @@
     "name_ja": "シタビラメ",
     "name_en": "Sole",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜忘れられた地（青い泡）",
+    "icon_path": "images/ingredients/mat_sole.png",
     "used_in_recipes": [
       "recipe_sole_meuni_re"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1540,12 +1540,12 @@
     "name_ja": "ブリーム",
     "name_en": "Bream",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜のどかな草原（青い泡）",
+    "icon_path": "images/ingredients/mat_bream.png",
     "used_in_recipes": [
       "recipe_spicy_baked_bream"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1553,12 +1553,12 @@
     "name_ja": "サバ",
     "name_en": "Kingfish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜ダズル・ビーチ（海・青い泡・夜18〜翌5時のみ）",
+    "icon_path": "images/ingredients/mat_kingfish.png",
     "used_in_recipes": [
       "recipe_sweet_sour_kingfish_steak"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1567,6 +1567,7 @@
     "name_en": "Sweets",
     "category": "甘味料",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "icon_path": "",
     "used_in_recipes": [
       "recipe_beet_brownie_stack",
       "recipe_chia_pudding",
@@ -1581,7 +1582,6 @@
       "recipe_sweet_udon"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1589,7 +1589,8 @@
     "name_ja": "ニンジン",
     "name_en": "Carrot",
     "category": "農作物",
-    "obtain_method": "栽培・グーフィーの露店で購入",
+    "obtain_method": "栽培｜種:グーフィーの露店（のどかな草原）｜成長 約15分",
+    "icon_path": "images/ingredients/mat_carrot.png",
     "used_in_recipes": [
       "recipe_button_stew",
       "recipe_coleslaw",
@@ -1597,20 +1598,19 @@
       "recipe_vegetarian_stew"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_walleye",
-    "name_ja": "",
+    "name_ja": "ウォールアイ",
     "name_en": "Walleye",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜陽だまりの高原（金の泡）",
+    "icon_path": "images/ingredients/mat_walleye.png",
     "used_in_recipes": [
       "recipe_walleye_en_papillote"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1618,7 +1618,8 @@
     "name_ja": "リュウゼツラン",
     "name_en": "Agave",
     "category": "甘味料",
-    "obtain_method": "",
+    "obtain_method": "採取｜エターニティ島（煌めく砂丘）",
+    "icon_path": "images/ingredients/mat_agave.png",
     "used_in_recipes": [
       "recipe_arepas_con_queso",
       "recipe_caramel_macarons",
@@ -1633,7 +1634,6 @@
       "recipe_turkey_leg"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1641,7 +1641,8 @@
     "name_ja": "豚肉",
     "name_en": "Pork",
     "category": "肉",
-    "obtain_method": "",
+    "obtain_method": "ガストンの店で購入（エターニティ島）",
+    "icon_path": "images/ingredients/mat_pork.png",
     "used_in_recipes": [
       "recipe_baked_beans",
       "recipe_baozi",
@@ -1655,34 +1656,33 @@
       "recipe_yakisoba"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_brilliant_blue_starfish",
-    "name_ja": "",
+    "name_ja": "輝く青いヒトデ",
     "name_en": "Brilliant Blue Starfish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜煌めく砂丘・オアシス（オレンジ/金の泡）",
+    "icon_path": "images/ingredients/mat_brilliant_blue_starfish.png",
     "used_in_recipes": [
       "recipe_barbecued_brilliant_blue_starfish",
       "recipe_thousand_needles"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_pretty_pink_starfish",
-    "name_ja": "",
+    "name_ja": "かわいいピンクのヒトデ",
     "name_en": "Pretty Pink Starfish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜煌めく砂丘・オアシス（オレンジ/金の泡）",
+    "icon_path": "images/ingredients/mat_pretty_pink_starfish.png",
     "used_in_recipes": [
       "recipe_barbecued_pretty_pink_starfish"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1690,7 +1690,8 @@
     "name_ja": "パプリカ",
     "name_en": "Paprika",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "採取｜エターニティ島・煌めく砂丘の地面から採取（Bell Pepperとは別素材）",
+    "icon_path": "images/ingredients/mat_paprika.png",
     "used_in_recipes": [
       "recipe_barbecued_pretty_pink_starfish",
       "recipe_chicken_souvlaki",
@@ -1699,7 +1700,6 @@
       "recipe_turkey_leg"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1707,12 +1707,12 @@
     "name_ja": "アサリ",
     "name_en": "Clam",
     "category": "魚介",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
+    "icon_path": "images/ingredients/mat_clam.png",
     "used_in_recipes": [
       "recipe_clam_juice"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1720,14 +1720,14 @@
     "name_ja": "キャベツ",
     "name_en": "Cabbage",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約60分",
+    "icon_path": "images/ingredients/mat_cabbage.png",
     "used_in_recipes": [
       "recipe_coleslaw",
       "recipe_sausage_and_sauerkraut_platter",
       "recipe_yakisoba"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1735,7 +1735,8 @@
     "name_ja": "タマネギ",
     "name_en": "Sea Snail",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・青い泡）",
+    "icon_path": "images/ingredients/mat_sea_snail.png",
     "used_in_recipes": [
       "recipe_best_fish_forever",
       "recipe_braised_abalone",
@@ -1743,7 +1744,6 @@
       "recipe_gourmet_grubs"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1751,13 +1751,13 @@
     "name_ja": "カニ",
     "name_en": "Crab",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜凍てつく高地（青い泡）",
+    "icon_path": "images/ingredients/mat_crab.png",
     "used_in_recipes": [
       "recipe_crab_melts",
       "recipe_fishy_pineapple_jelly"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1766,6 +1766,7 @@
     "name_en": "Protein",
     "category": "肉",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "icon_path": "",
     "used_in_recipes": [
       "recipe_burrito",
       "recipe_dumplings",
@@ -1774,7 +1775,6 @@
       "recipe_roast"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1782,7 +1782,8 @@
     "name_ja": "豆",
     "name_en": "Beans",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約60分",
+    "icon_path": "images/ingredients/mat_beans.png",
     "used_in_recipes": [
       "recipe_baked_beans",
       "recipe_burrito",
@@ -1793,7 +1794,6 @@
       "recipe_taiyaki"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1801,7 +1801,8 @@
     "name_ja": "クミン",
     "name_en": "Cumin",
     "category": "スパイス・ハーブ",
-    "obtain_method": "",
+    "obtain_method": "採取｜エターニティ島（古の上陸地）",
+    "icon_path": "images/ingredients/mat_cumin.png",
     "used_in_recipes": [
       "recipe_best_fish_forever",
       "recipe_biryani",
@@ -1814,21 +1815,20 @@
       "recipe_turkey_leg"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_robot_fish",
-    "name_ja": "",
+    "name_ja": "ロボット魚",
     "name_en": "Robot Fish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・オレンジの泡）",
+    "icon_path": "images/ingredients/mat_robot_fish.png",
     "used_in_recipes": [
       "recipe_best_fish_forever",
       "recipe_nuts_bolts"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1836,7 +1836,8 @@
     "name_ja": "アーモンド",
     "name_en": "Almonds",
     "category": "卵・ナッツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜エターニティ島（ワイルドタングル）",
+    "icon_path": "images/ingredients/mat_almonds.png",
     "used_in_recipes": [
       "recipe_caramel_macarons",
       "recipe_chocolate_macarons",
@@ -1850,7 +1851,6 @@
       "recipe_vanilla_macarons"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1858,14 +1858,14 @@
     "name_ja": "マジェスティ―",
     "name_en": "Majestea",
     "category": "茶葉",
-    "obtain_method": "",
+    "obtain_method": "採取｜エターニティ島（古の上陸地）",
+    "icon_path": "images/ingredients/mat_majestea.png",
     "used_in_recipes": [
       "recipe_royal_ice_tea",
       "recipe_royal_latte",
       "recipe_royal_tea"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1873,14 +1873,14 @@
     "name_ja": "サンドワーム",
     "name_en": "Sand Worm",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・オレンジ/金の泡）",
+    "icon_path": "images/ingredients/mat_sand_worm.png",
     "used_in_recipes": [
       "recipe_gourmet_grubs",
       "recipe_sand_stew",
       "recipe_sand_worm_carpaccio_plate"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1888,26 +1888,26 @@
     "name_ja": "メロン",
     "name_en": "Melon",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（煌めく砂丘）｜成長 約30分",
+    "icon_path": "images/ingredients/mat_melon.png",
     "used_in_recipes": [
       "recipe_melon_boba_tea",
       "recipe_sand_worm_carpaccio_plate"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_shad",
-    "name_ja": "",
+    "name_ja": "シャッド",
     "name_en": "Shad",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・白い波紋/青い泡）",
+    "icon_path": "images/ingredients/mat_shad.png",
     "used_in_recipes": [
       "recipe_shad_ceviche"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1915,13 +1915,13 @@
     "name_ja": "サソリ",
     "name_en": "Scorpion",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・青/オレンジの泡）",
+    "icon_path": "images/ingredients/mat_scorpion.png",
     "used_in_recipes": [
       "recipe_gourmet_grubs",
       "recipe_spicy_scorpion_skewer"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1929,12 +1929,12 @@
     "name_ja": "タコ",
     "name_en": "Octopus",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・白い波紋）",
+    "icon_path": "images/ingredients/mat_octopus.png",
     "used_in_recipes": [
       "recipe_takoyaki_stick"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1942,13 +1942,13 @@
     "name_ja": "サボテンの実",
     "name_en": "Cactoberries",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜煌めく砂丘（サボテン）",
+    "icon_path": "images/ingredients/mat_cactoberries.png",
     "used_in_recipes": [
       "recipe_spiky_berry_pie",
       "recipe_thousand_needles"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1956,7 +1956,8 @@
     "name_ja": "鶏肉",
     "name_en": "Poultry",
     "category": "肉",
-    "obtain_method": "",
+    "obtain_method": "ガストンの店で購入（エターニティ島）",
+    "icon_path": "images/ingredients/mat_poultry.png",
     "used_in_recipes": [
       "recipe_ajiaco",
       "recipe_biryani",
@@ -1974,7 +1975,6 @@
       "recipe_turkey_leg"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1982,14 +1982,14 @@
     "name_ja": "セロリ",
     "name_en": "Celery",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・古代の入植地）｜成長 約10分",
+    "icon_path": "images/ingredients/mat_celery.png",
     "used_in_recipes": [
       "recipe_best_fish_forever",
       "recipe_blend_of_the_bayou",
       "recipe_bony_osso_buco"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -1997,7 +1997,8 @@
     "name_ja": "シナモン",
     "name_en": "Cinnamon",
     "category": "スパイス・ハーブ",
-    "obtain_method": "",
+    "obtain_method": "採取｜エターニティ島（ワイルドタングル）・物語の谷",
+    "icon_path": "images/ingredients/mat_cinnamon.png",
     "used_in_recipes": [
       "recipe_apple_sauce",
       "recipe_biryani",
@@ -2010,7 +2011,6 @@
       "recipe_shawarma"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2018,13 +2018,13 @@
     "name_ja": "プリズマエビ",
     "name_en": "Prisma Shrimp",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜闇の林（川・オレンジの泡）",
+    "icon_path": "images/ingredients/mat_prisma_shrimp.png",
     "used_in_recipes": [
       "recipe_blend_of_the_bayou",
       "recipe_rainbouillabaisse"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2032,12 +2032,12 @@
     "name_ja": "スケルトンフィッシュ",
     "name_en": "Skeleton Fish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・白い波紋/青い泡）",
+    "icon_path": "images/ingredients/mat_skeleton_fish.png",
     "used_in_recipes": [
       "recipe_bony_osso_buco"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2045,13 +2045,13 @@
     "name_ja": "ブドウ",
     "name_en": "Grapes",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（古代文明の地）｜成長 約20分",
+    "icon_path": "images/ingredients/mat_grapes.png",
     "used_in_recipes": [
       "recipe_bony_osso_buco",
       "recipe_coq_en_barbouille"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2059,13 +2059,13 @@
     "name_ja": "タケノコ",
     "name_en": "Bamboo",
     "category": "農作物",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜エターニティ島の地面から採取（種の販売なし）",
+    "icon_path": "images/ingredients/mat_bamboo.png",
     "used_in_recipes": [
       "recipe_braised_bamboo_shoots",
       "recipe_piquant_piranha_soup"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2073,7 +2073,8 @@
     "name_ja": "鹿肉",
     "name_en": "Venison",
     "category": "肉",
-    "obtain_method": "",
+    "obtain_method": "ガストンの店で購入（エターニティ島）",
+    "icon_path": "images/ingredients/mat_venison.png",
     "used_in_recipes": [
       "recipe_cheeseburger",
       "recipe_good_ol_fashioned_burger",
@@ -2084,7 +2085,6 @@
       "recipe_tourti_re"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2092,13 +2092,13 @@
     "name_ja": "ルビー豆",
     "name_en": "Ruby Lentils",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約120分",
+    "icon_path": "images/ingredients/mat_ruby_lentils.png",
     "used_in_recipes": [
       "recipe_crimson_burger",
       "recipe_ruby_masoor_dal"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2106,12 +2106,12 @@
     "name_ja": "電気ウナギ",
     "name_en": "Electric Eel",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜草原・プロムナード（川・オレンジの泡）",
+    "icon_path": "images/ingredients/mat_electric_eel.png",
     "used_in_recipes": [
       "recipe_dragon_roll_maki"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2119,14 +2119,14 @@
     "name_ja": "パイナップル",
     "name_en": "Pineapple",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（密林）｜成長 約180分",
+    "icon_path": "images/ingredients/mat_pineapple.png",
     "used_in_recipes": [
       "recipe_hawaiian_pizza",
       "recipe_pineapple_soft_serve",
       "recipe_sweet_and_sour_stir_fry"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2134,13 +2134,13 @@
     "name_ja": "フルートルート",
     "name_en": "Flute Root",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約75分",
+    "icon_path": "images/ingredients/mat_flute_root.png",
     "used_in_recipes": [
       "recipe_lo_fries",
       "recipe_rhapsody_roll"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2148,12 +2148,12 @@
     "name_ja": "ヤムイモ",
     "name_en": "Yam",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・古代の入植地）｜成長 約15分",
+    "icon_path": "images/ingredients/mat_yam.png",
     "used_in_recipes": [
       "recipe_lo_fries"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2161,41 +2161,41 @@
     "name_ja": "カブ",
     "name_en": "Turnip",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約240分",
+    "icon_path": "images/ingredients/mat_turnip.png",
     "used_in_recipes": [
       "recipe_milky_way_stew",
       "recipe_turnip_tartiflette",
       "recipe_vegetarian_turnip_tartiflette"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_cosmic_figs",
-    "name_ja": "",
+    "name_ja": "宇宙イチジク",
     "name_en": "Cosmic Figs",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（古代文明の地）｜成長 約25分",
+    "icon_path": "images/ingredients/mat_cosmic_figs.png",
     "used_in_recipes": [
       "recipe_milky_way_stew",
       "recipe_stellar_milkshake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_pirarucu",
-    "name_ja": "",
+    "name_ja": "ピラルク",
     "name_en": "Pirarucu",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜草原・プロムナード・闇の林・ラグーン（川・青い泡）",
+    "icon_path": "images/ingredients/mat_pirarucu.png",
     "used_in_recipes": [
       "recipe_moqueca_de_pirarucu"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2203,25 +2203,25 @@
     "name_ja": "ココナッツ",
     "name_en": "Coconut",
     "category": "フルーツ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜きらめきの浜辺（木から／モアナのクエスト後）",
+    "icon_path": "images/ingredients/mat_coconut.png",
     "used_in_recipes": [
       "recipe_moqueca_de_pirarucu"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_piranha",
-    "name_ja": "",
+    "name_ja": "ピラニア",
     "name_en": "Piranha",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜ラグーン（川・オレンジの泡）",
+    "icon_path": "images/ingredients/mat_piranha.png",
     "used_in_recipes": [
       "recipe_piquant_piranha_soup"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2229,12 +2229,12 @@
     "name_ja": "デューンボッパー",
     "name_en": "Dunebopper",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜煌めく砂丘・オアシス（青い泡）",
+    "icon_path": "images/ingredients/mat_dunebopper.png",
     "used_in_recipes": [
       "recipe_sand_stew"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2242,13 +2242,13 @@
     "name_ja": "サンドフィッシュ",
     "name_en": "Sand Fish",
     "category": "魚",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・白い波紋）",
+    "icon_path": "images/ingredients/mat_sand_fish.png",
     "used_in_recipes": [
       "recipe_sand_stew",
       "recipe_taiyaki"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2256,12 +2256,12 @@
     "name_ja": "ブロッコリー",
     "name_en": "Broccoli",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約40分",
+    "icon_path": "images/ingredients/mat_broccoli.png",
     "used_in_recipes": [
       "recipe_sweet_and_sour_stir_fry"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2269,13 +2269,13 @@
     "name_ja": "ドリーマンゴー",
     "name_en": "Dreamango",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜古代文明の地（木から）",
+    "icon_path": "images/ingredients/mat_dreamango.png",
     "used_in_recipes": [
       "recipe_dreamango_boba_tea",
       "recipe_sweet_and_sour_stir_fry"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2283,7 +2283,8 @@
     "name_ja": "イチゴ",
     "name_en": "Strawberry",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜エターニティ島（地面）",
+    "icon_path": "images/ingredients/mat_strawberry.png",
     "used_in_recipes": [
       "recipe_basil_berry_salad",
       "recipe_charlotte_cake",
@@ -2292,7 +2293,6 @@
       "recipe_strawberry_shortcake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2300,7 +2300,8 @@
     "name_ja": "バニラ",
     "name_en": "Vanilla",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取",
+    "obtain_method": "採取｜陽だまりの高原",
+    "icon_path": "images/ingredients/mat_vanilla.png",
     "used_in_recipes": [
       "recipe_cannoli",
       "recipe_past_is_de_nata",
@@ -2310,7 +2311,6 @@
       "recipe_vanilla_yogurt"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2319,6 +2319,7 @@
     "name_en": "Fruit",
     "category": "フルーツ",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
+    "icon_path": "",
     "used_in_recipes": [
       "recipe_danish",
       "recipe_fairy_wands",
@@ -2332,7 +2333,6 @@
       "recipe_vintage_peach_trifle"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2340,28 +2340,28 @@
     "name_ja": "デーツ",
     "name_en": "Dates",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（煌めく砂丘）",
+    "icon_path": "images/ingredients/mat_dates.png",
     "used_in_recipes": [
       "recipe_maamouls",
       "recipe_makrout",
       "recipe_stuffed_dates"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_nestling_pear",
-    "name_ja": "",
+    "name_ja": "巣ごもりナシ",
     "name_en": "Nestling Pear",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜煌めく砂丘（木から）",
+    "icon_path": "images/ingredients/mat_nestling_pear.png",
     "used_in_recipes": [
       "recipe_nestling_crepe",
       "recipe_pear_upside_down_cake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2369,12 +2369,12 @@
     "name_ja": "バナナ",
     "name_en": "Banana",
     "category": "フルーツ",
-    "obtain_method": "採取・グーフィーの露店で購入",
+    "obtain_method": "採取｜のどかな草原・きらめきの浜辺（木から）",
+    "icon_path": "images/ingredients/mat_banana.png",
     "used_in_recipes": [
       "recipe_sugar_free_banana_muffin"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2382,7 +2382,8 @@
     "name_ja": "アンブロシア",
     "name_en": "Ambrosia",
     "category": "その他",
-    "obtain_method": "",
+    "obtain_method": "グーフィーの店で購入（物語の谷・ミソピア）",
+    "icon_path": "images/ingredients/mat_ambrosia.png",
     "used_in_recipes": [
       "recipe_ambrosia_smoothie",
       "recipe_aphrodite_s_delight",
@@ -2399,7 +2400,6 @@
       "recipe_underworld_cake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2407,7 +2407,8 @@
     "name_ja": "プレーンヨーグルト",
     "name_en": "Plain Yogurt",
     "category": "乳製品",
-    "obtain_method": "",
+    "obtain_method": "物語の谷で購入（グーフィーの店）",
+    "icon_path": "images/ingredients/mat_plain_yogurt.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
       "recipe_ambrosia_smoothie",
@@ -2431,7 +2432,6 @@
       "recipe_vanilla_yogurt"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2439,7 +2439,8 @@
     "name_ja": "見返しページフェタチーズ",
     "name_en": "Flyleaf Feta",
     "category": "乳製品",
-    "obtain_method": "",
+    "obtain_method": "グーフィーの店で購入（物語の谷）",
+    "icon_path": "images/ingredients/mat_flyleaf_feta.png",
     "used_in_recipes": [
       "recipe_argossian_pizza",
       "recipe_baked_feta_olives",
@@ -2452,7 +2453,6 @@
       "recipe_spanakopita"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2460,7 +2460,8 @@
     "name_ja": "オリーブ",
     "name_en": "Olives",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷／ミソピア（木から）",
+    "icon_path": "images/ingredients/mat_olives.png",
     "used_in_recipes": [
       "recipe_argossian_pizza",
       "recipe_baked_feta_olives",
@@ -2473,7 +2474,6 @@
       "recipe_olympian_tapenade"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2481,14 +2481,14 @@
     "name_ja": "食用ホオズキ",
     "name_en": "Cape Gooseberry",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（地面／茂み）",
+    "icon_path": "images/ingredients/mat_cape_gooseberry.png",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
       "recipe_cape_gooseberry_smoothie",
       "recipe_cape_gooseberry_sour_fondue"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2496,14 +2496,14 @@
     "name_ja": "フェアリーライ麦",
     "name_en": "Faerie Rye",
     "category": "穀物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・エバーアフター）｜成長 約75分",
+    "icon_path": "images/ingredients/mat_faerie_rye.png",
     "used_in_recipes": [
       "recipe_faerie_rye_crackers",
       "recipe_merryweather_s_gingersnaps",
       "recipe_underworld_cake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2511,7 +2511,8 @@
     "name_ja": "黄金のリンゴ",
     "name_en": "Golden Apple",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／ミソピア）",
+    "icon_path": "images/ingredients/mat_golden_apple.png",
     "used_in_recipes": [
       "recipe_aphrodite_s_delight",
       "recipe_golden_apple_pie",
@@ -2519,7 +2520,6 @@
       "recipe_loaded_golden_apple_porridge"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2527,7 +2527,8 @@
     "name_ja": "塩の結晶",
     "name_en": "Salt Crystal",
     "category": "スパイス・ハーブ",
-    "obtain_method": "",
+    "obtain_method": "釣り｜物語の谷（エバーアフターの水たまり）",
+    "icon_path": "images/ingredients/mat_salt_crystal.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
       "recipe_aquatic_escargot",
@@ -2546,7 +2547,6 @@
       "recipe_soda_bread_feta"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2554,7 +2554,8 @@
     "name_ja": "ハネジューメロン",
     "name_en": "Honeydew Melon",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／ミソピア）",
+    "icon_path": "images/ingredients/mat_honeydew_melon.png",
     "used_in_recipes": [
       "recipe_honeydew_smoothie",
       "recipe_honeydew_sour_fondue",
@@ -2562,7 +2563,6 @@
       "recipe_olympian_tapenade"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2570,13 +2570,13 @@
     "name_ja": "冥界のトビハゼ",
     "name_en": "Stygian Mudskipper",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ミソピア（至福の野原ほか・金の泡）",
+    "icon_path": "images/ingredients/mat_stygian_mudskipper.png",
     "used_in_recipes": [
       "recipe_grecian_baked_fish",
       "recipe_lightning_bolt"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2584,13 +2584,13 @@
     "name_ja": "ヤツメウナギ",
     "name_en": "Lamprey",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜エバーアフター（生い茂る森ほか・オレンジ/金の泡）",
+    "icon_path": "images/ingredients/mat_lamprey.png",
     "used_in_recipes": [
       "recipe_lamprey_sashimi",
       "recipe_lightning_bolt"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2598,7 +2598,8 @@
     "name_ja": "イナズマのスパイス",
     "name_en": "Lightning Spice",
     "category": "スパイス・ハーブ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（ミソピア）",
+    "icon_path": "images/ingredients/mat_lightning_spice.png",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
       "recipe_lightning_bolt",
@@ -2607,7 +2608,6 @@
       "recipe_sparkling_ambrosia"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2615,7 +2615,8 @@
     "name_ja": "至福者の野の穀物",
     "name_en": "Elysian Grain",
     "category": "穀物",
-    "obtain_method": "",
+    "obtain_method": "入手｜グーフィーの露店（物語の谷・ミソピア）で現物購入／採取（種植え不可）",
+    "icon_path": "images/ingredients/mat_elysian_grain.png",
     "used_in_recipes": [
       "recipe_argossian_pizza",
       "recipe_cacio_e_pepe",
@@ -2624,7 +2625,6 @@
       "recipe_shovel_bird_eggs_benedict"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2632,7 +2632,8 @@
     "name_ja": "柿",
     "name_en": "Persimmon",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（木から）",
+    "icon_path": "images/ingredients/mat_persimmon.png",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
       "recipe_loaded_persimmon_porridge",
@@ -2642,7 +2643,6 @@
       "recipe_persimmon_sour_fondue"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2650,7 +2650,8 @@
     "name_ja": "ラディッキオ",
     "name_en": "Radicchio",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・ミソピア）｜成長 約60分",
+    "icon_path": "images/ingredients/mat_radicchio.png",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
       "recipe_radicchio_slaw",
@@ -2658,7 +2659,6 @@
       "recipe_salt_pickled_radicchio"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2666,7 +2666,8 @@
     "name_ja": "サヤインゲン",
     "name_en": "Green Beans",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約240分",
+    "icon_path": "images/ingredients/mat_green_beans.png",
     "used_in_recipes": [
       "recipe_green_bean_casserole",
       "recipe_radicchio_slaw",
@@ -2674,7 +2675,6 @@
       "recipe_salt_pickled_green_beans"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2682,7 +2682,8 @@
     "name_ja": "カリフラワー",
     "name_en": "Cauliflower",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約10分",
+    "icon_path": "images/ingredients/mat_cauliflower.png",
     "used_in_recipes": [
       "recipe_barley_salad",
       "recipe_cauliflower_steak",
@@ -2690,7 +2691,6 @@
       "recipe_salt_pickled_cauliflower"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2698,7 +2698,8 @@
     "name_ja": "ラディッシュ",
     "name_en": "Radish",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・エバーアフター）｜成長 約105分",
+    "icon_path": "images/ingredients/mat_radish.png",
     "used_in_recipes": [
       "recipe_barley_salad",
       "recipe_greek_salad",
@@ -2707,7 +2708,6 @@
       "recipe_seaweed_salad"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2715,7 +2715,8 @@
     "name_ja": "ポルチーニ茸",
     "name_en": "Porcini Mushrooms",
     "category": "キノコ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（エバーアフター）",
+    "icon_path": "images/ingredients/mat_porcini_mushrooms.png",
     "used_in_recipes": [
       "recipe_flying_fish_quenelles",
       "recipe_green_bean_casserole",
@@ -2725,7 +2726,6 @@
       "recipe_squash_stuffed_porcini"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2733,7 +2733,8 @@
     "name_ja": "チアシード",
     "name_en": "Chia Seeds",
     "category": "穀物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約5分",
+    "icon_path": "images/ingredients/mat_chia_seeds.png",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
       "recipe_chia_pudding",
@@ -2744,7 +2745,6 @@
       "recipe_spiral_strawberry_chia_pancakes"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2752,7 +2752,8 @@
     "name_ja": "うずまきイチゴ",
     "name_en": "Spiral Strawberries",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷／エバーアフター（茂みから）",
+    "icon_path": "images/ingredients/mat_spiral_strawberries.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
       "recipe_hippocampus_cepelinai_dumplings",
@@ -2765,7 +2766,6 @@
       "recipe_strawberry_rhubarb_pie"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2773,7 +2773,8 @@
     "name_ja": "すっぱベリー",
     "name_en": "Sour Berries",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（木から）",
+    "icon_path": "images/ingredients/mat_sour_berries.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
       "recipe_cape_gooseberry_sour_fondue",
@@ -2785,7 +2786,6 @@
       "recipe_spiral_strawberry_sour_fondue"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2793,27 +2793,27 @@
     "name_ja": "ラッパマイマイ",
     "name_en": "Trumpet Snail",
     "category": "魚介",
-    "obtain_method": "",
+    "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
+    "icon_path": "images/ingredients/mat_trumpet_snail.png",
     "used_in_recipes": [
       "recipe_aquatic_escargot",
       "recipe_chimera_skewer"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_sorcerer_hat_hermit_crab",
-    "name_ja": "",
+    "name_ja": "魔法使いの帽子ヤドカリ",
     "name_en": "Sorcerer Hat Hermit Crab",
     "category": "魚介",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ザ・バインド（本の村・金の泡）",
+    "icon_path": "images/ingredients/mat_sorcerer_hat_hermit_crab.png",
     "used_in_recipes": [
       "recipe_arcane_garlic_crab",
       "recipe_hermit_crab_pasta"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2821,13 +2821,13 @@
     "name_ja": "大麦",
     "name_en": "Barley",
     "category": "穀物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約15分",
+    "icon_path": "images/ingredients/mat_barley.png",
     "used_in_recipes": [
       "recipe_barley_salad",
       "recipe_roasted_barley_veggies"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2835,7 +2835,8 @@
     "name_ja": "黒コショウ",
     "name_en": "Black Pepper",
     "category": "スパイス・ハーブ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（ミソピア）",
+    "icon_path": "images/ingredients/mat_black_pepper.png",
     "used_in_recipes": [
       "recipe_cacio_e_pepe",
       "recipe_hippocampus_cepelinai_dumplings",
@@ -2845,7 +2846,6 @@
       "recipe_squash_stuffed_porcini"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2853,7 +2853,8 @@
     "name_ja": "スコップ鳥のタマゴ",
     "name_en": "Shovel Bird Eggs",
     "category": "卵・ナッツ",
-    "obtain_method": "",
+    "obtain_method": "穴掘り｜物語の谷（掘れる地点）",
+    "icon_path": "images/ingredients/mat_shovel_bird_eggs.png",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
       "recipe_chia_seed_bread",
@@ -2872,7 +2873,6 @@
       "recipe_underworld_cake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2880,42 +2880,42 @@
     "name_ja": "ルバーブ",
     "name_en": "Rhubarb",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／エバーアフター）",
+    "icon_path": "images/ingredients/mat_rhubarb.png",
     "used_in_recipes": [
       "recipe_chia_pudding",
       "recipe_loaded_rhubarb_porridge",
       "recipe_strawberry_rhubarb_pie"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_hippocampus",
-    "name_ja": "",
+    "name_ja": "ヒッポカンポス",
     "name_en": "Hippocampus",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ミソピア（至福の野原ほか・白い波紋/青い泡）",
+    "icon_path": "images/ingredients/mat_hippocampus.png",
     "used_in_recipes": [
       "recipe_chimera_skewer",
       "recipe_hippocampus_cepelinai_dumplings"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_flying_fish",
-    "name_ja": "",
+    "name_ja": "トビウオ",
     "name_en": "Flying Fish",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ミソピア（至福の野原ほか・海・波紋なし/白い波紋）",
+    "icon_path": "images/ingredients/mat_flying_fish.png",
     "used_in_recipes": [
       "recipe_chimera_skewer",
       "recipe_flying_fish_quenelles"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2923,7 +2923,8 @@
     "name_ja": "芽キャベツ",
     "name_en": "Brussels Sprout",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約30分",
+    "icon_path": "images/ingredients/mat_brussels_sprout.png",
     "used_in_recipes": [
       "recipe_chimera_skewer",
       "recipe_roasted_barley_veggies",
@@ -2931,7 +2932,6 @@
       "recipe_sprout_stuffed_porcini"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2939,14 +2939,14 @@
     "name_ja": "ムール貝",
     "name_en": "Mussel",
     "category": "魚介",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ミソピア（至福の野原ほか・波紋なし）",
+    "icon_path": "images/ingredients/mat_mussel.png",
     "used_in_recipes": [
       "recipe_garlic_steam_mussels",
       "recipe_mussel_risotto",
       "recipe_steamed_mussels"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2954,13 +2954,13 @@
     "name_ja": "錦鯉",
     "name_en": "Koi",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ザ・バインド（本の村・波紋なし/白い波紋）",
+    "icon_path": "images/ingredients/mat_koi.png",
     "used_in_recipes": [
       "recipe_grilled_koi_gyro",
       "recipe_koi_sashimi"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -2968,7 +2968,8 @@
     "name_ja": "オーツ麦",
     "name_en": "Oats",
     "category": "穀物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・エバーアフター）｜成長 約120分",
+    "icon_path": "images/ingredients/mat_oats.png",
     "used_in_recipes": [
       "recipe_loaded_breakfast_yogurt",
       "recipe_loaded_golden_apple_porridge",
@@ -2981,15 +2982,15 @@
       "recipe_scottish_porridge"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_sea_grapes",
-    "name_ja": "",
+    "name_ja": "海ぶどう",
     "name_en": "Sea Grapes",
     "category": "魚介",
-    "obtain_method": "",
+    "obtain_method": "採取｜海辺（ダズル・ビーチ周辺）",
+    "icon_path": "images/ingredients/mat_sea_grapes.png",
     "used_in_recipes": [
       "recipe_loaded_sea_grape_porridge",
       "recipe_salt_pickled_sea_grapes",
@@ -2997,21 +2998,20 @@
       "recipe_seaweed_salad"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_sea_wolf",
-    "name_ja": "",
+    "name_ja": "オオカミウオ",
     "name_en": "Sea Wolf",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ザ・バインド（本の村・白い波紋/青い泡）",
+    "icon_path": "images/ingredients/mat_sea_wolf.png",
     "used_in_recipes": [
       "recipe_lupine_cullen_skink",
       "recipe_salt_baked_sea_wolf"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3019,13 +3019,13 @@
     "name_ja": "ワッカカボチャ",
     "name_en": "Ring Squash",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約30分",
+    "icon_path": "images/ingredients/mat_ring_squash.png",
     "used_in_recipes": [
       "recipe_squash_stuffed_porcini",
       "recipe_stuffed_ring_squash"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3033,12 +3033,12 @@
     "name_ja": "イカ",
     "name_en": "Squid",
     "category": "魚介",
-    "obtain_method": "釣り",
+    "obtain_method": "釣り｜信頼の谷・忘れられた地（青い泡）",
+    "icon_path": "images/ingredients/mat_squid.png",
     "used_in_recipes": [
       "recipe_squid_sashimi"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3046,7 +3046,8 @@
     "name_ja": "ナツメグ",
     "name_en": "Nutmeg",
     "category": "スパイス・ハーブ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（ミソピア）",
+    "icon_path": "images/ingredients/mat_nutmeg.png",
     "used_in_recipes": [
       "recipe_merryweather_s_gingersnaps",
       "recipe_nutmeg_cake",
@@ -3054,21 +3055,20 @@
       "recipe_underworld_cake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_red_alpine_bass",
-    "name_ja": "",
+    "name_ja": "アルプススズキ（レッド）",
     "name_en": "Red Alpine Bass",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ウィッシング・アルプス（アルプスの願い・金の泡）",
+    "icon_path": "images/ingredients/mat_red_alpine_bass.png",
     "used_in_recipes": [
       "recipe_alpine_fishcakes",
       "recipe_stargazy_pie"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3076,14 +3076,14 @@
     "name_ja": "ディル",
     "name_en": "Dill",
     "category": "スパイス・ハーブ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（願いの峰）",
+    "icon_path": "images/ingredients/mat_dill.png",
     "used_in_recipes": [
       "recipe_alpine_fishcakes",
       "recipe_buttermilk_borscht",
       "recipe_honey_glazed_carrots"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3091,7 +3091,8 @@
     "name_ja": "ビーツ",
     "name_en": "Beetroot",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約5分",
+    "icon_path": "images/ingredients/mat_beetroot.png",
     "used_in_recipes": [
       "recipe_baked_whitefish_and_roasted_beets",
       "recipe_beauty_and_the_beets_napoleon",
@@ -3101,21 +3102,20 @@
       "recipe_buttermilk_borscht"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_bonsai_star_fruit",
-    "name_ja": "",
+    "name_ja": "ボンサイスターフルーツ",
     "name_en": "Bonsai Star Fruit",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜願い咲く牧場（木から）",
+    "icon_path": "images/ingredients/mat_bonsai_star_fruit.png",
     "used_in_recipes": [
       "recipe_fairy_wands",
       "recipe_fizzy_nectar_soda"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3123,7 +3123,8 @@
     "name_ja": "サンゴのハチミツ",
     "name_en": "Honey Coral",
     "category": "甘味料",
-    "obtain_method": "",
+    "obtain_method": "釣り｜物語の谷（ピクシー・エーカーの白い波紋）",
+    "icon_path": "images/ingredients/mat_honey_coral.png",
     "used_in_recipes": [
       "recipe_fairy_boot_cake",
       "recipe_friendly_bento",
@@ -3132,7 +3133,6 @@
       "recipe_rosehip_honey_tea"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3140,7 +3140,8 @@
     "name_ja": "スカーレットケール",
     "name_en": "Scarlet Kale",
     "category": "農作物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約10分",
+    "icon_path": "images/ingredients/mat_scarlet_kale.png",
     "used_in_recipes": [
       "recipe_fishy_pineapple_jelly",
       "recipe_friendly_bento",
@@ -3149,7 +3150,6 @@
       "recipe_scarlet_kale_and_cheese_pinwheels"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3157,36 +3157,37 @@
     "name_ja": "マウンテンホワイトフィッシュ",
     "name_en": "Mountain Whitefish",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ウィッシング・アルプス（アルプスの願い・波紋なし/白い波紋）",
+    "icon_path": "images/ingredients/mat_mountain_whitefish.png",
     "used_in_recipes": [
       "recipe_baked_whitefish_and_roasted_beets",
       "recipe_smoked_fish_charcuterie_spread"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_dark_chocolate_coffee_beans",
-    "name_ja": "",
+    "name_ja": "ダークチョコレートコーヒー豆",
     "name_en": "Dark Chocolate Coffee Beans",
     "category": "甘味料",
-    "obtain_method": "",
+    "obtain_method": "栽培｜物語の谷（グーフィーの店で種購入）",
+    "icon_path": "images/ingredients/mat_dark_chocolate_coffee_beans.png",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
       "recipe_afternoon_tea_set",
       "recipe_fairy_boot_cake"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_pearly_barley",
-    "name_ja": "",
+    "name_ja": "パーリーバーレイ",
     "name_en": "Pearly Barley",
     "category": "穀物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーのキャラバン（物語の谷・ウィッシュブロッサム山）｜成長 約20分",
+    "icon_path": "images/ingredients/mat_pearly_barley.png",
     "used_in_recipes": [
       "recipe_afternoon_tea_set",
       "recipe_horace_s_ham_sandwich",
@@ -3194,15 +3195,15 @@
       "recipe_vintage_peach_trifle"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_pincushion_peach",
-    "name_ja": "",
+    "name_ja": "針山ピーチ",
     "name_en": "Pincushion Peach",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜願い咲く牧場（木から）",
+    "icon_path": "images/ingredients/mat_pincushion_peach.png",
     "used_in_recipes": [
       "recipe_afternoon_tea_set",
       "recipe_eton_mess",
@@ -3210,29 +3211,29 @@
       "recipe_vintage_peach_trifle"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_tigger_fish",
-    "name_ja": "",
+    "name_ja": "ティガーフィッシュ",
     "name_en": "Tigger Fish",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜ピクシー・エーカー（妖精の国・金の泡）",
+    "icon_path": "images/ingredients/mat_tigger_fish.png",
     "used_in_recipes": [
       "recipe_bread_bowl_pumpkin_soup",
       "recipe_friendly_bento"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_fairy_kamut",
-    "name_ja": "",
+    "name_ja": "フェアリーカムート",
     "name_en": "Fairy Kamut",
     "category": "穀物",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーのキャラバン（物語の谷・ピクシーエーカー）｜成長 約50分",
+    "icon_path": "images/ingredients/mat_fairy_kamut.png",
     "used_in_recipes": [
       "recipe_bread_bowl_pumpkin_soup",
       "recipe_fairy_boot_cake",
@@ -3241,30 +3242,30 @@
       "recipe_pixie_pizza"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_button_mushroom",
-    "name_ja": "",
+    "name_ja": "ボタンマッシュルーム",
     "name_en": "Button Mushroom",
     "category": "キノコ",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷",
+    "icon_path": "images/ingredients/mat_button_mushroom.png",
     "used_in_recipes": [
       "recipe_button_stew",
       "recipe_felted_breakfast_spread",
       "recipe_pixie_pizza"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_red_currants",
-    "name_ja": "",
+    "name_ja": "レッドカラント",
     "name_en": "Red Currants",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "採取｜願い咲く牧場（茂みから）",
+    "icon_path": "images/ingredients/mat_red_currants.png",
     "used_in_recipes": [
       "recipe_beauty_and_the_beets_napoleon",
       "recipe_eton_mess",
@@ -3273,21 +3274,20 @@
       "recipe_red_currant_valley_cakes"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_satin_finned_betta",
-    "name_ja": "",
+    "name_ja": "サテンヒレのベタ",
     "name_en": "Satin-Finned Betta",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜グラマー・ガルチ（虚栄の谷・青い泡）",
+    "icon_path": "images/ingredients/mat_satin_finned_betta.png",
     "used_in_recipes": [
       "recipe_felted_breakfast_spread",
       "recipe_stargazy_pie"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
@@ -3295,36 +3295,37 @@
     "name_ja": "ゼリーウツボ",
     "name_en": "Jellied Fish",
     "category": "魚",
-    "obtain_method": "",
+    "obtain_method": "釣り｜グラマー・ガルチ（虚栄の谷・金の泡）",
+    "icon_path": "images/ingredients/mat_jellied_fish.png",
     "used_in_recipes": [
       "recipe_fishy_pineapple_jelly",
       "recipe_jellied_fish_terrine",
       "recipe_jellied_salad"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_measuring_tape_snail",
-    "name_ja": "",
+    "name_ja": "巻尺カタツムリ",
     "name_en": "Measuring-Tape Snail",
     "category": "魚介",
-    "obtain_method": "",
+    "obtain_method": "釣り｜グラマー・ガルチ（虚栄の谷・白い波紋）",
+    "icon_path": "images/ingredients/mat_measuring_tape_snail.png",
     "used_in_recipes": [
       "recipe_fishy_pineapple_jelly",
       "recipe_stargazy_pie"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_fairy_sprinkles",
-    "name_ja": "",
+    "name_ja": "フェアリースプリンクル",
     "name_en": "Fairy Sprinkles",
     "category": "甘味料",
-    "obtain_method": "",
+    "obtain_method": "採取｜物語の谷（ピクシー・エーカー）",
+    "icon_path": "images/ingredients/mat_fairy_sprinkles.png",
     "used_in_recipes": [
       "recipe_fairy_bread",
       "recipe_pixie_ice_cream_dome_cake",
@@ -3332,21 +3333,20 @@
       "recipe_tigger_tails"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   },
   {
     "id": "mat_lollipop_fruit",
-    "name_ja": "",
+    "name_ja": "ロリポップフルーツ",
     "name_en": "Lollipop Fruit",
     "category": "フルーツ",
-    "obtain_method": "",
+    "obtain_method": "栽培｜種:グーフィーの露店（願い咲く牧場）",
+    "icon_path": "images/ingredients/mat_lollipop_fruit.png",
     "used_in_recipes": [
       "recipe_fairy_wands",
       "recipe_tigger_tails"
     ],
     "unlocked": false,
-    "stock_count": 0,
     "memo": ""
   }
 ]

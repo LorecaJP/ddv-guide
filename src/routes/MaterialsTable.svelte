@@ -2,7 +2,7 @@
   import type { Material } from '../lib/schema'
   import { seedAll } from '../lib/db/seed'
   import { getAll, put } from '../lib/db/idb'
-  import { navigate, route, setParams } from '../lib/router'
+  import { navigate, route, setParams, asset } from '../lib/router'
 
   const P = $route.params
   let all = $state<Material[]>([])
@@ -11,6 +11,8 @@
   let statusFilter = $state(P.status ?? 'all') // 'all' | 'unlocked' | 'locked'
   let catFilter = $state(P.cat ?? 'all')
   let expanded = $state<Set<string>>(new Set())
+  let broken = $state<Set<string>>(new Set())
+  const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
   // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
   $effect(() => {
@@ -65,17 +67,11 @@
     s.has(id) ? s.delete(id) : s.add(id)
     expanded = s
   }
-
-  async function setStock(m: Material, v: number) {
-    m.stock_count = Math.max(0, v | 0)
-    await put('materials', $state.snapshot(m))
-    all = [...all]
-  }
 </script>
 
 <div class="head">
   <h1>素材</h1>
-  <p class="sub">{all.length} 種 ・ 解放済み {unlockedCount} 種（素材名タップで入手方法・在庫）</p>
+  <p class="sub">{all.length} 種 ・ 解放済み {unlockedCount} 種（素材名タップで入手方法・レシピ）</p>
 </div>
 
 <div class="controls">
@@ -102,17 +98,17 @@
       <li class="item" class:done={m.unlocked}>
         <div class="line">
           <button class="main" onclick={() => toggleExpand(m.id)}>
-            <span class="nm">{m.name_ja || m.name_en}</span>
-            {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
+            <span class="mthumb">
+              {#if m.icon_path && !broken.has(m.id)}
+                <img src={asset(m.icon_path)} alt="" loading="lazy" onerror={() => markBroken(m.id)} />
+              {:else}<span class="ph">🧺</span>{/if}
+            </span>
+            <span class="txt">
+              <span class="nm">{m.name_ja || m.name_en}</span>
+              {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
+            </span>
           </button>
-          {#if m.category}<span class="cat-badge" title={m.category}>{m.category}</span>{/if}
-          {#if m.used_in_recipes.length}
-            <button class="recipes-btn" onclick={() => navigate('recipes', { ing: m.name_en })}>
-              {m.used_in_recipes.length}件
-            </button>
-          {:else}
-            <span class="recipes-zero">0</span>
-          {/if}
+          {#if m.category}<span class="cat-badge">{m.category}</span>{/if}
           <button class="own" class:on={m.unlocked} onclick={() => toggleUnlocked(m)} title="解放トグル">
             {m.unlocked ? '✓' : '—'}
           </button>
@@ -124,12 +120,14 @@
               <span class="obtain">{m.obtain_method || '—'}</span>
             </div>
             <div class="d-row">
-              <span class="lbl">在庫</span>
-              <div class="stepper">
-                <button onclick={() => setStock(m, m.stock_count - 1)} aria-label="減">−</button>
-                <span class="val">{m.stock_count}</span>
-                <button onclick={() => setStock(m, m.stock_count + 1)} aria-label="増">＋</button>
-              </div>
+              <span class="lbl">使うレシピ</span>
+              {#if m.used_in_recipes.length}
+                <button class="recipes-btn" onclick={() => navigate('recipes', { ing: m.name_en })}>
+                  {m.used_in_recipes.length}件を見る
+                </button>
+              {:else}
+                <span class="obtain">なし</span>
+              {/if}
             </div>
           </div>
         {/if}
@@ -152,7 +150,11 @@
   .item { border-bottom: 1px solid var(--c-line); }
   .item.done { background: color-mix(in srgb, var(--c-accent-soft) 22%, transparent); }
   .line { display: flex; align-items: center; gap: 8px; padding: 10px 4px; }
-  .main { flex: 1 1 auto; min-width: 0; background: none; border: 0; text-align: left; padding: 4px 2px; display: flex; flex-direction: column; }
+  .main { flex: 1 1 auto; min-width: 0; background: none; border: 0; text-align: left; padding: 4px 2px; display: flex; align-items: center; gap: 10px; }
+  .mthumb { flex: none; width: 40px; height: 40px; display: grid; place-items: center; background: var(--c-surface-2); border-radius: 8px; overflow: hidden; }
+  .mthumb img { width: 100%; height: 100%; object-fit: contain; }
+  .mthumb .ph { font-size: 20px; opacity: 0.5; }
+  .txt { display: flex; flex-direction: column; min-width: 0; }
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
   .en { font-size: 11px; color: var(--c-ink-soft); }
   .cat-badge {
@@ -161,25 +163,18 @@
     font-weight: 600;
     color: var(--c-accent-ink);
     background: var(--c-accent-soft);
-    padding: 2px 7px;
+    padding: 2px 8px;
     border-radius: 999px;
     white-space: nowrap;
-    max-width: 5em;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
-  .recipes-btn { flex: none; font-size: 13px; font-weight: 700; color: var(--c-accent-ink); background: none; border: 0; padding: 0 4px; white-space: nowrap; cursor: pointer; }
-  .recipes-btn:hover { text-decoration: underline; }
-  .recipes-zero { flex: none; font-size: 13px; color: var(--c-ink-soft); padding: 0 4px; }
   .own { flex: none; width: 34px; height: 32px; border-radius: 8px; border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft); font-weight: 700; cursor: pointer; }
   .own.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
 
-  .detail { padding: 4px 6px 12px; display: flex; flex-direction: column; gap: 8px; }
+  .detail { padding: 4px 6px 12px 56px; display: flex; flex-direction: column; gap: 8px; }
   .d-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
   .lbl { flex: none; font-size: 11px; font-weight: 700; color: var(--c-accent-ink); background: var(--c-accent-soft); padding: 2px 8px; border-radius: 999px; }
   .obtain { font-size: 13px; color: var(--c-ink-soft); }
-  .stepper { display: inline-flex; align-items: center; gap: 6px; }
-  .stepper button { width: 26px; height: 26px; border-radius: 7px; border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink); font-weight: 700; cursor: pointer; }
-  .stepper .val { min-width: 22px; text-align: center; font-variant-numeric: tabular-nums; }
+  .recipes-btn { font-size: 13px; font-weight: 700; color: var(--c-accent-ink); background: none; border: 0; padding: 0; cursor: pointer; }
+  .recipes-btn:hover { text-decoration: underline; }
   .muted { color: var(--c-ink-soft); }
 </style>
