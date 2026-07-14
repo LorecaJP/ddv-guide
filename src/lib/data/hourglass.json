@@ -1,0 +1,574 @@
+[
+  {
+    "id": "hg_ancient_core_level_1",
+    "name_ja": "古代のコアLv1",
+    "name_en": "Ancient Core (Level 1)",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv1で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_core_level_1.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_core_level_2",
+    "name_ja": "古代のコアLv2",
+    "name_en": "Ancient Core (Level 2)",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv2で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_core_level_2.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_core_level_3",
+    "name_ja": "古代のコアLv3",
+    "name_en": "Ancient Core (Level 3)",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv3で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_core_level_3.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_radiator",
+    "name_ja": "古代のラジエーター",
+    "name_en": "Ancient Radiator",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_radiator.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_pipe",
+    "name_ja": "古代のパイプ",
+    "name_en": "Ancient Pipe",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_pipe.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_gear",
+    "name_ja": "古代の歯車",
+    "name_en": "Ancient Gear",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_gear.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_belt",
+    "name_ja": "古代のベルト",
+    "name_en": "Ancient Belt",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_belt.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_magnet",
+    "name_ja": "古代のマグネット",
+    "name_en": "Ancient Magnet",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_magnet.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_plate",
+    "name_ja": "古代の皿",
+    "name_en": "Ancient Plate",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_plate.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_screw",
+    "name_ja": "古代のネジ",
+    "name_en": "Ancient Screw",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_screw.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_hook",
+    "name_ja": "古代のフック",
+    "name_en": "Ancient Hook",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_hook.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ancient_handle",
+    "name_ja": "古代の取っ手",
+    "name_en": "Ancient Handle",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島）",
+    "icon_path": "images/hourglass/hg_ancient_handle.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_glimmer",
+    "name_ja": "キラメキ",
+    "name_en": "Glimmer",
+    "category": "時空歪曲パーツ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv2で入手（永遠の島・各バイオーム限定）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_jokester_of_the_month_frame",
+    "name_ja": "「今月のダジャレ王」フレーム",
+    "name_en": "Jokester-of-the-Month Frame",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_cracked_palace_tower",
+    "name_ja": "宮殿の塔の破片",
+    "name_en": "Cracked Palace Tower",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_piano_leg",
+    "name_ja": "ピアノの脚",
+    "name_en": "Piano Leg",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_lute_head",
+    "name_ja": "リュートのヘッド",
+    "name_en": "Lute Head",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_broken_sword",
+    "name_ja": "壊れた剣",
+    "name_en": "Broken Sword",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_tapestry_piece",
+    "name_ja": "タペストリーの一片",
+    "name_en": "Tapestry Piece",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_mythic_vase_handle",
+    "name_ja": "神殿の花瓶の取っ手",
+    "name_en": "Mythic Vase Handle",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_v8_decoration",
+    "name_ja": "V8の装飾品",
+    "name_en": "V8 Decoration",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_wagon_wheel",
+    "name_ja": "カートの車輪",
+    "name_en": "Wagon Wheel",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_pedestal_chunk",
+    "name_ja": "台座の破片",
+    "name_en": "Pedestal Chunk",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_toonish_canister",
+    "name_ja": "カートゥーン風タンク",
+    "name_en": "Toonish Canister",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_stained_glass_fragment",
+    "name_ja": "ステンドグラスの破片",
+    "name_en": "Stained Glass Fragment",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_pink_floral_pillow",
+    "name_ja": "ピンクのフラワーピロー",
+    "name_en": "Pink Floral Pillow",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_broken_metal_sign",
+    "name_ja": "壊れた金属製の看板",
+    "name_en": "Broken Metal Sign",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_broken_lollipop",
+    "name_ja": "壊れたキャンディ",
+    "name_en": "Broken Lollipop",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_green_stone_carving",
+    "name_ja": "緑の石の彫刻",
+    "name_en": "Green Stone Carving",
+    "category": "カケラ",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_anyone_can_cook_book",
+    "name_ja": "「誰にだって料理はできるでしょ」本",
+    "name_en": "\"Anyone Can Cook\" Book",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_ice_cream_stand",
+    "name_ja": "アイスクリームスタンド",
+    "name_en": "Ice Cream Stand",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_embossed_book",
+    "name_ja": "エンボス加工された本",
+    "name_en": "Embossed Book",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_design_sketchbook",
+    "name_ja": "デザイン用スケッチブック",
+    "name_en": "Design Sketchbook",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_handheld_lootfindr",
+    "name_ja": "手持ちLOOTFindr",
+    "name_en": "Handheld LOOTFindr",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_blue_potion",
+    "name_ja": "青色のポーション",
+    "name_en": "Blue Potion",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_grubby_log",
+    "name_ja": "虫がわいた丸太",
+    "name_en": "Grubby Log",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_dinglehopper",
+    "name_ja": "カミスキー（ディングルホッパー）",
+    "name_en": "Dinglehopper",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "images/hourglass/hg_dinglehopper.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_pink_bow",
+    "name_ja": "ピンクのリボン",
+    "name_en": "Pink Bow",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "images/hourglass/hg_pink_bow.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_deadly_nightshade",
+    "name_ja": "ベラドンナ",
+    "name_en": "Deadly Nightshade",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_lute",
+    "name_ja": "リュート",
+    "name_en": "Lute",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_paper_lantern",
+    "name_ja": "紙のランタン",
+    "name_en": "Paper Lantern",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_fire_extinguisher",
+    "name_ja": "消火器",
+    "name_en": "Fire Extinguisher",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "images/hourglass/hg_fire_extinguisher.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_wooden_oar",
+    "name_ja": "木製オール",
+    "name_en": "Wooden Oar",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "images/hourglass/hg_wooden_oar.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "hg_wooden_toy_block",
+    "name_ja": "木製の積み木",
+    "name_en": "Wooden Toy Block",
+    "category": "ギフト",
+    "realms": [
+      "永遠の島"
+    ],
+    "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
+    "icon_path": "images/hourglass/hg_wooden_toy_block.webp",
+    "unlocked": false,
+    "memo": ""
+  }
+]

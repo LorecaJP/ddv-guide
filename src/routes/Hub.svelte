@@ -11,6 +11,8 @@
     recipes: 'unlocked',
     materials: 'unlocked',
     crafting: 'unlocked',
+    flowers: 'unlocked',
+    hourglass: 'unlocked',
     quests: 'completed',
     events: 'participated',
     expansions: 'owned',
@@ -38,7 +40,7 @@
 
 <section class="hero">
   <h1>どこから見る？</h1>
-  <p>15カテゴリのメニュー。画像で見分けるものは図鑑グリッド、数値ものは表で表示します。</p>
+  <p>17カテゴリのメニュー。画像で見分けるものは図鑑グリッド、数値ものは表で表示します。</p>
 </section>
 
 <div class="grid">
