@@ -128,6 +128,7 @@
                 <span class="noimg"><span class="ph-mark">🐾</span><span class="ph-name">{c.color_ja}</span></span>
               {/if}
               {#if c.owned}<span class="own">✓</span>{/if}
+              <span class="lv-badge" class:max={lv(c) >= MAX_LV}>{lv(c) >= MAX_LV ? 'MAX' : 'Lv' + lv(c)}</span>
             </div>
             <span class="label">
               <span class="sp">{c.gather_type}</span>
@@ -209,6 +210,8 @@
   .ph-mark { font-size: 22px; opacity: 0.5; }
   .ph-name { font-family: var(--font-display); font-weight: 600; font-size: 11px; color: var(--c-ink-soft); line-height: 1.1; }
   .own { position: absolute; top: 5px; right: 5px; width: 19px; height: 19px; border-radius: 50%; background: var(--c-accent); color: #fff; font-size: 11px; display: grid; place-items: center; }
+  .lv-badge { position: absolute; bottom: 5px; left: 5px; background: color-mix(in srgb, var(--c-ink) 72%, transparent); color: #fff; font-size: 10px; font-weight: 700; line-height: 1; padding: 3px 5px; border-radius: 999px; font-variant-numeric: tabular-nums; }
+  .lv-badge.max { background: var(--c-accent); }
   .label { display: flex; flex-direction: column; align-items: center; line-height: 1.2; }
   .label .sp { font-size: 11px; color: var(--c-ink-soft); }
   .label .col { font-family: var(--font-display); font-weight: 600; font-size: 13px; text-align: center; }
