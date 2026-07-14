@@ -27,8 +27,8 @@
   }
   load()
 
-  const CAT_ORDER = ['鉱石', '宝石', '木材', '石材', 'その他']
-  const REALM_ORDER = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場']
+  const CAT_ORDER = ['宝石', '鉱石', '精錬', '木材', '石材', '繊維', 'その他']
+  const REALM_ORDER = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場', 'ハニーグローの森']
 
   const cats = $derived((() => {
     const present = new Set(all.map((m) => m.category).filter(Boolean))
