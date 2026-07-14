@@ -6,6 +6,7 @@
   import RecipesTable from './routes/RecipesTable.svelte'
   import MaterialsTable from './routes/MaterialsTable.svelte'
   import CraftingTable from './routes/CraftingTable.svelte'
+  import ItemTable from './routes/ItemTable.svelte'
   import CompanionsZukan from './routes/CompanionsZukan.svelte'
   import DataTable from './routes/DataTable.svelte'
   import LinkList from './routes/LinkList.svelte'
@@ -43,6 +44,14 @@
     <MaterialsTable />
   {:else if current === 'crafting'}
     <CraftingTable />
+  {:else if current === 'flowers'}
+    <ItemTable storeKey="flowers" title="花" sub="名前タップで採取エリア"
+      catOrder={['赤', '青', '黄', '白', '紫', 'ピンク', 'オレンジ', '緑', '黒', '複色']}
+      placeholder="🌸" ownLabel="入手" />
+  {:else if current === 'hourglass'}
+    <ItemTable storeKey="hourglass" title="砂時計" sub="A Rift in Time の時渦アイテム。名前タップで入手条件"
+      catOrder={['時空歪曲パーツ', 'カケラ', 'ギフト']}
+      placeholder="⏳" ownLabel="入手" />
   {:else if current === 'companions'}
     <CompanionsZukan />
   {:else if meta?.display === 'links'}
