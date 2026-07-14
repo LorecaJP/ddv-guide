@@ -280,7 +280,6 @@
   .o-method { flex: none; }
   .o-lines { display: flex; flex-direction: column; min-width: 0; }
   .o-line { display: block; }
-  .o-line:not(:first-child) { color: var(--c-ink-soft); }
   .en { color: var(--c-ink-soft); margin: 3px 0 8px; font-size: 13px; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
   .chip { display: inline-block; background: var(--c-accent-soft); color: var(--c-accent-ink); font-size: 12px; font-weight: 600; padding: 3px 10px; border-radius: 999px; }

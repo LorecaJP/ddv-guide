@@ -10,12 +10,26 @@
   let query = $state(P.q ?? '')
   let statusFilter = $state(P.status ?? 'all') // 'all' | 'owned' | 'unowned'
   let levelFilter = $state(P.lv ?? 'all') // 'all' | 'max' | 'notmax'
+  let todayFilter = $state(P.today === '1' ? 'today' : 'all') // 'all' | 'today'
   let selected = $state<Companion | null>(null)
   const MAX_LV = 5
 
+  // 出現スケジュール（例: "火・水・土：終日\n日：午前12時～午後12時"）から今日出現するか判定
+  const WD = ['日', '月', '火', '水', '木', '金', '土']
+  const todayChar = WD[new Date().getDay()]
+  const appearsToday = (sched: string) => {
+    if (!sched) return false
+    for (const line of sched.split('\n')) {
+      const days = line.split(/[：:]/)[0] || ''
+      if (days.includes('毎日')) return true
+      if (days.split('・').some((d) => d.trim() === todayChar)) return true
+    }
+    return false
+  }
+
   // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
   $effect(() => {
-    setParams('companions', { q: query, status: statusFilter, lv: levelFilter })
+    setParams('companions', { q: query, status: statusFilter, lv: levelFilter, today: todayFilter === 'today' ? '1' : '' })
   })
   function onKey(e: KeyboardEvent) {
     if (e.key === 'Escape') selected = null
@@ -42,6 +56,7 @@
         const lvl = Math.max(1, c.friendship_level || 1)
         if (levelFilter === 'max' && lvl < MAX_LV) return false
         if (levelFilter === 'notmax' && lvl >= MAX_LV) return false
+        if (todayFilter === 'today' && !appearsToday(c.appearance_schedule)) return false
         if (query) {
           const q = query.toLowerCase()
           if (!`${c.name_ja}${c.name_en}${c.gather_type}`.toLowerCase().includes(q)) return false
@@ -101,6 +116,10 @@
     <option value="all">Lv：すべて</option>
     <option value="notmax">MAX未満</option>
     <option value="max">MAX（5）</option>
+  </select>
+  <select bind:value={todayFilter} aria-label="出現日で絞り込み">
+    <option value="all">出現：すべて</option>
+    <option value="today">今日（{todayChar}）出現</option>
   </select>
 </div>
 
