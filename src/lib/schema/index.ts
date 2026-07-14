@@ -41,6 +41,7 @@ export interface Material {
   name_ja: string
   name_en: string          // 🔒
   category: string         // 🔒 種別（農作物/フルーツ/魚 等）
+  realms: string[]         // 🔒 入手できる世界（バレー/永遠の島/物語の谷/願い咲く牧場）
   obtain_method: string    // 🔒 入手方法（エリア・釣り場・栽培時間など）
   icon_path: string        // 🔒 素材アイコン（mydreamlightvalley 由来）
   used_in_recipes: string[]// 🔒 recipes と ID 連携

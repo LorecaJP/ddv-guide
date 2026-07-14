@@ -10,13 +10,14 @@
   let query = $state(P.q ?? '')
   let statusFilter = $state(P.status ?? 'all') // 'all' | 'unlocked' | 'locked'
   let catFilter = $state(P.cat ?? 'all')
+  let realmFilter = $state(P.realm ?? 'all')
   let expanded = $state<Set<string>>(new Set())
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
 
   // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
   $effect(() => {
-    setParams('materials', { q: query, status: statusFilter, cat: catFilter })
+    setParams('materials', { q: query, status: statusFilter, cat: catFilter, realm: realmFilter })
   })
 
   async function load() {
@@ -27,34 +28,49 @@
   }
   load()
 
-  // 種別の表示順（実在するものだけを順に）
+  // 種別・世界の表示順（実在するものだけを順に）
   const CAT_ORDER = ['農作物', 'フルーツ', '穀物', '魚', '魚介', '肉', '卵・ナッツ', '乳製品', 'キノコ', '茶葉', '甘味料', 'スパイス・ハーブ', 'その他']
+  const REALM_ORDER = ['バレー', '永遠の島', '物語の谷', '願い咲く牧場']
+
   const cats = $derived((() => {
     const present = new Set(all.map((m) => m.category).filter(Boolean))
     const ordered = CAT_ORDER.filter((c) => present.has(c))
     const extra = [...present].filter((c) => !CAT_ORDER.includes(c)).sort()
     return [...ordered, ...extra]
   })())
+  const realms = $derived((() => {
+    const present = new Set(all.flatMap((m) => m.realms ?? []))
+    return REALM_ORDER.filter((r) => present.has(r))
+  })())
   const unlockedCount = $derived(all.filter((m) => m.unlocked).length)
 
-  const view = $derived(
-    all
-      .filter((m) => {
-        if (statusFilter === 'unlocked' && !m.unlocked) return false
-        if (statusFilter === 'locked' && m.unlocked) return false
-        if (catFilter !== 'all' && m.category !== catFilter) return false
-        if (query) {
-          const q = query.toLowerCase()
-          if (!`${m.name_ja}${m.name_en}`.toLowerCase().includes(q)) return false
-        }
-        return true
-      })
-      .sort((a, b) => {
-        const aj = !!a.name_ja, bj = !!b.name_ja
-        if (aj !== bj) return aj ? -1 : 1
-        return (a.name_ja || a.name_en).localeCompare(b.name_ja || b.name_en, 'ja')
-      })
-  )
+  // フィルタ適用後、種別ごとに分けて各種別内を五十音順に並べる
+  const groups = $derived((() => {
+    const q = query.toLowerCase()
+    const filtered = all.filter((m) => {
+      if (statusFilter === 'unlocked' && !m.unlocked) return false
+      if (statusFilter === 'locked' && m.unlocked) return false
+      if (catFilter !== 'all' && m.category !== catFilter) return false
+      if (realmFilter !== 'all' && !(m.realms ?? []).includes(realmFilter)) return false
+      if (q && !`${m.name_ja}${m.name_en}`.toLowerCase().includes(q)) return false
+      return true
+    })
+    const order = cats
+    const byCat = new Map<string, Material[]>()
+    for (const m of filtered) {
+      const c = m.category || 'その他'
+      if (!byCat.has(c)) byCat.set(c, [])
+      byCat.get(c)!.push(m)
+    }
+    const sortJa = (a: Material, b: Material) =>
+      (a.name_ja || a.name_en).localeCompare(b.name_ja || b.name_en, 'ja')
+    const keys = [...byCat.keys()].sort((a, b) => {
+      const ia = order.indexOf(a), ib = order.indexOf(b)
+      return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib)
+    })
+    return keys.map((c) => ({ category: c, items: byCat.get(c)!.sort(sortJa) }))
+  })())
+  const shownCount = $derived(groups.reduce((n, g) => n + g.items.length, 0))
 
   async function toggleUnlocked(m: Material) {
     m.unlocked = !m.unlocked
@@ -77,14 +93,18 @@
 <div class="controls">
   <input class="search" type="search" placeholder="素材名で検索" bind:value={query} />
   <div class="row2">
-    <select bind:value={statusFilter} aria-label="解放状態で絞り込み">
-      <option value="all">解放：すべて</option>
-      <option value="unlocked">解放済み</option>
-      <option value="locked">未解放</option>
+    <select bind:value={realmFilter} aria-label="世界で絞り込み">
+      <option value="all">世界：すべて</option>
+      {#each realms as r}<option value={r}>{r}</option>{/each}
     </select>
     <select bind:value={catFilter} aria-label="種別で絞り込み">
       <option value="all">種別：すべて</option>
       {#each cats as c}<option value={c}>{c}</option>{/each}
+    </select>
+    <select bind:value={statusFilter} aria-label="解放状態で絞り込み">
+      <option value="all">解放：すべて</option>
+      <option value="unlocked">解放済み</option>
+      <option value="locked">未解放</option>
     </select>
   </div>
 </div>
@@ -92,49 +112,54 @@
 {#if loading}
   <p class="muted">読み込み中…</p>
 {:else}
-  <p class="count muted">{view.length} 種表示</p>
-  <ul class="list">
-    {#each view as m (m.id)}
-      <li class="item" class:done={m.unlocked}>
-        <div class="line">
-          <button class="main" onclick={() => toggleExpand(m.id)}>
-            <span class="mthumb">
-              {#if m.icon_path && !broken.has(m.id)}
-                <img src={asset(m.icon_path)} alt="" loading="lazy" onerror={() => markBroken(m.id)} />
-              {:else}<span class="ph">🧺</span>{/if}
-            </span>
-            <span class="txt">
-              <span class="nm">{m.name_ja || m.name_en}</span>
-              {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
-            </span>
-          </button>
-          {#if m.category}<span class="cat-badge">{m.category}</span>{/if}
-          <button class="own" class:on={m.unlocked} onclick={() => toggleUnlocked(m)} title="解放トグル">
-            {m.unlocked ? '✓' : '—'}
-          </button>
-        </div>
-        {#if expanded.has(m.id)}
-          <div class="detail">
-            <div class="d-row">
-              <span class="lbl">入手方法</span>
-              <span class="obtain">{m.obtain_method || '—'}</span>
+  <p class="count muted">{shownCount} 種表示</p>
+  {#each groups as g (g.category)}
+    <section class="cat">
+      <div class="cat-head"><h2>{g.category}<span class="cnt">{g.items.length}</span></h2></div>
+      <ul class="list">
+        {#each g.items as m (m.id)}
+          <li class="item" class:done={m.unlocked}>
+            <div class="line">
+              <button class="main" onclick={() => toggleExpand(m.id)}>
+                <span class="mthumb">
+                  {#if m.icon_path && !broken.has(m.id)}
+                    <img src={asset(m.icon_path)} alt="" loading="lazy" onerror={() => markBroken(m.id)} />
+                  {:else}<span class="ph">🧺</span>{/if}
+                </span>
+                <span class="txt">
+                  <span class="nm">{m.name_ja || m.name_en}</span>
+                  {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
+                </span>
+              </button>
+              {#if m.realms?.length}<span class="realm-badge">{m.realms.join('・')}</span>{/if}
+              <button class="own" class:on={m.unlocked} onclick={() => toggleUnlocked(m)} title="解放トグル">
+                {m.unlocked ? '✓' : '—'}
+              </button>
             </div>
-            <div class="d-row">
-              <span class="lbl">使うレシピ</span>
-              {#if m.used_in_recipes.length}
-                <button class="recipes-btn" onclick={() => navigate('recipes', { ing: m.name_en })}>
-                  {m.used_in_recipes.length}件を見る
-                </button>
-              {:else}
-                <span class="obtain">なし</span>
-              {/if}
-            </div>
-          </div>
-        {/if}
-      </li>
-    {/each}
-  </ul>
-  {#if view.length === 0}<p class="muted">該当なし。</p>{/if}
+            {#if expanded.has(m.id)}
+              <div class="detail">
+                <div class="d-row">
+                  <span class="lbl">入手方法</span>
+                  <span class="obtain">{m.obtain_method || '—'}</span>
+                </div>
+                <div class="d-row">
+                  <span class="lbl">使うレシピ</span>
+                  {#if m.used_in_recipes.length}
+                    <button class="recipes-btn" onclick={() => navigate('recipes', { ing: m.name_en })}>
+                      {m.used_in_recipes.length}件を見る
+                    </button>
+                  {:else}
+                    <span class="obtain">なし</span>
+                  {/if}
+                </div>
+              </div>
+            {/if}
+          </li>
+        {/each}
+      </ul>
+    </section>
+  {/each}
+  {#if shownCount === 0}<p class="muted">該当なし。</p>{/if}
 {/if}
 
 <style>
@@ -145,6 +170,10 @@
   .row2 { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
   .row2 select { font-family: var(--font-body); padding: 8px 10px; border: 1px solid var(--c-line); border-radius: var(--radius-sm); background: var(--c-surface); color: var(--c-ink); }
   .count { font-size: 13px; margin: 0 0 8px; }
+
+  .cat { margin: 0 0 18px; }
+  .cat-head h2 { font-size: 16px; font-family: var(--font-display); display: flex; align-items: baseline; gap: 8px; margin: 0 0 4px; padding: 6px 2px 4px; border-bottom: 2px solid var(--c-accent-soft); }
+  .cat-head .cnt { font-size: 12px; font-weight: 400; color: var(--c-ink-soft); font-variant-numeric: tabular-nums; }
 
   .list { list-style: none; padding: 0; margin: 0; }
   .item { border-bottom: 1px solid var(--c-line); }
@@ -157,12 +186,12 @@
   .txt { display: flex; flex-direction: column; min-width: 0; }
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
   .en { font-size: 11px; color: var(--c-ink-soft); }
-  .cat-badge {
+  .realm-badge {
     flex: none;
     font-size: 11px;
     font-weight: 600;
-    color: var(--c-accent-ink);
-    background: var(--c-accent-soft);
+    color: var(--c-ink-soft);
+    background: var(--c-surface-2);
     padding: 2px 8px;
     border-radius: 999px;
     white-space: nowrap;

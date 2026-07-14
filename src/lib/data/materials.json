@@ -4,6 +4,9 @@
     "name_ja": "ニシン",
     "name_en": "Herring",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜ダズル・ビーチ・信頼の谷（白い波紋/青い泡）",
     "icon_path": "images/ingredients/mat_herring.png",
     "used_in_recipes": [
@@ -19,6 +22,9 @@
     "name_ja": "レモン",
     "name_en": "Lemon",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜勇気の森・信頼の谷（木から）",
     "icon_path": "images/ingredients/mat_lemon.png",
     "used_in_recipes": [
@@ -54,6 +60,9 @@
     "name_ja": "玉ねぎ",
     "name_en": "Onion",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（勇気の森）｜成長 約75分",
     "icon_path": "images/ingredients/mat_onion.png",
     "used_in_recipes": [
@@ -95,6 +104,9 @@
     "name_ja": "ニンニク",
     "name_en": "Garlic",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜勇気の森",
     "icon_path": "images/ingredients/mat_garlic.png",
     "used_in_recipes": [
@@ -135,6 +147,7 @@
     "name_ja": "スパイス&ハーブ類",
     "name_en": "Spices & Herbs",
     "category": "スパイス・ハーブ",
+    "realms": [],
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "icon_path": "",
     "used_in_recipes": [
@@ -183,6 +196,9 @@
     "name_ja": "ピーマン",
     "name_en": "Bell Pepper",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（勇気の森）｜成長 約15分",
     "icon_path": "images/ingredients/mat_bell_pepper.png",
     "used_in_recipes": [
@@ -199,6 +215,9 @@
     "name_ja": "卵",
     "name_en": "Egg",
     "category": "卵・ナッツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "シェ・レミーで購入",
     "icon_path": "images/ingredients/mat_egg.png",
     "used_in_recipes": [
@@ -256,6 +275,9 @@
     "name_ja": "チーズ",
     "name_en": "Cheese",
     "category": "乳製品",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "シェ・レミーで購入",
     "icon_path": "images/ingredients/mat_cheese.png",
     "used_in_recipes": [
@@ -306,6 +328,9 @@
     "name_ja": "小麦",
     "name_en": "Wheat",
     "category": "穀物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（のどかな草原）｜成長 約1分",
     "icon_path": "images/ingredients/mat_wheat.png",
     "used_in_recipes": [
@@ -417,6 +442,9 @@
     "name_ja": "牛乳",
     "name_en": "Milk",
     "category": "乳製品",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "シェ・レミーで購入",
     "icon_path": "images/ingredients/mat_milk.png",
     "used_in_recipes": [
@@ -455,6 +483,9 @@
     "name_ja": "唐辛子",
     "name_en": "Chili Pepper",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（陽だまりの高原）｜成長 約45分",
     "icon_path": "images/ingredients/mat_chili_pepper.png",
     "used_in_recipes": [
@@ -479,6 +510,9 @@
     "name_ja": "キクのお茶の葉",
     "name_en": "Chrysanthemum Tea Leaves",
     "category": "茶葉",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "ムーランのお茶屋台で入手",
     "icon_path": "images/ingredients/mat_chrysanthemum_tea_leaves.png",
     "used_in_recipes": [
@@ -492,6 +526,9 @@
     "name_ja": "ブルーベリー",
     "name_en": "Blueberry",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜勇気の森・きらめきの浜辺（茂みから）",
     "icon_path": "images/ingredients/mat_blueberry.png",
     "used_in_recipes": [
@@ -507,6 +544,9 @@
     "name_ja": "コーヒー豆",
     "name_en": "Coffee Bean",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜信頼の谷（茂みから）",
     "icon_path": "images/ingredients/mat_coffee_bean.png",
     "used_in_recipes": [
@@ -522,6 +562,9 @@
     "name_ja": "じゃがいも",
     "name_en": "Potato",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（忘れられた地）｜成長 約35分",
     "icon_path": "images/ingredients/mat_potato.png",
     "used_in_recipes": [
@@ -554,6 +597,7 @@
     "name_ja": "野菜類",
     "name_en": "Vegetable",
     "category": "農作物",
+    "realms": [],
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "icon_path": "",
     "used_in_recipes": [
@@ -616,6 +660,9 @@
     "name_ja": "ドリームライトの実",
     "name_en": "Dreamlight Fruit",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜陽だまりの高原・信頼の谷・凍てつく高地・忘れられた地（木から）",
     "icon_path": "images/ingredients/mat_dreamlight_fruit.png",
     "used_in_recipes": [
@@ -631,6 +678,9 @@
     "name_ja": "スラッシュ",
     "name_en": "Slush Ice",
     "category": "その他",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "シェ・レミーで購入（謎の味クエスト後）",
     "icon_path": "images/ingredients/mat_slush_ice.png",
     "used_in_recipes": [
@@ -650,6 +700,9 @@
     "name_ja": "サトウキビ",
     "name_en": "Sugarcane",
     "category": "甘味料",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "グーフィーの店で購入（ダズル・ビーチ）／栽培",
     "icon_path": "images/ingredients/mat_sugarcane.png",
     "used_in_recipes": [
@@ -675,6 +728,9 @@
     "name_ja": "ナス",
     "name_en": "Eggplant",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（凍てつく高地）｜成長 約180分",
     "icon_path": "images/ingredients/mat_eggplant.png",
     "used_in_recipes": [
@@ -689,6 +745,9 @@
     "name_ja": "菜の花",
     "name_en": "Canola",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（勇気の森）｜成長 約35分",
     "icon_path": "images/ingredients/mat_canola.png",
     "used_in_recipes": [
@@ -715,6 +774,9 @@
     "name_ja": "トマト",
     "name_en": "Tomato",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（きらめきの浜辺）｜成長 約25分",
     "icon_path": "images/ingredients/mat_tomato.png",
     "used_in_recipes": [
@@ -760,6 +822,9 @@
     "name_ja": "キュウリ",
     "name_en": "Cucumber",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（凍てつく高地）｜成長 約75分",
     "icon_path": "images/ingredients/mat_cucumber.png",
     "used_in_recipes": [
@@ -780,6 +845,9 @@
     "name_ja": "レタス",
     "name_en": "Lettuce",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（のどかな草原）｜成長 約3分",
     "icon_path": "images/ingredients/mat_lettuce.png",
     "used_in_recipes": [
@@ -802,6 +870,9 @@
     "name_ja": "ジャスミン茶の葉",
     "name_en": "Jasmine Tea Leaves",
     "category": "茶葉",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "ムーランのお茶屋台で入手",
     "icon_path": "images/ingredients/mat_jasmine_tea_leaves.png",
     "used_in_recipes": [
@@ -815,6 +886,7 @@
     "name_ja": "魚介（種類指定なし）",
     "name_en": "Seafood",
     "category": "魚介",
+    "realms": [],
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "icon_path": "",
     "used_in_recipes": [
@@ -838,6 +910,9 @@
     "name_ja": "カカオ豆",
     "name_en": "Cocoa Bean",
     "category": "甘味料",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜信頼の谷・陽だまりの高原（カカオの木）",
     "icon_path": "images/ingredients/mat_cocoa_bean.png",
     "used_in_recipes": [
@@ -853,6 +928,9 @@
     "name_ja": "オクラ",
     "name_en": "Okra",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（信頼の谷）｜成長 約120分",
     "icon_path": "images/ingredients/mat_okra.png",
     "used_in_recipes": [
@@ -867,6 +945,9 @@
     "name_ja": "ウーロン茶の葉",
     "name_en": "Oolong Tea Leaves",
     "category": "茶葉",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "ムーランのお茶屋台で入手",
     "icon_path": "images/ingredients/mat_oolong_tea_leaves.png",
     "used_in_recipes": [
@@ -880,6 +961,9 @@
     "name_ja": "ラズベリー",
     "name_en": "Raspberry",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜広場・のどかな草原（茂みから）",
     "icon_path": "images/ingredients/mat_raspberry.png",
     "used_in_recipes": [
@@ -894,6 +978,9 @@
     "name_ja": "カキ",
     "name_en": "Oyster",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
     "icon_path": "images/ingredients/mat_oyster.png",
     "used_in_recipes": [
@@ -908,6 +995,9 @@
     "name_ja": "ミント",
     "name_en": "Mint",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜凍てつく高地",
     "icon_path": "images/ingredients/mat_mint.png",
     "used_in_recipes": [
@@ -925,6 +1015,9 @@
     "name_ja": "ネギ",
     "name_en": "Leek",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（忘れられた地）｜成長 約120分",
     "icon_path": "images/ingredients/mat_leek.png",
     "used_in_recipes": [
@@ -939,6 +1032,9 @@
     "name_ja": "カボチャ",
     "name_en": "Pumpkin",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（忘れられた地）｜成長 約240分",
     "icon_path": "images/ingredients/mat_pumpkin.png",
     "used_in_recipes": [
@@ -954,6 +1050,9 @@
     "name_ja": "ショウガ",
     "name_en": "Ginger",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜忘れられた地",
     "icon_path": "images/ingredients/mat_ginger.png",
     "used_in_recipes": [
@@ -974,6 +1073,9 @@
     "name_ja": "アスパラガス",
     "name_en": "Asparagus",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（凍てつく高地）｜成長 約135分",
     "icon_path": "images/ingredients/mat_asparagus.png",
     "used_in_recipes": [
@@ -988,6 +1090,9 @@
     "name_ja": "キノコ",
     "name_en": "Mushroom",
     "category": "キノコ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜勇気の森・信頼の谷（地面）",
     "icon_path": "images/ingredients/mat_mushroom.png",
     "used_in_recipes": [
@@ -1007,6 +1112,9 @@
     "name_ja": "バター",
     "name_en": "Butter",
     "category": "乳製品",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "シェ・レミーで購入",
     "icon_path": "images/ingredients/mat_butter.png",
     "used_in_recipes": [
@@ -1045,6 +1153,9 @@
     "name_ja": "米",
     "name_en": "Rice",
     "category": "穀物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（信頼の谷）｜成長 約50分",
     "icon_path": "images/ingredients/mat_rice.png",
     "used_in_recipes": [
@@ -1080,6 +1191,9 @@
     "name_ja": "大豆",
     "name_en": "Soya",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（陽だまりの高原）｜成長 約90分",
     "icon_path": "images/ingredients/mat_soya.png",
     "used_in_recipes": [
@@ -1103,6 +1217,9 @@
     "name_ja": "海藻",
     "name_en": "Seaweed",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜全エリアの水面（波紋なし）",
     "icon_path": "images/ingredients/mat_seaweed.png",
     "used_in_recipes": [
@@ -1125,6 +1242,9 @@
     "name_ja": "トウモロコシ",
     "name_en": "Corn",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（きらめきの浜辺）｜成長 約12分",
     "icon_path": "images/ingredients/mat_corn.png",
     "used_in_recipes": [
@@ -1149,6 +1269,9 @@
     "name_ja": "サクランボ",
     "name_en": "Cherry",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜凍てつく高地・陽だまりの高原（木から）",
     "icon_path": "images/ingredients/mat_cherry.png",
     "used_in_recipes": [
@@ -1163,6 +1286,7 @@
     "name_ja": "魚類",
     "name_en": "Fish",
     "category": "魚",
+    "realms": [],
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "icon_path": "",
     "used_in_recipes": [
@@ -1194,6 +1318,9 @@
     "name_ja": "ズッキーニ",
     "name_en": "Zucchini",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（陽だまりの高原）｜成長 約40分",
     "icon_path": "images/ingredients/mat_zucchini.png",
     "used_in_recipes": [
@@ -1210,6 +1337,9 @@
     "name_ja": "リンゴ",
     "name_en": "Apple",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜広場・忘れられた地（木から）",
     "icon_path": "images/ingredients/mat_apple.png",
     "used_in_recipes": [
@@ -1224,6 +1354,9 @@
     "name_ja": "サーモン",
     "name_en": "Salmon",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜凍てつく高地・陽だまりの高原（白い波紋）",
     "icon_path": "images/ingredients/mat_salmon.png",
     "used_in_recipes": [
@@ -1240,6 +1373,9 @@
     "name_ja": "コイ",
     "name_en": "Carp",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜勇気の森・陽だまりの高原（青い泡）",
     "icon_path": "images/ingredients/mat_carp.png",
     "used_in_recipes": [
@@ -1254,6 +1390,9 @@
     "name_ja": "バジル",
     "name_en": "Basil",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜のどかな草原",
     "icon_path": "images/ingredients/mat_basil.png",
     "used_in_recipes": [
@@ -1272,6 +1411,9 @@
     "name_ja": "エビ",
     "name_en": "Shrimp",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜ダズル・ビーチ（青い泡）",
     "icon_path": "images/ingredients/mat_shrimp.png",
     "used_in_recipes": [
@@ -1288,6 +1430,9 @@
     "name_ja": "タラ",
     "name_en": "Cod",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜ダズル・ビーチ・信頼の谷・忘れられた地（白い波紋）",
     "icon_path": "images/ingredients/mat_cod.png",
     "used_in_recipes": [
@@ -1303,6 +1448,9 @@
     "name_ja": "ホタテ",
     "name_en": "Scallop",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
     "icon_path": "images/ingredients/mat_scallop.png",
     "used_in_recipes": [
@@ -1316,6 +1464,9 @@
     "name_ja": "フグ",
     "name_en": "Fugu",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜ダズル・ビーチ（海・金の泡・雷雨時のみ）",
     "icon_path": "images/ingredients/mat_fugu.png",
     "used_in_recipes": [
@@ -1330,6 +1481,9 @@
     "name_ja": "アチコチの魚",
     "name_en": "Here and There Fish",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜全エリア（朝・夜のみ／波紋なし）",
     "icon_path": "images/ingredients/mat_here_and_there_fish.png",
     "used_in_recipes": [
@@ -1344,6 +1498,9 @@
     "name_ja": "オレガノ",
     "name_en": "Oregano",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜広場",
     "icon_path": "images/ingredients/mat_oregano.png",
     "used_in_recipes": [
@@ -1362,6 +1519,9 @@
     "name_ja": "ほうれん草",
     "name_en": "Spinach",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（信頼の谷）｜成長 約60分",
     "icon_path": "images/ingredients/mat_spinach.png",
     "used_in_recipes": [
@@ -1376,6 +1536,9 @@
     "name_ja": "ミズウオ",
     "name_en": "Lancetfish",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜忘れられた地（青い泡）",
     "icon_path": "images/ingredients/mat_lancetfish.png",
     "used_in_recipes": [
@@ -1389,6 +1552,9 @@
     "name_ja": "メカジキ",
     "name_en": "Swordfish",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜ダズル・ビーチ（海・金の泡）",
     "icon_path": "images/ingredients/mat_swordfish.png",
     "used_in_recipes": [
@@ -1402,6 +1568,9 @@
     "name_ja": "ロブスター",
     "name_en": "Lobster",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜信頼の谷（金の泡）",
     "icon_path": "images/ingredients/mat_lobster.png",
     "used_in_recipes": [
@@ -1415,6 +1584,9 @@
     "name_ja": "マグロ",
     "name_en": "Tuna",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜信頼の谷・忘れられた地（白い波紋）",
     "icon_path": "images/ingredients/mat_tuna.png",
     "used_in_recipes": [
@@ -1432,6 +1604,9 @@
     "name_ja": "アンコウ",
     "name_en": "Anglerfish",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜忘れられた地（金の泡）",
     "icon_path": "images/ingredients/mat_anglerfish.png",
     "used_in_recipes": [
@@ -1446,6 +1621,9 @@
     "name_ja": "バス",
     "name_en": "Bass",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜のどかな草原・勇気の森・陽だまりの高原・凍てつく高地（波紋なし/白い波紋）",
     "icon_path": "images/ingredients/mat_bass.png",
     "used_in_recipes": [
@@ -1459,6 +1637,9 @@
     "name_ja": "ティラピア",
     "name_en": "Tilapia",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜陽だまりの高原・凍てつく高地（青い泡）",
     "icon_path": "images/ingredients/mat_tilapia.png",
     "used_in_recipes": [
@@ -1472,6 +1653,9 @@
     "name_ja": "ピーナッツ",
     "name_en": "Peanut",
     "category": "卵・ナッツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "シェ・レミーで購入（レミーのレシピ本クエスト後）",
     "icon_path": "images/ingredients/mat_peanut.png",
     "used_in_recipes": [
@@ -1486,6 +1670,9 @@
     "name_ja": "シロチョウザメ",
     "name_en": "White Sturgeon",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜凍てつく高地（金の泡）",
     "icon_path": "images/ingredients/mat_white_sturgeon.png",
     "used_in_recipes": [
@@ -1499,6 +1686,9 @@
     "name_ja": "レインボートラウト",
     "name_en": "Rainbow Trout",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜のどかな草原・勇気の森（白い波紋/青い泡）",
     "icon_path": "images/ingredients/mat_rainbow_trout.png",
     "used_in_recipes": [
@@ -1514,6 +1704,9 @@
     "name_ja": "パーチ",
     "name_en": "Perch",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜勇気の森・陽だまりの高原（白い波紋）",
     "icon_path": "images/ingredients/mat_perch.png",
     "used_in_recipes": [
@@ -1527,6 +1720,9 @@
     "name_ja": "シタビラメ",
     "name_en": "Sole",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜忘れられた地（青い泡）",
     "icon_path": "images/ingredients/mat_sole.png",
     "used_in_recipes": [
@@ -1540,6 +1736,9 @@
     "name_ja": "ブリーム",
     "name_en": "Bream",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜のどかな草原（青い泡）",
     "icon_path": "images/ingredients/mat_bream.png",
     "used_in_recipes": [
@@ -1553,6 +1752,9 @@
     "name_ja": "サバ",
     "name_en": "Kingfish",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜ダズル・ビーチ（海・青い泡・夜18〜翌5時のみ）",
     "icon_path": "images/ingredients/mat_kingfish.png",
     "used_in_recipes": [
@@ -1566,6 +1768,7 @@
     "name_ja": "糖類",
     "name_en": "Sweets",
     "category": "甘味料",
+    "realms": [],
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "icon_path": "",
     "used_in_recipes": [
@@ -1589,6 +1792,9 @@
     "name_ja": "ニンジン",
     "name_en": "Carrot",
     "category": "農作物",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（のどかな草原）｜成長 約15分",
     "icon_path": "images/ingredients/mat_carrot.png",
     "used_in_recipes": [
@@ -1605,6 +1811,9 @@
     "name_ja": "ウォールアイ",
     "name_en": "Walleye",
     "category": "魚",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜陽だまりの高原（金の泡）",
     "icon_path": "images/ingredients/mat_walleye.png",
     "used_in_recipes": [
@@ -1618,6 +1827,9 @@
     "name_ja": "リュウゼツラン",
     "name_en": "Agave",
     "category": "甘味料",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜エターニティ島（煌めく砂丘）",
     "icon_path": "images/ingredients/mat_agave.png",
     "used_in_recipes": [
@@ -1641,6 +1853,9 @@
     "name_ja": "豚肉",
     "name_en": "Pork",
     "category": "肉",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "ガストンの店で購入（エターニティ島）",
     "icon_path": "images/ingredients/mat_pork.png",
     "used_in_recipes": [
@@ -1663,6 +1878,9 @@
     "name_ja": "輝く青いヒトデ",
     "name_en": "Brilliant Blue Starfish",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜煌めく砂丘・オアシス（オレンジ/金の泡）",
     "icon_path": "images/ingredients/mat_brilliant_blue_starfish.png",
     "used_in_recipes": [
@@ -1677,6 +1895,9 @@
     "name_ja": "かわいいピンクのヒトデ",
     "name_en": "Pretty Pink Starfish",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜煌めく砂丘・オアシス（オレンジ/金の泡）",
     "icon_path": "images/ingredients/mat_pretty_pink_starfish.png",
     "used_in_recipes": [
@@ -1690,6 +1911,9 @@
     "name_ja": "パプリカ",
     "name_en": "Paprika",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜エターニティ島・煌めく砂丘（地面）※栽培不可・Bell Pepperとは別素材",
     "icon_path": "images/ingredients/mat_paprika.png",
     "used_in_recipes": [
@@ -1707,6 +1931,9 @@
     "name_ja": "アサリ",
     "name_en": "Clam",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
     "icon_path": "images/ingredients/mat_clam.png",
     "used_in_recipes": [
@@ -1720,6 +1947,9 @@
     "name_ja": "キャベツ",
     "name_en": "Cabbage",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約60分",
     "icon_path": "images/ingredients/mat_cabbage.png",
     "used_in_recipes": [
@@ -1735,6 +1965,9 @@
     "name_ja": "タマネギ",
     "name_en": "Sea Snail",
     "category": "魚介",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・青い泡）",
     "icon_path": "images/ingredients/mat_sea_snail.png",
     "used_in_recipes": [
@@ -1751,6 +1984,9 @@
     "name_ja": "カニ",
     "name_en": "Crab",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜凍てつく高地（青い泡）",
     "icon_path": "images/ingredients/mat_crab.png",
     "used_in_recipes": [
@@ -1765,6 +2001,7 @@
     "name_ja": "肉類",
     "name_en": "Protein",
     "category": "肉",
+    "realms": [],
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "icon_path": "",
     "used_in_recipes": [
@@ -1782,6 +2019,9 @@
     "name_ja": "豆",
     "name_en": "Beans",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約60分",
     "icon_path": "images/ingredients/mat_beans.png",
     "used_in_recipes": [
@@ -1801,6 +2041,9 @@
     "name_ja": "クミン",
     "name_en": "Cumin",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜エターニティ島（古の上陸地）",
     "icon_path": "images/ingredients/mat_cumin.png",
     "used_in_recipes": [
@@ -1822,6 +2065,9 @@
     "name_ja": "ロボット魚",
     "name_en": "Robot Fish",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・オレンジの泡）",
     "icon_path": "images/ingredients/mat_robot_fish.png",
     "used_in_recipes": [
@@ -1836,6 +2082,9 @@
     "name_ja": "アーモンド",
     "name_en": "Almonds",
     "category": "卵・ナッツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜エターニティ島（ワイルドタングル）",
     "icon_path": "images/ingredients/mat_almonds.png",
     "used_in_recipes": [
@@ -1858,6 +2107,9 @@
     "name_ja": "マジェスティ―",
     "name_en": "Majestea",
     "category": "茶葉",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜エターニティ島・古の上陸地（展望台/遺跡）の地面",
     "icon_path": "images/ingredients/mat_majestea.png",
     "used_in_recipes": [
@@ -1873,6 +2125,9 @@
     "name_ja": "サンドワーム",
     "name_en": "Sand Worm",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・オレンジ/金の泡）",
     "icon_path": "images/ingredients/mat_sand_worm.png",
     "used_in_recipes": [
@@ -1888,6 +2143,9 @@
     "name_ja": "メロン",
     "name_en": "Melon",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（煌めく砂丘）｜成長 約30分",
     "icon_path": "images/ingredients/mat_melon.png",
     "used_in_recipes": [
@@ -1902,6 +2160,9 @@
     "name_ja": "シャッド",
     "name_en": "Shad",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・白い波紋/青い泡）",
     "icon_path": "images/ingredients/mat_shad.png",
     "used_in_recipes": [
@@ -1915,6 +2176,9 @@
     "name_ja": "サソリ",
     "name_en": "Scorpion",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・青/オレンジの泡）",
     "icon_path": "images/ingredients/mat_scorpion.png",
     "used_in_recipes": [
@@ -1929,6 +2193,9 @@
     "name_ja": "タコ",
     "name_en": "Octopus",
     "category": "魚介",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜古き者の入り江（波止場・展望の地・海・白い波紋）",
     "icon_path": "images/ingredients/mat_octopus.png",
     "used_in_recipes": [
@@ -1942,6 +2209,9 @@
     "name_ja": "サボテンの実",
     "name_en": "Cactoberries",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜煌めく砂丘（サボテン）",
     "icon_path": "images/ingredients/mat_cactoberries.png",
     "used_in_recipes": [
@@ -1956,6 +2226,9 @@
     "name_ja": "鶏肉",
     "name_en": "Poultry",
     "category": "肉",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "ガストンの店で購入（エターニティ島）",
     "icon_path": "images/ingredients/mat_poultry.png",
     "used_in_recipes": [
@@ -1982,6 +2255,9 @@
     "name_ja": "セロリ",
     "name_en": "Celery",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・古代の入植地）｜成長 約10分",
     "icon_path": "images/ingredients/mat_celery.png",
     "used_in_recipes": [
@@ -1997,6 +2273,10 @@
     "name_ja": "シナモン",
     "name_en": "Cinnamon",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "永遠の島",
+      "物語の谷"
+    ],
     "obtain_method": "採取｜エターニティ島（ワイルドタングル）・物語の谷",
     "icon_path": "images/ingredients/mat_cinnamon.png",
     "used_in_recipes": [
@@ -2018,6 +2298,9 @@
     "name_ja": "プリズマエビ",
     "name_en": "Prisma Shrimp",
     "category": "魚介",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜闇の林（川・オレンジの泡）",
     "icon_path": "images/ingredients/mat_prisma_shrimp.png",
     "used_in_recipes": [
@@ -2032,6 +2315,9 @@
     "name_ja": "スケルトンフィッシュ",
     "name_en": "Skeleton Fish",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・白い波紋/青い泡）",
     "icon_path": "images/ingredients/mat_skeleton_fish.png",
     "used_in_recipes": [
@@ -2045,6 +2331,9 @@
     "name_ja": "ブドウ",
     "name_en": "Grapes",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（古代文明の地）｜成長 約20分",
     "icon_path": "images/ingredients/mat_grapes.png",
     "used_in_recipes": [
@@ -2059,6 +2348,9 @@
     "name_ja": "タケノコ",
     "name_en": "Bamboo",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜エターニティ島の地面から採取（種の販売なし）",
     "icon_path": "images/ingredients/mat_bamboo.png",
     "used_in_recipes": [
@@ -2073,6 +2365,9 @@
     "name_ja": "鹿肉",
     "name_en": "Venison",
     "category": "肉",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "ガストンの店で購入（エターニティ島）",
     "icon_path": "images/ingredients/mat_venison.png",
     "used_in_recipes": [
@@ -2092,6 +2387,9 @@
     "name_ja": "ルビー豆",
     "name_en": "Ruby Lentils",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約120分",
     "icon_path": "images/ingredients/mat_ruby_lentils.png",
     "used_in_recipes": [
@@ -2106,6 +2404,9 @@
     "name_ja": "電気ウナギ",
     "name_en": "Electric Eel",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜草原・プロムナード（川・オレンジの泡）",
     "icon_path": "images/ingredients/mat_electric_eel.png",
     "used_in_recipes": [
@@ -2119,6 +2420,9 @@
     "name_ja": "パイナップル",
     "name_en": "Pineapple",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（密林）｜成長 約180分",
     "icon_path": "images/ingredients/mat_pineapple.png",
     "used_in_recipes": [
@@ -2134,6 +2438,9 @@
     "name_ja": "フルートルート",
     "name_en": "Flute Root",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約75分",
     "icon_path": "images/ingredients/mat_flute_root.png",
     "used_in_recipes": [
@@ -2148,6 +2455,9 @@
     "name_ja": "ヤムイモ",
     "name_en": "Yam",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・古代の入植地）｜成長 約15分",
     "icon_path": "images/ingredients/mat_yam.png",
     "used_in_recipes": [
@@ -2161,6 +2471,9 @@
     "name_ja": "カブ",
     "name_en": "Turnip",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・ワイルドタングル）｜成長 約240分",
     "icon_path": "images/ingredients/mat_turnip.png",
     "used_in_recipes": [
@@ -2176,6 +2489,9 @@
     "name_ja": "宇宙イチジク",
     "name_en": "Cosmic Figs",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（古代文明の地）｜成長 約25分",
     "icon_path": "images/ingredients/mat_cosmic_figs.png",
     "used_in_recipes": [
@@ -2190,6 +2506,9 @@
     "name_ja": "ピラルク",
     "name_en": "Pirarucu",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜草原・プロムナード・闇の林・ラグーン（川・青い泡）",
     "icon_path": "images/ingredients/mat_pirarucu.png",
     "used_in_recipes": [
@@ -2203,6 +2522,9 @@
     "name_ja": "ココナッツ",
     "name_en": "Coconut",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜きらめきの浜辺（木から／モアナのクエスト後）",
     "icon_path": "images/ingredients/mat_coconut.png",
     "used_in_recipes": [
@@ -2216,6 +2538,9 @@
     "name_ja": "ピラニア",
     "name_en": "Piranha",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜ラグーン（川・オレンジの泡）",
     "icon_path": "images/ingredients/mat_piranha.png",
     "used_in_recipes": [
@@ -2229,6 +2554,9 @@
     "name_ja": "デューンボッパー",
     "name_en": "Dunebopper",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜煌めく砂丘・オアシス（青い泡）",
     "icon_path": "images/ingredients/mat_dunebopper.png",
     "used_in_recipes": [
@@ -2242,6 +2570,9 @@
     "name_ja": "サンドフィッシュ",
     "name_en": "Sand Fish",
     "category": "魚",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "釣り｜煌めく砂丘（平原・荒廃の地・辺境の地・白い波紋）",
     "icon_path": "images/ingredients/mat_sand_fish.png",
     "used_in_recipes": [
@@ -2256,6 +2587,9 @@
     "name_ja": "ブロッコリー",
     "name_en": "Broccoli",
     "category": "農作物",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（エターニティ島・煌めく砂丘）｜成長 約40分",
     "icon_path": "images/ingredients/mat_broccoli.png",
     "used_in_recipes": [
@@ -2269,6 +2603,9 @@
     "name_ja": "ドリーマンゴー",
     "name_en": "Dreamango",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜古代文明の地（木から）",
     "icon_path": "images/ingredients/mat_dreamango.png",
     "used_in_recipes": [
@@ -2283,6 +2620,9 @@
     "name_ja": "イチゴ",
     "name_en": "Strawberry",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜エターニティ島（地面）",
     "icon_path": "images/ingredients/mat_strawberry.png",
     "used_in_recipes": [
@@ -2300,6 +2640,9 @@
     "name_ja": "バニラ",
     "name_en": "Vanilla",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜陽だまりの高原",
     "icon_path": "images/ingredients/mat_vanilla.png",
     "used_in_recipes": [
@@ -2318,6 +2661,7 @@
     "name_ja": "果物類",
     "name_en": "Fruit",
     "category": "フルーツ",
+    "realms": [],
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "icon_path": "",
     "used_in_recipes": [
@@ -2340,6 +2684,9 @@
     "name_ja": "デーツ",
     "name_en": "Dates",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（煌めく砂丘）",
     "icon_path": "images/ingredients/mat_dates.png",
     "used_in_recipes": [
@@ -2355,6 +2702,9 @@
     "name_ja": "巣ごもりナシ",
     "name_en": "Nestling Pear",
     "category": "フルーツ",
+    "realms": [
+      "永遠の島"
+    ],
     "obtain_method": "採取｜煌めく砂丘（木から）",
     "icon_path": "images/ingredients/mat_nestling_pear.png",
     "used_in_recipes": [
@@ -2369,6 +2719,9 @@
     "name_ja": "バナナ",
     "name_en": "Banana",
     "category": "フルーツ",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "採取｜のどかな草原・きらめきの浜辺（木から）",
     "icon_path": "images/ingredients/mat_banana.png",
     "used_in_recipes": [
@@ -2382,6 +2735,9 @@
     "name_ja": "アンブロシア",
     "name_en": "Ambrosia",
     "category": "その他",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "グーフィーの店で購入（物語の谷・ミソピア）",
     "icon_path": "images/ingredients/mat_ambrosia.png",
     "used_in_recipes": [
@@ -2407,6 +2763,9 @@
     "name_ja": "プレーンヨーグルト",
     "name_en": "Plain Yogurt",
     "category": "乳製品",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "購入｜グーフィーの露店（物語の谷・荒れ森/The Wild Woods）｜240コイン",
     "icon_path": "images/ingredients/mat_plain_yogurt.png",
     "used_in_recipes": [
@@ -2439,6 +2798,9 @@
     "name_ja": "見返しページフェタチーズ",
     "name_en": "Flyleaf Feta",
     "category": "乳製品",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里/The Bind）｜150コイン",
     "icon_path": "images/ingredients/mat_flyleaf_feta.png",
     "used_in_recipes": [
@@ -2460,6 +2822,9 @@
     "name_ja": "オリーブ",
     "name_en": "Olives",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷／ミソピア（木から）",
     "icon_path": "images/ingredients/mat_olives.png",
     "used_in_recipes": [
@@ -2481,6 +2846,9 @@
     "name_ja": "食用ホオズキ",
     "name_en": "Cape Gooseberry",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷・書物の里（The Bind）の地面",
     "icon_path": "images/ingredients/mat_cape_gooseberry.png",
     "used_in_recipes": [
@@ -2496,6 +2864,9 @@
     "name_ja": "フェアリーライ麦",
     "name_en": "Faerie Rye",
     "category": "穀物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・エバーアフター）｜成長 約75分",
     "icon_path": "images/ingredients/mat_faerie_rye.png",
     "used_in_recipes": [
@@ -2511,6 +2882,9 @@
     "name_ja": "黄金のリンゴ",
     "name_en": "Golden Apple",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／ミソピア）",
     "icon_path": "images/ingredients/mat_golden_apple.png",
     "used_in_recipes": [
@@ -2527,6 +2901,9 @@
     "name_ja": "塩の結晶",
     "name_en": "Salt Crystal",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜物語の谷（エバーアフターの水たまり）",
     "icon_path": "images/ingredients/mat_salt_crystal.png",
     "used_in_recipes": [
@@ -2554,6 +2931,9 @@
     "name_ja": "ハネジューメロン",
     "name_en": "Honeydew Melon",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／ミソピア）",
     "icon_path": "images/ingredients/mat_honeydew_melon.png",
     "used_in_recipes": [
@@ -2570,6 +2950,9 @@
     "name_ja": "冥界のトビハゼ",
     "name_en": "Stygian Mudskipper",
     "category": "魚",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜ミソピア（至福の野原ほか・金の泡）",
     "icon_path": "images/ingredients/mat_stygian_mudskipper.png",
     "used_in_recipes": [
@@ -2584,6 +2967,9 @@
     "name_ja": "ヤツメウナギ",
     "name_en": "Lamprey",
     "category": "魚",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜エバーアフター（生い茂る森ほか・オレンジ/金の泡）",
     "icon_path": "images/ingredients/mat_lamprey.png",
     "used_in_recipes": [
@@ -2598,6 +2984,9 @@
     "name_ja": "イナズマのスパイス",
     "name_en": "Lightning Spice",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷・神話の楽園（Mythopia）の地面",
     "icon_path": "images/ingredients/mat_lightning_spice.png",
     "used_in_recipes": [
@@ -2615,6 +3004,9 @@
     "name_ja": "至福者の野の穀物",
     "name_en": "Elysian Grain",
     "category": "穀物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "購入｜グーフィーの露店（物語の谷・神話の楽園/Mythopia）※現物購入・栽培不可",
     "icon_path": "images/ingredients/mat_elysian_grain.png",
     "used_in_recipes": [
@@ -2632,6 +3024,9 @@
     "name_ja": "柿",
     "name_en": "Persimmon",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷（木から）",
     "icon_path": "images/ingredients/mat_persimmon.png",
     "used_in_recipes": [
@@ -2650,6 +3045,9 @@
     "name_ja": "ラディッキオ",
     "name_en": "Radicchio",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・ミソピア）｜成長 約60分",
     "icon_path": "images/ingredients/mat_radicchio.png",
     "used_in_recipes": [
@@ -2666,6 +3064,9 @@
     "name_ja": "サヤインゲン",
     "name_en": "Green Beans",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約240分",
     "icon_path": "images/ingredients/mat_green_beans.png",
     "used_in_recipes": [
@@ -2682,6 +3083,9 @@
     "name_ja": "カリフラワー",
     "name_en": "Cauliflower",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約10分",
     "icon_path": "images/ingredients/mat_cauliflower.png",
     "used_in_recipes": [
@@ -2698,6 +3102,9 @@
     "name_ja": "ラディッシュ",
     "name_en": "Radish",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・エバーアフター）｜成長 約105分",
     "icon_path": "images/ingredients/mat_radish.png",
     "used_in_recipes": [
@@ -2715,6 +3122,9 @@
     "name_ja": "ポルチーニ茸",
     "name_en": "Porcini Mushrooms",
     "category": "キノコ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷（エバーアフター）",
     "icon_path": "images/ingredients/mat_porcini_mushrooms.png",
     "used_in_recipes": [
@@ -2733,6 +3143,9 @@
     "name_ja": "チアシード",
     "name_en": "Chia Seeds",
     "category": "穀物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約5分",
     "icon_path": "images/ingredients/mat_chia_seeds.png",
     "used_in_recipes": [
@@ -2752,6 +3165,9 @@
     "name_ja": "うずまきイチゴ",
     "name_en": "Spiral Strawberries",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷／エバーアフター（茂みから）",
     "icon_path": "images/ingredients/mat_spiral_strawberries.png",
     "used_in_recipes": [
@@ -2773,6 +3189,9 @@
     "name_ja": "すっぱベリー",
     "name_en": "Sour Berries",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷・書物の里（The Bind）のサワーベリーの木",
     "icon_path": "images/ingredients/mat_sour_berries.png",
     "used_in_recipes": [
@@ -2793,6 +3212,9 @@
     "name_ja": "トランペットスネイル",
     "name_en": "Trumpet Snail",
     "category": "魚介",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷・書物の里（The Bind）の地面 ※釣りではない",
     "icon_path": "images/ingredients/mat_trumpet_snail.png",
     "used_in_recipes": [
@@ -2807,6 +3229,9 @@
     "name_ja": "魔法使いの帽子ヤドカリ",
     "name_en": "Sorcerer Hat Hermit Crab",
     "category": "魚介",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜ザ・バインド（本の村・金の泡）",
     "icon_path": "images/ingredients/mat_sorcerer_hat_hermit_crab.png",
     "used_in_recipes": [
@@ -2821,6 +3246,9 @@
     "name_ja": "大麦",
     "name_en": "Barley",
     "category": "穀物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約15分",
     "icon_path": "images/ingredients/mat_barley.png",
     "used_in_recipes": [
@@ -2835,6 +3263,9 @@
     "name_ja": "黒コショウ",
     "name_en": "Black Pepper",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷（ミソピア）",
     "icon_path": "images/ingredients/mat_black_pepper.png",
     "used_in_recipes": [
@@ -2853,6 +3284,9 @@
     "name_ja": "スコップ鳥のタマゴ",
     "name_en": "Shovel Bird Eggs",
     "category": "卵・ナッツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里/The Bind）｜160コイン ※穴掘りではない",
     "icon_path": "images/ingredients/mat_shovel_bird_eggs.png",
     "used_in_recipes": [
@@ -2880,6 +3314,9 @@
     "name_ja": "ルバーブ",
     "name_en": "Rhubarb",
     "category": "フルーツ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／エバーアフター）",
     "icon_path": "images/ingredients/mat_rhubarb.png",
     "used_in_recipes": [
@@ -2895,6 +3332,9 @@
     "name_ja": "ヒッポカンポス",
     "name_en": "Hippocampus",
     "category": "魚",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜ミソピア（至福の野原ほか・白い波紋/青い泡）",
     "icon_path": "images/ingredients/mat_hippocampus.png",
     "used_in_recipes": [
@@ -2909,6 +3349,9 @@
     "name_ja": "トビウオ",
     "name_en": "Flying Fish",
     "category": "魚",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜ミソピア（至福の野原ほか・海・波紋なし/白い波紋）",
     "icon_path": "images/ingredients/mat_flying_fish.png",
     "used_in_recipes": [
@@ -2923,6 +3366,9 @@
     "name_ja": "芽キャベツ",
     "name_en": "Brussels Sprout",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約30分",
     "icon_path": "images/ingredients/mat_brussels_sprout.png",
     "used_in_recipes": [
@@ -2939,6 +3385,9 @@
     "name_ja": "ムール貝",
     "name_en": "Mussel",
     "category": "魚介",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜ミソピア（至福の野原ほか・波紋なし）",
     "icon_path": "images/ingredients/mat_mussel.png",
     "used_in_recipes": [
@@ -2954,6 +3403,9 @@
     "name_ja": "錦鯉",
     "name_en": "Koi",
     "category": "魚",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜ザ・バインド（本の村・波紋なし/白い波紋）",
     "icon_path": "images/ingredients/mat_koi.png",
     "used_in_recipes": [
@@ -2968,6 +3420,9 @@
     "name_ja": "オーツ麦",
     "name_en": "Oats",
     "category": "穀物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・エバーアフター）｜成長 約120分",
     "icon_path": "images/ingredients/mat_oats.png",
     "used_in_recipes": [
@@ -2989,6 +3444,9 @@
     "name_ja": "海ぶどう",
     "name_en": "Sea Grapes",
     "category": "魚介",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜物語の谷・書物の里（The Bind）の静水（泡なし）",
     "icon_path": "images/ingredients/mat_sea_grapes.png",
     "used_in_recipes": [
@@ -3005,6 +3463,9 @@
     "name_ja": "オオカミウオ",
     "name_en": "Sea Wolf",
     "category": "魚",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "釣り｜ザ・バインド（本の村・白い波紋/青い泡）",
     "icon_path": "images/ingredients/mat_sea_wolf.png",
     "used_in_recipes": [
@@ -3019,6 +3480,9 @@
     "name_ja": "ワッカカボチャ",
     "name_en": "Ring Squash",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・書物の里/The Bind）｜成長 約30分",
     "icon_path": "images/ingredients/mat_ring_squash.png",
     "used_in_recipes": [
@@ -3033,6 +3497,9 @@
     "name_ja": "イカ",
     "name_en": "Squid",
     "category": "魚介",
+    "realms": [
+      "バレー"
+    ],
     "obtain_method": "釣り｜信頼の谷・忘れられた地（青い泡）",
     "icon_path": "images/ingredients/mat_squid.png",
     "used_in_recipes": [
@@ -3046,6 +3513,9 @@
     "name_ja": "ナツメグ",
     "name_en": "Nutmeg",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "採取｜物語の谷（ミソピア）",
     "icon_path": "images/ingredients/mat_nutmeg.png",
     "used_in_recipes": [
@@ -3062,6 +3532,9 @@
     "name_ja": "アルプススズキ（レッド）",
     "name_en": "Red Alpine Bass",
     "category": "魚",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "釣り｜ウィッシング・アルプス（アルプスの願い・金の泡）",
     "icon_path": "images/ingredients/mat_red_alpine_bass.png",
     "used_in_recipes": [
@@ -3076,6 +3549,9 @@
     "name_ja": "ディル",
     "name_en": "Dill",
     "category": "スパイス・ハーブ",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "採取｜願い咲く牧場・願いのアルプス（Wishing Alps）の地面",
     "icon_path": "images/ingredients/mat_dill.png",
     "used_in_recipes": [
@@ -3091,6 +3567,9 @@
     "name_ja": "ビーツ",
     "name_en": "Beetroot",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約5分",
     "icon_path": "images/ingredients/mat_beetroot.png",
     "used_in_recipes": [
@@ -3109,6 +3588,9 @@
     "name_ja": "ボンサイスターフルーツ",
     "name_en": "Bonsai Star Fruit",
     "category": "フルーツ",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "採取｜願い咲く牧場（木から）",
     "icon_path": "images/ingredients/mat_bonsai_star_fruit.png",
     "used_in_recipes": [
@@ -3123,6 +3605,10 @@
     "name_ja": "サンゴのハチミツ",
     "name_en": "Honey Coral",
     "category": "甘味料",
+    "realms": [
+      "物語の谷",
+      "願い咲く牧場"
+    ],
     "obtain_method": "釣り｜物語の谷（ピクシー・エーカーの白い波紋）",
     "icon_path": "images/ingredients/mat_honey_coral.png",
     "used_in_recipes": [
@@ -3140,6 +3626,9 @@
     "name_ja": "スカーレットケール",
     "name_en": "Scarlet Kale",
     "category": "農作物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約10分",
     "icon_path": "images/ingredients/mat_scarlet_kale.png",
     "used_in_recipes": [
@@ -3157,6 +3646,9 @@
     "name_ja": "マウンテンホワイトフィッシュ",
     "name_en": "Mountain Whitefish",
     "category": "魚",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "釣り｜ウィッシング・アルプス（アルプスの願い・波紋なし/白い波紋）",
     "icon_path": "images/ingredients/mat_mountain_whitefish.png",
     "used_in_recipes": [
@@ -3171,6 +3663,9 @@
     "name_ja": "ダークチョコレートコーヒー豆",
     "name_en": "Dark Chocolate Coffee Beans",
     "category": "甘味料",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜物語の谷（グーフィーの店で種購入）",
     "icon_path": "images/ingredients/mat_dark_chocolate_coffee_beans.png",
     "used_in_recipes": [
@@ -3186,6 +3681,9 @@
     "name_ja": "パーリーバーレイ",
     "name_en": "Pearly Barley",
     "category": "穀物",
+    "realms": [
+      "物語の谷"
+    ],
     "obtain_method": "栽培｜種:グーフィーのキャラバン（物語の谷・ウィッシュブロッサム山）｜成長 約20分",
     "icon_path": "images/ingredients/mat_pearly_barley.png",
     "used_in_recipes": [
@@ -3202,6 +3700,9 @@
     "name_ja": "針山ピーチ",
     "name_en": "Pincushion Peach",
     "category": "フルーツ",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "採取｜願い咲く牧場（木から）",
     "icon_path": "images/ingredients/mat_pincushion_peach.png",
     "used_in_recipes": [
@@ -3218,6 +3719,9 @@
     "name_ja": "ティガーフィッシュ",
     "name_en": "Tigger Fish",
     "category": "魚",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "釣り｜ピクシー・エーカー（妖精の国・金の泡）",
     "icon_path": "images/ingredients/mat_tigger_fish.png",
     "used_in_recipes": [
@@ -3232,6 +3736,10 @@
     "name_ja": "フェアリーカムート",
     "name_en": "Fairy Kamut",
     "category": "穀物",
+    "realms": [
+      "物語の谷",
+      "願い咲く牧場"
+    ],
     "obtain_method": "栽培｜種:グーフィーのキャラバン（物語の谷・ピクシーエーカー）｜成長 約50分",
     "icon_path": "images/ingredients/mat_fairy_kamut.png",
     "used_in_recipes": [
@@ -3249,6 +3757,9 @@
     "name_ja": "ボタンマッシュルーム",
     "name_en": "Button Mushroom",
     "category": "キノコ",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "採取｜願い咲く牧場・グラマーガルチ（Glamour Gulch）の地面 ※通常のキノコとは別",
     "icon_path": "images/ingredients/mat_button_mushroom.png",
     "used_in_recipes": [
@@ -3264,6 +3775,9 @@
     "name_ja": "レッドカラント",
     "name_en": "Red Currants",
     "category": "フルーツ",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "採取｜願い咲く牧場（茂みから）",
     "icon_path": "images/ingredients/mat_red_currants.png",
     "used_in_recipes": [
@@ -3281,6 +3795,9 @@
     "name_ja": "サテンヒレのベタ",
     "name_en": "Satin-Finned Betta",
     "category": "魚",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "釣り｜グラマー・ガルチ（虚栄の谷・青い泡）",
     "icon_path": "images/ingredients/mat_satin_finned_betta.png",
     "used_in_recipes": [
@@ -3295,6 +3812,9 @@
     "name_ja": "ゼリーウツボ",
     "name_en": "Jellied Fish",
     "category": "魚",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "釣り｜グラマー・ガルチ（虚栄の谷・金の泡）",
     "icon_path": "images/ingredients/mat_jellied_fish.png",
     "used_in_recipes": [
@@ -3310,6 +3830,9 @@
     "name_ja": "巻尺カタツムリ",
     "name_en": "Measuring-Tape Snail",
     "category": "魚介",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "釣り｜グラマー・ガルチ（虚栄の谷・白い波紋）",
     "icon_path": "images/ingredients/mat_measuring_tape_snail.png",
     "used_in_recipes": [
@@ -3324,6 +3847,9 @@
     "name_ja": "フェアリースプリンクル",
     "name_en": "Fairy Sprinkles",
     "category": "甘味料",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "採取｜願い咲く牧場・妖精の地（Pixie Acres）の地面",
     "icon_path": "images/ingredients/mat_fairy_sprinkles.png",
     "used_in_recipes": [
@@ -3340,6 +3866,9 @@
     "name_ja": "ロリポップフルーツ",
     "name_en": "Lollipop Fruit",
     "category": "フルーツ",
+    "realms": [
+      "願い咲く牧場"
+    ],
     "obtain_method": "栽培｜種:グーフィーの露店（願い咲く牧場）",
     "icon_path": "images/ingredients/mat_lollipop_fruit.png",
     "used_in_recipes": [
