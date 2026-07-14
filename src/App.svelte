@@ -5,6 +5,7 @@
   import CharactersZukan from './routes/CharactersZukan.svelte'
   import RecipesTable from './routes/RecipesTable.svelte'
   import MaterialsTable from './routes/MaterialsTable.svelte'
+  import CraftingTable from './routes/CraftingTable.svelte'
   import CompanionsZukan from './routes/CompanionsZukan.svelte'
   import DataTable from './routes/DataTable.svelte'
   import LinkList from './routes/LinkList.svelte'
@@ -40,6 +41,8 @@
     <RecipesTable />
   {:else if current === 'materials'}
     <MaterialsTable />
+  {:else if current === 'crafting'}
+    <CraftingTable />
   {:else if current === 'companions'}
     <CompanionsZukan />
   {:else if meta?.display === 'links'}
