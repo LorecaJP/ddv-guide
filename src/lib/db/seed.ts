@@ -3,7 +3,7 @@
    既存レコードがある場合は ✏️（自分専用）フィールドを保持したまま
    🔒（外部データ）フィールドだけ最新化するマージを行う。
    ========================================================================= */
-import { getAll, bulkPut } from './idb'
+import { getAll, bulkPut, del } from './idb'
 
 /* データ（🔒静的JSON）は動的 import で個別チャンクに分割する。
    これにより初期ロードの JS はアプリ本体だけになり（データ計 約0.5MB は別チャンク）、
@@ -65,6 +65,11 @@ async function seedStore(store: string): Promise<void> {
     return out
   })
   await bulkPut(store, merged)
+  // seed から削除された id（旧バージョンの重複行など）は DB からも除去する。
+  // ※ ✏️編集分は id が seed に残っている行だけなので、ここで消えるのは完全な余剰行のみ。
+  const seedIds = new Set(seed.map((row) => row.id))
+  const stale = existing.filter((row) => !seedIds.has(row.id)).map((row) => row.id)
+  for (const id of stale) await del(store, id)
 }
 
 let seeded = false

@@ -1962,7 +1962,7 @@
   },
   {
     "id": "mat_sea_snail",
-    "name_ja": "タマネギ",
+    "name_ja": "海カタツムリ",
     "name_en": "Sea Snail",
     "category": "魚介",
     "realms": [
@@ -2104,7 +2104,7 @@
   },
   {
     "id": "mat_majestea",
-    "name_ja": "マジェスティ―",
+    "name_ja": "マジェスティー",
     "name_en": "Majestea",
     "category": "茶葉",
     "realms": [

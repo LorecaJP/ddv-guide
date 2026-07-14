@@ -537,7 +537,7 @@
   },
   {
     "id": "recipe_peppermint_tea",
-    "name_ja": "ペパーミントティ―",
+    "name_ja": "ペパーミントティー",
     "name_en": "Peppermint Tea",
     "stars": 2,
     "ingredients": [
@@ -697,7 +697,7 @@
   },
   {
     "id": "recipe_pur_e",
-    "name_ja": "ピュレ―",
+    "name_ja": "ピュレー",
     "name_en": "Purée",
     "stars": 1,
     "ingredients": [
@@ -1147,7 +1147,7 @@
   },
   {
     "id": "recipe_fish_creole",
-    "name_ja": "フ ィッシュクレオール",
+    "name_ja": "フィッシュクレオール",
     "name_en": "Fish Creole",
     "stars": 5,
     "ingredients": [
@@ -1221,7 +1221,7 @@
   },
   {
     "id": "recipe_fish_pie",
-    "name_ja": "アップルパイ",
+    "name_ja": "フィッシュパイ",
     "name_en": "Fish Pie",
     "stars": 3,
     "ingredients": [
@@ -1757,7 +1757,7 @@
   },
   {
     "id": "recipe_margherita_pizza",
-    "name_ja": "ベジタリアンピザ",
+    "name_ja": "マルゲリータピザ",
     "name_en": "Margherita Pizza",
     "stars": 4,
     "ingredients": [
@@ -1781,7 +1781,7 @@
   },
   {
     "id": "recipe_marvelous_jam",
-    "name_ja": "マーベラスジャム &nbsp;",
+    "name_ja": "マーベラスジャム",
     "name_en": "Marvelous Jam",
     "stars": 2,
     "ingredients": [
@@ -2441,7 +2441,7 @@
   },
   {
     "id": "recipe_sweet_sour_kingfish_steak",
-    "name_ja": "スイート&amp;サワーサバステーキ",
+    "name_ja": "スイート&サワーサバステーキ",
     "name_en": "Sweet & Sour Kingfish Steak",
     "stars": 3,
     "ingredients": [
@@ -2627,7 +2627,7 @@
   },
   {
     "id": "recipe_vegetarian_pizza",
-    "name_ja": "マルゲリータピザ",
+    "name_ja": "ベジタリアンピザ",
     "name_en": "Vegetarian Pizza",
     "stars": 4,
     "ingredients": [
@@ -2697,9 +2697,9 @@
   },
   {
     "id": "recipe_veggie_casserole",
-    "name_ja": "不思議なパイ",
-    "name_en": "",
-    "stars": 3,
+    "name_ja": "野菜のキャセロール",
+    "name_en": "Veggie Casserole",
+    "stars": 4,
     "ingredients": [
       "Cheese",
       "Vegetable",
@@ -2715,7 +2715,7 @@
       "スパイス&ハーブ類"
     ],
     "realm": "バレー",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__6.png"
   },
   {
     "id": "recipe_veggie_pasta",
@@ -3395,7 +3395,7 @@
   },
   {
     "id": "recipe_blend_of_the_bayou",
-    "name_ja": "バイユ―ブレンド",
+    "name_ja": "バイユーブレンド",
     "name_en": "Blend of the Bayou",
     "stars": 5,
     "ingredients": [
@@ -3519,7 +3519,7 @@
   },
   {
     "id": "recipe_burrito",
-    "name_ja": "ブリト―",
+    "name_ja": "ブリトー",
     "name_en": "Burrito",
     "stars": 4,
     "ingredients": [
@@ -3617,7 +3617,7 @@
   },
   {
     "id": "recipe_classic_mac_cheese",
-    "name_ja": "定番マカロニ&amp;チーズ",
+    "name_ja": "定番マカロニ&チーズ",
     "name_en": "Classic Mac & Cheese",
     "stars": 2,
     "ingredients": [
@@ -4833,9 +4833,9 @@
   },
   {
     "id": "recipe_danish",
-    "name_ja": "フルーツパイ",
-    "name_en": "",
-    "stars": 3,
+    "name_ja": "デニッシュ",
+    "name_en": "Danish",
+    "stars": 4,
     "ingredients": [
       "Wheat",
       "Butter",
@@ -4851,11 +4851,11 @@
       "果物類"
     ],
     "realm": "永遠の島",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__47.png"
   },
   {
     "id": "recipe_dreamango_boba_tea",
-    "name_ja": "タピオカティ―(ドリーマンゴー)",
+    "name_ja": "タピオカティー(ドリーマンゴー)",
     "name_en": "Dreamango Boba Tea",
     "stars": 3,
     "ingredients": [
@@ -5009,9 +5009,9 @@
   },
   {
     "id": "recipe_kouign_amann",
-    "name_ja": "フィッシュパイ",
-    "name_en": "",
-    "stars": 3,
+    "name_ja": "クイニーアマン",
+    "name_en": "Kouign-Amann",
+    "stars": 4,
     "ingredients": [
       "Wheat",
       "Agave",
@@ -5077,7 +5077,7 @@
   },
   {
     "id": "recipe_melon_boba_tea",
-    "name_ja": "タピオカティ―(メロン)",
+    "name_ja": "タピオカティー(メロン)",
     "name_en": "Melon Boba Tea",
     "stars": 3,
     "ingredients": [
@@ -5327,7 +5327,7 @@
   },
   {
     "id": "recipe_stellar_milkshake",
-    "name_ja": "ステラ―ミルクシェイク",
+    "name_ja": "ステラーミルクシェイク",
     "name_en": "Stellar Milkshake",
     "stars": 3,
     "ingredients": [
@@ -5453,9 +5453,9 @@
   },
   {
     "id": "recipe_sugar_free_fruit_explosion_muffin",
-    "name_ja": "フルーツポリッジ",
-    "name_en": "",
-    "stars": 3,
+    "name_ja": "砂糖不使用フルーツエクスプローションマフィン",
+    "name_en": "Sugar-Free Fruit Explosion Muffin",
+    "stars": 4,
     "ingredients": [
       "Wheat",
       "Agave",
@@ -6477,7 +6477,7 @@
     "id": "recipe_loaded_golden_apple_porridge",
     "name_ja": "豪華な黄金のリンゴポリッジ",
     "name_en": "Loaded Golden Apple Porridge",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       "Golden Apple",
       "Oats",
@@ -6497,9 +6497,9 @@
   },
   {
     "id": "recipe_loaded_honeydew_porridge",
-    "name_ja": "ドリームアイスクリーム",
-    "name_en": "",
-    "stars": 3,
+    "name_ja": "豪華なハネジューメロンポリッジ",
+    "name_en": "Loaded Honeydew Porridge",
+    "stars": 4,
     "ingredients": [
       "Honeydew Melon",
       "Oats",
@@ -6515,13 +6515,13 @@
       "アンブロシア"
     ],
     "realm": "物語の谷",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__2.png"
   },
   {
     "id": "recipe_loaded_persimmon_porridge",
     "name_ja": "豪華な柿ポリッジ",
     "name_en": "Loaded Persimmon Porridge",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       "Persimmon",
       "Oats",
@@ -6541,9 +6541,9 @@
   },
   {
     "id": "recipe_loaded_rhubarb_porridge",
-    "name_ja": "豪華なルパーブポリッジ",
+    "name_ja": "豪華なルバーブポリッジ",
     "name_en": "Loaded Rhubarb Porridge",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       "Rhubarb",
       "Oats",
@@ -6565,7 +6565,7 @@
     "id": "recipe_loaded_sea_grape_porridge",
     "name_ja": "豪華なウミマスカットポリッジ",
     "name_en": "Loaded Sea Grape Porridge",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       "Sea Grapes",
       "Oats",
@@ -7219,7 +7219,7 @@
   },
   {
     "id": "recipe_aphrodite_s_delight",
-    "name_ja": "アフロディ―テ・デライト",
+    "name_ja": "アフロディーテ・デライト",
     "name_en": "Aphrodite's Delight",
     "stars": 2,
     "ingredients": [
@@ -8233,7 +8233,7 @@
   },
   {
     "id": "recipe_stargazy_pie",
-    "name_ja": "スターゲイジ―パイ",
+    "name_ja": "スターゲイジーパイ",
     "name_en": "Stargazy Pie",
     "stars": 4,
     "ingredients": [
@@ -8540,24 +8540,6 @@
     "icon_path": "images/meals/recipe__1.png"
   },
   {
-    "id": "recipe__2",
-    "name_ja": "豪華なハネジューメロンポリッジ",
-    "name_en": "Loaded Honeydew Porridge",
-    "stars": 4,
-    "ingredients": [],
-    "ingredients_ja": [
-      "オーツ麦",
-      "ハネジューメロン",
-      "アンブロシア"
-    ],
-    "category": "主菜",
-    "realm": "物語の谷",
-    "sell_price_note": "588+ スターコイン",
-    "unlocked": false,
-    "memo": "",
-    "icon_path": "images/meals/recipe__2.png"
-  },
-  {
     "id": "recipe__3",
     "name_ja": "シーフードボイル",
     "name_en": "Seafood Boil",
@@ -8611,24 +8593,6 @@
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__5.png"
-  },
-  {
-    "id": "recipe__6",
-    "name_ja": "野菜のキャセロール",
-    "name_en": "Veggie Casserole",
-    "stars": 4,
-    "ingredients": [],
-    "ingredients_ja": [
-      "野菜類",
-      "チーズ",
-      "スパイス＆ハーブ類"
-    ],
-    "category": "主菜",
-    "realm": "バレー",
-    "sell_price_note": "316+ スターコイン",
-    "unlocked": false,
-    "memo": "",
-    "icon_path": "images/meals/recipe__6.png"
   },
   {
     "id": "recipe__7",
@@ -8818,24 +8782,6 @@
     "icon_path": "images/meals/recipe__17.png"
   },
   {
-    "id": "recipe__18",
-    "name_ja": "クイニーアマン",
-    "name_en": "Kouign-Amann",
-    "stars": 4,
-    "ingredients": [],
-    "ingredients_ja": [
-      "小麦",
-      "バター",
-      "リュウゼツラン"
-    ],
-    "category": "デザート",
-    "realm": "永遠の島",
-    "sell_price_note": "610+ スターコイン",
-    "unlocked": false,
-    "memo": "",
-    "icon_path": ""
-  },
-  {
     "id": "recipe__19",
     "name_ja": "クリームとフルーツのスイーツ",
     "name_en": "Pastry Cream and Fruits",
@@ -8944,24 +8890,6 @@
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__24.png"
-  },
-  {
-    "id": "recipe__25",
-    "name_ja": "砂糖不使用フルーツエクスプローションマフィン",
-    "name_en": "Sugar-Free Fruit Explosion Muffin",
-    "stars": 4,
-    "ingredients": [],
-    "ingredients_ja": [
-      "小麦",
-      "果物類",
-      "リュウゼツラン"
-    ],
-    "category": "デザート",
-    "realm": "永遠の島",
-    "sell_price_note": "66+ スターコイン",
-    "unlocked": false,
-    "memo": "",
-    "icon_path": ""
   },
   {
     "id": "recipe__26",
@@ -9348,24 +9276,6 @@
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__46.png"
-  },
-  {
-    "id": "recipe__47",
-    "name_ja": "デニッシュ",
-    "name_en": "Danish",
-    "stars": 4,
-    "ingredients": [],
-    "ingredients_ja": [
-      "小麦",
-      "バター",
-      "果物類"
-    ],
-    "category": "デザート",
-    "realm": "永遠の島",
-    "sell_price_note": "314+ スターコイン",
-    "unlocked": false,
-    "memo": "",
-    "icon_path": "images/meals/recipe__47.png"
   },
   {
     "id": "recipe__48",
@@ -9995,7 +9905,7 @@
   },
   {
     "id": "recipe__82",
-    "name_ja": "ワクワクメニュー",
+    "name_ja": "不思議なパイ",
     "name_en": "Whimsical Pie",
     "stars": 4,
     "ingredients": [],
