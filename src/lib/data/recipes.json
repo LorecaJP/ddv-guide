@@ -8127,14 +8127,14 @@
   {
     "id": "recipe_",
     "name_ja": "シーフードの盛り合わせ",
-    "name_en": "",
+    "name_en": "Seafood Platter",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
       "シーフード類"
     ],
     "category": "前菜",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "2+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8142,14 +8142,14 @@
   {
     "id": "recipe__1",
     "name_ja": "ベジタブルスープ",
-    "name_en": "",
+    "name_en": "Vegetable Soup",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
       "野菜類"
     ],
     "category": "前菜",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "20+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8174,7 +8174,7 @@
   {
     "id": "recipe__3",
     "name_ja": "シーフードボイル",
-    "name_en": "",
+    "name_en": "Seafood Boil",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8184,7 +8184,7 @@
       "トウモロコシ"
     ],
     "category": "主菜",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "236+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8192,7 +8192,7 @@
   {
     "id": "recipe__4",
     "name_ja": "小麦のポリッジ",
-    "name_en": "",
+    "name_en": "Wheat Porridge",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -8200,7 +8200,7 @@
       "ミルク"
     ],
     "category": "主菜",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "301+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8208,7 +8208,7 @@
   {
     "id": "recipe__5",
     "name_ja": "昔ながらのフランクフルト",
-    "name_en": "",
+    "name_en": "Classic Frankfurter",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8218,7 +8218,7 @@
       "小麦"
     ],
     "category": "主菜",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "2,600+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8243,12 +8243,12 @@
   {
     "id": "recipe__7",
     "name_ja": "フェスティブブルーベリーホットココア",
-    "name_en": "",
+    "name_en": "Festive Blueberry Hot Cocoa",
     "stars": 0,
     "ingredients": [],
     "ingredients_ja": [],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "",
     "unlocked": false,
     "memo": "フェスティバル（冬版）で作成できるレシピのようです。"
@@ -8256,12 +8256,12 @@
   {
     "id": "recipe__8",
     "name_ja": "フェスティブチェリーホットココア",
-    "name_en": "",
+    "name_en": "Festive Cherry Hot Cocoa",
     "stars": 0,
     "ingredients": [],
     "ingredients_ja": [],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "",
     "unlocked": false,
     "memo": "フェスティバル（冬版）で作成できるレシピのようです。"
@@ -8269,12 +8269,12 @@
   {
     "id": "recipe__9",
     "name_ja": "フェスティブミントホットココア",
-    "name_en": "",
+    "name_en": "Festive Mint Hot Cocoa",
     "stars": 0,
     "ingredients": [],
     "ingredients_ja": [],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "",
     "unlocked": false,
     "memo": "フェスティバル（冬版）で作成できるレシピのようです。"
@@ -8282,7 +8282,7 @@
   {
     "id": "recipe__10",
     "name_ja": "アップルシャーベット",
-    "name_en": "",
+    "name_en": "Apple Sorbet",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8291,7 +8291,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "271+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8299,7 +8299,7 @@
   {
     "id": "recipe__11",
     "name_ja": "ウェディングケーキ",
-    "name_en": "",
+    "name_en": "Wedding Cake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8310,7 +8310,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "769+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8318,7 +8318,7 @@
   {
     "id": "recipe__12",
     "name_ja": "オーロラ姫のケーキ",
-    "name_en": "",
+    "name_en": "Aurora's Cake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8329,7 +8329,7 @@
       "ミルク"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "767+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8337,7 +8337,7 @@
   {
     "id": "recipe__13",
     "name_ja": "オーロラ姫のラズベリーカップケーキ",
-    "name_en": "",
+    "name_en": "Princess Aurora Raspberry Cupcake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8348,7 +8348,7 @@
       "ラズベリー"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "738+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8356,7 +8356,7 @@
   {
     "id": "recipe__14",
     "name_ja": "かき氷(サワー)",
-    "name_en": "",
+    "name_en": "Sour Snow Cones",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8365,7 +8365,7 @@
       "サトウキビ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "282+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8373,14 +8373,14 @@
   {
     "id": "recipe__15",
     "name_ja": "かき氷(プレーン)",
-    "name_en": "",
+    "name_en": "Plain Snow Cones",
     "stars": 1,
     "ingredients": [],
     "ingredients_ja": [
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "180+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8388,7 +8388,7 @@
   {
     "id": "recipe__16",
     "name_ja": "キャラメルアップル",
-    "name_en": "",
+    "name_en": "Caramel Apples",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -8396,7 +8396,7 @@
       "リンゴ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "56+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8404,14 +8404,14 @@
   {
     "id": "recipe__17",
     "name_ja": "キャンディ",
-    "name_en": "",
+    "name_en": "Candy",
     "stars": 1,
     "ingredients": [],
     "ingredients_ja": [
       "糖類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "22+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8436,7 +8436,7 @@
   {
     "id": "recipe__19",
     "name_ja": "クリームとフルーツのスイーツ",
-    "name_en": "",
+    "name_en": "Pastry Cream and Fruits",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8445,7 +8445,7 @@
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "440+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8453,7 +8453,7 @@
   {
     "id": "recipe__20",
     "name_ja": "クロワッサン",
-    "name_en": "",
+    "name_en": "Croissant",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -8461,7 +8461,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "249+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8469,7 +8469,7 @@
   {
     "id": "recipe__21",
     "name_ja": "ココナッツアイスクリーム",
-    "name_en": "",
+    "name_en": "Coconut Ice Cream",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8479,7 +8479,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "661+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8487,7 +8487,7 @@
   {
     "id": "recipe__22",
     "name_ja": "ココナッツケーキ",
-    "name_en": "",
+    "name_en": "Coconut Cake",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8497,7 +8497,7 @@
       "小麦"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "424+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8505,7 +8505,7 @@
   {
     "id": "recipe__23",
     "name_ja": "グレースタッフ",
-    "name_en": "",
+    "name_en": "Gray Stuff",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8514,7 +8514,7 @@
       "サトウキビ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "87+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8522,7 +8522,7 @@
   {
     "id": "recipe__24",
     "name_ja": "クレープ",
-    "name_en": "",
+    "name_en": "Crepe",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8532,7 +8532,7 @@
       "バニラ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "753+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8557,7 +8557,7 @@
   {
     "id": "recipe__26",
     "name_ja": "白雪姫のグースベリーパイ",
-    "name_en": "",
+    "name_en": "Snow White's Gooseberry Pie",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8566,7 +8566,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "338+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8574,7 +8574,7 @@
   {
     "id": "recipe__27",
     "name_ja": "ジャムワッフル",
-    "name_en": "",
+    "name_en": "Jam Waffles",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8584,7 +8584,7 @@
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "691+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8592,14 +8592,14 @@
   {
     "id": "recipe__28",
     "name_ja": "シェイク",
-    "name_en": "",
+    "name_en": "Shake",
     "stars": 1,
     "ingredients": [],
     "ingredients_ja": [
       "乳製品、他類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "7+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8607,7 +8607,7 @@
   {
     "id": "recipe__29",
     "name_ja": "ジンジャーブレッドハウス",
-    "name_en": "",
+    "name_en": "Gingerbread House",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8618,7 +8618,7 @@
       "タマゴ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "545+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8626,7 +8626,7 @@
   {
     "id": "recipe__30",
     "name_ja": "スイートスラッシュ",
-    "name_en": "",
+    "name_en": "Sweet Slush",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -8634,7 +8634,7 @@
       "糖類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "219+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8642,7 +8642,7 @@
   {
     "id": "recipe__31",
     "name_ja": "スコーン",
-    "name_en": "",
+    "name_en": "Scone",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8651,7 +8651,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "294+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8659,7 +8659,7 @@
   {
     "id": "recipe__32",
     "name_ja": "スペースシップ・アースのカップケーキ",
-    "name_en": "",
+    "name_en": "Spaceship Earth Cupcake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8670,7 +8670,7 @@
       "ココナッツ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "772+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8678,7 +8678,7 @@
   {
     "id": "recipe__33",
     "name_ja": "スティッチのカップケーキ",
-    "name_en": "",
+    "name_en": "Stitch Cupcake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8689,7 +8689,7 @@
       "ブルーベリー"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "751+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8697,7 +8697,7 @@
   {
     "id": "recipe__34",
     "name_ja": "スモア",
-    "name_en": "",
+    "name_en": "S'mores",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8706,7 +8706,7 @@
       "小麦"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "156+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8714,7 +8714,7 @@
   {
     "id": "recipe__35",
     "name_ja": "ソフトクリーム",
-    "name_en": "",
+    "name_en": "Ice Cream",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8723,7 +8723,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "558+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8731,7 +8731,7 @@
   {
     "id": "recipe__36",
     "name_ja": "タピオカティー",
-    "name_en": "",
+    "name_en": "Boba Tea",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -8739,7 +8739,7 @@
       "ミルク"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "323+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8747,7 +8747,7 @@
   {
     "id": "recipe__37",
     "name_ja": "タピオカティー (グースベリー)",
-    "name_en": "",
+    "name_en": "Gooseberry Boba Tea",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8756,7 +8756,7 @@
       "グースベリー"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "418+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8764,7 +8764,7 @@
   {
     "id": "recipe__38",
     "name_ja": "タピオカティー (ココナッツ)",
-    "name_en": "",
+    "name_en": "Coconut Boba Tea",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8773,7 +8773,7 @@
       "ココナッツ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "406+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8781,7 +8781,7 @@
   {
     "id": "recipe__39",
     "name_ja": "タピオカティー (ミント)",
-    "name_en": "",
+    "name_en": "Mint Boba Tea",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8790,7 +8790,7 @@
       "ミント"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "418+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8798,7 +8798,7 @@
   {
     "id": "recipe__40",
     "name_ja": "タピオカティー (ラズベリー)",
-    "name_en": "",
+    "name_en": "Raspberry Boba Tea",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8807,7 +8807,7 @@
       "ラズベリー"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "377+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8815,7 +8815,7 @@
   {
     "id": "recipe__41",
     "name_ja": "チェシャ猫のしっぽ",
-    "name_en": "",
+    "name_en": "Cheshire Cat Tail",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8825,7 +8825,7 @@
       "サトウキビ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "418+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8833,7 +8833,7 @@
   {
     "id": "recipe__42",
     "name_ja": "チーズケーキ",
-    "name_en": "",
+    "name_en": "Cheesecake",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8843,7 +8843,7 @@
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "314+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8851,7 +8851,7 @@
   {
     "id": "recipe__43",
     "name_ja": "チェリーパイ",
-    "name_en": "",
+    "name_en": "Cherry Pie",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -8860,7 +8860,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "326+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8868,7 +8868,7 @@
   {
     "id": "recipe__44",
     "name_ja": "チョコチップクッキー",
-    "name_en": "",
+    "name_en": "Chocolate Chip Cookies",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8878,7 +8878,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "373+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8886,7 +8886,7 @@
   {
     "id": "recipe__45",
     "name_ja": "チョコレートソフトクリーム",
-    "name_en": "",
+    "name_en": "Chocolate Ice Cream",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8896,7 +8896,7 @@
       "スラッシュアイス"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "655+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8904,7 +8904,7 @@
   {
     "id": "recipe__46",
     "name_ja": "チョコレートワッフル",
-    "name_en": "",
+    "name_en": "Chocolate Waffles",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8914,7 +8914,7 @@
       "小麦"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "735+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8939,7 +8939,7 @@
   {
     "id": "recipe__48",
     "name_ja": "トロピカルソーダ",
-    "name_en": "",
+    "name_en": "Tropical Pop",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8949,7 +8949,7 @@
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "329+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8957,7 +8957,7 @@
   {
     "id": "recipe__49",
     "name_ja": "ニンジンケーキ",
-    "name_en": "",
+    "name_en": "Carrot Cake",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8967,7 +8967,7 @@
       "小麦"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "427+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8975,7 +8975,7 @@
   {
     "id": "recipe__50",
     "name_ja": "ニンニクチョコタルト",
-    "name_en": "",
+    "name_en": "Garlic Chocolate Tart",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -8986,7 +8986,7 @@
       "タマゴ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "783+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -8994,7 +8994,7 @@
   {
     "id": "recipe__51",
     "name_ja": "肉球のアイスキャンディ",
-    "name_en": "",
+    "name_en": "Pawpsicle",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9003,7 +9003,7 @@
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "248+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9011,7 +9011,7 @@
   {
     "id": "recipe__52",
     "name_ja": "人魚のカップケーキ",
-    "name_en": "",
+    "name_en": "Mermaid Cupcake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -9022,7 +9022,7 @@
       "ホタテ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "785+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9030,7 +9030,7 @@
   {
     "id": "recipe__53",
     "name_ja": "春のチョコレート",
-    "name_en": "",
+    "name_en": "Spring Chocolate",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9039,7 +9039,7 @@
       "カカオ豆"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "254+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9047,7 +9047,7 @@
   {
     "id": "recipe__54",
     "name_ja": "春のデビルド・エッグ",
-    "name_en": "",
+    "name_en": "Spring Mimosa Eggs",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9057,7 +9057,7 @@
       "バジル"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "336+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9065,7 +9065,7 @@
   {
     "id": "recipe__55",
     "name_ja": "春のタマゴが入ったボウル",
-    "name_en": "",
+    "name_en": "Spring Egg Bowl",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -9076,7 +9076,7 @@
       "サトウキビ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "370+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9084,7 +9084,7 @@
   {
     "id": "recipe__56",
     "name_ja": "ハロウィンのジンジャーブレッドクッキー",
-    "name_en": "",
+    "name_en": "Halloween Gingerbread Cookies",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9093,7 +9093,7 @@
       "ショウガ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "1,000+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9101,7 +9101,7 @@
   {
     "id": "recipe__57",
     "name_ja": "バースデーケーキ",
-    "name_en": "",
+    "name_en": "Birthday Cake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -9112,7 +9112,7 @@
       "タマゴ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "749+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9120,7 +9120,7 @@
   {
     "id": "recipe__58",
     "name_ja": "バナナスプリット",
-    "name_en": "",
+    "name_en": "Banana Split",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -9131,7 +9131,7 @@
       "糖類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "714+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9139,7 +9139,7 @@
   {
     "id": "recipe__59",
     "name_ja": "バナナソフトクリーム",
-    "name_en": "",
+    "name_en": "Banana Ice Cream",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9149,7 +9149,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "641+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9157,7 +9157,7 @@
   {
     "id": "recipe__60",
     "name_ja": "バナナパイ",
-    "name_en": "",
+    "name_en": "Banana Pie",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9166,7 +9166,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "308+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9174,7 +9174,7 @@
   {
     "id": "recipe__61",
     "name_ja": "バニラソフトクリーム",
-    "name_en": "",
+    "name_en": "Vanilla Ice Cream",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9184,7 +9184,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "673+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9192,7 +9192,7 @@
   {
     "id": "recipe__62",
     "name_ja": "ピーナッツバターワッフル",
-    "name_en": "",
+    "name_en": "Peanut Butter Waffles",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9202,7 +9202,7 @@
       "ミルク"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "978+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9210,14 +9210,14 @@
   {
     "id": "recipe__63",
     "name_ja": "フルーツサラダ",
-    "name_en": "",
+    "name_en": "Fruit Salad",
     "stars": 1,
     "ingredients": [],
     "ingredients_ja": [
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "10+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9225,7 +9225,7 @@
   {
     "id": "recipe__64",
     "name_ja": "フルーツシャーベット",
-    "name_en": "",
+    "name_en": "Fruit Sorbet",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -9233,7 +9233,7 @@
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "206+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9241,7 +9241,7 @@
   {
     "id": "recipe__65",
     "name_ja": "ブルーベリーパイ",
-    "name_en": "",
+    "name_en": "Blueberry Pie",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9250,7 +9250,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "308+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9258,7 +9258,7 @@
   {
     "id": "recipe__66",
     "name_ja": "フルーツケーキ",
-    "name_en": "",
+    "name_en": "Fruitcake",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9266,7 +9266,7 @@
       "果物"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "42+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9274,7 +9274,7 @@
   {
     "id": "recipe__67",
     "name_ja": "ベニエ",
-    "name_en": "",
+    "name_en": "Beignets",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9284,7 +9284,7 @@
       "菜の花"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "524+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9292,7 +9292,7 @@
   {
     "id": "recipe__68",
     "name_ja": "ベリーサラダ",
-    "name_en": "",
+    "name_en": "Berry Salad",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9301,7 +9301,7 @@
       "グースベリー"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "139+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9309,7 +9309,7 @@
   {
     "id": "recipe__69",
     "name_ja": "ホットココア",
-    "name_en": "",
+    "name_en": "Hot Cocoa",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9318,7 +9318,7 @@
       "カカオ豆"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "401+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9326,7 +9326,7 @@
   {
     "id": "recipe__70",
     "name_ja": "「私のヒーロー」クッキー",
-    "name_en": "",
+    "name_en": "\"My Hero\" Cookie",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9335,7 +9335,7 @@
       "糖類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "294+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9343,7 +9343,7 @@
   {
     "id": "recipe__71",
     "name_ja": "ミニーのカップケーキ",
-    "name_en": "",
+    "name_en": "Minnie Cupcake",
     "stars": 5,
     "ingredients": [],
     "ingredients_ja": [
@@ -9354,7 +9354,7 @@
       "リンゴ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "745+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9362,7 +9362,7 @@
   {
     "id": "recipe__72",
     "name_ja": "ミニーのジンジャーブレッドクッキー",
-    "name_en": "",
+    "name_en": "Minnie's Gingerbread Cookies",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -9370,7 +9370,7 @@
       "ショウガ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "67+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9378,7 +9378,7 @@
   {
     "id": "recipe__73",
     "name_ja": "ミントキャンディ",
-    "name_en": "",
+    "name_en": "Mint Candy",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -9386,7 +9386,7 @@
       "サトウキビ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "89+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9394,7 +9394,7 @@
   {
     "id": "recipe__74",
     "name_ja": "ミントシャーベット",
-    "name_en": "",
+    "name_en": "Mint Sorbet",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -9402,7 +9402,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "260+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9410,7 +9410,7 @@
   {
     "id": "recipe__75",
     "name_ja": "ミントチョコレート",
-    "name_en": "",
+    "name_en": "Mint Chocolate",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9420,7 +9420,7 @@
       "サトウキビ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "445+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9428,7 +9428,7 @@
   {
     "id": "recipe__76",
     "name_ja": "メレンゲパイ",
-    "name_en": "",
+    "name_en": "Meringue Pie",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9438,7 +9438,7 @@
       "バター"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "667+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9446,7 +9446,7 @@
   {
     "id": "recipe__77",
     "name_ja": "焼きマシュマロ",
-    "name_en": "",
+    "name_en": "Roasted Marshmallows",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9454,7 +9454,7 @@
       "マシュマロ(ブルー)"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "300+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9462,7 +9462,7 @@
   {
     "id": "recipe__78",
     "name_ja": "ルートビア",
-    "name_en": "",
+    "name_en": "Root Beer",
     "stars": 3,
     "ingredients": [],
     "ingredients_ja": [
@@ -9471,7 +9471,7 @@
       "バニラ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "166+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9479,7 +9479,7 @@
   {
     "id": "recipe__79",
     "name_ja": "レッドフルーツシャーベット",
-    "name_en": "",
+    "name_en": "Red Fruit Sorbet",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9489,7 +9489,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "359+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9497,7 +9497,7 @@
   {
     "id": "recipe__80",
     "name_ja": "レモンシャーベット",
-    "name_en": "",
+    "name_en": "Lemon Sorbet",
     "stars": 2,
     "ingredients": [],
     "ingredients_ja": [
@@ -9505,7 +9505,7 @@
       "スラッシュ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "237+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9513,7 +9513,7 @@
   {
     "id": "recipe__81",
     "name_ja": "ロールケーキ",
-    "name_en": "",
+    "name_en": "Yule Log",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9523,7 +9523,7 @@
       "サクランボ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "198+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9531,7 +9531,7 @@
   {
     "id": "recipe__82",
     "name_ja": "ワクワクメニュー",
-    "name_en": "",
+    "name_en": "Whimsical Pie",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9541,7 +9541,7 @@
       "バナナ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "120+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9549,7 +9549,7 @@
   {
     "id": "recipe__83",
     "name_ja": "ワッフル",
-    "name_en": "",
+    "name_en": "Waffles",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9559,7 +9559,7 @@
       "糖類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "706+ スターコイン",
     "unlocked": false,
     "memo": ""
@@ -9567,7 +9567,7 @@
   {
     "id": "recipe__84",
     "name_ja": "ワンダーランドクッキー",
-    "name_en": "",
+    "name_en": "Wonderland Cookies",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9577,7 +9577,7 @@
       "バニラ"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "391+ スターコイン",
     "unlocked": false,
     "memo": ""
