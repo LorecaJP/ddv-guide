@@ -30,6 +30,7 @@ export interface Recipe {
   category: string         // 🔒 前菜/主菜/デザート
   realm: string            // 🔒 コンテンツ（バレー/永遠の島/物語の谷/願い咲く牧場）
   sell_price_note: string  // 🔒
+  icon_path: string        // 🔒 料理画像（mydreamlightvalley 由来）
   unlocked: boolean        // ✏️
   memo: string             // ✏️
 }

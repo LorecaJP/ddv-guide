@@ -22,7 +22,8 @@
       "ニンニク",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_arendellian_pickled_herring.png"
   },
   {
     "id": "recipe_bell_pepper_puffs",
@@ -43,7 +44,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_bell_pepper_puffs.png"
   },
   {
     "id": "recipe_bu_uelos",
@@ -66,7 +68,8 @@
       "チーズ",
       "牛乳"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_bu_uelos.png"
   },
   {
     "id": "recipe_cheese_platter",
@@ -83,7 +86,8 @@
     "ingredients_ja": [
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_cheese_platter.png"
   },
   {
     "id": "recipe_chili_pepper_puffs",
@@ -104,7 +108,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_chili_pepper_puffs.png"
   },
   {
     "id": "recipe_chrysanthemum_tea",
@@ -123,7 +128,8 @@
       "キクのお茶の葉",
       "ブルーベリー"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_chrysanthemum_tea.png"
   },
   {
     "id": "recipe_coffee",
@@ -140,7 +146,8 @@
     "ingredients_ja": [
       "コーヒー豆"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_coffee.png"
   },
   {
     "id": "recipe_crackers",
@@ -157,7 +164,8 @@
     "ingredients_ja": [
       "小麦"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_crackers.png"
   },
   {
     "id": "recipe_creamy_soup",
@@ -180,7 +188,8 @@
       "野菜類",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_creamy_soup.png"
   },
   {
     "id": "recipe_crudites",
@@ -197,7 +206,8 @@
     "ingredients_ja": [
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_crudites.png"
   },
   {
     "id": "recipe_dream_fizz",
@@ -220,7 +230,8 @@
       "サトウキビ",
       "小麦"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_dream_fizz.png"
   },
   {
     "id": "recipe_eggplant_puffs",
@@ -241,7 +252,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_eggplant_puffs.png"
   },
   {
     "id": "recipe_french_fries",
@@ -260,7 +272,8 @@
       "じゃがいも",
       "菜の花"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_french_fries.png"
   },
   {
     "id": "recipe_gazpacho",
@@ -283,7 +296,8 @@
       "キュウリ",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_gazpacho.png"
   },
   {
     "id": "recipe_green_salad",
@@ -302,7 +316,8 @@
       "レタス",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_green_salad.png"
   },
   {
     "id": "recipe_grilled_vegetables",
@@ -319,7 +334,8 @@
     "ingredients_ja": [
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_grilled_vegetables.png"
   },
   {
     "id": "recipe_grilled_veggie_platter",
@@ -336,7 +352,8 @@
     "ingredients_ja": [
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_grilled_veggie_platter.png"
   },
   {
     "id": "recipe_hard_boiled_eggs",
@@ -353,7 +370,8 @@
     "ingredients_ja": [
       "卵"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_jasmine_tea",
@@ -372,7 +390,8 @@
       "Jasmine Tea Leaves",
       "サトウキビ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_jasmine_tea.png"
   },
   {
     "id": "recipe_large_seafood_platter",
@@ -391,7 +410,8 @@
       "Seafood",
       "レモン"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_large_seafood_platter.png"
   },
   {
     "id": "recipe_latte",
@@ -410,7 +430,8 @@
       "コーヒー豆",
       "牛乳"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_latte.png"
   },
   {
     "id": "recipe_mocha",
@@ -431,7 +452,8 @@
       "牛乳",
       "カカオ豆"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_mocha.png"
   },
   {
     "id": "recipe_okra_soup",
@@ -448,7 +470,8 @@
     "ingredients_ja": [
       "オクラ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_okra_soup.png"
   },
   {
     "id": "recipe_onion_puffs",
@@ -469,7 +492,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_onion_puffs.png"
   },
   {
     "id": "recipe_oolong_tea",
@@ -488,7 +512,8 @@
       "ウーロン茶の葉",
       "ラズベリー"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_oolong_tea.png"
   },
   {
     "id": "recipe_oyster_platter",
@@ -507,7 +532,8 @@
       "カキ",
       "レモン"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_oyster_platter.png"
   },
   {
     "id": "recipe_peppermint_tea",
@@ -526,7 +552,8 @@
       "レモン",
       "ミント"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_peppermint_tea.png"
   },
   {
     "id": "recipe_pickled_herring",
@@ -549,7 +576,8 @@
       "玉ねぎ",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_pickled_herring.png"
   },
   {
     "id": "recipe_potato_leek_soup",
@@ -574,7 +602,8 @@
       "玉ねぎ",
       "ニンニク"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_potato_leek_soup.png"
   },
   {
     "id": "recipe_potato_puffs",
@@ -595,7 +624,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_potato_puffs.png"
   },
   {
     "id": "recipe_pottage",
@@ -616,7 +646,8 @@
       "野菜類",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_pottage.png"
   },
   {
     "id": "recipe_pumpkin_puffs",
@@ -637,7 +668,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_pumpkin_puffs.png"
   },
   {
     "id": "recipe_pumpkin_soup",
@@ -660,7 +692,8 @@
       "牛乳",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_pumpkin_soup.png"
   },
   {
     "id": "recipe_pur_e",
@@ -677,7 +710,8 @@
     "ingredients_ja": [
       "じゃがいも"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_pur_e.png"
   },
   {
     "id": "recipe_roasted_asparagus",
@@ -696,7 +730,8 @@
       "アスパラガス",
       "菜の花"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_roasted_asparagus.png"
   },
   {
     "id": "recipe_salad",
@@ -713,7 +748,8 @@
     "ingredients_ja": [
       "レタス"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_salad.png"
   },
   {
     "id": "recipe_saut_ed_mushrooms",
@@ -732,7 +768,8 @@
       "キノコ",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_saut_ed_mushrooms.png"
   },
   {
     "id": "recipe_seafood_appetizer",
@@ -749,7 +786,8 @@
     "ingredients_ja": [
       "Seafood"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_seafood_appetizer.png"
   },
   {
     "id": "recipe_sesame_balls",
@@ -774,7 +812,8 @@
       "大豆",
       "海藻"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sesame_balls.png"
   },
   {
     "id": "recipe_souffl",
@@ -797,7 +836,8 @@
       "卵",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_souffl.png"
   },
   {
     "id": "recipe_sweet_herring",
@@ -816,7 +856,8 @@
       "ニシン",
       "玉ねぎ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sweet_herring.png"
   },
   {
     "id": "recipe_tea_sandwiches",
@@ -839,7 +880,8 @@
       "サクランボ",
       "魚類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_tea_sandwiches.png"
   },
   {
     "id": "recipe_tomato_soup",
@@ -856,7 +898,8 @@
     "ingredients_ja": [
       "トマト"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_tomato_soup.png"
   },
   {
     "id": "recipe_vegetarian_dumplings",
@@ -877,7 +920,8 @@
       "大豆",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_vegetarian_dumplings.png"
   },
   {
     "id": "recipe_zucchini_puffs",
@@ -898,7 +942,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_zucchini_puffs.png"
   },
   {
     "id": "recipe_apple_cider_glazed_salmon",
@@ -919,7 +964,8 @@
       "サーモン",
       "サトウキビ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_baked_carp",
@@ -938,7 +984,8 @@
       "コイ",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_baked_carp.png"
   },
   {
     "id": "recipe_basil_omelet",
@@ -961,7 +1008,8 @@
       "チーズ",
       "牛乳"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_basil_omelet.png"
   },
   {
     "id": "recipe_bouillabaisse",
@@ -984,7 +1032,8 @@
       "Seafood",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_bouillabaisse.png"
   },
   {
     "id": "recipe_carp_salad",
@@ -1005,7 +1054,8 @@
       "レタス",
       "レモン"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_carp_salad.png"
   },
   {
     "id": "recipe_cheesy_crispy_baked_cod",
@@ -1026,7 +1076,8 @@
       "小麦",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_cheesy_crispy_baked_cod.png"
   },
   {
     "id": "recipe_chowder",
@@ -1047,7 +1098,8 @@
       "Seafood",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_chowder.png"
   },
   {
     "id": "recipe_creamy_garlic_scallops",
@@ -1070,7 +1122,8 @@
       "バター",
       "ニンニク"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_creamy_garlic_scallops.png"
   },
   {
     "id": "recipe_crispy_baked_cod",
@@ -1089,7 +1142,8 @@
       "タラ",
       "小麦"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_crispy_baked_cod.png"
   },
   {
     "id": "recipe_fish_creole",
@@ -1114,7 +1168,8 @@
       "米",
       "トマト"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_creole.png"
   },
   {
     "id": "recipe_fish_n_chips",
@@ -1137,7 +1192,8 @@
       "じゃがいも",
       "魚類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_n_chips.png"
   },
   {
     "id": "recipe_fish_pasta",
@@ -1160,7 +1216,8 @@
       "小麦",
       "牛乳"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_pasta.png"
   },
   {
     "id": "recipe_fish_pie",
@@ -1181,7 +1238,8 @@
       "小麦",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_pie.png"
   },
   {
     "id": "recipe_fish_risotto",
@@ -1202,7 +1260,8 @@
       "米",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_risotto.png"
   },
   {
     "id": "recipe_fish_salad",
@@ -1223,7 +1282,8 @@
       "レタス",
       "レモン"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_salad.png"
   },
   {
     "id": "recipe_fish_sandwiches",
@@ -1242,7 +1302,8 @@
       "魚類",
       "小麦"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_sandwiches.png"
   },
   {
     "id": "recipe_fish_soup",
@@ -1263,7 +1324,8 @@
       "野菜類",
       "牛乳"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_soup.png"
   },
   {
     "id": "recipe_fish_steak",
@@ -1284,7 +1346,8 @@
       "トマト",
       "バジル"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_steak.png"
   },
   {
     "id": "recipe_fish_tacos",
@@ -1307,7 +1370,8 @@
       "唐辛子",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fish_tacos.png"
   },
   {
     "id": "recipe_fugu_sushi",
@@ -1328,7 +1392,8 @@
       "米",
       "海藻"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_fugu_sushi.png"
   },
   {
     "id": "recipe_ghostly_fish_steak",
@@ -1353,7 +1418,8 @@
       "ピーマン",
       "オレガノ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_ghostly_fish_steak.png"
   },
   {
     "id": "recipe_greek_pizza",
@@ -1378,7 +1444,8 @@
       "トマト",
       "玉ねぎ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_greek_pizza.png"
   },
   {
     "id": "recipe_grilled_fish",
@@ -1395,7 +1462,8 @@
     "ingredients_ja": [
       "魚類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_grilled_fish.png"
   },
   {
     "id": "recipe_grilled_fish_entree",
@@ -1414,7 +1482,8 @@
       "魚類",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_grilled_fish_entree.png"
   },
   {
     "id": "recipe_gumbo",
@@ -1439,7 +1508,8 @@
       "エビ",
       "トマト"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_gumbo.png"
   },
   {
     "id": "recipe_hearty_salad",
@@ -1458,7 +1528,8 @@
       "野菜類",
       "レタス"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_hearty_salad.png"
   },
   {
     "id": "recipe_hors_d_oeuvres",
@@ -1475,7 +1546,8 @@
     "ingredients_ja": [
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_kappa_maki",
@@ -1496,7 +1568,8 @@
       "キュウリ",
       "米"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_kappa_maki.png"
   },
   {
     "id": "recipe_kronk_s_spinach_puffs",
@@ -1517,7 +1590,8 @@
       "チーズ",
       "菜の花"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_lancetfish_paella",
@@ -1542,7 +1616,8 @@
       "米",
       "Seafood"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_lancetfish_paella.png"
   },
   {
     "id": "recipe_leek_soup",
@@ -1559,7 +1634,8 @@
     "ingredients_ja": [
       "ネギ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_leek_soup.png"
   },
   {
     "id": "recipe_lemon_garlic_swordfish",
@@ -1580,7 +1656,8 @@
       "レモン",
       "ニンニク"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_lemon_garlic_swordfish.png"
   },
   {
     "id": "recipe_lioness_feast",
@@ -1603,7 +1680,8 @@
       "トマト",
       "オレガノ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_lioness_feast.png"
   },
   {
     "id": "recipe_lobster_roll",
@@ -1628,7 +1706,8 @@
       "バター",
       "ニンニク"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_lobster_roll.png"
   },
   {
     "id": "recipe_maguro_sushi",
@@ -1651,7 +1730,8 @@
       "海藻",
       "ショウガ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_maguro_sushi.png"
   },
   {
     "id": "recipe_maki",
@@ -1672,7 +1752,8 @@
       "米",
       "海藻"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_maki.png"
   },
   {
     "id": "recipe_margherita_pizza",
@@ -1695,7 +1776,8 @@
       "トマト",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_margherita_pizza.png"
   },
   {
     "id": "recipe_marvelous_jam",
@@ -1714,7 +1796,8 @@
       "Dreamlight Fruit",
       "小麦"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_marvelous_jam.png"
   },
   {
     "id": "recipe_mediterranean_salad",
@@ -1739,7 +1822,8 @@
       "玉ねぎ",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_mediterranean_salad.png"
   },
   {
     "id": "recipe_mushroom_pizza",
@@ -1762,7 +1846,8 @@
       "トマト",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_mushroom_pizza.png"
   },
   {
     "id": "recipe_mushu_s_congee",
@@ -1787,7 +1872,8 @@
       "ニンニク",
       "キノコ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_omelet",
@@ -1808,7 +1894,8 @@
       "チーズ",
       "牛乳"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_omelet.png"
   },
   {
     "id": "recipe_pan_fried_angler_fish",
@@ -1831,7 +1918,8 @@
       "ズッキーニ",
       "じゃがいも"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_pan_seared_bass_vegetables",
@@ -1850,7 +1938,8 @@
       "バス",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_pan_seared_tilapia_vegetables",
@@ -1869,7 +1958,8 @@
       "ティラピア",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_pasta",
@@ -1888,7 +1978,8 @@
       "小麦",
       "トマト"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_pasta.png"
   },
   {
     "id": "recipe_peanut_butter_sandwich",
@@ -1907,7 +1998,8 @@
       "小麦",
       "ピーナッツ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_peanut_butter_sandwich.png"
   },
   {
     "id": "recipe_pizza",
@@ -1928,7 +2020,8 @@
       "チーズ",
       "小麦"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_pizza.png"
   },
   {
     "id": "recipe_poached_basil_butter_sturgeon",
@@ -1951,7 +2044,8 @@
       "レモン",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": ""
   },
   {
     "id": "recipe_ranch_salad",
@@ -1976,7 +2070,8 @@
       "トマト",
       "玉ねぎ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_ranch_salad.png"
   },
   {
     "id": "recipe_ratatouille",
@@ -2001,7 +2096,8 @@
       "ズッキーニ",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_ratatouille.png"
   },
   {
     "id": "recipe_sake_maki",
@@ -2022,7 +2118,8 @@
       "米",
       "海藻"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sake_maki.png"
   },
   {
     "id": "recipe_sake_sushi",
@@ -2041,7 +2138,8 @@
       "サーモン",
       "米"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sake_sushi.png"
   },
   {
     "id": "recipe_savory_fish",
@@ -2060,7 +2158,8 @@
       "魚類",
       "レモン"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_savory_fish.png"
   },
   {
     "id": "recipe_scrambled_egg",
@@ -2079,7 +2178,8 @@
       "卵",
       "チーズ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_scrambled_egg.png"
   },
   {
     "id": "recipe_seafood_pasta",
@@ -2100,7 +2200,8 @@
       "小麦",
       "牛乳"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_seafood_pasta.png"
   },
   {
     "id": "recipe_seafood_pie",
@@ -2121,7 +2222,8 @@
       "小麦",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_seafood_pie.png"
   },
   {
     "id": "recipe_seafood_salad",
@@ -2140,7 +2242,8 @@
       "Seafood",
       "レタス"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_seafood_salad.png"
   },
   {
     "id": "recipe_seafood_soup",
@@ -2159,7 +2262,8 @@
       "Seafood",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_seafood_soup.png"
   },
   {
     "id": "recipe_seared_rainbow_trout",
@@ -2180,7 +2284,8 @@
       "トマト",
       "玉ねぎ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_seared_rainbow_trout.png"
   },
   {
     "id": "recipe_simple_fried_perch",
@@ -2201,7 +2306,8 @@
       "小麦",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_simple_fried_perch.png"
   },
   {
     "id": "recipe_smoked_peanuts_and_anglerfish",
@@ -2220,7 +2326,8 @@
       "アンコウ",
       "ピーナッツ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_smoked_peanuts_and_anglerfish.png"
   },
   {
     "id": "recipe_sole_meuni_re",
@@ -2243,7 +2350,8 @@
       "バター",
       "レモン"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sole_meuni_re.png"
   },
   {
     "id": "recipe_spaghetti_arrabbiata",
@@ -2264,7 +2372,8 @@
       "トマト",
       "唐辛子"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_spaghetti_arrabbiata.png"
   },
   {
     "id": "recipe_spicy_baked_bream",
@@ -2285,7 +2394,8 @@
       "唐辛子",
       "バター"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_spicy_baked_bream.png"
   },
   {
     "id": "recipe_steamed_fugu",
@@ -2306,7 +2416,8 @@
       "ショウガ",
       "ニンニク"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_steamed_fugu.png"
   },
   {
     "id": "recipe_sushi",
@@ -2325,7 +2436,8 @@
       "魚類",
       "米"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sushi.png"
   },
   {
     "id": "recipe_sweet_sour_kingfish_steak",
@@ -2346,7 +2458,8 @@
       "レモン",
       "サトウキビ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sweet_sour_kingfish_steak.png"
   },
   {
     "id": "recipe_sweet_udon",
@@ -2369,7 +2482,8 @@
       "Seafood",
       "糖類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_sweet_udon.png"
   },
   {
     "id": "recipe_tamagoyaki",
@@ -2388,7 +2502,8 @@
       "卵",
       "サトウキビ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_tamagoyaki.png"
   },
   {
     "id": "recipe_tasty_salad",
@@ -2411,7 +2526,8 @@
       "野菜類",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_tasty_salad.png"
   },
   {
     "id": "recipe_tasty_veggies",
@@ -2430,7 +2546,8 @@
       "野菜類",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_tasty_veggies.png"
   },
   {
     "id": "recipe_tekka_maki",
@@ -2453,7 +2570,8 @@
       "米",
       "海藻"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_tekka_maki.png"
   },
   {
     "id": "recipe_teriyaki_salmon",
@@ -2478,7 +2596,8 @@
       "ショウガ",
       "サトウキビ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_teriyaki_salmon.png"
   },
   {
     "id": "recipe_tuna_burger",
@@ -2503,7 +2622,8 @@
       "玉ねぎ",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_tuna_burger.png"
   },
   {
     "id": "recipe_vegetarian_pizza",
@@ -2526,7 +2646,8 @@
       "チーズ",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_vegetarian_pizza.png"
   },
   {
     "id": "recipe_vegetarian_stew",
@@ -2547,7 +2668,8 @@
       "ニンジン",
       "玉ねぎ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_vegetarian_stew.png"
   },
   {
     "id": "recipe_vegetarian_taco",
@@ -2570,7 +2692,8 @@
       "チーズ",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_vegetarian_taco.png"
   },
   {
     "id": "recipe_veggie_casserole",
@@ -2591,7 +2714,8 @@
       "野菜類",
       "スパイス&ハーブ類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_veggie_casserole.png"
   },
   {
     "id": "recipe_veggie_pasta",
@@ -2612,7 +2736,8 @@
       "小麦",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_veggie_pasta.png"
   },
   {
     "id": "recipe_veggie_pie",
@@ -2633,7 +2758,8 @@
       "バター",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_veggie_pie.png"
   },
   {
     "id": "recipe_veggie_skewers",
@@ -2656,7 +2782,8 @@
       "ズッキーニ",
       "ピーマン"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_veggie_skewers.png"
   },
   {
     "id": "recipe_walleye_en_papillote",
@@ -2679,7 +2806,8 @@
       "バジル",
       "野菜類"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_walleye_en_papillote.png"
   },
   {
     "id": "recipe_wonton_soup",
@@ -2702,7 +2830,8 @@
       "玉ねぎ",
       "エビ"
     ],
-    "realm": "バレー"
+    "realm": "バレー",
+    "icon_path": "images/meals/recipe_wonton_soup.png"
   },
   {
     "id": "recipe_arepas_con_queso",
@@ -2723,7 +2852,8 @@
       "チーズ",
       "リュウゼツラン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_arepas_con_queso.png"
   },
   {
     "id": "recipe_baozi",
@@ -2746,7 +2876,8 @@
       "大豆",
       "スパイス&ハーブ類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_baozi.png"
   },
   {
     "id": "recipe_barbecued_brilliant_blue_starfish",
@@ -2765,7 +2896,8 @@
       "Brilliant Blue Starfish",
       "ミント"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_barbecued_brilliant_blue_starfish.png"
   },
   {
     "id": "recipe_barbecued_pretty_pink_starfish",
@@ -2784,7 +2916,8 @@
       "Pretty Pink Starfish",
       "パプリカ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_barbecued_pretty_pink_starfish.png"
   },
   {
     "id": "recipe_bulgur_salad",
@@ -2809,7 +2942,8 @@
       "ミント",
       "スパイス&ハーブ類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_bulgur_salad.png"
   },
   {
     "id": "recipe_clam_juice",
@@ -2828,7 +2962,8 @@
       "アサリ",
       "トマト"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_clam_juice.png"
   },
   {
     "id": "recipe_coleslaw",
@@ -2847,7 +2982,8 @@
       "キャベツ",
       "ニンジン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_coleslaw.png"
   },
   {
     "id": "recipe_conch_ceviche",
@@ -2870,7 +3006,8 @@
       "トマト",
       "レモン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_conch_ceviche.png"
   },
   {
     "id": "recipe_crab_melts",
@@ -2889,7 +3026,8 @@
       "カニ",
       "チーズ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_crab_melts.png"
   },
   {
     "id": "recipe_dumplings",
@@ -2912,7 +3050,8 @@
       "肉類",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_dumplings.png"
   },
   {
     "id": "recipe_falafel",
@@ -2933,7 +3072,8 @@
       "クミン",
       "ニンニク"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_falafel.png"
   },
   {
     "id": "recipe_nuts_bolts",
@@ -2952,7 +3092,8 @@
       "Robot Fish",
       "アーモンド"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_nuts_bolts.png"
   },
   {
     "id": "recipe_roasted_almonds",
@@ -2971,7 +3112,8 @@
       "アーモンド",
       "リュウゼツラン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_roasted_almonds.png"
   },
   {
     "id": "recipe_royal_ice_tea",
@@ -2990,7 +3132,8 @@
       "スラッシュ",
       "マジェスティ―"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_royal_ice_tea.png"
   },
   {
     "id": "recipe_royal_latte",
@@ -3009,7 +3152,8 @@
       "牛乳",
       "マジェスティ―"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_royal_latte.png"
   },
   {
     "id": "recipe_royal_tea",
@@ -3026,7 +3170,8 @@
     "ingredients_ja": [
       "マジェスティ―"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_royal_tea.png"
   },
   {
     "id": "recipe_sand_worm_carpaccio_plate",
@@ -3045,7 +3190,8 @@
       "サンドワーム",
       "メロン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_sand_worm_carpaccio_plate.png"
   },
   {
     "id": "recipe_shad_ceviche",
@@ -3068,7 +3214,8 @@
       "トマト",
       "レモン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_shad_ceviche.png"
   },
   {
     "id": "recipe_spicy_scorpion_skewer",
@@ -3087,7 +3234,8 @@
       "サソリ",
       "パプリカ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_spicy_scorpion_skewer.png"
   },
   {
     "id": "recipe_takoyaki_stick",
@@ -3110,7 +3258,8 @@
       "卵",
       "大豆"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_takoyaki_stick.png"
   },
   {
     "id": "recipe_thousand_needles",
@@ -3129,7 +3278,8 @@
       "Brilliant Blue Starfish",
       "サボテンの実"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_thousand_needles.png"
   },
   {
     "id": "recipe_tomato_basil_soup",
@@ -3148,7 +3298,8 @@
       "トマト",
       "バジル"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_tomato_basil_soup.png"
   },
   {
     "id": "recipe_ajiaco",
@@ -3169,7 +3320,8 @@
       "トウモロコシ",
       "じゃがいも"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_ajiaco.png"
   },
   {
     "id": "recipe_baked_beans",
@@ -3188,7 +3340,8 @@
       "豚肉",
       "豆"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_baked_beans.png"
   },
   {
     "id": "recipe_best_fish_forever",
@@ -3211,7 +3364,8 @@
       "セロリ",
       "クミン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_best_fish_forever.png"
   },
   {
     "id": "recipe_biryani",
@@ -3236,7 +3390,8 @@
       "クミン",
       "ミント"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_biryani.png"
   },
   {
     "id": "recipe_blend_of_the_bayou",
@@ -3261,7 +3416,8 @@
       "バター",
       "スパイス&ハーブ類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_blend_of_the_bayou.png"
   },
   {
     "id": "recipe_bony_osso_buco",
@@ -3284,7 +3440,8 @@
       "ブドウ",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_bony_osso_buco.png"
   },
   {
     "id": "recipe_braised_abalone",
@@ -3307,7 +3464,8 @@
       "キノコ",
       "ニンニク"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_braised_abalone.png"
   },
   {
     "id": "recipe_braised_bamboo_shoots",
@@ -3330,7 +3488,8 @@
       "大豆",
       "ショウガ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_braised_bamboo_shoots.png"
   },
   {
     "id": "recipe_brandade_de_morue",
@@ -3355,7 +3514,8 @@
       "レモン",
       "ニンニク"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_brandade_de_morue.png"
   },
   {
     "id": "recipe_burrito",
@@ -3378,7 +3538,8 @@
       "クミン",
       "肉類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_burrito.png"
   },
   {
     "id": "recipe_butter_chicken",
@@ -3403,7 +3564,8 @@
       "レモン",
       "クミン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_butter_chicken.png"
   },
   {
     "id": "recipe_cheeseburger",
@@ -3426,7 +3588,8 @@
       "チーズ",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_cheeseburger.png"
   },
   {
     "id": "recipe_chicken_souvlaki",
@@ -3449,7 +3612,8 @@
       "ミント",
       "パプリカ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_chicken_souvlaki.png"
   },
   {
     "id": "recipe_classic_mac_cheese",
@@ -3468,7 +3632,8 @@
       "小麦",
       "チーズ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_classic_mac_cheese.png"
   },
   {
     "id": "recipe_club_sandwich",
@@ -3491,7 +3656,8 @@
       "小麦",
       "トマト"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_club_sandwich.png"
   },
   {
     "id": "recipe_coq_en_barbouille",
@@ -3514,7 +3680,8 @@
       "ブドウ",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_coq_en_barbouille.png"
   },
   {
     "id": "recipe_cream_cheese_bagel",
@@ -3535,7 +3702,8 @@
       "チーズ",
       "糖類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_cream_cheese_bagel.png"
   },
   {
     "id": "recipe_crimson_burger",
@@ -3556,7 +3724,8 @@
       "ルビー豆",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_crimson_burger.png"
   },
   {
     "id": "recipe_dragon_roll_maki",
@@ -3579,7 +3748,8 @@
       "海藻",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_dragon_roll_maki.png"
   },
   {
     "id": "recipe_fabulous_fajitas",
@@ -3602,7 +3772,8 @@
       "クミン",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_fabulous_fajitas.png"
   },
   {
     "id": "recipe_good_ol_fashioned_burger",
@@ -3623,7 +3794,8 @@
       "小麦",
       "レタス"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_good_ol_fashioned_burger.png"
   },
   {
     "id": "recipe_hamburger_steak",
@@ -3646,7 +3818,8 @@
       "豆",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_hamburger_steak.png"
   },
   {
     "id": "recipe_hawaiian_pizza",
@@ -3671,7 +3844,8 @@
       "チーズ",
       "パイナップル"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_hawaiian_pizza.png"
   },
   {
     "id": "recipe_jerk_chicken",
@@ -3694,7 +3868,8 @@
       "ニンニク",
       "スパイス&ハーブ類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_jerk_chicken.png"
   },
   {
     "id": "recipe_latkes",
@@ -3717,7 +3892,8 @@
       "菜の花",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_latkes.png"
   },
   {
     "id": "recipe_lo_fries",
@@ -3738,7 +3914,8 @@
       "ヤムイモ",
       "菜の花"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_lo_fries.png"
   },
   {
     "id": "recipe_meat_pie",
@@ -3759,7 +3936,8 @@
       "バター",
       "肉類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_meat_pie.png"
   },
   {
     "id": "recipe_meaty_taco",
@@ -3784,7 +3962,8 @@
       "クミン",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_meaty_taco.png"
   },
   {
     "id": "recipe_milky_way_stew",
@@ -3807,7 +3986,8 @@
       "牛乳",
       "Cosmic Figs"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_milky_way_stew.png"
   },
   {
     "id": "recipe_moqueca_de_pirarucu",
@@ -3828,7 +4008,8 @@
       "ココナッツ",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_moqueca_de_pirarucu.png"
   },
   {
     "id": "recipe_nachos",
@@ -3849,7 +4030,8 @@
       "トウモロコシ",
       "チーズ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_nachos.png"
   },
   {
     "id": "recipe_pasta_with_herbs",
@@ -3870,7 +4052,8 @@
       "バター",
       "スパイス&ハーブ類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_pasta_with_herbs.png"
   },
   {
     "id": "recipe_pesto_with_linguine",
@@ -3893,7 +4076,8 @@
       "ニンニク",
       "オレガノ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_pesto_with_linguine.png"
   },
   {
     "id": "recipe_piquant_piranha_soup",
@@ -3914,7 +4098,8 @@
       "タケノコ",
       "唐辛子"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_piquant_piranha_soup.png"
   },
   {
     "id": "recipe_poutine",
@@ -3935,7 +4120,8 @@
       "菜の花",
       "チーズ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_poutine.png"
   },
   {
     "id": "recipe_pulled_pork",
@@ -3958,7 +4144,8 @@
       "トマト",
       "オレガノ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_pulled_pork.png"
   },
   {
     "id": "recipe_pupusas_revueltas",
@@ -3979,7 +4166,8 @@
       "トウモロコシ",
       "豆"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_pupusas_revueltas.png"
   },
   {
     "id": "recipe_rainbouillabaisse",
@@ -4004,7 +4192,8 @@
       "野菜類",
       "Seafood"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_rainbouillabaisse.png"
   },
   {
     "id": "recipe_ramen",
@@ -4025,7 +4214,8 @@
       "小麦",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_ramen.png"
   },
   {
     "id": "recipe_rhapsody_roll",
@@ -4048,7 +4238,8 @@
       "海藻",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_rhapsody_roll.png"
   },
   {
     "id": "recipe_roast",
@@ -4065,7 +4256,8 @@
     "ingredients_ja": [
       "肉類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_roast.png"
   },
   {
     "id": "recipe_royal_burger",
@@ -4090,7 +4282,8 @@
       "チーズ",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_royal_burger.png"
   },
   {
     "id": "recipe_ruby_masoor_dal",
@@ -4111,7 +4304,8 @@
       "ルビー豆",
       "トマト"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_ruby_masoor_dal.png"
   },
   {
     "id": "recipe_sand_stew",
@@ -4136,7 +4330,8 @@
       "野菜類",
       "スパイス&ハーブ類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_sand_stew.png"
   },
   {
     "id": "recipe_sausage_and_sauerkraut_platter",
@@ -4157,7 +4352,8 @@
       "キャベツ",
       "じゃがいも"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_sausage_and_sauerkraut_platter.png"
   },
   {
     "id": "recipe_schnitzel",
@@ -4178,7 +4374,8 @@
       "小麦",
       "菜の花"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_schnitzel.png"
   },
   {
     "id": "recipe_sesame_seed_bagel",
@@ -4197,7 +4394,8 @@
       "小麦",
       "糖類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_sesame_seed_bagel.png"
   },
   {
     "id": "recipe_shawarma",
@@ -4222,7 +4420,8 @@
       "シナモン",
       "ニンニク"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_shawarma.png"
   },
   {
     "id": "recipe_shish_taouk",
@@ -4247,7 +4446,8 @@
       "ニンニク",
       "オレガノ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_shish_taouk.png"
   },
   {
     "id": "recipe_sweet_and_sour_stir_fry",
@@ -4272,7 +4472,8 @@
       "ドリーマンゴー",
       "パイナップル"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": ""
   },
   {
     "id": "recipe_tandoori_chicken",
@@ -4295,7 +4496,8 @@
       "クミン",
       "パプリカ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_tandoori_chicken.png"
   },
   {
     "id": "recipe_tofu",
@@ -4312,7 +4514,8 @@
     "ingredients_ja": [
       "大豆"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_tofu.png"
   },
   {
     "id": "recipe_tourti_re",
@@ -4335,7 +4538,8 @@
       "じゃがいも",
       "野菜類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_tourti_re.png"
   },
   {
     "id": "recipe_turkey_leg",
@@ -4358,7 +4562,8 @@
       "パプリカ",
       "リュウゼツラン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_turkey_leg.png"
   },
   {
     "id": "recipe_turnip_tartiflette",
@@ -4379,7 +4584,8 @@
       "カブ",
       "チーズ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_turnip_tartiflette.png"
   },
   {
     "id": "recipe_vegetarian_turnip_tartiflette",
@@ -4400,7 +4606,8 @@
       "カブ",
       "大豆"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_vegetarian_turnip_tartiflette.png"
   },
   {
     "id": "recipe_yakisoba",
@@ -4421,7 +4628,8 @@
       "小麦",
       "キャベツ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_yakisoba.png"
   },
   {
     "id": "recipe_apple_sauce",
@@ -4440,7 +4648,8 @@
       "リンゴ",
       "シナモン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_apple_sauce.png"
   },
   {
     "id": "recipe_basil_berry_salad",
@@ -4461,7 +4670,8 @@
       "イチゴ",
       "バジル"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_basil_berry_salad.png"
   },
   {
     "id": "recipe_cannoli",
@@ -4484,7 +4694,8 @@
       "卵",
       "バニラ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_cannoli.png"
   },
   {
     "id": "recipe_caramel_macarons",
@@ -4505,7 +4716,8 @@
       "リュウゼツラン",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_caramel_macarons.png"
   },
   {
     "id": "recipe_charlotte_cake",
@@ -4526,7 +4738,8 @@
       "リュウゼツラン",
       "小麦"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_charlotte_cake.png"
   },
   {
     "id": "recipe_chocolate_macarons",
@@ -4547,7 +4760,8 @@
       "アーモンド",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_chocolate_macarons.png"
   },
   {
     "id": "recipe_cinnamon_donut",
@@ -4570,7 +4784,8 @@
       "卵",
       "糖類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_cinnamon_donut.png"
   },
   {
     "id": "recipe_cotton_candy",
@@ -4589,7 +4804,8 @@
       "リュウゼツラン",
       "サトウキビ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_cotton_candy.png"
   },
   {
     "id": "recipe_cupcakes",
@@ -4612,7 +4828,8 @@
       "小麦",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_cupcakes.png"
   },
   {
     "id": "recipe_danish",
@@ -4633,7 +4850,8 @@
       "バター",
       "果物類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_danish.png"
   },
   {
     "id": "recipe_dreamango_boba_tea",
@@ -4654,7 +4872,8 @@
       "牛乳",
       "サトウキビ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_dreamango_boba_tea.png"
   },
   {
     "id": "recipe_french_macarons",
@@ -4673,7 +4892,8 @@
       "アーモンド",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_french_macarons.png"
   },
   {
     "id": "recipe_fruit_milkshake",
@@ -4694,7 +4914,8 @@
       "牛乳",
       "果物類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_fruit_milkshake.png"
   },
   {
     "id": "recipe_glazed_donut",
@@ -4715,7 +4936,8 @@
       "卵",
       "糖類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_glazed_donut.png"
   },
   {
     "id": "recipe_gourmet_grubs",
@@ -4736,7 +4958,8 @@
       "サンドワーム",
       "サソリ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_gourmet_grubs.png"
   },
   {
     "id": "recipe_jam_macarons",
@@ -4757,7 +4980,8 @@
       "卵",
       "果物類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_jam_macarons.png"
   },
   {
     "id": "recipe_kanelbulle",
@@ -4780,7 +5004,8 @@
       "シナモン",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_kanelbulle.png"
   },
   {
     "id": "recipe_kouign_amann",
@@ -4801,7 +5026,8 @@
       "リュウゼツラン",
       "バター"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": ""
   },
   {
     "id": "recipe_maamouls",
@@ -4822,7 +5048,8 @@
       "アーモンド",
       "デーツ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_maamouls.png"
   },
   {
     "id": "recipe_makrout",
@@ -4845,7 +5072,8 @@
       "デーツ",
       "シナモン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_makrout.png"
   },
   {
     "id": "recipe_melon_boba_tea",
@@ -4866,7 +5094,8 @@
       "牛乳",
       "サトウキビ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_melon_boba_tea.png"
   },
   {
     "id": "recipe_mooncake",
@@ -4889,7 +5118,8 @@
       "リュウゼツラン",
       "豆"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_mooncake.png"
   },
   {
     "id": "recipe_nestling_crepe",
@@ -4912,7 +5142,8 @@
       "小麦",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_nestling_crepe.png"
   },
   {
     "id": "recipe_past_is_de_nata",
@@ -4935,7 +5166,8 @@
       "牛乳",
       "バニラ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_past_is_de_nata.png"
   },
   {
     "id": "recipe_pear_upside_down_cake",
@@ -4956,7 +5188,8 @@
       "小麦",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": ""
   },
   {
     "id": "recipe_pineapple_soft_serve",
@@ -4975,7 +5208,8 @@
       "パイナップル",
       "スラッシュ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_pineapple_soft_serve.png"
   },
   {
     "id": "recipe_popcorn",
@@ -4994,7 +5228,8 @@
       "トウモロコシ",
       "菜の花"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_popcorn.png"
   },
   {
     "id": "recipe_raspberry_jam_sandwich",
@@ -5013,7 +5248,8 @@
       "小麦",
       "ラズベリー"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_raspberry_jam_sandwich.png"
   },
   {
     "id": "recipe_red_velvet",
@@ -5038,7 +5274,8 @@
       "カカオ豆",
       "バニラ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_red_velvet.png"
   },
   {
     "id": "recipe_spicy_macarons",
@@ -5059,7 +5296,8 @@
       "アーモンド",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_spicy_macarons.png"
   },
   {
     "id": "recipe_spiky_berry_pie",
@@ -5084,7 +5322,8 @@
       "サボテンの実",
       "スパイス&ハーブ類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_spiky_berry_pie.png"
   },
   {
     "id": "recipe_stellar_milkshake",
@@ -5105,7 +5344,8 @@
       "牛乳",
       "スラッシュ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_stellar_milkshake.png"
   },
   {
     "id": "recipe_strawberry_pie",
@@ -5126,7 +5366,8 @@
       "小麦",
       "バター"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_strawberry_pie.png"
   },
   {
     "id": "recipe_strawberry_shortcake",
@@ -5147,7 +5388,8 @@
       "小麦",
       "卵"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_strawberry_shortcake.png"
   },
   {
     "id": "recipe_stuffed_dates",
@@ -5166,7 +5408,8 @@
       "アーモンド",
       "デーツ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_stuffed_dates.png"
   },
   {
     "id": "recipe_sugar_free_banana_muffin",
@@ -5185,7 +5428,8 @@
       "小麦",
       "バナナ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": ""
   },
   {
     "id": "recipe_sugar_free_blueberry_muffin",
@@ -5204,7 +5448,8 @@
       "小麦",
       "ブルーベリー"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": ""
   },
   {
     "id": "recipe_sugar_free_fruit_explosion_muffin",
@@ -5225,7 +5470,8 @@
       "リュウゼツラン",
       "果物類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": ""
   },
   {
     "id": "recipe_sugar_free_fruit_muffin",
@@ -5244,7 +5490,8 @@
       "小麦",
       "果物類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": ""
   },
   {
     "id": "recipe_sweet_popcorn",
@@ -5265,7 +5512,8 @@
       "菜の花",
       "リュウゼツラン"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_sweet_popcorn.png"
   },
   {
     "id": "recipe_sweet_tofu",
@@ -5284,7 +5532,8 @@
       "大豆",
       "果物類"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_sweet_tofu.png"
   },
   {
     "id": "recipe_taiyaki",
@@ -5303,7 +5552,8 @@
       "サンドフィッシュ",
       "豆"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_taiyaki.png"
   },
   {
     "id": "recipe_vanilla_macarons",
@@ -5324,7 +5574,8 @@
       "卵",
       "バニラ"
     ],
-    "realm": "永遠の島"
+    "realm": "永遠の島",
+    "icon_path": "images/meals/recipe_vanilla_macarons.png"
   },
   {
     "id": "recipe_ambrosia_smoothie",
@@ -5343,7 +5594,8 @@
       "アンブロシア",
       "プレーンヨーグルト"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_ambrosia_smoothie.png"
   },
   {
     "id": "recipe_baked_feta_olives",
@@ -5362,7 +5614,8 @@
       "見返しページフェタチーズ",
       "オリーブ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_baked_feta_olives.png"
   },
   {
     "id": "recipe_cape_gooseberry_smoothie",
@@ -5381,7 +5634,8 @@
       "食用ホオズキ",
       "プレーンヨーグルト"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_cape_gooseberry_smoothie.png"
   },
   {
     "id": "recipe_faerie_rye_crackers",
@@ -5398,7 +5652,8 @@
     "ingredients_ja": [
       "フェアリーライ麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_faerie_rye_crackers.png"
   },
   {
     "id": "recipe_golden_apple_smoothie",
@@ -5417,7 +5672,8 @@
       "黄金のリンゴ",
       "プレーンヨーグルト"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_golden_apple_smoothie.png"
   },
   {
     "id": "recipe_greek_potatoes",
@@ -5442,7 +5698,8 @@
       "果物類",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_greek_potatoes.png"
   },
   {
     "id": "recipe_honeydew_smoothie",
@@ -5461,7 +5718,8 @@
       "ハネジューメロン",
       "プレーンヨーグルト"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_honeydew_smoothie.png"
   },
   {
     "id": "recipe_lightning_bolt",
@@ -5484,7 +5742,8 @@
       "イナズマのスパイス",
       "糖類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_lightning_bolt.png"
   },
   {
     "id": "recipe_olympian_tapenade",
@@ -5507,7 +5766,8 @@
       "ハネジューメロン",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_olympian_tapenade.png"
   },
   {
     "id": "recipe_persimmon_smoothie",
@@ -5526,7 +5786,8 @@
       "柿",
       "プレーンヨーグルト"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_persimmon_smoothie.png"
   },
   {
     "id": "recipe_radicchio_slaw",
@@ -5549,7 +5810,8 @@
       "カリフラワー",
       "ラディッシュ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_radicchio_slaw.png"
   },
   {
     "id": "recipe_saut_ed_porcini",
@@ -5568,7 +5830,8 @@
       "ポルチーニ茸",
       "ニンニク"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_saut_ed_porcini.png"
   },
   {
     "id": "recipe_simple_chia_pudding",
@@ -5585,7 +5848,8 @@
     "ingredients_ja": [
       "チアシード"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_simple_chia_pudding.png"
   },
   {
     "id": "recipe_sparkling_ambrosia",
@@ -5604,7 +5868,8 @@
       "イナズマのスパイス",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_sparkling_ambrosia.png"
   },
   {
     "id": "recipe_spiral_strawberry_smoothie",
@@ -5623,7 +5888,8 @@
       "うずまきイチゴ",
       "プレーンヨーグルト"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_spiral_strawberry_smoothie.png"
   },
   {
     "id": "recipe_tzatziki",
@@ -5644,7 +5910,8 @@
       "プレーンヨーグルト",
       "ニンニク"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_tzatziki.png"
   },
   {
     "id": "recipe_a_very_unusual_tea_time",
@@ -5667,7 +5934,8 @@
       "すっぱベリー",
       "塩の結晶"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_a_very_unusual_tea_time.png"
   },
   {
     "id": "recipe_aquatic_escargot",
@@ -5688,7 +5956,8 @@
       "塩の結晶",
       "ニンニク"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_aquatic_escargot.png"
   },
   {
     "id": "recipe_arcane_garlic_crab",
@@ -5711,7 +5980,8 @@
       "ニンニク",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_arcane_garlic_crab.png"
   },
   {
     "id": "recipe_argossian_pizza",
@@ -5736,7 +6006,8 @@
       "オリーブ",
       "野菜類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_argossian_pizza.png"
   },
   {
     "id": "recipe_barley_salad",
@@ -5759,7 +6030,8 @@
       "ラディッシュ",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_barley_salad.png"
   },
   {
     "id": "recipe_cacio_e_pepe",
@@ -5780,7 +6052,8 @@
       "見返しページフェタチーズ",
       "黒コショウ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_cacio_e_pepe.png"
   },
   {
     "id": "recipe_cape_gooseberry_chia_pancakes",
@@ -5803,7 +6076,8 @@
       "スコップ鳥のタマゴ",
       "小麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_cape_gooseberry_chia_pancakes.png"
   },
   {
     "id": "recipe_caprese_salad",
@@ -5828,7 +6102,8 @@
       "野菜類",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_caprese_salad.png"
   },
   {
     "id": "recipe_cauliflower_steak",
@@ -5845,7 +6120,8 @@
     "ingredients_ja": [
       "カリフラワー"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_cauliflower_steak.png"
   },
   {
     "id": "recipe_chia_pudding",
@@ -5868,7 +6144,8 @@
       "シナモン",
       "糖類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_chia_pudding.png"
   },
   {
     "id": "recipe_chia_seed_bread",
@@ -5889,7 +6166,8 @@
       "小麦",
       "スコップ鳥のタマゴ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_chia_seed_bread.png"
   },
   {
     "id": "recipe_chimera_skewer",
@@ -5914,7 +6192,8 @@
       "芽キャベツ",
       "魚類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_chimera_skewer.png"
   },
   {
     "id": "recipe_electric_radicchio_persimmon_salad",
@@ -5935,7 +6214,8 @@
       "柿",
       "イナズマのスパイス"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_electric_radicchio_persimmon_salad.png"
   },
   {
     "id": "recipe_flying_fish_quenelles",
@@ -5960,7 +6240,8 @@
       "野菜類",
       "肉類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_flying_fish_quenelles.png"
   },
   {
     "id": "recipe_garlic_steam_mussels",
@@ -5981,7 +6262,8 @@
       "玉ねぎ",
       "ニンニク"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_garlic_steam_mussels.png"
   },
   {
     "id": "recipe_grecian_baked_fish",
@@ -6006,7 +6288,8 @@
       "アンブロシア",
       "塩の結晶"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_grecian_baked_fish.png"
   },
   {
     "id": "recipe_greek_salad",
@@ -6031,7 +6314,8 @@
       "見返しページフェタチーズ",
       "野菜類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_greek_salad.png"
   },
   {
     "id": "recipe_green_bean_casserole",
@@ -6052,7 +6336,8 @@
       "ポルチーニ茸",
       "玉ねぎ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_green_bean_casserole.png"
   },
   {
     "id": "recipe_grilled_koi_gyro",
@@ -6077,7 +6362,8 @@
       "オリーブ",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_grilled_koi_gyro.png"
   },
   {
     "id": "recipe_hermit_crab_pasta",
@@ -6098,7 +6384,8 @@
       "小麦",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_hermit_crab_pasta.png"
   },
   {
     "id": "recipe_hippocampus_cepelinai_dumplings",
@@ -6123,7 +6410,8 @@
       "玉ねぎ",
       "黒コショウ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_hippocampus_cepelinai_dumplings.png"
   },
   {
     "id": "recipe_koi_sashimi",
@@ -6140,7 +6428,8 @@
     "ingredients_ja": [
       "錦鯉"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_koi_sashimi.png"
   },
   {
     "id": "recipe_lamprey_sashimi",
@@ -6157,7 +6446,8 @@
     "ingredients_ja": [
       "ヤツメウナギ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_lamprey_sashimi.png"
   },
   {
     "id": "recipe_loaded_breakfast_yogurt",
@@ -6180,7 +6470,8 @@
       "うずまきイチゴ",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_loaded_breakfast_yogurt.png"
   },
   {
     "id": "recipe_loaded_golden_apple_porridge",
@@ -6201,7 +6492,8 @@
       "オーツ麦",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_loaded_golden_apple_porridge.png"
   },
   {
     "id": "recipe_loaded_honeydew_porridge",
@@ -6222,7 +6514,8 @@
       "オーツ麦",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_loaded_honeydew_porridge.png"
   },
   {
     "id": "recipe_loaded_persimmon_porridge",
@@ -6243,7 +6536,8 @@
       "オーツ麦",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_loaded_persimmon_porridge.png"
   },
   {
     "id": "recipe_loaded_rhubarb_porridge",
@@ -6264,7 +6558,8 @@
       "オーツ麦",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_loaded_rhubarb_porridge.png"
   },
   {
     "id": "recipe_loaded_sea_grape_porridge",
@@ -6285,7 +6580,8 @@
       "オーツ麦",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_loaded_sea_grape_porridge.png"
   },
   {
     "id": "recipe_lupine_cullen_skink",
@@ -6308,7 +6604,8 @@
       "じゃがいも",
       "プレーンヨーグルト"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_lupine_cullen_skink.png"
   },
   {
     "id": "recipe_mussel_risotto",
@@ -6333,7 +6630,8 @@
       "ニンニク",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_mussel_risotto.png"
   },
   {
     "id": "recipe_oatmeal",
@@ -6350,7 +6648,8 @@
     "ingredients_ja": [
       "オーツ麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_oatmeal.png"
   },
   {
     "id": "recipe_olive_plate",
@@ -6367,7 +6666,8 @@
     "ingredients_ja": [
       "オリーブ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_olive_plate.png"
   },
   {
     "id": "recipe_persimmon_chia_pancakes",
@@ -6390,7 +6690,8 @@
       "チアシード",
       "スコップ鳥のタマゴ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_persimmon_chia_pancakes.png"
   },
   {
     "id": "recipe_radicchio_stuffed_porcini",
@@ -6411,7 +6712,8 @@
       "ポルチーニ茸",
       "黒コショウ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_roasted_barley_veggies",
@@ -6436,7 +6738,8 @@
       "見返しページフェタチーズ",
       "野菜類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_roasted_barley_veggies.png"
   },
   {
     "id": "recipe_roasted_brussel_sprouts",
@@ -6455,7 +6758,8 @@
       "芽キャベツ",
       "ニンニク"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_roasted_green_beans",
@@ -6474,7 +6778,8 @@
       "サヤインゲン",
       "ニンニク"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_roasted_green_beans.png"
   },
   {
     "id": "recipe_salt_baked_sea_wolf",
@@ -6493,7 +6798,8 @@
       "Sea Wolf",
       "塩の結晶"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_salt_pickled_cauliflower",
@@ -6514,7 +6820,8 @@
       "塩の結晶",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_salt_pickled_garlic",
@@ -6535,7 +6842,8 @@
       "塩の結晶",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_salt_pickled_green_beans",
@@ -6556,7 +6864,8 @@
       "塩の結晶",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_salt_pickled_radicchio",
@@ -6577,7 +6886,8 @@
       "塩の結晶",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_salt_pickled_radish",
@@ -6598,7 +6908,8 @@
       "塩の結晶",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_salt_pickled_sea_grapes",
@@ -6619,7 +6930,8 @@
       "塩の結晶",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_scottish_porridge",
@@ -6638,7 +6950,8 @@
       "オーツ麦",
       "果物類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_scottish_porridge.png"
   },
   {
     "id": "recipe_sea_grape_chia_pancakes",
@@ -6661,7 +6974,8 @@
       "スコップ鳥のタマゴ",
       "小麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_sea_grape_chia_pancakes.png"
   },
   {
     "id": "recipe_seaweed_salad",
@@ -6684,7 +6998,8 @@
       "黒コショウ",
       "野菜類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_seaweed_salad.png"
   },
   {
     "id": "recipe_shovel_bird_eggs_benedict",
@@ -6707,7 +7022,8 @@
       "うずまきイチゴ",
       "塩の結晶"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_shovel_bird_eggs_benedict.png"
   },
   {
     "id": "recipe_soda_bread_feta",
@@ -6728,7 +7044,8 @@
       "見返しページフェタチーズ",
       "塩の結晶"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_soda_bread_feta.png"
   },
   {
     "id": "recipe_spanakopita",
@@ -6753,7 +7070,8 @@
       "ニンニク",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_spanakopita.png"
   },
   {
     "id": "recipe_spiral_strawberry_chia_pancakes",
@@ -6776,7 +7094,8 @@
       "小麦",
       "スコップ鳥のタマゴ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_spiral_strawberry_chia_pancakes.png"
   },
   {
     "id": "recipe_sprout_stuffed_porcini",
@@ -6797,7 +7116,8 @@
       "ポルチーニ茸",
       "黒コショウ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_squash_stuffed_porcini",
@@ -6818,7 +7138,8 @@
       "ポルチーニ茸",
       "黒コショウ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_squid_sashimi",
@@ -6835,7 +7156,8 @@
     "ingredients_ja": [
       "イカ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_squid_sashimi.png"
   },
   {
     "id": "recipe_steamed_mussels",
@@ -6852,7 +7174,8 @@
     "ingredients_ja": [
       "ムール貝"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_steamed_mussels.png"
   },
   {
     "id": "recipe_stuffed_ring_squash",
@@ -6873,7 +7196,8 @@
       "ニンニク",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_stuffed_ring_squash.png"
   },
   {
     "id": "recipe_tuna_sashimi",
@@ -6890,7 +7214,8 @@
     "ingredients_ja": [
       "マグロ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_tuna_sashimi.png"
   },
   {
     "id": "recipe_aphrodite_s_delight",
@@ -6909,7 +7234,8 @@
       "黄金のリンゴ",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_cape_gooseberry_sour_fondue",
@@ -6928,7 +7254,8 @@
       "食用ホオズキ",
       "すっぱベリー"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_cape_gooseberry_sour_fondue.png"
   },
   {
     "id": "recipe_cinnamon_cake",
@@ -6951,7 +7278,8 @@
       "スコップ鳥のタマゴ",
       "小麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_cinnamon_cake.png"
   },
   {
     "id": "recipe_cinnamon_cookies",
@@ -6974,7 +7302,8 @@
       "小麦",
       "糖類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_cinnamon_cookies.png"
   },
   {
     "id": "recipe_golden_apple_pie",
@@ -6995,7 +7324,8 @@
       "小麦",
       "スコップ鳥のタマゴ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_golden_apple_pie.png"
   },
   {
     "id": "recipe_honeydew_sour_fondue",
@@ -7014,7 +7344,8 @@
       "ハネジューメロン",
       "すっぱベリー"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_honeydew_sour_fondue.png"
   },
   {
     "id": "recipe_lightning_cake",
@@ -7037,7 +7368,8 @@
       "プレーンヨーグルト",
       "スコップ鳥のタマゴ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_lightning_cake.png"
   },
   {
     "id": "recipe_lightning_cookies",
@@ -7060,7 +7392,8 @@
       "プレーンヨーグルト",
       "糖類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_lightning_cookies.png"
   },
   {
     "id": "recipe_merryweather_s_gingersnaps",
@@ -7085,7 +7418,8 @@
       "ショウガ",
       "すっぱベリー"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_nutmeg_cake",
@@ -7108,7 +7442,8 @@
       "プレーンヨーグルト",
       "スコップ鳥のタマゴ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_nutmeg_cake.png"
   },
   {
     "id": "recipe_nutmeg_cookies",
@@ -7131,7 +7466,8 @@
       "プレーンヨーグルト",
       "糖類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_nutmeg_cookies.png"
   },
   {
     "id": "recipe_persimmon_pie",
@@ -7152,7 +7488,8 @@
       "スコップ鳥のタマゴ",
       "小麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_persimmon_pie.png"
   },
   {
     "id": "recipe_persimmon_sour_fondue",
@@ -7171,7 +7508,8 @@
       "すっぱベリー",
       "柿"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_persimmon_sour_fondue.png"
   },
   {
     "id": "recipe_rice_pudding",
@@ -7192,7 +7530,8 @@
       "バニラ",
       "オーツ麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_rice_pudding.png"
   },
   {
     "id": "recipe_sour_berry_dessert",
@@ -7211,7 +7550,8 @@
       "すっぱベリー",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_sour_berry_dessert.png"
   },
   {
     "id": "recipe_sour_berry_pie",
@@ -7232,7 +7572,8 @@
       "小麦",
       "スコップ鳥のタマゴ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_sour_berry_pie.png"
   },
   {
     "id": "recipe_spicy_yogurt",
@@ -7251,7 +7592,8 @@
       "プレーンヨーグルト",
       "スパイス&ハーブ類"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_spicy_yogurt.png"
   },
   {
     "id": "recipe_spiral_strawberry_pie",
@@ -7272,7 +7614,8 @@
       "スコップ鳥のタマゴ",
       "小麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_spiral_strawberry_pie.png"
   },
   {
     "id": "recipe_spiral_strawberry_sour_fondue",
@@ -7291,7 +7634,8 @@
       "うずまきイチゴ",
       "すっぱベリー"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_spiral_strawberry_sour_fondue.png"
   },
   {
     "id": "recipe_strawberry_rhubarb_pie",
@@ -7314,7 +7658,8 @@
       "ルバーブ",
       "小麦"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_strawberry_rhubarb_pie.png"
   },
   {
     "id": "recipe_underworld_cake",
@@ -7339,7 +7684,8 @@
       "ナツメグ",
       "アンブロシア"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": ""
   },
   {
     "id": "recipe_vanilla_yogurt",
@@ -7358,7 +7704,8 @@
       "プレーンヨーグルト",
       "バニラ"
     ],
-    "realm": "物語の谷"
+    "realm": "物語の谷",
+    "icon_path": "images/meals/recipe_vanilla_yogurt.png"
   },
   {
     "id": "recipe_alpine_fishcakes",
@@ -7377,7 +7724,8 @@
       "Red Alpine Bass",
       "ディル"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_alpine_fishcakes.png"
   },
   {
     "id": "recipe_buttermilk_borscht",
@@ -7400,7 +7748,8 @@
       "牛乳",
       "卵"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_buttermilk_borscht.png"
   },
   {
     "id": "recipe_fizzy_nectar_soda",
@@ -7419,7 +7768,8 @@
       "Bonsai Star Fruit",
       "スラッシュ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_fizzy_nectar_soda.png"
   },
   {
     "id": "recipe_rosehip_honey_tea",
@@ -7436,7 +7786,8 @@
     "ingredients_ja": [
       "サンゴのハチミツ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_rosehip_honey_tea.png"
   },
   {
     "id": "recipe_scarlet_bouquet_salad",
@@ -7453,7 +7804,8 @@
     "ingredients_ja": [
       "スカーレットケール"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_scarlet_bouquet_salad.png"
   },
   {
     "id": "recipe_smoked_fish_charcuterie_spread",
@@ -7476,7 +7828,8 @@
       "小麦",
       "魚類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_smoked_fish_charcuterie_spread.png"
   },
   {
     "id": "recipe_101_teeny_tiny_dalmatian_cupcakes",
@@ -7499,7 +7852,8 @@
       "卵",
       "サトウキビ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_101_teeny_tiny_dalmatian_cupcakes.png"
   },
   {
     "id": "recipe_afternoon_tea_set",
@@ -7522,7 +7876,8 @@
       "Pincushion Peach",
       "野菜類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_afternoon_tea_set.png"
   },
   {
     "id": "recipe_baked_whitefish_and_roasted_beets",
@@ -7541,7 +7896,8 @@
       "ビーツ",
       "マウンテンホワイトフィッシュ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_baked_whitefish_and_roasted_beets.png"
   },
   {
     "id": "recipe_beet_iful_spaetzle",
@@ -7562,7 +7918,8 @@
       "卵",
       "小麦"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": ""
   },
   {
     "id": "recipe_bread_bowl_pumpkin_soup",
@@ -7585,7 +7942,8 @@
       "牛乳",
       "カボチャ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_bread_bowl_pumpkin_soup.png"
   },
   {
     "id": "recipe_button_stew",
@@ -7604,7 +7962,8 @@
       "Button Mushroom",
       "ニンジン"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_button_stew.png"
   },
   {
     "id": "recipe_eton_mess",
@@ -7625,7 +7984,8 @@
       "Pincushion Peach",
       "卵"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_eton_mess.png"
   },
   {
     "id": "recipe_felted_breakfast_spread",
@@ -7646,7 +8006,8 @@
       "卵",
       "Satin-Finned Betta"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_felted_breakfast_spread.png"
   },
   {
     "id": "recipe_fishy_pineapple_jelly",
@@ -7671,7 +8032,8 @@
       "スカーレットケール",
       "魚類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_fishy_pineapple_jelly.png"
   },
   {
     "id": "recipe_friendly_bento",
@@ -7694,7 +8056,8 @@
       "サンゴのハチミツ",
       "野菜類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_friendly_bento.png"
   },
   {
     "id": "recipe_honey_pancakes",
@@ -7715,7 +8078,8 @@
       "小麦",
       "卵"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_honey_pancakes.png"
   },
   {
     "id": "recipe_honey_glazed_carrots",
@@ -7736,7 +8100,8 @@
       "サンゴのハチミツ",
       "ディル"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_honey_glazed_carrots.png"
   },
   {
     "id": "recipe_horace_s_ham_sandwich",
@@ -7757,7 +8122,8 @@
       "チーズ",
       "野菜類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_horace_s_ham_sandwich.png"
   },
   {
     "id": "recipe_jellied_fish_terrine",
@@ -7774,7 +8140,8 @@
     "ingredients_ja": [
       "ゼリーウツボ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_jellied_fish_terrine.png"
   },
   {
     "id": "recipe_jellied_salad",
@@ -7793,7 +8160,8 @@
       "ゼリーウツボ",
       "スカーレットケール"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_jellied_salad.png"
   },
   {
     "id": "recipe_kanine_krunchies_cereal",
@@ -7812,7 +8180,8 @@
       "Pearly Barley",
       "Pincushion Peach"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_kanine_krunchies_cereal.png"
   },
   {
     "id": "recipe_pixie_pizza",
@@ -7837,7 +8206,8 @@
       "チーズ",
       "トマト"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_pixie_pizza.png"
   },
   {
     "id": "recipe_scarlet_kale_and_cheese_pinwheels",
@@ -7858,7 +8228,8 @@
       "チーズ",
       "小麦"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_scarlet_kale_and_cheese_pinwheels.png"
   },
   {
     "id": "recipe_stargazy_pie",
@@ -7881,7 +8252,8 @@
       "Red Alpine Bass",
       "小麦"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_stargazy_pie.png"
   },
   {
     "id": "recipe_vintage_peach_trifle",
@@ -7906,7 +8278,8 @@
       "サトウキビ",
       "果物類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_vintage_peach_trifle.png"
   },
   {
     "id": "recipe_beauty_and_the_beets_napoleon",
@@ -7931,7 +8304,8 @@
       "卵",
       "牛乳"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_beauty_and_the_beets_napoleon.png"
   },
   {
     "id": "recipe_beet_brownie_stack",
@@ -7952,7 +8326,8 @@
       "卵",
       "糖類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_beet_brownie_stack.png"
   },
   {
     "id": "recipe_beet_sugar_sculpture",
@@ -7971,7 +8346,8 @@
       "ビーツ",
       "サトウキビ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_beet_sugar_sculpture.png"
   },
   {
     "id": "recipe_fairy_boot_cake",
@@ -7996,7 +8372,8 @@
       "卵",
       "バター"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_fairy_boot_cake.png"
   },
   {
     "id": "recipe_fairy_bread",
@@ -8015,7 +8392,8 @@
       "Fairy Kamut",
       "Fairy Sprinkles"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_fairy_bread.png"
   },
   {
     "id": "recipe_fairy_wands",
@@ -8036,7 +8414,8 @@
       "Lollipop Fruit",
       "果物類"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_fairy_wands.png"
   },
   {
     "id": "recipe_pixie_ice_cream_dome_cake",
@@ -8059,7 +8438,8 @@
       "Red Currants",
       "スラッシュ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_pixie_ice_cream_dome_cake.png"
   },
   {
     "id": "recipe_red_currant_linzer_cookies",
@@ -8082,7 +8462,8 @@
       "小麦",
       "サトウキビ"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_red_currant_linzer_cookies.png"
   },
   {
     "id": "recipe_red_currant_valley_cakes",
@@ -8103,7 +8484,8 @@
       "牛乳",
       "卵"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_red_currant_valley_cakes.png"
   },
   {
     "id": "recipe_tigger_tails",
@@ -8122,7 +8504,8 @@
       "Lollipop Fruit",
       "Fairy Sprinkles"
     ],
-    "realm": "願い咲く牧場"
+    "realm": "願い咲く牧場",
+    "icon_path": "images/meals/recipe_tigger_tails.png"
   },
   {
     "id": "recipe_",
@@ -8137,7 +8520,8 @@
     "realm": "バレー",
     "sell_price_note": "2+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe_.png"
   },
   {
     "id": "recipe__1",
@@ -8152,7 +8536,8 @@
     "realm": "バレー",
     "sell_price_note": "20+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__1.png"
   },
   {
     "id": "recipe__2",
@@ -8169,7 +8554,8 @@
     "realm": "",
     "sell_price_note": "588+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__3",
@@ -8187,7 +8573,8 @@
     "realm": "バレー",
     "sell_price_note": "236+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__3.png"
   },
   {
     "id": "recipe__4",
@@ -8203,7 +8590,8 @@
     "realm": "バレー",
     "sell_price_note": "301+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__5",
@@ -8221,7 +8609,8 @@
     "realm": "バレー",
     "sell_price_note": "2,600+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__5.png"
   },
   {
     "id": "recipe__6",
@@ -8238,7 +8627,8 @@
     "realm": "",
     "sell_price_note": "316+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__7",
@@ -8251,7 +8641,8 @@
     "realm": "バレー",
     "sell_price_note": "",
     "unlocked": false,
-    "memo": "フェスティバル（冬版）で作成できるレシピのようです。"
+    "memo": "フェスティバル（冬版）で作成できるレシピのようです。",
+    "icon_path": "images/meals/recipe__7.png"
   },
   {
     "id": "recipe__8",
@@ -8264,7 +8655,8 @@
     "realm": "バレー",
     "sell_price_note": "",
     "unlocked": false,
-    "memo": "フェスティバル（冬版）で作成できるレシピのようです。"
+    "memo": "フェスティバル（冬版）で作成できるレシピのようです。",
+    "icon_path": "images/meals/recipe__8.png"
   },
   {
     "id": "recipe__9",
@@ -8277,7 +8669,8 @@
     "realm": "バレー",
     "sell_price_note": "",
     "unlocked": false,
-    "memo": "フェスティバル（冬版）で作成できるレシピのようです。"
+    "memo": "フェスティバル（冬版）で作成できるレシピのようです。",
+    "icon_path": "images/meals/recipe__9.png"
   },
   {
     "id": "recipe__10",
@@ -8294,7 +8687,8 @@
     "realm": "バレー",
     "sell_price_note": "271+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__10.png"
   },
   {
     "id": "recipe__11",
@@ -8313,7 +8707,8 @@
     "realm": "バレー",
     "sell_price_note": "769+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__11.png"
   },
   {
     "id": "recipe__12",
@@ -8332,7 +8727,8 @@
     "realm": "バレー",
     "sell_price_note": "767+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__13",
@@ -8351,7 +8747,8 @@
     "realm": "バレー",
     "sell_price_note": "738+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__13.png"
   },
   {
     "id": "recipe__14",
@@ -8368,7 +8765,8 @@
     "realm": "バレー",
     "sell_price_note": "282+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__14.png"
   },
   {
     "id": "recipe__15",
@@ -8383,7 +8781,8 @@
     "realm": "バレー",
     "sell_price_note": "180+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__15.png"
   },
   {
     "id": "recipe__16",
@@ -8399,7 +8798,8 @@
     "realm": "バレー",
     "sell_price_note": "56+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__16.png"
   },
   {
     "id": "recipe__17",
@@ -8414,7 +8814,8 @@
     "realm": "バレー",
     "sell_price_note": "22+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__17.png"
   },
   {
     "id": "recipe__18",
@@ -8431,7 +8832,8 @@
     "realm": "",
     "sell_price_note": "610+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__19",
@@ -8448,7 +8850,8 @@
     "realm": "バレー",
     "sell_price_note": "440+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__19.png"
   },
   {
     "id": "recipe__20",
@@ -8464,7 +8867,8 @@
     "realm": "バレー",
     "sell_price_note": "249+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__20.png"
   },
   {
     "id": "recipe__21",
@@ -8482,7 +8886,8 @@
     "realm": "バレー",
     "sell_price_note": "661+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__21.png"
   },
   {
     "id": "recipe__22",
@@ -8500,7 +8905,8 @@
     "realm": "バレー",
     "sell_price_note": "424+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__22.png"
   },
   {
     "id": "recipe__23",
@@ -8517,7 +8923,8 @@
     "realm": "バレー",
     "sell_price_note": "87+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__23.png"
   },
   {
     "id": "recipe__24",
@@ -8535,7 +8942,8 @@
     "realm": "バレー",
     "sell_price_note": "753+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__24.png"
   },
   {
     "id": "recipe__25",
@@ -8552,7 +8960,8 @@
     "realm": "",
     "sell_price_note": "66+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__26",
@@ -8569,7 +8978,8 @@
     "realm": "バレー",
     "sell_price_note": "338+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__27",
@@ -8587,7 +8997,8 @@
     "realm": "バレー",
     "sell_price_note": "691+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__27.png"
   },
   {
     "id": "recipe__28",
@@ -8602,7 +9013,8 @@
     "realm": "バレー",
     "sell_price_note": "7+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__28.png"
   },
   {
     "id": "recipe__29",
@@ -8621,7 +9033,8 @@
     "realm": "バレー",
     "sell_price_note": "545+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__29.png"
   },
   {
     "id": "recipe__30",
@@ -8637,7 +9050,8 @@
     "realm": "バレー",
     "sell_price_note": "219+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__30.png"
   },
   {
     "id": "recipe__31",
@@ -8654,7 +9068,8 @@
     "realm": "バレー",
     "sell_price_note": "294+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__32",
@@ -8673,7 +9088,8 @@
     "realm": "バレー",
     "sell_price_note": "772+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__32.png"
   },
   {
     "id": "recipe__33",
@@ -8692,7 +9108,8 @@
     "realm": "バレー",
     "sell_price_note": "751+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__33.png"
   },
   {
     "id": "recipe__34",
@@ -8709,7 +9126,8 @@
     "realm": "バレー",
     "sell_price_note": "156+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__35",
@@ -8726,7 +9144,8 @@
     "realm": "バレー",
     "sell_price_note": "558+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__35.png"
   },
   {
     "id": "recipe__36",
@@ -8742,7 +9161,8 @@
     "realm": "バレー",
     "sell_price_note": "323+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__36.png"
   },
   {
     "id": "recipe__37",
@@ -8759,7 +9179,8 @@
     "realm": "バレー",
     "sell_price_note": "418+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__37.png"
   },
   {
     "id": "recipe__38",
@@ -8776,7 +9197,8 @@
     "realm": "バレー",
     "sell_price_note": "406+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__38.png"
   },
   {
     "id": "recipe__39",
@@ -8793,7 +9215,8 @@
     "realm": "バレー",
     "sell_price_note": "418+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__39.png"
   },
   {
     "id": "recipe__40",
@@ -8810,7 +9233,8 @@
     "realm": "バレー",
     "sell_price_note": "377+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__40.png"
   },
   {
     "id": "recipe__41",
@@ -8828,7 +9252,8 @@
     "realm": "バレー",
     "sell_price_note": "418+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__41.png"
   },
   {
     "id": "recipe__42",
@@ -8846,7 +9271,8 @@
     "realm": "バレー",
     "sell_price_note": "314+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__42.png"
   },
   {
     "id": "recipe__43",
@@ -8863,7 +9289,8 @@
     "realm": "バレー",
     "sell_price_note": "326+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__43.png"
   },
   {
     "id": "recipe__44",
@@ -8881,7 +9308,8 @@
     "realm": "バレー",
     "sell_price_note": "373+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__44.png"
   },
   {
     "id": "recipe__45",
@@ -8899,7 +9327,8 @@
     "realm": "バレー",
     "sell_price_note": "655+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__45.png"
   },
   {
     "id": "recipe__46",
@@ -8917,7 +9346,8 @@
     "realm": "バレー",
     "sell_price_note": "735+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__46.png"
   },
   {
     "id": "recipe__47",
@@ -8934,7 +9364,8 @@
     "realm": "",
     "sell_price_note": "314+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__48",
@@ -8952,7 +9383,8 @@
     "realm": "バレー",
     "sell_price_note": "329+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__48.png"
   },
   {
     "id": "recipe__49",
@@ -8970,7 +9402,8 @@
     "realm": "バレー",
     "sell_price_note": "427+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__49.png"
   },
   {
     "id": "recipe__50",
@@ -8989,7 +9422,8 @@
     "realm": "バレー",
     "sell_price_note": "783+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__50.png"
   },
   {
     "id": "recipe__51",
@@ -9006,7 +9440,8 @@
     "realm": "バレー",
     "sell_price_note": "248+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__51.png"
   },
   {
     "id": "recipe__52",
@@ -9025,7 +9460,8 @@
     "realm": "バレー",
     "sell_price_note": "785+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__52.png"
   },
   {
     "id": "recipe__53",
@@ -9042,7 +9478,8 @@
     "realm": "バレー",
     "sell_price_note": "254+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__53.png"
   },
   {
     "id": "recipe__54",
@@ -9060,7 +9497,8 @@
     "realm": "バレー",
     "sell_price_note": "336+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__54.png"
   },
   {
     "id": "recipe__55",
@@ -9079,7 +9517,8 @@
     "realm": "バレー",
     "sell_price_note": "370+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__55.png"
   },
   {
     "id": "recipe__56",
@@ -9096,7 +9535,8 @@
     "realm": "バレー",
     "sell_price_note": "1,000+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__56.png"
   },
   {
     "id": "recipe__57",
@@ -9115,7 +9555,8 @@
     "realm": "バレー",
     "sell_price_note": "749+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__57.png"
   },
   {
     "id": "recipe__58",
@@ -9134,7 +9575,8 @@
     "realm": "バレー",
     "sell_price_note": "714+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__58.png"
   },
   {
     "id": "recipe__59",
@@ -9152,7 +9594,8 @@
     "realm": "バレー",
     "sell_price_note": "641+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__59.png"
   },
   {
     "id": "recipe__60",
@@ -9169,7 +9612,8 @@
     "realm": "バレー",
     "sell_price_note": "308+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__60.png"
   },
   {
     "id": "recipe__61",
@@ -9187,7 +9631,8 @@
     "realm": "バレー",
     "sell_price_note": "673+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__61.png"
   },
   {
     "id": "recipe__62",
@@ -9205,7 +9650,8 @@
     "realm": "バレー",
     "sell_price_note": "978+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__62.png"
   },
   {
     "id": "recipe__63",
@@ -9220,7 +9666,8 @@
     "realm": "バレー",
     "sell_price_note": "10+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__63.png"
   },
   {
     "id": "recipe__64",
@@ -9236,7 +9683,8 @@
     "realm": "バレー",
     "sell_price_note": "206+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__64.png"
   },
   {
     "id": "recipe__65",
@@ -9253,7 +9701,8 @@
     "realm": "バレー",
     "sell_price_note": "308+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__65.png"
   },
   {
     "id": "recipe__66",
@@ -9269,7 +9718,8 @@
     "realm": "バレー",
     "sell_price_note": "42+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__66.png"
   },
   {
     "id": "recipe__67",
@@ -9287,7 +9737,8 @@
     "realm": "バレー",
     "sell_price_note": "524+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__67.png"
   },
   {
     "id": "recipe__68",
@@ -9304,7 +9755,8 @@
     "realm": "バレー",
     "sell_price_note": "139+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__68.png"
   },
   {
     "id": "recipe__69",
@@ -9321,7 +9773,8 @@
     "realm": "バレー",
     "sell_price_note": "401+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__69.png"
   },
   {
     "id": "recipe__70",
@@ -9338,7 +9791,8 @@
     "realm": "バレー",
     "sell_price_note": "294+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__70.png"
   },
   {
     "id": "recipe__71",
@@ -9357,7 +9811,8 @@
     "realm": "バレー",
     "sell_price_note": "745+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__71.png"
   },
   {
     "id": "recipe__72",
@@ -9373,7 +9828,8 @@
     "realm": "バレー",
     "sell_price_note": "67+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": ""
   },
   {
     "id": "recipe__73",
@@ -9389,7 +9845,8 @@
     "realm": "バレー",
     "sell_price_note": "89+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__73.png"
   },
   {
     "id": "recipe__74",
@@ -9405,7 +9862,8 @@
     "realm": "バレー",
     "sell_price_note": "260+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__74.png"
   },
   {
     "id": "recipe__75",
@@ -9423,7 +9881,8 @@
     "realm": "バレー",
     "sell_price_note": "445+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__75.png"
   },
   {
     "id": "recipe__76",
@@ -9441,7 +9900,8 @@
     "realm": "バレー",
     "sell_price_note": "667+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__76.png"
   },
   {
     "id": "recipe__77",
@@ -9457,7 +9917,8 @@
     "realm": "バレー",
     "sell_price_note": "300+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__77.png"
   },
   {
     "id": "recipe__78",
@@ -9474,7 +9935,8 @@
     "realm": "バレー",
     "sell_price_note": "166+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__78.png"
   },
   {
     "id": "recipe__79",
@@ -9492,7 +9954,8 @@
     "realm": "バレー",
     "sell_price_note": "359+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__79.png"
   },
   {
     "id": "recipe__80",
@@ -9508,7 +9971,8 @@
     "realm": "バレー",
     "sell_price_note": "237+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__80.png"
   },
   {
     "id": "recipe__81",
@@ -9526,7 +9990,8 @@
     "realm": "バレー",
     "sell_price_note": "198+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__81.png"
   },
   {
     "id": "recipe__82",
@@ -9544,7 +10009,8 @@
     "realm": "バレー",
     "sell_price_note": "120+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__82.png"
   },
   {
     "id": "recipe__83",
@@ -9562,7 +10028,8 @@
     "realm": "バレー",
     "sell_price_note": "706+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__83.png"
   },
   {
     "id": "recipe__84",
@@ -9580,7 +10047,8 @@
     "realm": "バレー",
     "sell_price_note": "391+ スターコイン",
     "unlocked": false,
-    "memo": ""
+    "memo": "",
+    "icon_path": "images/meals/recipe__84.png"
   },
   {
     "id": "recipe_hg_warm_milk_and_honey",
@@ -9599,7 +10067,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "344+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_honeycrunch_bar",
@@ -9618,7 +10087,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "107+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_sweet_acorn_porridge",
@@ -9639,7 +10109,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "119+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_honey_glazed_plush_fish",
@@ -9660,7 +10131,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "1300+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_blustery_day_soup",
@@ -9683,7 +10155,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "226+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_honey_macarons",
@@ -9706,7 +10179,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "802+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_honey_triffle",
@@ -9729,7 +10203,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "239+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_brunchfast",
@@ -9752,7 +10227,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "1300+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_rabbit_s_garden_pie",
@@ -9777,7 +10253,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "323+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_toasted_picnic_sandwich",
@@ -9802,7 +10279,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "173+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_foresty_quiche",
@@ -9827,7 +10305,8 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "248+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   },
   {
     "id": "recipe_hg_pooh_s_birthday_cake",
@@ -9852,6 +10331,7 @@
     "realm": "ハニーグローの森",
     "sell_price_note": "112+ スターコイン",
     "unlocked": false,
-    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳"
+    "memo": "ハニーグローの森（くまのプーさんパック）。日本語名は暫定訳",
+    "icon_path": ""
   }
 ]

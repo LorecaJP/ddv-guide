@@ -2,11 +2,13 @@
   import type { Recipe } from '../lib/schema'
   import { seedAll } from '../lib/db/seed'
   import { getAll, put } from '../lib/db/idb'
-  import { route, setParams } from '../lib/router'
+  import { route, setParams, asset } from '../lib/router'
 
   const P = $route.params
   let all = $state<Recipe[]>([])
   let loading = $state(true)
+  let broken = $state<Set<string>>(new Set())
+  const markBroken = (id: string) => (broken = new Set(broken).add(id))
   // 素材ページからの遷移時は ?ing=材料名 で初期検索
   let query = $state(P.q ?? P.ing ?? '')
   let starFilter = $state(Number(P.star) || 0) // 0 = すべて
@@ -139,8 +141,15 @@
           <li class="item" class:done={r.unlocked}>
             <div class="line">
               <button class="main" onclick={() => toggleExpand(r.id)}>
-                <span class="nm">{r.name_ja || r.name_en}</span>
-                {#if r.name_ja}<span class="en">{r.name_en}</span>{/if}
+                <span class="rthumb">
+                  {#if r.icon_path && !broken.has(r.id)}
+                    <img src={asset(r.icon_path)} alt="" loading="lazy" onerror={() => markBroken(r.id)} />
+                  {:else}<span class="ph">🍽️</span>{/if}
+                </span>
+                <span class="txt">
+                  <span class="nm">{r.name_ja || r.name_en}</span>
+                  {#if r.name_ja}<span class="en">{r.name_en}</span>{/if}
+                </span>
               </button>
               <span class="stars">{'★'.repeat(r.stars)}</span>
               <button class="own" class:on={r.unlocked} onclick={() => toggleUnlocked(r)} title="解放トグル">
@@ -183,7 +192,11 @@
   .item { border-bottom: 1px solid var(--c-line); }
   .item.done { background: color-mix(in srgb, var(--c-accent-soft) 22%, transparent); }
   .line { display: flex; align-items: center; gap: 10px; padding: 10px 4px; }
-  .main { flex: 1 1 auto; min-width: 0; background: none; border: 0; text-align: left; padding: 4px 2px; display: flex; flex-direction: column; }
+  .main { flex: 1 1 auto; min-width: 0; background: none; border: 0; text-align: left; padding: 4px 2px; display: flex; flex-direction: row; align-items: center; gap: 10px; }
+  .rthumb { flex: none; width: 40px; height: 40px; display: grid; place-items: center; background: var(--c-surface-2); border-radius: 8px; overflow: hidden; }
+  .rthumb img { width: 100%; height: 100%; object-fit: contain; }
+  .rthumb .ph { font-size: 20px; opacity: 0.5; }
+  .txt { display: flex; flex-direction: column; min-width: 0; }
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
   .en { font-size: 11px; color: var(--c-ink-soft); }
   .stars { flex: none; color: var(--c-accent); letter-spacing: 1px; font-size: 13px; white-space: nowrap; }
