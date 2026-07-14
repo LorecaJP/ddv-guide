@@ -22,14 +22,14 @@ npm run preview    # ビルド結果をプレビュー
 src/
   app.css                 デザイントークン（CSS変数。ddv-prototypes.jsx の値に差し替え予定）
   lib/
-    schema/index.ts       15カテゴリの TypeScript 型 + カテゴリメタ(CATEGORIES)
+    schema/index.ts       14カテゴリの TypeScript 型 + カテゴリメタ(CATEGORIES)
     db/idb.ts             最小 IndexedDB ラッパー
     db/seed.ts            静的JSON → IndexedDB（✏️編集を保持してマージ）
     db/transfer.ts        データ移行（✏️＋dashboard の書き出し/読み込み）
     data/characters.json  キャラ72体（🔒データ）
     router.ts             ハッシュルーター + asset() パスヘルパー
   routes/
-    Hub.svelte            トップ = ④ハブ＆スポーク（15カテゴリメニュー・進捗表示）
+    Hub.svelte            トップ = ④ハブ＆スポーク（14カテゴリメニュー・進捗表示）
     CharactersZukan.svelte キャラ詳細 = ②図鑑グリッド（検索/作品フィルタ/解放トグル）
     CategoryPlaceholder.svelte 未実装カテゴリの案内
 public/

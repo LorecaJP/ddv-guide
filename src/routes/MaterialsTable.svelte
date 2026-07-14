@@ -25,7 +25,14 @@
   }
   load()
 
-  const cats = $derived([...new Set(all.map((m) => m.category).filter(Boolean))].sort())
+  // 種別の表示順（実在するものだけを順に）
+  const CAT_ORDER = ['農作物', 'フルーツ', '穀物', '魚', '魚介', '肉', '卵・ナッツ', '乳製品', 'キノコ', '茶葉', '甘味料', 'スパイス・ハーブ', 'その他']
+  const cats = $derived((() => {
+    const present = new Set(all.map((m) => m.category).filter(Boolean))
+    const ordered = CAT_ORDER.filter((c) => present.has(c))
+    const extra = [...present].filter((c) => !CAT_ORDER.includes(c)).sort()
+    return [...ordered, ...extra]
+  })())
   const unlockedCount = $derived(all.filter((m) => m.unlocked).length)
 
   const view = $derived(

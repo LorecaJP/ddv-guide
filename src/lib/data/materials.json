@@ -18,7 +18,7 @@
     "id": "mat_lemon",
     "name_ja": "レモン",
     "name_en": "Lemon",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_arendellian_pickled_herring",
@@ -53,7 +53,7 @@
     "id": "mat_onion",
     "name_ja": "玉ねぎ",
     "name_en": "Onion",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_arendellian_pickled_herring",
@@ -94,7 +94,7 @@
     "id": "mat_garlic",
     "name_ja": "ニンニク",
     "name_en": "Garlic",
-    "category": "食材",
+    "category": "スパイス・ハーブ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_aquatic_escargot",
@@ -134,7 +134,7 @@
     "id": "mat_spices_herbs",
     "name_ja": "スパイス&ハーブ類",
     "name_en": "Spices & Herbs",
-    "category": "調理カテゴリ（任意の該当素材）",
+    "category": "スパイス・ハーブ",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "used_in_recipes": [
       "recipe_arcane_garlic_crab",
@@ -182,7 +182,7 @@
     "id": "mat_bell_pepper",
     "name_ja": "ピーマン",
     "name_en": "Bell Pepper",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_bell_pepper_puffs",
@@ -198,7 +198,7 @@
     "id": "mat_egg",
     "name_ja": "卵",
     "name_en": "Egg",
-    "category": "食材",
+    "category": "卵・ナッツ",
     "obtain_method": "シェ・レミーで購入",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
@@ -255,7 +255,7 @@
     "id": "mat_cheese",
     "name_ja": "チーズ",
     "name_en": "Cheese",
-    "category": "食材",
+    "category": "乳製品",
     "obtain_method": "シェ・レミーで購入",
     "used_in_recipes": [
       "recipe_arepas_con_queso",
@@ -416,7 +416,7 @@
     "id": "mat_milk",
     "name_ja": "牛乳",
     "name_en": "Milk",
-    "category": "食材",
+    "category": "乳製品",
     "obtain_method": "シェ・レミーで購入",
     "used_in_recipes": [
       "recipe_basil_omelet",
@@ -454,7 +454,7 @@
     "id": "mat_chili_pepper",
     "name_ja": "唐辛子",
     "name_en": "Chili Pepper",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_chili_pepper_puffs",
@@ -478,7 +478,7 @@
     "id": "mat_chrysanthemum_tea_leaves",
     "name_ja": "キクのお茶の葉",
     "name_en": "Chrysanthemum Tea Leaves",
-    "category": "",
+    "category": "茶葉",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_chrysanthemum_tea"
@@ -491,7 +491,7 @@
     "id": "mat_blueberry",
     "name_ja": "ブルーベリー",
     "name_en": "Blueberry",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_basil_berry_salad",
@@ -506,7 +506,7 @@
     "id": "mat_coffee_bean",
     "name_ja": "コーヒー豆",
     "name_en": "Coffee Bean",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_coffee",
@@ -521,7 +521,7 @@
     "id": "mat_potato",
     "name_ja": "じゃがいも",
     "name_en": "Potato",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_ajiaco",
@@ -553,7 +553,7 @@
     "id": "mat_vegetable",
     "name_ja": "野菜類",
     "name_en": "Vegetable",
-    "category": "調理カテゴリ（任意の該当素材）",
+    "category": "農作物",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "used_in_recipes": [
       "recipe_afternoon_tea_set",
@@ -615,7 +615,7 @@
     "id": "mat_dreamlight_fruit",
     "name_ja": "",
     "name_en": "Dreamlight Fruit",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_dream_fizz",
@@ -630,7 +630,7 @@
     "id": "mat_slush_ice",
     "name_ja": "スラッシュ",
     "name_en": "Slush Ice",
-    "category": "食材",
+    "category": "その他",
     "obtain_method": "シェ・レミーで購入",
     "used_in_recipes": [
       "recipe_dream_fizz",
@@ -649,7 +649,7 @@
     "id": "mat_sugarcane",
     "name_ja": "サトウキビ",
     "name_en": "Sugarcane",
-    "category": "食材",
+    "category": "甘味料",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
@@ -674,7 +674,7 @@
     "id": "mat_eggplant",
     "name_ja": "ナス",
     "name_en": "Eggplant",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_eggplant_puffs",
@@ -688,7 +688,7 @@
     "id": "mat_canola",
     "name_ja": "菜の花",
     "name_en": "Canola",
-    "category": "食材",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_braised_bamboo_shoots",
@@ -714,7 +714,7 @@
     "id": "mat_tomato",
     "name_ja": "トマト",
     "name_en": "Tomato",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_bouillabaisse",
@@ -759,7 +759,7 @@
     "id": "mat_cucumber",
     "name_ja": "キュウリ",
     "name_en": "Cucumber",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_bulgur_salad",
@@ -779,7 +779,7 @@
     "id": "mat_lettuce",
     "name_ja": "レタス",
     "name_en": "Lettuce",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_carp_salad",
@@ -801,7 +801,7 @@
     "id": "mat_jasmine_tea_leaves",
     "name_ja": "",
     "name_en": "Jasmine Tea Leaves",
-    "category": "",
+    "category": "茶葉",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_jasmine_tea"
@@ -814,7 +814,7 @@
     "id": "mat_seafood",
     "name_ja": "",
     "name_en": "Seafood",
-    "category": "調理カテゴリ（任意の該当素材）",
+    "category": "魚介",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "used_in_recipes": [
       "recipe_bouillabaisse",
@@ -852,7 +852,7 @@
     "id": "mat_okra",
     "name_ja": "オクラ",
     "name_en": "Okra",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_gumbo",
@@ -866,7 +866,7 @@
     "id": "mat_oolong_tea_leaves",
     "name_ja": "ウーロン茶の葉",
     "name_en": "Oolong Tea Leaves",
-    "category": "",
+    "category": "茶葉",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_oolong_tea"
@@ -879,7 +879,7 @@
     "id": "mat_raspberry",
     "name_ja": "ラズベリー",
     "name_en": "Raspberry",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_oolong_tea",
@@ -907,7 +907,7 @@
     "id": "mat_mint",
     "name_ja": "ミント",
     "name_en": "Mint",
-    "category": "食材",
+    "category": "スパイス・ハーブ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_barbecued_brilliant_blue_starfish",
@@ -924,7 +924,7 @@
     "id": "mat_leek",
     "name_ja": "ネギ",
     "name_en": "Leek",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_leek_soup",
@@ -938,7 +938,7 @@
     "id": "mat_pumpkin",
     "name_ja": "カボチャ",
     "name_en": "Pumpkin",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_bread_bowl_pumpkin_soup",
@@ -953,7 +953,7 @@
     "id": "mat_ginger",
     "name_ja": "ショウガ",
     "name_en": "Ginger",
-    "category": "食材",
+    "category": "スパイス・ハーブ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_braised_bamboo_shoots",
@@ -973,7 +973,7 @@
     "id": "mat_asparagus",
     "name_ja": "アスパラガス",
     "name_en": "Asparagus",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_ghostly_fish_steak",
@@ -987,7 +987,7 @@
     "id": "mat_mushroom",
     "name_ja": "キノコ",
     "name_en": "Mushroom",
-    "category": "野菜",
+    "category": "キノコ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_braised_abalone",
@@ -1006,7 +1006,7 @@
     "id": "mat_butter",
     "name_ja": "バター",
     "name_en": "Butter",
-    "category": "食材",
+    "category": "乳製品",
     "obtain_method": "シェ・レミーで購入",
     "used_in_recipes": [
       "recipe_baked_carp",
@@ -1044,7 +1044,7 @@
     "id": "mat_rice",
     "name_ja": "米",
     "name_en": "Rice",
-    "category": "食材",
+    "category": "穀物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_biryani",
@@ -1079,7 +1079,7 @@
     "id": "mat_soya",
     "name_ja": "大豆",
     "name_en": "Soya",
-    "category": "食材",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_baozi",
@@ -1102,7 +1102,7 @@
     "id": "mat_seaweed",
     "name_ja": "海藻",
     "name_en": "Seaweed",
-    "category": "野菜",
+    "category": "魚介",
     "obtain_method": "釣り",
     "used_in_recipes": [
       "recipe_dragon_roll_maki",
@@ -1124,7 +1124,7 @@
     "id": "mat_corn",
     "name_ja": "トウモロコシ",
     "name_en": "Corn",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_ajiaco",
@@ -1148,7 +1148,7 @@
     "id": "mat_cherry",
     "name_ja": "サクランボ",
     "name_en": "Cherry",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_cupcakes",
@@ -1162,7 +1162,7 @@
     "id": "mat_fish",
     "name_ja": "魚類",
     "name_en": "Fish",
-    "category": "調理カテゴリ（任意の該当素材）",
+    "category": "魚",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "used_in_recipes": [
       "recipe_chimera_skewer",
@@ -1193,7 +1193,7 @@
     "id": "mat_zucchini",
     "name_ja": "ズッキーニ",
     "name_en": "Zucchini",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・Goofy’s Stall",
     "used_in_recipes": [
       "recipe_pan_fried_angler_fish",
@@ -1209,7 +1209,7 @@
     "id": "mat_apple",
     "name_ja": "リンゴ",
     "name_en": "Apple",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_apple_cider_glazed_salmon",
@@ -1253,7 +1253,7 @@
     "id": "mat_basil",
     "name_ja": "バジル",
     "name_en": "Basil",
-    "category": "食材",
+    "category": "スパイス・ハーブ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_basil_berry_salad",
@@ -1271,7 +1271,7 @@
     "id": "mat_shrimp",
     "name_ja": "エビ",
     "name_en": "Shrimp",
-    "category": "魚",
+    "category": "魚介",
     "obtain_method": "釣り",
     "used_in_recipes": [
       "recipe_bouillabaisse",
@@ -1329,7 +1329,7 @@
     "id": "mat_here_and_there_fish",
     "name_ja": "アチコチの魚",
     "name_en": "Here and There Fish",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_ghostly_fish_steak",
@@ -1343,7 +1343,7 @@
     "id": "mat_oregano",
     "name_ja": "オレガノ",
     "name_en": "Oregano",
-    "category": "食材",
+    "category": "スパイス・ハーブ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_ghostly_fish_steak",
@@ -1361,7 +1361,7 @@
     "id": "mat_spinach",
     "name_ja": "ほうれん草",
     "name_en": "Spinach",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_kronk_s_spinach_puffs",
@@ -1471,7 +1471,7 @@
     "id": "mat_peanut",
     "name_ja": "ピーナッツ",
     "name_en": "Peanut",
-    "category": "食材",
+    "category": "卵・ナッツ",
     "obtain_method": "シェ・レミーで購入",
     "used_in_recipes": [
       "recipe_peanut_butter_sandwich",
@@ -1565,7 +1565,7 @@
     "id": "mat_sweets",
     "name_ja": "糖類",
     "name_en": "Sweets",
-    "category": "調理カテゴリ（任意の該当素材）",
+    "category": "甘味料",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "used_in_recipes": [
       "recipe_beet_brownie_stack",
@@ -1588,7 +1588,7 @@
     "id": "mat_carrot",
     "name_ja": "ニンジン",
     "name_en": "Carrot",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "栽培・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_button_stew",
@@ -1617,7 +1617,7 @@
     "id": "mat_agave",
     "name_ja": "リュウゼツラン",
     "name_en": "Agave",
-    "category": "",
+    "category": "甘味料",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_arepas_con_queso",
@@ -1640,7 +1640,7 @@
     "id": "mat_pork",
     "name_ja": "豚肉",
     "name_en": "Pork",
-    "category": "",
+    "category": "肉",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_baked_beans",
@@ -1689,7 +1689,7 @@
     "id": "mat_paprika",
     "name_ja": "パプリカ",
     "name_en": "Paprika",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_barbecued_pretty_pink_starfish",
@@ -1719,7 +1719,7 @@
     "id": "mat_cabbage",
     "name_ja": "キャベツ",
     "name_en": "Cabbage",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_coleslaw",
@@ -1734,7 +1734,7 @@
     "id": "mat_sea_snail",
     "name_ja": "タマネギ",
     "name_en": "Sea Snail",
-    "category": "魚",
+    "category": "魚介",
     "obtain_method": "釣り",
     "used_in_recipes": [
       "recipe_best_fish_forever",
@@ -1764,7 +1764,7 @@
     "id": "mat_protein",
     "name_ja": "肉類",
     "name_en": "Protein",
-    "category": "調理カテゴリ（任意の該当素材）",
+    "category": "肉",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "used_in_recipes": [
       "recipe_burrito",
@@ -1781,7 +1781,7 @@
     "id": "mat_beans",
     "name_ja": "豆",
     "name_en": "Beans",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_baked_beans",
@@ -1800,7 +1800,7 @@
     "id": "mat_cumin",
     "name_ja": "クミン",
     "name_en": "Cumin",
-    "category": "",
+    "category": "スパイス・ハーブ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_best_fish_forever",
@@ -1835,7 +1835,7 @@
     "id": "mat_almonds",
     "name_ja": "アーモンド",
     "name_en": "Almonds",
-    "category": "",
+    "category": "卵・ナッツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_caramel_macarons",
@@ -1857,7 +1857,7 @@
     "id": "mat_majestea",
     "name_ja": "マジェスティ―",
     "name_en": "Majestea",
-    "category": "",
+    "category": "茶葉",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_royal_ice_tea",
@@ -1887,7 +1887,7 @@
     "id": "mat_melon",
     "name_ja": "メロン",
     "name_en": "Melon",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_melon_boba_tea",
@@ -1928,7 +1928,7 @@
     "id": "mat_octopus",
     "name_ja": "タコ",
     "name_en": "Octopus",
-    "category": "魚",
+    "category": "魚介",
     "obtain_method": "釣り",
     "used_in_recipes": [
       "recipe_takoyaki_stick"
@@ -1941,7 +1941,7 @@
     "id": "mat_cactoberries",
     "name_ja": "サボテンの実",
     "name_en": "Cactoberries",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_spiky_berry_pie",
@@ -1955,7 +1955,7 @@
     "id": "mat_poultry",
     "name_ja": "鶏肉",
     "name_en": "Poultry",
-    "category": "",
+    "category": "肉",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_ajiaco",
@@ -1981,7 +1981,7 @@
     "id": "mat_celery",
     "name_ja": "セロリ",
     "name_en": "Celery",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_best_fish_forever",
@@ -1996,7 +1996,7 @@
     "id": "mat_cinnamon",
     "name_ja": "シナモン",
     "name_en": "Cinnamon",
-    "category": "",
+    "category": "スパイス・ハーブ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_apple_sauce",
@@ -2017,7 +2017,7 @@
     "id": "mat_prisma_shrimp",
     "name_ja": "プリズマエビ",
     "name_en": "Prisma Shrimp",
-    "category": "魚",
+    "category": "魚介",
     "obtain_method": "釣り",
     "used_in_recipes": [
       "recipe_blend_of_the_bayou",
@@ -2044,7 +2044,7 @@
     "id": "mat_grapes",
     "name_ja": "ブドウ",
     "name_en": "Grapes",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_bony_osso_buco",
@@ -2058,7 +2058,7 @@
     "id": "mat_bamboo",
     "name_ja": "タケノコ",
     "name_en": "Bamboo",
-    "category": "野菜",
+    "category": "農作物",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_braised_bamboo_shoots",
@@ -2072,7 +2072,7 @@
     "id": "mat_venison",
     "name_ja": "鹿肉",
     "name_en": "Venison",
-    "category": "",
+    "category": "肉",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_cheeseburger",
@@ -2091,7 +2091,7 @@
     "id": "mat_ruby_lentils",
     "name_ja": "ルビー豆",
     "name_en": "Ruby Lentils",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_crimson_burger",
@@ -2118,7 +2118,7 @@
     "id": "mat_pineapple",
     "name_ja": "パイナップル",
     "name_en": "Pineapple",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_hawaiian_pizza",
@@ -2133,7 +2133,7 @@
     "id": "mat_flute_root",
     "name_ja": "フルートルート",
     "name_en": "Flute Root",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_lo_fries",
@@ -2147,7 +2147,7 @@
     "id": "mat_yam",
     "name_ja": "ヤムイモ",
     "name_en": "Yam",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_lo_fries"
@@ -2160,7 +2160,7 @@
     "id": "mat_turnip",
     "name_ja": "カブ",
     "name_en": "Turnip",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_milky_way_stew",
@@ -2175,7 +2175,7 @@
     "id": "mat_cosmic_figs",
     "name_ja": "",
     "name_en": "Cosmic Figs",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_milky_way_stew",
@@ -2202,7 +2202,7 @@
     "id": "mat_coconut",
     "name_ja": "ココナッツ",
     "name_en": "Coconut",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_moqueca_de_pirarucu"
@@ -2255,7 +2255,7 @@
     "id": "mat_broccoli",
     "name_ja": "ブロッコリー",
     "name_en": "Broccoli",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_sweet_and_sour_stir_fry"
@@ -2268,7 +2268,7 @@
     "id": "mat_dreamango",
     "name_ja": "ドリーマンゴー",
     "name_en": "Dreamango",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_dreamango_boba_tea",
@@ -2282,7 +2282,7 @@
     "id": "mat_strawberry",
     "name_ja": "イチゴ",
     "name_en": "Strawberry",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_basil_berry_salad",
@@ -2299,7 +2299,7 @@
     "id": "mat_vanilla",
     "name_ja": "バニラ",
     "name_en": "Vanilla",
-    "category": "食材",
+    "category": "スパイス・ハーブ",
     "obtain_method": "採取",
     "used_in_recipes": [
       "recipe_cannoli",
@@ -2317,7 +2317,7 @@
     "id": "mat_fruit",
     "name_ja": "果物類",
     "name_en": "Fruit",
-    "category": "調理カテゴリ（任意の該当素材）",
+    "category": "フルーツ",
     "obtain_method": "レシピで該当カテゴリの任意素材を使用",
     "used_in_recipes": [
       "recipe_danish",
@@ -2339,7 +2339,7 @@
     "id": "mat_dates",
     "name_ja": "デーツ",
     "name_en": "Dates",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_maamouls",
@@ -2354,7 +2354,7 @@
     "id": "mat_nestling_pear",
     "name_ja": "",
     "name_en": "Nestling Pear",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_nestling_crepe",
@@ -2368,7 +2368,7 @@
     "id": "mat_banana",
     "name_ja": "バナナ",
     "name_en": "Banana",
-    "category": "果物",
+    "category": "フルーツ",
     "obtain_method": "採取・グーフィーの露店で購入",
     "used_in_recipes": [
       "recipe_sugar_free_banana_muffin"
@@ -2381,7 +2381,7 @@
     "id": "mat_ambrosia",
     "name_ja": "アンブロシア",
     "name_en": "Ambrosia",
-    "category": "",
+    "category": "その他",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_ambrosia_smoothie",
@@ -2406,7 +2406,7 @@
     "id": "mat_plain_yogurt",
     "name_ja": "プレーンヨーグルト",
     "name_en": "Plain Yogurt",
-    "category": "",
+    "category": "乳製品",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -2438,7 +2438,7 @@
     "id": "mat_flyleaf_feta",
     "name_ja": "見返しページフェタチーズ",
     "name_en": "Flyleaf Feta",
-    "category": "",
+    "category": "乳製品",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_argossian_pizza",
@@ -2459,7 +2459,7 @@
     "id": "mat_olives",
     "name_ja": "オリーブ",
     "name_en": "Olives",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_argossian_pizza",
@@ -2480,7 +2480,7 @@
     "id": "mat_cape_gooseberry",
     "name_ja": "食用ホオズキ",
     "name_en": "Cape Gooseberry",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
@@ -2495,7 +2495,7 @@
     "id": "mat_faerie_rye",
     "name_ja": "フェアリーライ麦",
     "name_en": "Faerie Rye",
-    "category": "",
+    "category": "穀物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_faerie_rye_crackers",
@@ -2510,7 +2510,7 @@
     "id": "mat_golden_apple",
     "name_ja": "黄金のリンゴ",
     "name_en": "Golden Apple",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_aphrodite_s_delight",
@@ -2526,7 +2526,7 @@
     "id": "mat_salt_crystal",
     "name_ja": "塩の結晶",
     "name_en": "Salt Crystal",
-    "category": "",
+    "category": "スパイス・ハーブ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -2553,7 +2553,7 @@
     "id": "mat_honeydew_melon",
     "name_ja": "ハネジューメロン",
     "name_en": "Honeydew Melon",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_honeydew_smoothie",
@@ -2569,7 +2569,7 @@
     "id": "mat_stygian_mudskipper",
     "name_ja": "冥界のトビハゼ",
     "name_en": "Stygian Mudskipper",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_grecian_baked_fish",
@@ -2583,7 +2583,7 @@
     "id": "mat_lamprey",
     "name_ja": "ヤツメウナギ",
     "name_en": "Lamprey",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_lamprey_sashimi",
@@ -2597,7 +2597,7 @@
     "id": "mat_lightning_spice",
     "name_ja": "イナズマのスパイス",
     "name_en": "Lightning Spice",
-    "category": "",
+    "category": "スパイス・ハーブ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
@@ -2614,7 +2614,7 @@
     "id": "mat_elysian_grain",
     "name_ja": "至福者の野の穀物",
     "name_en": "Elysian Grain",
-    "category": "",
+    "category": "穀物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_argossian_pizza",
@@ -2631,7 +2631,7 @@
     "id": "mat_persimmon",
     "name_ja": "柿",
     "name_en": "Persimmon",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
@@ -2649,7 +2649,7 @@
     "id": "mat_radicchio",
     "name_ja": "ラディッキオ",
     "name_en": "Radicchio",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
@@ -2665,7 +2665,7 @@
     "id": "mat_green_beans",
     "name_ja": "サヤインゲン",
     "name_en": "Green Beans",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_green_bean_casserole",
@@ -2681,7 +2681,7 @@
     "id": "mat_cauliflower",
     "name_ja": "カリフラワー",
     "name_en": "Cauliflower",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_barley_salad",
@@ -2697,7 +2697,7 @@
     "id": "mat_radish",
     "name_ja": "ラディッシュ",
     "name_en": "Radish",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_barley_salad",
@@ -2714,7 +2714,7 @@
     "id": "mat_porcini_mushrooms",
     "name_ja": "ポルチーニ茸",
     "name_en": "Porcini Mushrooms",
-    "category": "",
+    "category": "キノコ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_flying_fish_quenelles",
@@ -2732,7 +2732,7 @@
     "id": "mat_chia_seeds",
     "name_ja": "チアシード",
     "name_en": "Chia Seeds",
-    "category": "",
+    "category": "穀物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
@@ -2751,7 +2751,7 @@
     "id": "mat_spiral_strawberries",
     "name_ja": "うずまきイチゴ",
     "name_en": "Spiral Strawberries",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -2772,7 +2772,7 @@
     "id": "mat_sour_berries",
     "name_ja": "すっぱベリー",
     "name_en": "Sour Berries",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -2792,7 +2792,7 @@
     "id": "mat_trumpet_snail",
     "name_ja": "ラッパマイマイ",
     "name_en": "Trumpet Snail",
-    "category": "",
+    "category": "魚介",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_aquatic_escargot",
@@ -2806,7 +2806,7 @@
     "id": "mat_sorcerer_hat_hermit_crab",
     "name_ja": "",
     "name_en": "Sorcerer Hat Hermit Crab",
-    "category": "",
+    "category": "魚介",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_arcane_garlic_crab",
@@ -2820,7 +2820,7 @@
     "id": "mat_barley",
     "name_ja": "大麦",
     "name_en": "Barley",
-    "category": "",
+    "category": "穀物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_barley_salad",
@@ -2834,7 +2834,7 @@
     "id": "mat_black_pepper",
     "name_ja": "黒コショウ",
     "name_en": "Black Pepper",
-    "category": "",
+    "category": "スパイス・ハーブ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_cacio_e_pepe",
@@ -2852,7 +2852,7 @@
     "id": "mat_shovel_bird_eggs",
     "name_ja": "スコップ鳥のタマゴ",
     "name_en": "Shovel Bird Eggs",
-    "category": "",
+    "category": "卵・ナッツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
@@ -2879,7 +2879,7 @@
     "id": "mat_rhubarb",
     "name_ja": "ルバーブ",
     "name_en": "Rhubarb",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_chia_pudding",
@@ -2894,7 +2894,7 @@
     "id": "mat_hippocampus",
     "name_ja": "",
     "name_en": "Hippocampus",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_chimera_skewer",
@@ -2908,7 +2908,7 @@
     "id": "mat_flying_fish",
     "name_ja": "",
     "name_en": "Flying Fish",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_chimera_skewer",
@@ -2922,7 +2922,7 @@
     "id": "mat_brussels_sprout",
     "name_ja": "芽キャベツ",
     "name_en": "Brussels Sprout",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_chimera_skewer",
@@ -2938,7 +2938,7 @@
     "id": "mat_mussel",
     "name_ja": "ムール貝",
     "name_en": "Mussel",
-    "category": "",
+    "category": "魚介",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_garlic_steam_mussels",
@@ -2953,7 +2953,7 @@
     "id": "mat_koi",
     "name_ja": "錦鯉",
     "name_en": "Koi",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_grilled_koi_gyro",
@@ -2967,7 +2967,7 @@
     "id": "mat_oats",
     "name_ja": "オーツ麦",
     "name_en": "Oats",
-    "category": "",
+    "category": "穀物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_loaded_breakfast_yogurt",
@@ -2988,7 +2988,7 @@
     "id": "mat_sea_grapes",
     "name_ja": "",
     "name_en": "Sea Grapes",
-    "category": "",
+    "category": "魚介",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_loaded_sea_grape_porridge",
@@ -3004,7 +3004,7 @@
     "id": "mat_sea_wolf",
     "name_ja": "",
     "name_en": "Sea Wolf",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_lupine_cullen_skink",
@@ -3018,7 +3018,7 @@
     "id": "mat_ring_squash",
     "name_ja": "ワッカカボチャ",
     "name_en": "Ring Squash",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_squash_stuffed_porcini",
@@ -3045,7 +3045,7 @@
     "id": "mat_nutmeg",
     "name_ja": "ナツメグ",
     "name_en": "Nutmeg",
-    "category": "",
+    "category": "スパイス・ハーブ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_merryweather_s_gingersnaps",
@@ -3061,7 +3061,7 @@
     "id": "mat_red_alpine_bass",
     "name_ja": "",
     "name_en": "Red Alpine Bass",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_alpine_fishcakes",
@@ -3075,7 +3075,7 @@
     "id": "mat_dill",
     "name_ja": "ディル",
     "name_en": "Dill",
-    "category": "",
+    "category": "スパイス・ハーブ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_alpine_fishcakes",
@@ -3090,7 +3090,7 @@
     "id": "mat_beetroot",
     "name_ja": "ビーツ",
     "name_en": "Beetroot",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_baked_whitefish_and_roasted_beets",
@@ -3108,7 +3108,7 @@
     "id": "mat_bonsai_star_fruit",
     "name_ja": "",
     "name_en": "Bonsai Star Fruit",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_fairy_wands",
@@ -3122,7 +3122,7 @@
     "id": "mat_honey_coral",
     "name_ja": "サンゴのハチミツ",
     "name_en": "Honey Coral",
-    "category": "",
+    "category": "甘味料",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_fairy_boot_cake",
@@ -3139,7 +3139,7 @@
     "id": "mat_scarlet_kale",
     "name_ja": "スカーレットケール",
     "name_en": "Scarlet Kale",
-    "category": "",
+    "category": "農作物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_fishy_pineapple_jelly",
@@ -3156,7 +3156,7 @@
     "id": "mat_mountain_whitefish",
     "name_ja": "マウンテンホワイトフィッシュ",
     "name_en": "Mountain Whitefish",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_baked_whitefish_and_roasted_beets",
@@ -3170,7 +3170,7 @@
     "id": "mat_dark_chocolate_coffee_beans",
     "name_ja": "",
     "name_en": "Dark Chocolate Coffee Beans",
-    "category": "",
+    "category": "甘味料",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
@@ -3185,7 +3185,7 @@
     "id": "mat_pearly_barley",
     "name_ja": "",
     "name_en": "Pearly Barley",
-    "category": "",
+    "category": "穀物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_afternoon_tea_set",
@@ -3201,7 +3201,7 @@
     "id": "mat_pincushion_peach",
     "name_ja": "",
     "name_en": "Pincushion Peach",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_afternoon_tea_set",
@@ -3217,7 +3217,7 @@
     "id": "mat_tigger_fish",
     "name_ja": "",
     "name_en": "Tigger Fish",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_bread_bowl_pumpkin_soup",
@@ -3231,7 +3231,7 @@
     "id": "mat_fairy_kamut",
     "name_ja": "",
     "name_en": "Fairy Kamut",
-    "category": "",
+    "category": "穀物",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_bread_bowl_pumpkin_soup",
@@ -3248,7 +3248,7 @@
     "id": "mat_button_mushroom",
     "name_ja": "",
     "name_en": "Button Mushroom",
-    "category": "",
+    "category": "キノコ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_button_stew",
@@ -3263,7 +3263,7 @@
     "id": "mat_red_currants",
     "name_ja": "",
     "name_en": "Red Currants",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_beauty_and_the_beets_napoleon",
@@ -3280,7 +3280,7 @@
     "id": "mat_satin_finned_betta",
     "name_ja": "",
     "name_en": "Satin-Finned Betta",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_felted_breakfast_spread",
@@ -3294,7 +3294,7 @@
     "id": "mat_jellied_fish",
     "name_ja": "ゼリーウツボ",
     "name_en": "Jellied Fish",
-    "category": "",
+    "category": "魚",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_fishy_pineapple_jelly",
@@ -3309,7 +3309,7 @@
     "id": "mat_measuring_tape_snail",
     "name_ja": "",
     "name_en": "Measuring-Tape Snail",
-    "category": "",
+    "category": "魚介",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_fishy_pineapple_jelly",
@@ -3323,7 +3323,7 @@
     "id": "mat_fairy_sprinkles",
     "name_ja": "",
     "name_en": "Fairy Sprinkles",
-    "category": "",
+    "category": "甘味料",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_fairy_bread",
@@ -3339,7 +3339,7 @@
     "id": "mat_lollipop_fruit",
     "name_ja": "",
     "name_en": "Lollipop Fruit",
-    "category": "",
+    "category": "フルーツ",
     "obtain_method": "",
     "used_in_recipes": [
       "recipe_fairy_wands",
