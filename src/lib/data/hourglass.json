@@ -164,7 +164,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv2で入手（永遠の島・各バイオーム限定）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_glimmer.png",
     "unlocked": false,
     "memo": ""
   },
@@ -177,7 +177,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_jokester_of_the_month_frame.png",
     "unlocked": false,
     "memo": ""
   },
@@ -190,7 +190,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_cracked_palace_tower.png",
     "unlocked": false,
     "memo": ""
   },
@@ -203,7 +203,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_piano_leg.png",
     "unlocked": false,
     "memo": ""
   },
@@ -216,7 +216,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_lute_head.png",
     "unlocked": false,
     "memo": ""
   },
@@ -229,7 +229,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv2で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_broken_sword.png",
     "unlocked": false,
     "memo": ""
   },
@@ -242,7 +242,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_tapestry_piece.png",
     "unlocked": false,
     "memo": ""
   },
@@ -255,7 +255,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_mythic_vase_handle.png",
     "unlocked": false,
     "memo": ""
   },
@@ -268,7 +268,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_v8_decoration.png",
     "unlocked": false,
     "memo": ""
   },
@@ -281,7 +281,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_wagon_wheel.png",
     "unlocked": false,
     "memo": ""
   },
@@ -294,7 +294,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv3で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_pedestal_chunk.png",
     "unlocked": false,
     "memo": ""
   },
@@ -307,7 +307,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_toonish_canister.png",
     "unlocked": false,
     "memo": ""
   },
@@ -320,7 +320,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_stained_glass_fragment.png",
     "unlocked": false,
     "memo": ""
   },
@@ -333,7 +333,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_pink_floral_pillow.png",
     "unlocked": false,
     "memo": ""
   },
@@ -346,7 +346,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_broken_metal_sign.png",
     "unlocked": false,
     "memo": ""
   },
@@ -359,7 +359,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_broken_lollipop.png",
     "unlocked": false,
     "memo": ""
   },
@@ -372,7 +372,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv4で入手（永遠の島・1日1種ランダム）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_green_stone_carving.png",
     "unlocked": false,
     "memo": ""
   },
@@ -385,7 +385,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_anyone_can_cook_book.png",
     "unlocked": false,
     "memo": ""
   },
@@ -398,7 +398,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_ice_cream_stand.png",
     "unlocked": false,
     "memo": ""
   },
@@ -411,7 +411,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_embossed_book.png",
     "unlocked": false,
     "memo": ""
   },
@@ -424,7 +424,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_design_sketchbook.png",
     "unlocked": false,
     "memo": ""
   },
@@ -437,7 +437,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_handheld_lootfindr.png",
     "unlocked": false,
     "memo": ""
   },
@@ -450,7 +450,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_blue_potion.png",
     "unlocked": false,
     "memo": ""
   },
@@ -463,7 +463,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_grubby_log.png",
     "unlocked": false,
     "memo": ""
   },
@@ -502,7 +502,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_deadly_nightshade.png",
     "unlocked": false,
     "memo": ""
   },
@@ -515,7 +515,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_lute.png",
     "unlocked": false,
     "memo": ""
   },
@@ -528,7 +528,7 @@
       "永遠の島"
     ],
     "obtain_method": "砂時計Lv0で入手（永遠の島・売値500）",
-    "icon_path": "",
+    "icon_path": "images/hourglass/hg_paper_lantern.png",
     "unlocked": false,
     "memo": ""
   },
