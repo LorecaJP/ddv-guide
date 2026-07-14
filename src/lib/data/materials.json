@@ -1690,7 +1690,7 @@
     "name_ja": "パプリカ",
     "name_en": "Paprika",
     "category": "農作物",
-    "obtain_method": "採取｜エターニティ島・煌めく砂丘の地面から採取（Bell Pepperとは別素材）",
+    "obtain_method": "採取｜エターニティ島・煌めく砂丘（地面）※栽培不可・Bell Pepperとは別素材",
     "icon_path": "images/ingredients/mat_paprika.png",
     "used_in_recipes": [
       "recipe_barbecued_pretty_pink_starfish",
@@ -1858,7 +1858,7 @@
     "name_ja": "マジェスティ―",
     "name_en": "Majestea",
     "category": "茶葉",
-    "obtain_method": "採取｜エターニティ島（古の上陸地）",
+    "obtain_method": "採取｜エターニティ島・古の上陸地（展望台/遺跡）の地面",
     "icon_path": "images/ingredients/mat_majestea.png",
     "used_in_recipes": [
       "recipe_royal_ice_tea",
@@ -2407,7 +2407,7 @@
     "name_ja": "プレーンヨーグルト",
     "name_en": "Plain Yogurt",
     "category": "乳製品",
-    "obtain_method": "物語の谷で購入（グーフィーの店）",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・荒れ森/The Wild Woods）｜240コイン",
     "icon_path": "images/ingredients/mat_plain_yogurt.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -2439,7 +2439,7 @@
     "name_ja": "見返しページフェタチーズ",
     "name_en": "Flyleaf Feta",
     "category": "乳製品",
-    "obtain_method": "グーフィーの店で購入（物語の谷）",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里/The Bind）｜150コイン",
     "icon_path": "images/ingredients/mat_flyleaf_feta.png",
     "used_in_recipes": [
       "recipe_argossian_pizza",
@@ -2481,7 +2481,7 @@
     "name_ja": "食用ホオズキ",
     "name_en": "Cape Gooseberry",
     "category": "フルーツ",
-    "obtain_method": "採取｜物語の谷（地面／茂み）",
+    "obtain_method": "採取｜物語の谷・書物の里（The Bind）の地面",
     "icon_path": "images/ingredients/mat_cape_gooseberry.png",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
@@ -2598,7 +2598,7 @@
     "name_ja": "イナズマのスパイス",
     "name_en": "Lightning Spice",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取｜物語の谷（ミソピア）",
+    "obtain_method": "採取｜物語の谷・神話の楽園（Mythopia）の地面",
     "icon_path": "images/ingredients/mat_lightning_spice.png",
     "used_in_recipes": [
       "recipe_electric_radicchio_persimmon_salad",
@@ -2615,7 +2615,7 @@
     "name_ja": "至福者の野の穀物",
     "name_en": "Elysian Grain",
     "category": "穀物",
-    "obtain_method": "入手｜グーフィーの露店（物語の谷・ミソピア）で現物購入／採取（種植え不可）",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・神話の楽園/Mythopia）※現物購入・栽培不可",
     "icon_path": "images/ingredients/mat_elysian_grain.png",
     "used_in_recipes": [
       "recipe_argossian_pizza",
@@ -2773,7 +2773,7 @@
     "name_ja": "すっぱベリー",
     "name_en": "Sour Berries",
     "category": "フルーツ",
-    "obtain_method": "採取｜物語の谷（木から）",
+    "obtain_method": "採取｜物語の谷・書物の里（The Bind）のサワーベリーの木",
     "icon_path": "images/ingredients/mat_sour_berries.png",
     "used_in_recipes": [
       "recipe_a_very_unusual_tea_time",
@@ -2790,10 +2790,10 @@
   },
   {
     "id": "mat_trumpet_snail",
-    "name_ja": "ラッパマイマイ",
+    "name_ja": "トランペットスネイル",
     "name_en": "Trumpet Snail",
     "category": "魚介",
-    "obtain_method": "採取｜ダズル・ビーチの砂浜（波打ち際）",
+    "obtain_method": "採取｜物語の谷・書物の里（The Bind）の地面 ※釣りではない",
     "icon_path": "images/ingredients/mat_trumpet_snail.png",
     "used_in_recipes": [
       "recipe_aquatic_escargot",
@@ -2853,7 +2853,7 @@
     "name_ja": "スコップ鳥のタマゴ",
     "name_en": "Shovel Bird Eggs",
     "category": "卵・ナッツ",
-    "obtain_method": "穴掘り｜物語の谷（掘れる地点）",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・書物の里/The Bind）｜160コイン ※穴掘りではない",
     "icon_path": "images/ingredients/mat_shovel_bird_eggs.png",
     "used_in_recipes": [
       "recipe_cape_gooseberry_chia_pancakes",
@@ -2989,7 +2989,7 @@
     "name_ja": "海ぶどう",
     "name_en": "Sea Grapes",
     "category": "魚介",
-    "obtain_method": "採取｜海辺（ダズル・ビーチ周辺）",
+    "obtain_method": "釣り｜物語の谷・書物の里（The Bind）の静水（泡なし）",
     "icon_path": "images/ingredients/mat_sea_grapes.png",
     "used_in_recipes": [
       "recipe_loaded_sea_grape_porridge",
@@ -3019,7 +3019,7 @@
     "name_ja": "ワッカカボチャ",
     "name_en": "Ring Squash",
     "category": "農作物",
-    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷）｜成長 約30分",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・書物の里/The Bind）｜成長 約30分",
     "icon_path": "images/ingredients/mat_ring_squash.png",
     "used_in_recipes": [
       "recipe_squash_stuffed_porcini",
@@ -3076,7 +3076,7 @@
     "name_ja": "ディル",
     "name_en": "Dill",
     "category": "スパイス・ハーブ",
-    "obtain_method": "採取｜物語の谷（願いの峰）",
+    "obtain_method": "採取｜願い咲く牧場・願いのアルプス（Wishing Alps）の地面",
     "icon_path": "images/ingredients/mat_dill.png",
     "used_in_recipes": [
       "recipe_alpine_fishcakes",
@@ -3249,7 +3249,7 @@
     "name_ja": "ボタンマッシュルーム",
     "name_en": "Button Mushroom",
     "category": "キノコ",
-    "obtain_method": "採取｜物語の谷",
+    "obtain_method": "採取｜願い咲く牧場・グラマーガルチ（Glamour Gulch）の地面 ※通常のキノコとは別",
     "icon_path": "images/ingredients/mat_button_mushroom.png",
     "used_in_recipes": [
       "recipe_button_stew",
@@ -3324,7 +3324,7 @@
     "name_ja": "フェアリースプリンクル",
     "name_en": "Fairy Sprinkles",
     "category": "甘味料",
-    "obtain_method": "採取｜物語の谷（ピクシー・エーカー）",
+    "obtain_method": "採取｜願い咲く牧場・妖精の地（Pixie Acres）の地面",
     "icon_path": "images/ingredients/mat_fairy_sprinkles.png",
     "used_in_recipes": [
       "recipe_fairy_bread",
