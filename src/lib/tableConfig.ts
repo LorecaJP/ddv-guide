@@ -57,13 +57,15 @@ export const TABLE_CONFIG: Record<string, TableConfig> = {
   facilities: {
     columns: [
       { key: 'name_ja', label: '施設名', kind: 'text', sortable: true },
-      { key: 'type', label: '種別', kind: 'text' },
+      { key: 'type', label: '種別', kind: 'text', sortable: true },
+      { key: 'unlock_condition', label: '解放条件', kind: 'text' },
+      { key: 'restock_time', label: '入荷/リセット', kind: 'text' },
       { key: 'note', label: '備考', kind: 'text' },
       { key: 'visited_today', label: '今日訪問', kind: 'toggle', onLabel: '✓', offLabel: '—' },
     ],
-    searchKeys: ['name_ja'],
+    searchKeys: ['name_ja', 'name_en', 'type', 'note'],
     editable: ['visited_today', 'memo'],
-    note: 'materials の入手元から自動集約（最小）。Fandom の施設ページで拡充可。',
+    note: '各拡張・バイオームのショップ/施設を網羅（複数サイトで検証）。',
   },
   events: {
     columns: [
@@ -80,10 +82,12 @@ export const TABLE_CONFIG: Record<string, TableConfig> = {
       { key: 'name_ja', label: '拡張パス', kind: 'text', sortable: true },
       { key: 'release_date', label: '配信日', kind: 'text', sortable: true },
       { key: 'price', label: '価格', kind: 'text' },
+      { key: 'required_progress', label: '必要進行', kind: 'text' },
       { key: 'included_realms', label: '含まれるレルム', kind: 'chips' },
+      { key: 'note', label: '主な追加要素', kind: 'text' },
       { key: 'owned', label: '所持', kind: 'toggle', onLabel: '✓', offLabel: '—' },
     ],
-    searchKeys: ['name_ja'],
+    searchKeys: ['name_ja', 'name_en'],
     editable: ['owned', 'progress_notes'],
   },
   updates: {
