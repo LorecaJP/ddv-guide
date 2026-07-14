@@ -840,7 +840,7 @@
       "物語の谷"
     ],
     "obtain_method": "採取｜書物の里（The Bind）",
-    "icon_path": "",
+    "icon_path": "images/flowers/flower_yellow_tale_cone_flower.png",
     "unlocked": false,
     "memo": ""
   },
