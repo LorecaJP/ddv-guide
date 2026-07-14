@@ -2715,7 +2715,7 @@
       "スパイス&ハーブ類"
     ],
     "realm": "バレー",
-    "icon_path": "images/meals/recipe__6.png"
+    "icon_path": "images/meals/recipe_veggie_casserole.png"
   },
   {
     "id": "recipe_veggie_pasta",
@@ -4851,7 +4851,7 @@
       "果物類"
     ],
     "realm": "永遠の島",
-    "icon_path": "images/meals/recipe__47.png"
+    "icon_path": "images/meals/recipe_danish.png"
   },
   {
     "id": "recipe_dreamango_boba_tea",
@@ -6515,7 +6515,7 @@
       "アンブロシア"
     ],
     "realm": "物語の谷",
-    "icon_path": "images/meals/recipe__2.png"
+    "icon_path": "images/meals/recipe_loaded_honeydew_porridge.png"
   },
   {
     "id": "recipe_loaded_persimmon_porridge",
@@ -8512,13 +8512,15 @@
     "name_ja": "シーフードの盛り合わせ",
     "name_en": "Seafood Platter",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Seafood"
+    ],
     "ingredients_ja": [
       "シーフード類"
     ],
     "category": "前菜",
     "realm": "バレー",
-    "sell_price_note": "2+ スターコイン",
+    "sell_price_note": "116+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe_.png"
@@ -8528,7 +8530,9 @@
     "name_ja": "ベジタブルスープ",
     "name_en": "Vegetable Soup",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Vegetable"
+    ],
     "ingredients_ja": [
       "野菜類"
     ],
@@ -8544,9 +8548,14 @@
     "name_ja": "シーフードボイル",
     "name_en": "Seafood Boil",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Seafood",
+      "Spices & Herbs",
+      "Potato",
+      "Corn"
+    ],
     "ingredients_ja": [
-      "シーフド類",
+      "シーフード類",
       "スパイス＆ハーブ類",
       "ジャガイモ",
       "トウモロコシ"
@@ -8563,7 +8572,10 @@
     "name_ja": "小麦のポリッジ",
     "name_en": "Wheat Porridge",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Milk"
+    ],
     "ingredients_ja": [
       "小麦",
       "ミルク"
@@ -8580,7 +8592,12 @@
     "name_ja": "昔ながらのフランクフルト",
     "name_en": "Classic Frankfurter",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Poultry",
+      "Pork",
+      "Venison",
+      "Wheat"
+    ],
     "ingredients_ja": [
       "豚肉",
       "鹿肉",
@@ -8589,7 +8606,7 @@
     ],
     "category": "主菜",
     "realm": "バレー",
-    "sell_price_note": "2,600+ スターコイン",
+    "sell_price_note": "2628+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__5.png"
@@ -8598,12 +8615,22 @@
     "id": "recipe__7",
     "name_ja": "フェスティブブルーベリーホットココア",
     "name_en": "Festive Blueberry Hot Cocoa",
-    "stars": 0,
-    "ingredients": [],
-    "ingredients_ja": [],
+    "stars": 4,
+    "ingredients": [
+      "Blueberry",
+      "Sugarcane",
+      "Milk",
+      "Festive Cocoa Bean"
+    ],
+    "ingredients_ja": [
+      "ブルーベリー",
+      "サトウキビ",
+      "ミルク",
+      "フェスティブカカオ豆"
+    ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "",
+    "sell_price_note": "491+ スターコイン",
     "unlocked": false,
     "memo": "フェスティバル（冬版）で作成できるレシピのようです。",
     "icon_path": "images/meals/recipe__7.png"
@@ -8612,12 +8639,22 @@
     "id": "recipe__8",
     "name_ja": "フェスティブチェリーホットココア",
     "name_en": "Festive Cherry Hot Cocoa",
-    "stars": 0,
-    "ingredients": [],
-    "ingredients_ja": [],
+    "stars": 4,
+    "ingredients": [
+      "Festive Cocoa Bean",
+      "Sugarcane",
+      "Milk",
+      "Cherry"
+    ],
+    "ingredients_ja": [
+      "フェスティブカカオ豆",
+      "サトウキビ",
+      "ミルク",
+      "サクランボ"
+    ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "",
+    "sell_price_note": "511+ スターコイン",
     "unlocked": false,
     "memo": "フェスティバル（冬版）で作成できるレシピのようです。",
     "icon_path": "images/meals/recipe__8.png"
@@ -8626,12 +8663,22 @@
     "id": "recipe__9",
     "name_ja": "フェスティブミントホットココア",
     "name_en": "Festive Mint Hot Cocoa",
-    "stars": 0,
-    "ingredients": [],
-    "ingredients_ja": [],
+    "stars": 4,
+    "ingredients": [
+      "Festive Cocoa Bean",
+      "Sugarcane",
+      "Milk",
+      "Mint"
+    ],
+    "ingredients_ja": [
+      "フェスティブカカオ豆",
+      "サトウキビ",
+      "ミルク",
+      "ミント"
+    ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "",
+    "sell_price_note": "523+ スターコイン",
     "unlocked": false,
     "memo": "フェスティバル（冬版）で作成できるレシピのようです。",
     "icon_path": "images/meals/recipe__9.png"
@@ -8641,7 +8688,11 @@
     "name_ja": "アップルシャーベット",
     "name_en": "Apple Sorbet",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Apple",
+      "Slush Ice",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "リンゴ",
       "サトウキビ",
@@ -8659,7 +8710,13 @@
     "name_ja": "ウェディングケーキ",
     "name_en": "Wedding Cake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Egg",
+      "Vanilla",
+      "Sugarcane",
+      "Butter"
+    ],
     "ingredients_ja": [
       "小麦",
       "サトウキビ",
@@ -8669,7 +8726,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "769+ スターコイン",
+    "sell_price_note": "785+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__11.png"
@@ -8679,7 +8736,13 @@
     "name_ja": "オーロラ姫のケーキ",
     "name_en": "Aurora's Cake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Fruit",
+      "Wheat",
+      "Sugarcane",
+      "Egg",
+      "Milk"
+    ],
     "ingredients_ja": [
       "果物類",
       "小麦",
@@ -8689,7 +8752,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "767+ スターコイン",
+    "sell_price_note": "786+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": ""
@@ -8699,7 +8762,13 @@
     "name_ja": "オーロラ姫のラズベリーカップケーキ",
     "name_en": "Princess Aurora Raspberry Cupcake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Wheat",
+      "Butter",
+      "Sugarcane",
+      "Raspberry"
+    ],
     "ingredients_ja": [
       "ミルク",
       "小麦",
@@ -8719,7 +8788,11 @@
     "name_ja": "かき氷(サワー)",
     "name_en": "Sour Snow Cones",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Sugarcane",
+      "Slush Ice",
+      "Lemon"
+    ],
     "ingredients_ja": [
       "スラッシュ",
       "レモン",
@@ -8737,7 +8810,9 @@
     "name_ja": "かき氷(プレーン)",
     "name_en": "Plain Snow Cones",
     "stars": 1,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice"
+    ],
     "ingredients_ja": [
       "スラッシュ"
     ],
@@ -8753,7 +8828,10 @@
     "name_ja": "キャラメルアップル",
     "name_en": "Caramel Apples",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Sugarcane",
+      "Apple"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "リンゴ"
@@ -8770,7 +8848,9 @@
     "name_ja": "キャンディ",
     "name_en": "Candy",
     "stars": 1,
-    "ingredients": [],
+    "ingredients": [
+      "Sweets"
+    ],
     "ingredients_ja": [
       "糖類"
     ],
@@ -8786,7 +8866,11 @@
     "name_ja": "クリームとフルーツのスイーツ",
     "name_en": "Pastry Cream and Fruits",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Sugarcane",
+      "Fruit"
+    ],
     "ingredients_ja": [
       "ミルク",
       "サトウキビ",
@@ -8794,7 +8878,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "440+ スターコイン",
+    "sell_price_note": "497+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__19.png"
@@ -8804,7 +8888,10 @@
     "name_ja": "クロワッサン",
     "name_en": "Croissant",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Butter"
+    ],
     "ingredients_ja": [
       "小麦",
       "バター"
@@ -8821,7 +8908,12 @@
     "name_ja": "ココナッツアイスクリーム",
     "name_en": "Coconut Ice Cream",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice",
+      "Coconut",
+      "Milk",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "ココナッツ",
       "サトウキビ",
@@ -8840,7 +8932,12 @@
     "name_ja": "ココナッツケーキ",
     "name_en": "Coconut Cake",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Coconut",
+      "Wheat",
+      "Egg",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "ココナッツ",
       "サトウキビ",
@@ -8859,7 +8956,11 @@
     "name_ja": "グレースタッフ",
     "name_en": "Gray Stuff",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Cocoa Bean",
+      "Dairy and Oil",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "カカオ豆",
       "乳製品、他類",
@@ -8867,7 +8968,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "87+ スターコイン",
+    "sell_price_note": "175+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__23.png"
@@ -8877,7 +8978,12 @@
     "name_ja": "クレープ",
     "name_en": "Crepe",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Egg",
+      "Wheat",
+      "Milk",
+      "Vanilla"
+    ],
     "ingredients_ja": [
       "小麦",
       "タマゴ",
@@ -8886,7 +8992,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "753+ スターコイン",
+    "sell_price_note": "768+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__24.png"
@@ -8896,7 +9002,11 @@
     "name_ja": "白雪姫のグースベリーパイ",
     "name_en": "Snow White's Gooseberry Pie",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Gooseberry",
+      "Wheat",
+      "Butter"
+    ],
     "ingredients_ja": [
       "グースベリー",
       "小麦",
@@ -8914,7 +9024,12 @@
     "name_ja": "ジャムワッフル",
     "name_en": "Jam Waffles",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Fruit",
+      "Egg",
+      "Milk"
+    ],
     "ingredients_ja": [
       "小麦",
       "タマゴ",
@@ -8923,7 +9038,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "691+ スターコイン",
+    "sell_price_note": "709+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__27.png"
@@ -8933,13 +9048,15 @@
     "name_ja": "シェイク",
     "name_en": "Shake",
     "stars": 1,
-    "ingredients": [],
+    "ingredients": [
+      "Dairy and Oil"
+    ],
     "ingredients_ja": [
       "乳製品、他類"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "7+ スターコイン",
+    "sell_price_note": "82+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__28.png"
@@ -8949,7 +9066,13 @@
     "name_ja": "ジンジャーブレッドハウス",
     "name_en": "Gingerbread House",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Ginger",
+      "Egg",
+      "Wheat",
+      "Vanilla",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "小麦",
       "ショウガ",
@@ -8959,7 +9082,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "545+ スターコイン",
+    "sell_price_note": "641+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__29.png"
@@ -8969,7 +9092,10 @@
     "name_ja": "スイートスラッシュ",
     "name_en": "Sweet Slush",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice",
+      "Sweets"
+    ],
     "ingredients_ja": [
       "スラッシュ",
       "糖類"
@@ -8986,7 +9112,11 @@
     "name_ja": "スコーン",
     "name_en": "Scone",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "小麦",
       "サトウキビ",
@@ -9004,7 +9134,13 @@
     "name_ja": "スペースシップ・アースのカップケーキ",
     "name_en": "Spaceship Earth Cupcake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Wheat",
+      "Butter",
+      "Sugarcane",
+      "Coconut"
+    ],
     "ingredients_ja": [
       "ミルク",
       "小麦",
@@ -9014,7 +9150,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "772+ スターコイン",
+    "sell_price_note": "738+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__32.png"
@@ -9024,7 +9160,13 @@
     "name_ja": "スティッチのカップケーキ",
     "name_en": "Stitch Cupcake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Wheat",
+      "Butter",
+      "Sugarcane",
+      "Blueberry"
+    ],
     "ingredients_ja": [
       "ミルク",
       "小麦",
@@ -9044,7 +9186,11 @@
     "name_ja": "スモア",
     "name_en": "S'mores",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Blue Marshmallow",
+      "Pink Marshmallow"
+    ],
     "ingredients_ja": [
       "マシュマロ(ピンク)",
       "マシュマロ(ブルー)",
@@ -9062,7 +9208,11 @@
     "name_ja": "ソフトクリーム",
     "name_en": "Ice Cream",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice",
+      "Sugarcane",
+      "Milk"
+    ],
     "ingredients_ja": [
       "ミルク",
       "サトウキビ",
@@ -9080,7 +9230,10 @@
     "name_ja": "タピオカティー",
     "name_en": "Boba Tea",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "ミルク"
@@ -9097,7 +9250,11 @@
     "name_ja": "タピオカティー (グースベリー)",
     "name_en": "Gooseberry Boba Tea",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Gooseberry",
+      "Sugarcane",
+      "Milk"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "ミルク",
@@ -9115,7 +9272,11 @@
     "name_ja": "タピオカティー (ココナッツ)",
     "name_en": "Coconut Boba Tea",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Coconut",
+      "Milk",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "ミルク",
@@ -9133,7 +9294,11 @@
     "name_ja": "タピオカティー (ミント)",
     "name_en": "Mint Boba Tea",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Mint",
+      "Sugarcane",
+      "Milk"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "ミルク",
@@ -9141,7 +9306,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "418+ スターコイン",
+    "sell_price_note": "460+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__39.png"
@@ -9151,7 +9316,11 @@
     "name_ja": "タピオカティー (ラズベリー)",
     "name_en": "Raspberry Boba Tea",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Raspberry",
+      "Sugarcane",
+      "Milk"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "ミルク",
@@ -9169,7 +9338,12 @@
     "name_ja": "チェシャ猫のしっぽ",
     "name_en": "Cheshire Cat Tail",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Cocoa Bean",
+      "Egg",
+      "Wheat",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "カカオ豆",
       "タマゴ",
@@ -9188,7 +9362,12 @@
     "name_ja": "チーズケーキ",
     "name_en": "Cheesecake",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Cheese",
+      "Wheat",
+      "Sugarcane",
+      "Fruit"
+    ],
     "ingredients_ja": [
       "チーズ",
       "小麦",
@@ -9197,7 +9376,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "314+ スターコイン",
+    "sell_price_note": "332+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__42.png"
@@ -9207,7 +9386,11 @@
     "name_ja": "チェリーパイ",
     "name_en": "Cherry Pie",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Butter",
+      "Cherry"
+    ],
     "ingredients_ja": [
       "サクランボ",
       "小麦",
@@ -9225,7 +9408,12 @@
     "name_ja": "チョコチップクッキー",
     "name_en": "Chocolate Chip Cookies",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Cocoa Bean",
+      "Wheat",
+      "Butter",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "カカオ豆",
       "サトウキビ",
@@ -9244,7 +9432,12 @@
     "name_ja": "チョコレートソフトクリーム",
     "name_en": "Chocolate Ice Cream",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Cocoa Bean",
+      "Sugarcane",
+      "Milk",
+      "Slush Ice"
+    ],
     "ingredients_ja": [
       "カカオ豆",
       "サトウキビ",
@@ -9263,7 +9456,12 @@
     "name_ja": "チョコレートワッフル",
     "name_en": "Chocolate Waffles",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Cocoa Bean",
+      "Egg",
+      "Milk"
+    ],
     "ingredients_ja": [
       "カカオ豆",
       "タマゴ",
@@ -9282,7 +9480,12 @@
     "name_ja": "トロピカルソーダ",
     "name_en": "Tropical Pop",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Fruit",
+      "Coconut",
+      "Sugarcane",
+      "Slush Ice"
+    ],
     "ingredients_ja": [
       "スラッシュ",
       "サトウキビ",
@@ -9291,7 +9494,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "329+ スターコイン",
+    "sell_price_note": "347+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__48.png"
@@ -9301,7 +9504,12 @@
     "name_ja": "ニンジンケーキ",
     "name_en": "Carrot Cake",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Carrot",
+      "Wheat",
+      "Egg",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "ニンジン",
       "サトウキビ",
@@ -9320,7 +9528,13 @@
     "name_ja": "ニンニクチョコタルト",
     "name_en": "Garlic Chocolate Tart",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Cheese",
+      "Cocoa Bean",
+      "Garlic",
+      "Egg",
+      "Wheat"
+    ],
     "ingredients_ja": [
       "チーズ",
       "カカオ豆",
@@ -9340,7 +9554,11 @@
     "name_ja": "肉球のアイスキャンディ",
     "name_en": "Pawpsicle",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Sugarcane",
+      "Fruit",
+      "Slush Ice"
+    ],
     "ingredients_ja": [
       "スラッシュ",
       "サトウキビ",
@@ -9348,7 +9566,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "248+ スターコイン",
+    "sell_price_note": "265+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__51.png"
@@ -9358,7 +9576,13 @@
     "name_ja": "人魚のカップケーキ",
     "name_en": "Mermaid Cupcake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Wheat",
+      "Butter",
+      "Scallop",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "ミルク",
       "小麦",
@@ -9378,7 +9602,11 @@
     "name_ja": "春のチョコレート",
     "name_en": "Spring Chocolate",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Sugarcane",
+      "Spring V-EGG-etable",
+      "Cocoa Bean"
+    ],
     "ingredients_ja": [
       "春の野菜タマゴ",
       "サトウキビ",
@@ -9396,7 +9624,12 @@
     "name_ja": "春のデビルド・エッグ",
     "name_en": "Spring Mimosa Eggs",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Spring V-EGG-etable",
+      "Egg-cellent Fruit",
+      "Wild Spring Egg",
+      "Basil"
+    ],
     "ingredients_ja": [
       "エッグセレントな実",
       "春のワイルドタマゴ",
@@ -9405,7 +9638,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "336+ スターコイン",
+    "sell_price_note": "298+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__54.png"
@@ -9415,7 +9648,13 @@
     "name_ja": "春のタマゴが入ったボウル",
     "name_en": "Spring Egg Bowl",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Egg-cellent Fruit",
+      "Wild Spring Egg",
+      "Spring V-EGG-etable",
+      "Cocoa Bean",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "エッグセレントな実",
       "春のワイルドタマゴ",
@@ -9435,7 +9674,11 @@
     "name_ja": "ハロウィンのジンジャーブレッドクッキー",
     "name_en": "Halloween Gingerbread Cookies",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Pumpkin",
+      "Ginger"
+    ],
     "ingredients_ja": [
       "小麦",
       "カボチャ",
@@ -9443,7 +9686,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "1,000+ スターコイン",
+    "sell_price_note": "735+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__56.png"
@@ -9453,7 +9696,13 @@
     "name_ja": "バースデーケーキ",
     "name_en": "Birthday Cake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Cocoa Bean",
+      "Sugarcane",
+      "Egg",
+      "Butter"
+    ],
     "ingredients_ja": [
       "カカオ豆",
       "小麦",
@@ -9473,7 +9722,13 @@
     "name_ja": "バナナスプリット",
     "name_en": "Banana Split",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Banana",
+      "Slush Ice",
+      "Milk",
+      "Sugarcane",
+      "Sweets"
+    ],
     "ingredients_ja": [
       "スラッシュ",
       "バナナ",
@@ -9493,7 +9748,12 @@
     "name_ja": "バナナソフトクリーム",
     "name_en": "Banana Ice Cream",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Banana",
+      "Milk",
+      "Sugarcane",
+      "Slush Ice"
+    ],
     "ingredients_ja": [
       "バナナ",
       "サトウキビ",
@@ -9512,7 +9772,11 @@
     "name_ja": "バナナパイ",
     "name_en": "Banana Pie",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Banana",
+      "Butter",
+      "Wheat"
+    ],
     "ingredients_ja": [
       "バナナ",
       "小麦",
@@ -9530,7 +9794,12 @@
     "name_ja": "バニラソフトクリーム",
     "name_en": "Vanilla Ice Cream",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice",
+      "Vanilla",
+      "Sugarcane",
+      "Milk"
+    ],
     "ingredients_ja": [
       "バニラ",
       "サトウキビ",
@@ -9539,7 +9808,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "673+ スターコイン",
+    "sell_price_note": "688+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__61.png"
@@ -9549,7 +9818,12 @@
     "name_ja": "ピーナッツバターワッフル",
     "name_en": "Peanut Butter Waffles",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Peanut",
+      "Wheat",
+      "Egg",
+      "Milk"
+    ],
     "ingredients_ja": [
       "ピーナッツ",
       "小麦",
@@ -9568,13 +9842,15 @@
     "name_ja": "フルーツサラダ",
     "name_en": "Fruit Salad",
     "stars": 1,
-    "ingredients": [],
+    "ingredients": [
+      "Fruit"
+    ],
     "ingredients_ja": [
       "果物類"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "10+ スターコイン",
+    "sell_price_note": "25+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__63.png"
@@ -9584,14 +9860,17 @@
     "name_ja": "フルーツシャーベット",
     "name_en": "Fruit Sorbet",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice",
+      "Fruit"
+    ],
     "ingredients_ja": [
       "スラッシュ",
       "果物類"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "206+ スターコイン",
+    "sell_price_note": "222+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__64.png"
@@ -9601,7 +9880,11 @@
     "name_ja": "ブルーベリーパイ",
     "name_en": "Blueberry Pie",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Blueberry",
+      "Butter",
+      "Wheat"
+    ],
     "ingredients_ja": [
       "ブルーベリー",
       "小麦",
@@ -9619,14 +9902,17 @@
     "name_ja": "フルーツケーキ",
     "name_en": "Fruitcake",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Fruit"
+    ],
     "ingredients_ja": [
       "小麦",
       "果物"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "42+ スターコイン",
+    "sell_price_note": "96+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__66.png"
@@ -9636,7 +9922,12 @@
     "name_ja": "ベニエ",
     "name_en": "Beignets",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Egg",
+      "Sugarcane",
+      "Canola"
+    ],
     "ingredients_ja": [
       "小麦",
       "タマゴ",
@@ -9655,7 +9946,11 @@
     "name_ja": "ベリーサラダ",
     "name_en": "Berry Salad",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Gooseberry",
+      "Raspberry",
+      "Blueberry"
+    ],
     "ingredients_ja": [
       "ラズベリー",
       "ブルーベリー",
@@ -9673,7 +9968,11 @@
     "name_ja": "ホットココア",
     "name_en": "Hot Cocoa",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Cocoa Bean",
+      "Milk",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "ミルク",
@@ -9691,7 +9990,11 @@
     "name_ja": "「私のヒーロー」クッキー",
     "name_en": "\"My Hero\" Cookie",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Sweets",
+      "Butter"
+    ],
     "ingredients_ja": [
       "小麦",
       "バター",
@@ -9709,7 +10012,13 @@
     "name_ja": "ミニーのカップケーキ",
     "name_en": "Minnie Cupcake",
     "stars": 5,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Wheat",
+      "Butter",
+      "Sugarcane",
+      "Apple"
+    ],
     "ingredients_ja": [
       "ミルク",
       "小麦",
@@ -9729,14 +10038,17 @@
     "name_ja": "ミニーのジンジャーブレッドクッキー",
     "name_en": "Minnie's Gingerbread Cookies",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Ginger",
+      "Wheat"
+    ],
     "ingredients_ja": [
       "小麦",
       "ショウガ"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "67+ スターコイン",
+    "sell_price_note": "132+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__72.png"
@@ -9746,14 +10058,17 @@
     "name_ja": "ミントキャンディ",
     "name_en": "Mint Candy",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Mint",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "ミント",
       "サトウキビ"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "89+ スターコイン",
+    "sell_price_note": "128+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__73.png"
@@ -9763,14 +10078,17 @@
     "name_ja": "ミントシャーベット",
     "name_en": "Mint Sorbet",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Mint",
+      "Slush Ice"
+    ],
     "ingredients_ja": [
       "ミント",
       "スラッシュ"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "260+ スターコイン",
+    "sell_price_note": "299+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__74.png"
@@ -9780,7 +10098,12 @@
     "name_ja": "ミントチョコレート",
     "name_en": "Mint Chocolate",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Cocoa Bean",
+      "Mint",
+      "Butter",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "ミント",
       "カカオ豆",
@@ -9789,7 +10112,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "445+ スターコイン",
+    "sell_price_note": "490+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__75.png"
@@ -9799,7 +10122,12 @@
     "name_ja": "メレンゲパイ",
     "name_en": "Meringue Pie",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Wheat",
+      "Egg",
+      "Lemon",
+      "Butter"
+    ],
     "ingredients_ja": [
       "レモン",
       "タマゴ",
@@ -9818,7 +10146,10 @@
     "name_ja": "焼きマシュマロ",
     "name_en": "Roasted Marshmallows",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Pink Marshmallow",
+      "Blue Marshmallow"
+    ],
     "ingredients_ja": [
       "マシュマロ(ピンク)",
       "マシュマロ(ブルー)"
@@ -9835,7 +10166,11 @@
     "name_ja": "ルートビア",
     "name_en": "Root Beer",
     "stars": 3,
-    "ingredients": [],
+    "ingredients": [
+      "Ginger",
+      "Vanilla",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "ショウガ",
       "サトウキビ",
@@ -9843,7 +10178,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "166+ スターコイン",
+    "sell_price_note": "250+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__78.png"
@@ -9853,7 +10188,12 @@
     "name_ja": "レッドフルーツシャーベット",
     "name_en": "Red Fruit Sorbet",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice",
+      "Raspberry",
+      "Gooseberry",
+      "Sugarcane"
+    ],
     "ingredients_ja": [
       "グースベリー",
       "ラズベリー",
@@ -9872,7 +10212,10 @@
     "name_ja": "レモンシャーベット",
     "name_en": "Lemon Sorbet",
     "stars": 2,
-    "ingredients": [],
+    "ingredients": [
+      "Slush Ice",
+      "Lemon"
+    ],
     "ingredients_ja": [
       "レモン",
       "スラッシュ"
@@ -9889,7 +10232,12 @@
     "name_ja": "ロールケーキ",
     "name_en": "Yule Log",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Cocoa Bean",
+      "Wheat",
+      "Vanilla",
+      "Cherry"
+    ],
     "ingredients_ja": [
       "小麦",
       "カカオ豆",
@@ -9898,7 +10246,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "198+ スターコイン",
+    "sell_price_note": "213+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__81.png"
@@ -9907,17 +10255,20 @@
     "id": "recipe__82",
     "name_ja": "不思議なパイ",
     "name_en": "Whimsical Pie",
-    "stars": 4,
-    "ingredients": [],
+    "stars": 3,
+    "ingredients": [
+      "Dreamlight Fruit",
+      "Wheat",
+      "Butter"
+    ],
     "ingredients_ja": [
+      "ドリームライトの実",
       "小麦",
-      "ブルーベリー",
-      "ラズベリー",
-      "バナナ"
+      "バター"
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "120+ スターコイン",
+    "sell_price_note": "324+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__82.png"
@@ -9927,12 +10278,17 @@
     "name_ja": "ワッフル",
     "name_en": "Waffles",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Milk",
+      "Egg",
+      "Sugarcane",
+      "Wheat"
+    ],
     "ingredients_ja": [
       "小麦",
       "タマゴ",
       "ミルク",
-      "糖類"
+      "サトウキビ"
     ],
     "category": "デザート",
     "realm": "バレー",
@@ -9946,7 +10302,12 @@
     "name_ja": "ワンダーランドクッキー",
     "name_en": "Wonderland Cookies",
     "stars": 4,
-    "ingredients": [],
+    "ingredients": [
+      "Sugarcane",
+      "Vanilla",
+      "Wheat",
+      "Butter"
+    ],
     "ingredients_ja": [
       "サトウキビ",
       "バター",
@@ -9955,7 +10316,7 @@
     ],
     "category": "デザート",
     "realm": "バレー",
-    "sell_price_note": "391+ スターコイン",
+    "sell_price_note": "406+ スターコイン",
     "unlocked": false,
     "memo": "",
     "icon_path": "images/meals/recipe__84.png"
