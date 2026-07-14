@@ -10,12 +10,15 @@
   let query = $state(P.q ?? '')
   let statusFilter = $state(P.status ?? 'all') // 'all' | 'owned' | 'unowned'
   let catFilter = $state(P.cat ?? 'all')
+  let levelFilter = $state(P.lv ?? 'all') // 'all' | 'max' | 'notmax'
   let selected = $state<Mount | null>(null)
   let broken = $state<Set<string>>(new Set())
   const markBroken = (id: string) => (broken = new Set(broken).add(id))
+  const MAX_LV = 10
+  const lvOf = (m: Mount) => Math.max(1, Math.min(MAX_LV, m.friendship_level || 1))
 
   $effect(() => {
-    setParams('mounts', { q: query, cat: catFilter, status: statusFilter })
+    setParams('mounts', { q: query, cat: catFilter, status: statusFilter, lv: levelFilter })
   })
   function onKey(e: KeyboardEvent) {
     if (e.key === 'Escape') selected = null
@@ -39,6 +42,8 @@
         if (statusFilter === 'owned' && !m.owned) return false
         if (statusFilter === 'unowned' && m.owned) return false
         if (catFilter !== 'all' && m.category !== catFilter) return false
+        if (levelFilter === 'max' && lvOf(m) < MAX_LV) return false
+        if (levelFilter === 'notmax' && lvOf(m) >= MAX_LV) return false
         if (q && !`${m.name_ja}${m.name_en}`.toLowerCase().includes(q)) return false
         return true
       })
@@ -62,6 +67,10 @@
   }
   function toggleOwned(m: Mount) {
     m.owned = !m.owned
+    save(m)
+  }
+  function setLevel(m: Mount, v: number) {
+    m.friendship_level = Math.max(1, Math.min(MAX_LV, v | 0))
     save(m)
   }
 </script>
@@ -88,6 +97,11 @@
     <option value="owned">入手済み</option>
     <option value="unowned">未入手</option>
   </select>
+  <select bind:value={levelFilter} aria-label="レベルで絞り込み">
+    <option value="all">Lv：すべて</option>
+    <option value="notmax">MAX未満</option>
+    <option value="max">MAX（10）</option>
+  </select>
 </div>
 
 {#if loading}
@@ -108,6 +122,7 @@
                 <span class="noimg"><span class="ph-mark">🐴</span><span class="ph-name">{m.name_ja}</span></span>
               {/if}
               {#if m.owned}<span class="own">✓</span>{/if}
+              <span class="lv-badge" class:max={lvOf(m) >= MAX_LV}>{lvOf(m) >= MAX_LV ? 'MAX' : 'Lv' + lvOf(m)}</span>
             </div>
             <span class="nm">{m.name_ja}</span>
           </button>
@@ -138,6 +153,14 @@
       <dl class="facts">
         <dt>入手方法</dt><dd>{selected.obtain_method || '（未登録）'}</dd>
         <dt>特殊能力・備考</dt><dd>{selected.ability_note || '—'}</dd>
+        <dt>友情Lv</dt>
+        <dd>
+          <div class="stepper">
+            <button onclick={() => selected && setLevel(selected, lvOf(selected) - 1)} aria-label="下げる">−</button>
+            <span class="lv">{lvOf(selected)}<span class="lvmax"> / {MAX_LV}</span></span>
+            <button onclick={() => selected && setLevel(selected, lvOf(selected) + 1)} aria-label="上げる">＋</button>
+          </div>
+        </dd>
         <dt>メモ</dt><dd>{selected.memo || '—'}</dd>
         <dt>入手</dt>
         <dd>
@@ -213,6 +236,13 @@
     background: var(--c-accent); color: #fff; font-size: 12px;
     display: grid; place-items: center;
   }
+  .lv-badge {
+    position: absolute; bottom: 6px; left: 6px;
+    background: color-mix(in srgb, var(--c-ink) 72%, transparent); color: #fff;
+    font-size: 11px; font-weight: 700; line-height: 1;
+    padding: 3px 6px; border-radius: 999px; font-variant-numeric: tabular-nums;
+  }
+  .lv-badge.max { background: var(--c-accent); }
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 14px; text-align: center; }
 
   .muted { color: var(--c-ink-soft); }
@@ -255,4 +285,11 @@
   .facts dd { margin: 0; }
   .own-tgl { padding: 8px 16px; border-radius: var(--radius-sm); border: 1px solid var(--c-line); background: var(--c-surface-2); color: var(--c-ink); font-weight: 600; }
   .own-tgl.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
+  .stepper { display: inline-flex; align-items: center; gap: 8px; }
+  .stepper button {
+    width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--c-line);
+    background: var(--c-surface-2); color: var(--c-ink); font-weight: 700; font-size: 16px;
+  }
+  .lv { min-width: 56px; text-align: center; font-family: var(--font-display); font-weight: 700; font-size: 18px; }
+  .lvmax { font-size: 12px; color: var(--c-ink-soft); font-weight: 400; }
 </style>
