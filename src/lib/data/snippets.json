@@ -1,0 +1,233 @@
+[
+  {
+    "id": "snippet_blue_bird",
+    "name_ja": "鳥の紙精(ブルー)",
+    "name_en": "Blue Bird Snippet",
+    "category": "鳥の紙精 (Bird)",
+    "obtain_method": "物語の谷「バインド」エリアで王家の網を振って捕獲",
+    "note": "最も基本的な鳥の紙精。寓話守のパズル解放に使用",
+    "icon_path": "images/snippets/snippet_blue_bird.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_green_bird",
+    "name_ja": "鳥の紙精(グリーン)",
+    "name_en": "Green Bird Snippet",
+    "category": "鳥の紙精 (Bird)",
+    "obtain_method": "ミソピアの「エリュシオンの野原」で王家の網で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_green_bird.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_red_bird",
+    "name_ja": "鳥の紙精(レッド)",
+    "name_en": "Red Bird Snippet",
+    "category": "鳥の紙精 (Bird)",
+    "obtain_method": "「伝承の図書館」で王家の網で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_red_bird.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_yellow_bird",
+    "name_ja": "鳥の紙精(イエロー)",
+    "name_en": "Yellow Bird Snippet",
+    "category": "鳥の紙精 (Bird)",
+    "obtain_method": "エバーアフターの「ワイルドウッズ」で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_yellow_bird.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_white_bird",
+    "name_ja": "鳥の紙精(ホワイト)",
+    "name_en": "White Bird Snippet",
+    "category": "鳥の紙精 (Bird)",
+    "obtain_method": "本編「ドリームライトバレー」で王家の網で捕獲",
+    "note": "クラフト素材として使用可能（スニペットの罠などの作成）",
+    "icon_path": "images/snippets/snippet_white_bird.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_shadowy_bird",
+    "name_ja": "鳥の紙精(シャドウ)",
+    "name_en": "Shadowy Bird Snippet",
+    "category": "鳥の紙精 (Bird)",
+    "obtain_method": "クエスト「A Storm of Stories」開始後、「伝承の図書館」と「バインド」で捕獲",
+    "note": "レア変種。紫の残像を残す。クラフト＆コレクション用",
+    "icon_path": "images/snippets/snippet_shadowy_bird.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_rainbow_bird",
+    "name_ja": "鳥の紙精(レインボー)",
+    "name_en": "Rainbow Bird Snippet",
+    "category": "鳥の紙精 (Bird)",
+    "obtain_method": "ストーリークエスト「The Tales That Bind」中に寓話守と会話後、バインドで3体捕獲",
+    "note": "クエスト限定の特別種。「ドリームライトバレーの物語」ロア解放に使用",
+    "icon_path": "images/snippets/snippet_rainbow_bird.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_green_demon",
+    "name_ja": "悪魔の紙精(グリーン)",
+    "name_en": "Green Demon Snippet",
+    "category": "悪魔の紙精 (Demon)",
+    "obtain_method": "ミソピアの「オリンポス山」で捕獲",
+    "note": "悪魔種は一点に留まるが捕獲直前に逃げやすい",
+    "icon_path": "images/snippets/snippet_green_demon.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_blue_demon",
+    "name_ja": "悪魔の紙精(ブルー)",
+    "name_en": "Blue Demon Snippet",
+    "category": "悪魔の紙精 (Demon)",
+    "obtain_method": "ミソピア「炎の平原」およびエバーアフター「崩れた砦」で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_blue_demon.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_pink_demon",
+    "name_ja": "悪魔の紙精(ピンク)",
+    "name_en": "Pink Demon Snippet",
+    "category": "悪魔の紙精 (Demon)",
+    "obtain_method": "ミソピア「エリュシオンの野原」および「炎の平原」で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_pink_demon.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_red_demon",
+    "name_ja": "悪魔の紙精(レッド)",
+    "name_en": "Red Demon Snippet",
+    "category": "悪魔の紙精 (Demon)",
+    "obtain_method": "ミソピア「彫像の影」で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_red_demon.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_shadowy_demon",
+    "name_ja": "悪魔の紙精(シャドウ)",
+    "name_en": "Shadowy Demon Snippet",
+    "category": "悪魔の紙精 (Demon)",
+    "obtain_method": "物語の谷の複数エリアで出現（A Storm of Stories進行後）。王家の網で捕獲",
+    "note": "レア変種。クラフト＆コレクション用",
+    "icon_path": "images/snippets/snippet_shadowy_demon.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_rainbow_demon",
+    "name_ja": "悪魔の紙精(レインボー)",
+    "name_en": "Rainbow Demon Snippet",
+    "category": "悪魔の紙精 (Demon)",
+    "obtain_method": "ストーリークエスト中に出現する特別種を王家の網で捕獲",
+    "note": "クエスト限定。ロア/パズル解放に使用",
+    "icon_path": "images/snippets/snippet_rainbow_demon.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_neverafter_demon",
+    "name_ja": "悪魔の紙精(ネバーアフター)",
+    "name_en": "Neverafter Demon Snippet",
+    "category": "悪魔の紙精 (Demon)",
+    "obtain_method": "マレフィセント関連のストーリークエスト中に王家の網で捕獲",
+    "note": "物語の谷Part2の特別クエスト種",
+    "icon_path": "images/snippets/snippet_neverafter_demon.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_green_frog",
+    "name_ja": "カエルの紙精(グリーン)",
+    "name_en": "Green Frog Snippet",
+    "category": "カエルの紙精 (Frog)",
+    "obtain_method": "エバーアフター「ワイルドウッズ」「ティーポットの滝」で捕獲",
+    "note": "跳ねた瞬間に網を下方向に振ると捕りやすい",
+    "icon_path": "images/snippets/snippet_green_frog.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_pink_frog",
+    "name_ja": "カエルの紙精(ピンク)",
+    "name_en": "Pink Frog Snippet",
+    "category": "カエルの紙精 (Frog)",
+    "obtain_method": "「ティーポットの滝」およびミソピア「彫像の影」で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_pink_frog.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_purple_frog",
+    "name_ja": "カエルの紙精(パープル)",
+    "name_en": "Purple Frog Snippet",
+    "category": "カエルの紙精 (Frog)",
+    "obtain_method": "エバーアフター「崩れた砦」で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_purple_frog.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_yellow_frog",
+    "name_ja": "カエルの紙精(イエロー)",
+    "name_en": "Yellow Frog Snippet",
+    "category": "カエルの紙精 (Frog)",
+    "obtain_method": "エバーアフター「豆の木の湿地」で捕獲",
+    "note": "寓話守のパズル解放用",
+    "icon_path": "images/snippets/snippet_yellow_frog.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_shadowy_frog",
+    "name_ja": "カエルの紙精(シャドウ)",
+    "name_en": "Shadowy Frog Snippet",
+    "category": "カエルの紙精 (Frog)",
+    "obtain_method": "物語の谷の複数エリアで出現（ストーリー進行後）。王家の網で捕獲",
+    "note": "レア変種。クラフト＆コレクション用",
+    "icon_path": "images/snippets/snippet_shadowy_frog.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_rainbow_frog",
+    "name_ja": "カエルの紙精(レインボー)",
+    "name_en": "Rainbow Frog Snippet",
+    "category": "カエルの紙精 (Frog)",
+    "obtain_method": "ストーリークエスト中に出現する特別種を王家の網で捕獲",
+    "note": "クエスト限定。ロア/パズル解放に使用",
+    "icon_path": "images/snippets/snippet_rainbow_frog.webp",
+    "owned": false,
+    "memo": ""
+  },
+  {
+    "id": "snippet_neverafter_frog",
+    "name_ja": "カエルの紙精(ネバーアフター)",
+    "name_en": "Neverafter Frog Snippet",
+    "category": "カエルの紙精 (Frog)",
+    "obtain_method": "クエスト「The Mistress of All Evil」（マレフィセント）で豆の木の湿地のマレフィセント城・玉座の間にて4体捕獲",
+    "note": "物語の谷の特別クエスト種",
+    "icon_path": "images/snippets/snippet_neverafter_frog.webp",
+    "owned": false,
+    "memo": ""
+  }
+]
