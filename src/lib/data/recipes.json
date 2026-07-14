@@ -1547,7 +1547,7 @@
       "スパイス&ハーブ類"
     ],
     "realm": "バレー",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe_hors_d_oeuvres.png"
   },
   {
     "id": "recipe_kappa_maki",
@@ -7235,7 +7235,7 @@
       "アンブロシア"
     ],
     "realm": "物語の谷",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe_aphrodite_s_delight.png"
   },
   {
     "id": "recipe_cape_gooseberry_sour_fondue",
@@ -7419,7 +7419,7 @@
       "すっぱベリー"
     ],
     "realm": "物語の谷",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe_merryweather_s_gingersnaps.png"
   },
   {
     "id": "recipe_nutmeg_cake",
@@ -9127,7 +9127,7 @@
     "sell_price_note": "156+ スターコイン",
     "unlocked": false,
     "memo": "",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__34.png"
   },
   {
     "id": "recipe__35",
@@ -9829,7 +9829,7 @@
     "sell_price_note": "67+ スターコイン",
     "unlocked": false,
     "memo": "",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__72.png"
   },
   {
     "id": "recipe__73",
