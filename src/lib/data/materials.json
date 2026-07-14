@@ -703,7 +703,7 @@
     "realms": [
       "バレー"
     ],
-    "obtain_method": "グーフィーの店で購入（ダズル・ビーチ）／栽培",
+    "obtain_method": "栽培｜種:グーフィーの露店（ダズル・ビーチ）｜成長 約7分",
     "icon_path": "images/ingredients/mat_sugarcane.png",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
@@ -2687,7 +2687,7 @@
     "realms": [
       "永遠の島"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（煌めく砂丘）",
+    "obtain_method": "採取｜デーツの木から（永遠の島・煌めく砂丘）｜約55分で再生",
     "icon_path": "images/ingredients/mat_dates.png",
     "used_in_recipes": [
       "recipe_maamouls",
@@ -2885,7 +2885,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／ミソピア）",
+    "obtain_method": "購入｜グーフィーの露店（物語の谷・神話の楽園、約220コイン）※栽培・採取ではない",
     "icon_path": "images/ingredients/mat_golden_apple.png",
     "used_in_recipes": [
       "recipe_aphrodite_s_delight",
@@ -2934,7 +2934,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／ミソピア）",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・神話の楽園）｜成長 約45分",
     "icon_path": "images/ingredients/mat_honeydew_melon.png",
     "used_in_recipes": [
       "recipe_honeydew_smoothie",
@@ -3317,7 +3317,7 @@
     "realms": [
       "物語の谷"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷／エバーアフター）",
+    "obtain_method": "栽培｜種:グーフィーの露店（物語の谷・エバーアフター）｜成長 約180分",
     "icon_path": "images/ingredients/mat_rhubarb.png",
     "used_in_recipes": [
       "recipe_chia_pudding",
@@ -3664,9 +3664,9 @@
     "name_en": "Dark Chocolate Coffee Beans",
     "category": "甘味料",
     "realms": [
-      "物語の谷"
+      "願い咲く牧場"
     ],
-    "obtain_method": "栽培｜物語の谷（グーフィーの店で種購入）",
+    "obtain_method": "栽培｜種:グーフィーのキャラバン（願い咲く牧場）｜成長 約30分",
     "icon_path": "images/ingredients/mat_dark_chocolate_coffee_beans.png",
     "used_in_recipes": [
       "recipe_101_teeny_tiny_dalmatian_cupcakes",
@@ -3869,7 +3869,7 @@
     "realms": [
       "願い咲く牧場"
     ],
-    "obtain_method": "栽培｜種:グーフィーの露店（願い咲く牧場）",
+    "obtain_method": "栽培｜種:グーフィーのキャラバン（願い咲く牧場）｜成長 約40分",
     "icon_path": "images/ingredients/mat_lollipop_fruit.png",
     "used_in_recipes": [
       "recipe_fairy_wands",
