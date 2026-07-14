@@ -258,7 +258,7 @@
   .card:hover { transform: translateY(-2px); box-shadow: 0 10px 22px var(--c-shadow); border-color: var(--c-accent); }
   .card.dim { opacity: 0.62; }
   /* 全身の縦長画像が入りきるよう縦長の枠＋contain */
-  .thumb { position: relative; width: 100%; aspect-ratio: 3 / 4; display: grid; place-items: center; background: var(--c-surface-2); border-radius: var(--radius-sm); overflow: hidden; }
+  .thumb { position: relative; width: 100%; aspect-ratio: 1 / 1; display: grid; place-items: center; background: var(--c-surface-2); border-radius: var(--radius-sm); overflow: hidden; }
   .thumb img { width: 100%; height: 100%; object-fit: contain; }
   .noimg { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; width: 100%; height: 100%; padding: 4px; text-align: center; background: linear-gradient(160deg, var(--c-surface-2), color-mix(in srgb, var(--c-accent-soft) 40%, var(--c-surface-2))); }
   .ph-mark { font-size: 22px; opacity: 0.5; }
@@ -279,7 +279,7 @@
   .sheet { position: relative; width: min(440px, 94vw); background: var(--c-surface); border: 1px solid var(--c-line); border-radius: var(--radius); padding: 22px; box-shadow: 0 24px 60px rgba(0,0,0,.3); }
   .close { position: absolute; top: 12px; right: 12px; background: var(--c-surface-2); border: 0; border-radius: 8px; width: 30px; height: 30px; color: var(--c-ink-soft); }
   .sheet-top { display: flex; gap: 16px; align-items: center; margin-bottom: 16px; }
-  .big-thumb { width: 96px; height: 128px; flex: none; background: var(--c-surface-2); border-radius: var(--radius-sm); display: grid; place-items: center; overflow: hidden; }
+  .big-thumb { width: 116px; height: 116px; flex: none; background: var(--c-surface-2); border-radius: var(--radius-sm); display: grid; place-items: center; overflow: hidden; }
   .big-thumb img { width: 100%; height: 100%; object-fit: contain; }
   .sheet-top h2 { font-size: 22px; }
   .colname { font-family: var(--font-display); font-weight: 600; font-size: 16px; color: var(--c-accent-ink); margin: 2px 0 4px; }
