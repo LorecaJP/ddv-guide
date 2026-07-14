@@ -150,6 +150,7 @@ export interface EventItem {
 export interface Facility {
   id: string
   name_ja: string          // 🔒 gamepedia 突合
+  name_en: string          // 🔒
   type: string             // 🔒
   unlock_condition: string // 🔒
   restock_time: string     // 🔒
@@ -192,10 +193,12 @@ export interface Update {
 export interface Expansion {
   id: string
   name_ja: string          // 🔒 gamepedia 突合
+  name_en: string          // 🔒
   release_date: string     // 🔒
   price: string            // 🔒
   included_realms: string[]// 🔒
   required_progress: string// 🔒
+  note: string             // 🔒 主な追加要素
   owned: boolean           // ✏️
   progress_notes: string   // ✏️
 }

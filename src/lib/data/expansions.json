@@ -1,26 +1,67 @@
 [
   {
     "id": "exp_eternity_isle",
-    "name_ja": "永遠の島（A Rift in Time）",
+    "name_ja": "時間の裂け目（A Rift in Time）",
+    "name_en": "A Rift in Time",
     "release_date": "2023-12-05",
-    "price": "有料DLC",
+    "price": "拡張パス ¥3,500 / US$29.99（ゲーム内 5,000ムーンストーン）",
     "included_realms": [
-      "永遠の島",
-      "失われしタイムスクエア"
+      "永遠の島（エターニティ島）",
+      "古代文明の地",
+      "煌めく砂丘",
+      "密林",
+      "時をたがえし塔"
     ],
-    "required_progress": "本編をある程度進行",
+    "required_progress": "本編序盤（最初の約4クエスト）を完了しプラザ到達後、DLC導入でクエスト「多くの世界の港」が自動発生",
+    "note": "新舞台「永遠の島」。新キャラ5人（オズワルド/イヴ/ラプンツェル/ガストン/ジャファー）。砂時計・時のもや・自動化機能・ボードゲーム「スクランブルコイン」を追加",
     "owned": false,
     "progress_notes": ""
   },
   {
     "id": "exp_storybook_vale",
     "name_ja": "物語の谷（The Storybook Vale）",
-    "release_date": "2025-01-01",
-    "price": "有料DLC",
+    "name_en": "The Storybook Vale",
+    "release_date": "2024-11-20",
+    "price": "拡張パス ¥3,500 / US$29.99（ゲーム内 5,000ムーンストーン）",
     "included_realms": [
-      "物語の谷"
+      "書物の里",
+      "神話の楽園（神話の国）",
+      "おとぎの園",
+      "記されざる地（パート2）"
     ],
-    "required_progress": "本編をある程度進行",
+    "required_progress": "本編序盤のメインクエストを進めた状態で、DLC導入後にクエストが自動発生",
+    "note": "新舞台「物語の谷」。新キャラ5人（メリダ/フリン/ハデス/オーロラ/マレフィセント）。寓話守の書システム・紙精（スニペット）捕獲。パート2「記されざる地」を追加",
+    "owned": false,
+    "progress_notes": ""
+  },
+  {
+    "id": "exp_wishblossom_ranch",
+    "name_ja": "願い咲く牧場（Wishblossom Ranch）",
+    "name_en": "Wishblossom Ranch",
+    "release_date": "2025-11-19",
+    "price": "拡張パス ¥3,500 / US$29.99（ゲーム内 5,000ムーンストーン）",
+    "included_realms": [
+      "願い咲く山脈",
+      "願いのアルプス",
+      "虚飾の渓谷（グラマーガルチ）",
+      "妖精の地（ピクシーエイカーズ）"
+    ],
+    "required_progress": "本編序盤のメインクエストを進めた状態で、DLC導入後にクエストが自動発生",
+    "note": "新舞台「願い咲く牧場」。新キャラ（白雪姫/ティンカー・ベル/ティガー/クルエラ）。シリーズ初の騎乗（マウント）機能：ウマ4頭＋特典スヴェン。牧場再建と「枯朽」解消のストーリー",
+    "owned": false,
+    "progress_notes": ""
+  },
+  {
+    "id": "exp_honeyglow_woods",
+    "name_ja": "ハニーグローの森（Honeyglow Woods）※アドベンチャーパック",
+    "name_en": "Honeyglow Woods",
+    "release_date": "2026-07-08",
+    "price": "アドベンチャーパック US$16.99（2,000ムーンストーン付属）※拡張パスより小規模",
+    "included_realms": [
+      "ハニーグローの森"
+    ],
+    "required_progress": "ゲーム本編が必要",
+    "note": "くまのプーさん100周年記念。新キャラ：くまのプーさん/ピグレット/イーヨー。100エーカーの森モチーフの新バイオーム。※「拡張パス」ではなく「アドベンチャーパック」",
     "owned": false,
     "progress_notes": ""
   }
