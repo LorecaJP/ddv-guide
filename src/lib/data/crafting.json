@@ -1463,5 +1463,61 @@
     "icon_path": "",
     "unlocked": false,
     "memo": ""
+  },
+  {
+    "id": "craft_fiber",
+    "name_ja": "繊維",
+    "name_en": "Fiber",
+    "category": "精錬",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "精錬｜海藻1個を作業台で加工（→繊維5個）。ロープ・布地の原料",
+    "icon_path": "images/crafting/craft_fiber.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_rope",
+    "name_ja": "ロープ",
+    "name_en": "Rope",
+    "category": "精錬",
+    "realms": [
+      "バレー"
+    ],
+    "obtain_method": "精錬｜繊維8個を作業台で加工（採取品の『古い編みロープ』とは別）",
+    "icon_path": "images/crafting/craft_rope.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_dream_shard",
+    "name_ja": "ドリームシャード",
+    "name_en": "Dream Shard",
+    "category": "その他",
+    "realms": [
+      "バレー",
+      "永遠の島",
+      "物語の谷",
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採取｜光る地面を掘る・闇のトゲ除去で入手（各地。多数のクラフトに使用）",
+    "icon_path": "images/crafting/craft_dream_shard.webp",
+    "unlocked": false,
+    "memo": ""
+  },
+  {
+    "id": "craft_snowball",
+    "name_ja": "雪玉",
+    "name_en": "Snowball",
+    "category": "その他",
+    "realms": [
+      "バレー",
+      "願い咲く牧場"
+    ],
+    "obtain_method": "採取｜雪原を掘る／氷塊を割って入手（凍てつく高地・願いのアルプス）",
+    "icon_path": "images/crafting/craft_snowball.webp",
+    "unlocked": false,
+    "memo": ""
   }
 ]
