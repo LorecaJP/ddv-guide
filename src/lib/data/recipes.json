@@ -2698,7 +2698,7 @@
   {
     "id": "recipe_veggie_casserole",
     "name_ja": "不思議なパイ",
-    "name_en": "Veggie Casserole",
+    "name_en": "",
     "stars": 3,
     "ingredients": [
       "Cheese",
@@ -2715,7 +2715,7 @@
       "スパイス&ハーブ類"
     ],
     "realm": "バレー",
-    "icon_path": "images/meals/recipe_veggie_casserole.png"
+    "icon_path": ""
   },
   {
     "id": "recipe_veggie_pasta",
@@ -4834,7 +4834,7 @@
   {
     "id": "recipe_danish",
     "name_ja": "フルーツパイ",
-    "name_en": "Danish",
+    "name_en": "",
     "stars": 3,
     "ingredients": [
       "Wheat",
@@ -4851,7 +4851,7 @@
       "果物類"
     ],
     "realm": "永遠の島",
-    "icon_path": "images/meals/recipe_danish.png"
+    "icon_path": ""
   },
   {
     "id": "recipe_dreamango_boba_tea",
@@ -5010,7 +5010,7 @@
   {
     "id": "recipe_kouign_amann",
     "name_ja": "フィッシュパイ",
-    "name_en": "Kouign-Amann",
+    "name_en": "",
     "stars": 3,
     "ingredients": [
       "Wheat",
@@ -5454,7 +5454,7 @@
   {
     "id": "recipe_sugar_free_fruit_explosion_muffin",
     "name_ja": "フルーツポリッジ",
-    "name_en": "Sugar-Free Fruit Explosion Muffin",
+    "name_en": "",
     "stars": 3,
     "ingredients": [
       "Wheat",
@@ -6498,7 +6498,7 @@
   {
     "id": "recipe_loaded_honeydew_porridge",
     "name_ja": "ドリームアイスクリーム",
-    "name_en": "Loaded Honeydew Porridge",
+    "name_en": "",
     "stars": 3,
     "ingredients": [
       "Honeydew Melon",
@@ -6515,7 +6515,7 @@
       "アンブロシア"
     ],
     "realm": "物語の谷",
-    "icon_path": "images/meals/recipe_loaded_honeydew_porridge.png"
+    "icon_path": ""
   },
   {
     "id": "recipe_loaded_persimmon_porridge",
@@ -8542,7 +8542,7 @@
   {
     "id": "recipe__2",
     "name_ja": "豪華なハネジューメロンポリッジ",
-    "name_en": "",
+    "name_en": "Loaded Honeydew Porridge",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8551,11 +8551,11 @@
       "アンブロシア"
     ],
     "category": "主菜",
-    "realm": "",
+    "realm": "物語の谷",
     "sell_price_note": "588+ スターコイン",
     "unlocked": false,
     "memo": "",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__2.png"
   },
   {
     "id": "recipe__3",
@@ -8615,7 +8615,7 @@
   {
     "id": "recipe__6",
     "name_ja": "野菜のキャセロール",
-    "name_en": "",
+    "name_en": "Veggie Casserole",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8624,11 +8624,11 @@
       "スパイス＆ハーブ類"
     ],
     "category": "主菜",
-    "realm": "",
+    "realm": "バレー",
     "sell_price_note": "316+ スターコイン",
     "unlocked": false,
     "memo": "",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__6.png"
   },
   {
     "id": "recipe__7",
@@ -8820,7 +8820,7 @@
   {
     "id": "recipe__18",
     "name_ja": "クイニーアマン",
-    "name_en": "",
+    "name_en": "Kouign-Amann",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8829,7 +8829,7 @@
       "リュウゼツラン"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "永遠の島",
     "sell_price_note": "610+ スターコイン",
     "unlocked": false,
     "memo": "",
@@ -8948,7 +8948,7 @@
   {
     "id": "recipe__25",
     "name_ja": "砂糖不使用フルーツエクスプローションマフィン",
-    "name_en": "",
+    "name_en": "Sugar-Free Fruit Explosion Muffin",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -8957,7 +8957,7 @@
       "リュウゼツラン"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "永遠の島",
     "sell_price_note": "66+ スターコイン",
     "unlocked": false,
     "memo": "",
@@ -9352,7 +9352,7 @@
   {
     "id": "recipe__47",
     "name_ja": "デニッシュ",
-    "name_en": "",
+    "name_en": "Danish",
     "stars": 4,
     "ingredients": [],
     "ingredients_ja": [
@@ -9361,11 +9361,11 @@
       "果物類"
     ],
     "category": "デザート",
-    "realm": "",
+    "realm": "永遠の島",
     "sell_price_note": "314+ スターコイン",
     "unlocked": false,
     "memo": "",
-    "icon_path": ""
+    "icon_path": "images/meals/recipe__47.png"
   },
   {
     "id": "recipe__48",
