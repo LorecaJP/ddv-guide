@@ -93,6 +93,19 @@ export interface Companion {
   memo: string             // ✏️
 }
 
+/** 4b. 騎乗動物（マウント。願い咲く牧場で追加された騎乗できる馬など） */
+export interface Mount {
+  id: string
+  name_ja: string          // 🔒
+  name_en: string          // 🔒
+  category: string         // 🔒 種別（名前付き／汎用の毛色 など）
+  obtain_method: string    // 🔒 入手方法（日本語）
+  ability_note: string     // 🔒 特殊能力・備考（日本語）
+  icon_path: string        // 🔒 画像
+  owned: boolean           // ✏️ 入手済みか
+  memo: string             // ✏️
+}
+
 /** 5. クエスト */
 export interface Quest {
   id: string
@@ -232,6 +245,7 @@ export interface CategoryMeta {
 export const CATEGORIES: CategoryMeta[] = [
   { key: 'characters', name_ja: 'キャラクター', emoji: '🧑‍🎤', display: 'image-grid', implemented: true },
   { key: 'companions', name_ja: 'オトモ', emoji: '🐾', display: 'image-grid', implemented: true },
+  { key: 'mounts', name_ja: '騎乗動物', emoji: '🐴', display: 'image-grid', implemented: true },
   { key: 'recipes', name_ja: '料理レシピ', emoji: '🍲', display: 'table', implemented: true },
   { key: 'materials', name_ja: '食材', emoji: '🍎', display: 'table', implemented: true },
   { key: 'crafting', name_ja: 'クラフト素材', emoji: '⛏️', display: 'table', implemented: true },
