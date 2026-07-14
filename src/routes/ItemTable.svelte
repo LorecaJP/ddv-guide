@@ -51,6 +51,11 @@
     if (!rs?.length) return ''
     return CORE_REALMS.every((r) => rs.includes(r)) ? '全世界' : rs.join('・')
   }
+  // 名前を「本体」と「(色)」に分割（(色)は改行で丸ごと2行目へ送る。全角/半角括弧対応）
+  const splitName = (n: string) => {
+    const m = n.match(/^(.*\S)([（(][^（(）)]*[)）])$/)
+    return m ? { base: m[1], paren: m[2] } : { base: n, paren: '' }
+  }
 
   const cats = $derived((() => {
     const present = new Set(all.map((m) => m.category).filter(Boolean))
@@ -151,6 +156,7 @@
       <div class="cat-head"><h2>{g.category}<span class="cnt">{g.items.length}</span></h2></div>
       <ul class="list">
         {#each g.items as m (m.id)}
+          {@const nm = splitName(m.name_ja || m.name_en)}
           <li class="item" class:done={m.unlocked}>
             <div class="line">
               <button class="main" onclick={() => toggleExpand(m.id)}>
@@ -160,7 +166,7 @@
                   {:else}<span class="ph">{placeholder}</span>{/if}
                 </span>
                 <span class="txt">
-                  <span class="nm">{m.name_ja || m.name_en}</span>
+                  <span class="nm">{nm.base}{#if nm.paren}<span class="paren">{nm.paren}</span>{/if}</span>
                   {#if m.name_ja}<span class="en">{m.name_en}</span>{/if}
                 </span>
               </button>
@@ -210,9 +216,7 @@
   .nm { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--c-ink); line-height: 1.25; }
   .en { font-size: 11px; color: var(--c-ink-soft); }
   .realm-badge {
-    flex: 0 1 auto;
-    min-width: 0;
-    max-width: 42%;
+    flex: none;
     font-size: 11px;
     font-weight: 600;
     color: var(--c-ink-soft);
@@ -220,10 +224,9 @@
     padding: 2px 8px;
     border-radius: 12px;
     text-align: center;
-    line-height: 1.3;
-    white-space: normal;
-    overflow-wrap: anywhere;
+    white-space: nowrap;
   }
+  .nm .paren { white-space: nowrap; }
   .own { flex: none; width: 34px; height: 32px; border-radius: 8px; border: 1px solid var(--c-line); background: var(--c-surface); color: var(--c-ink-soft); font-weight: 700; cursor: pointer; }
   .own.on { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
 
