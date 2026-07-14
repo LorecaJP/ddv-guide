@@ -45,8 +45,8 @@
   {:else if current === 'crafting'}
     <CraftingTable />
   {:else if current === 'flowers'}
-    <ItemTable storeKey="flowers" title="花" sub="名前タップで採取エリア"
-      catOrder={['赤', '青', '黄', '白', '紫', 'ピンク', 'オレンジ', '緑', '黒', '複色']}
+    <ItemTable storeKey="flowers" title="花" sub="種類ごと・名前タップで採取エリア"
+      catOrder={['フォーリングペンステモン', 'ライジングペンステモン', 'タンポポ', 'デイジー', 'アジサイ', 'ヒマワリ', 'ベルフラワー', 'ヒメユリ', 'スワンプミルクウィード', 'アナナス', 'ヤネバンダイソウ', 'パッションリリー', 'キンレンカ', 'インパチェンス', 'バラ', '極楽鳥花', '発光する花', 'ウツボカズラ', 'ハエトリグサ', 'ガラスのような花', 'サボテンの花', 'ブックフラワー', 'エターナル・ポピー', 'クロッカス', 'シルクの花', 'スズラン', 'ジギタリス', 'アザミ']}
       placeholder="🌸" ownLabel="入手" />
   {:else if current === 'hourglass'}
     <ItemTable storeKey="hourglass" title="砂時計" sub="A Rift in Time の時渦アイテム。名前タップで入手条件"

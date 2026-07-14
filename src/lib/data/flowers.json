@@ -1,9 +1,9 @@
 [
   {
     "id": "flower_black_passion_lily",
-    "name_ja": "黒いパッションリリー",
+    "name_ja": "パッションリリー(ブラック)",
     "name_en": "Black Passion Lily",
-    "category": "黒",
+    "category": "パッションリリー",
     "realms": [
       "バレー"
     ],
@@ -14,9 +14,9 @@
   },
   {
     "id": "flower_blue_falling_penstemon",
-    "name_ja": "青いフォーリングペンステモン",
+    "name_ja": "フォーリングペンステモン(ブルー)",
     "name_en": "Blue Falling Penstemon",
-    "category": "青",
+    "category": "フォーリングペンステモン",
     "realms": [
       "バレー"
     ],
@@ -27,9 +27,9 @@
   },
   {
     "id": "flower_blue_hydrangea",
-    "name_ja": "青いアジサイ",
+    "name_ja": "アジサイ(ブルー)",
     "name_en": "Blue Hydrangea",
-    "category": "青",
+    "category": "アジサイ",
     "realms": [
       "バレー"
     ],
@@ -40,9 +40,9 @@
   },
   {
     "id": "flower_blue_marsh_milkweed",
-    "name_ja": "青いマーシュミルクウィード",
+    "name_ja": "スワンプミルクウィード(ブルー)",
     "name_en": "Blue Marsh Milkweed",
-    "category": "青",
+    "category": "スワンプミルクウィード",
     "realms": [
       "バレー"
     ],
@@ -53,9 +53,9 @@
   },
   {
     "id": "flower_blue_passion_lily",
-    "name_ja": "青いパッションリリー",
+    "name_ja": "パッションリリー(ブルー)",
     "name_en": "Blue Passion Lily",
-    "category": "青",
+    "category": "パッションリリー",
     "realms": [
       "バレー"
     ],
@@ -66,9 +66,9 @@
   },
   {
     "id": "flower_blue_star_lily",
-    "name_ja": "青いスターリリー",
+    "name_ja": "ヒメユリ(ブルー)",
     "name_en": "Blue Star Lily",
-    "category": "青",
+    "category": "ヒメユリ",
     "realms": [
       "バレー"
     ],
@@ -81,7 +81,7 @@
     "id": "flower_dandelion",
     "name_ja": "タンポポ",
     "name_en": "Dandelion",
-    "category": "黄",
+    "category": "タンポポ",
     "realms": [
       "バレー"
     ],
@@ -92,9 +92,9 @@
   },
   {
     "id": "flower_green_passion_lily",
-    "name_ja": "緑のパッションリリー",
+    "name_ja": "パッションリリー(グリーン)",
     "name_en": "Green Passion Lily",
-    "category": "緑",
+    "category": "パッションリリー",
     "realms": [
       "バレー"
     ],
@@ -105,9 +105,9 @@
   },
   {
     "id": "flower_green_rising_penstemon",
-    "name_ja": "緑のライジングペンステモン",
+    "name_ja": "ライジングペンステモン(グリーン)",
     "name_en": "Green Rising Penstemon",
-    "category": "緑",
+    "category": "ライジングペンステモン",
     "realms": [
       "バレー"
     ],
@@ -118,9 +118,9 @@
   },
   {
     "id": "flower_orange_red_marsh_milkweed",
-    "name_ja": "オレンジ＆レッドのマーシュミルクウィード",
+    "name_ja": "スワンプミルクウィード(オレンジ&レッド)",
     "name_en": "Orange & Red Marsh Milkweed",
-    "category": "複色",
+    "category": "スワンプミルクウィード",
     "realms": [
       "バレー"
     ],
@@ -131,9 +131,9 @@
   },
   {
     "id": "flower_orange_houseleek",
-    "name_ja": "オレンジのハウスリーク",
+    "name_ja": "ヤネバンダイソウ(オレンジ)",
     "name_en": "Orange Houseleek",
-    "category": "オレンジ",
+    "category": "ヤネバンダイソウ",
     "realms": [
       "バレー"
     ],
@@ -144,9 +144,9 @@
   },
   {
     "id": "flower_orange_marsh_milkweed",
-    "name_ja": "オレンジのマーシュミルクウィード",
+    "name_ja": "スワンプミルクウィード(オレンジ)",
     "name_en": "Orange Marsh Milkweed",
-    "category": "オレンジ",
+    "category": "スワンプミルクウィード",
     "realms": [
       "バレー"
     ],
@@ -157,9 +157,9 @@
   },
   {
     "id": "flower_orange_nasturtium",
-    "name_ja": "オレンジのナスタチウム",
+    "name_ja": "キンレンカ(オレンジ)",
     "name_en": "Orange Nasturtium",
-    "category": "オレンジ",
+    "category": "キンレンカ",
     "realms": [
       "バレー"
     ],
@@ -170,9 +170,9 @@
   },
   {
     "id": "flower_orange_star_lily",
-    "name_ja": "オレンジのスターリリー",
+    "name_ja": "ヒメユリ(オレンジ)",
     "name_en": "Orange Star Lily",
-    "category": "オレンジ",
+    "category": "ヒメユリ",
     "realms": [
       "バレー"
     ],
@@ -183,9 +183,9 @@
   },
   {
     "id": "flower_pink_bromeliad",
-    "name_ja": "ピンクのブロメリア",
+    "name_ja": "アナナス(ピンク)",
     "name_en": "Pink Bromeliad",
-    "category": "ピンク",
+    "category": "アナナス",
     "realms": [
       "バレー"
     ],
@@ -196,9 +196,9 @@
   },
   {
     "id": "flower_pink_houseleek",
-    "name_ja": "ピンクのハウスリーク",
+    "name_ja": "ヤネバンダイソウ(ピンク)",
     "name_en": "Pink Houseleek",
-    "category": "ピンク",
+    "category": "ヤネバンダイソウ",
     "realms": [
       "バレー"
     ],
@@ -209,9 +209,9 @@
   },
   {
     "id": "flower_pink_hydrangea",
-    "name_ja": "ピンクのアジサイ",
+    "name_ja": "アジサイ(ピンク)",
     "name_en": "Pink Hydrangea",
-    "category": "ピンク",
+    "category": "アジサイ",
     "realms": [
       "バレー"
     ],
@@ -222,9 +222,9 @@
   },
   {
     "id": "flower_purple_bell_flower",
-    "name_ja": "紫のベルフラワー",
+    "name_ja": "ベルフラワー(パープル)",
     "name_en": "Purple Bell Flower",
-    "category": "紫",
+    "category": "ベルフラワー",
     "realms": [
       "バレー"
     ],
@@ -235,9 +235,9 @@
   },
   {
     "id": "flower_purple_falling_penstemon",
-    "name_ja": "紫のフォーリングペンステモン",
+    "name_ja": "フォーリングペンステモン(パープル)",
     "name_en": "Purple Falling Penstemon",
-    "category": "紫",
+    "category": "フォーリングペンステモン",
     "realms": [
       "バレー"
     ],
@@ -248,9 +248,9 @@
   },
   {
     "id": "flower_purple_hydrangea",
-    "name_ja": "紫のアジサイ",
+    "name_ja": "アジサイ(パープル)",
     "name_en": "Purple Hydrangea",
-    "category": "紫",
+    "category": "アジサイ",
     "realms": [
       "バレー"
     ],
@@ -261,9 +261,9 @@
   },
   {
     "id": "flower_purple_impatiens",
-    "name_ja": "紫のインパチェンス",
+    "name_ja": "インパチェンス(パープル)",
     "name_en": "Purple Impatiens",
-    "category": "紫",
+    "category": "インパチェンス",
     "realms": [
       "バレー"
     ],
@@ -274,9 +274,9 @@
   },
   {
     "id": "flower_purple_marsh_milkweed",
-    "name_ja": "紫のマーシュミルクウィード",
+    "name_ja": "スワンプミルクウィード(パープル)",
     "name_en": "Purple Marsh Milkweed",
-    "category": "紫",
+    "category": "スワンプミルクウィード",
     "realms": [
       "バレー"
     ],
@@ -287,9 +287,9 @@
   },
   {
     "id": "flower_purple_rising_penstemon",
-    "name_ja": "紫のライジングペンステモン",
+    "name_ja": "ライジングペンステモン(パープル)",
     "name_en": "Purple Rising Penstemon",
-    "category": "紫",
+    "category": "ライジングペンステモン",
     "realms": [
       "バレー"
     ],
@@ -300,9 +300,9 @@
   },
   {
     "id": "flower_red_bell_flower",
-    "name_ja": "赤いベルフラワー",
+    "name_ja": "ベルフラワー(レッド)",
     "name_en": "Red Bell Flower",
-    "category": "赤",
+    "category": "ベルフラワー",
     "realms": [
       "バレー"
     ],
@@ -313,9 +313,9 @@
   },
   {
     "id": "flower_red_bromeliad",
-    "name_ja": "赤いブロメリア",
+    "name_ja": "アナナス(レッド)",
     "name_en": "Red Bromeliad",
-    "category": "赤",
+    "category": "アナナス",
     "realms": [
       "バレー"
     ],
@@ -326,9 +326,9 @@
   },
   {
     "id": "flower_red_daisy",
-    "name_ja": "赤いデイジー",
+    "name_ja": "デイジー(レッド)",
     "name_en": "Red Daisy",
-    "category": "赤",
+    "category": "デイジー",
     "realms": [
       "バレー"
     ],
@@ -339,9 +339,9 @@
   },
   {
     "id": "flower_red_falling_penstemon",
-    "name_ja": "赤いフォーリングペンステモン",
+    "name_ja": "フォーリングペンステモン(レッド)",
     "name_en": "Red Falling Penstemon",
-    "category": "赤",
+    "category": "フォーリングペンステモン",
     "realms": [
       "バレー"
     ],
@@ -352,9 +352,9 @@
   },
   {
     "id": "flower_red_nasturtium",
-    "name_ja": "赤いナスタチウム",
+    "name_ja": "キンレンカ(レッド)",
     "name_en": "Red Nasturtium",
-    "category": "赤",
+    "category": "キンレンカ",
     "realms": [
       "バレー"
     ],
@@ -365,9 +365,9 @@
   },
   {
     "id": "flower_red_passion_lily",
-    "name_ja": "赤いパッションリリー",
+    "name_ja": "パッションリリー(レッド)",
     "name_en": "Red Passion Lily",
-    "category": "赤",
+    "category": "パッションリリー",
     "realms": [
       "バレー"
     ],
@@ -380,7 +380,7 @@
     "id": "flower_sunflower",
     "name_ja": "ヒマワリ",
     "name_en": "Sunflower",
-    "category": "黄",
+    "category": "ヒマワリ",
     "realms": [
       "バレー"
     ],
@@ -391,9 +391,9 @@
   },
   {
     "id": "flower_white_pink_falling_penstemon",
-    "name_ja": "白＆ピンクのフォーリングペンステモン",
+    "name_ja": "フォーリングペンステモン(ホワイト&ピンク)",
     "name_en": "White & Pink Falling Penstemon",
-    "category": "複色",
+    "category": "フォーリングペンステモン",
     "realms": [
       "バレー"
     ],
@@ -404,9 +404,9 @@
   },
   {
     "id": "flower_white_red_hydrangea",
-    "name_ja": "白＆レッドのアジサイ",
+    "name_ja": "アジサイ(ホワイト&レッド)",
     "name_en": "White & Red Hydrangea",
-    "category": "複色",
+    "category": "アジサイ",
     "realms": [
       "バレー"
     ],
@@ -417,9 +417,9 @@
   },
   {
     "id": "flower_white_bell_flower",
-    "name_ja": "白いベルフラワー",
+    "name_ja": "ベルフラワー(ホワイト)",
     "name_en": "White Bell Flower",
-    "category": "白",
+    "category": "ベルフラワー",
     "realms": [
       "バレー"
     ],
@@ -430,9 +430,9 @@
   },
   {
     "id": "flower_white_daisy",
-    "name_ja": "白いデイジー",
+    "name_ja": "デイジー(ホワイト)",
     "name_en": "White Daisy",
-    "category": "白",
+    "category": "デイジー",
     "realms": [
       "バレー"
     ],
@@ -443,9 +443,9 @@
   },
   {
     "id": "flower_white_impatiens",
-    "name_ja": "白いインパチェンス",
+    "name_ja": "インパチェンス(ホワイト)",
     "name_en": "White Impatiens",
-    "category": "白",
+    "category": "インパチェンス",
     "realms": [
       "バレー"
     ],
@@ -456,9 +456,9 @@
   },
   {
     "id": "flower_white_marsh_milkweed",
-    "name_ja": "白いマーシュミルクウィード",
+    "name_ja": "スワンプミルクウィード(ホワイト)",
     "name_en": "White Marsh Milkweed",
-    "category": "白",
+    "category": "スワンプミルクウィード",
     "realms": [
       "バレー"
     ],
@@ -469,9 +469,9 @@
   },
   {
     "id": "flower_white_passion_lily",
-    "name_ja": "白いパッションリリー",
+    "name_ja": "パッションリリー(ホワイト)",
     "name_en": "White Passion Lily",
-    "category": "白",
+    "category": "パッションリリー",
     "realms": [
       "バレー"
     ],
@@ -482,9 +482,9 @@
   },
   {
     "id": "flower_yellow_bromeliad",
-    "name_ja": "黄色いブロメリア",
+    "name_ja": "アナナス(イエロー)",
     "name_en": "Yellow Bromeliad",
-    "category": "黄",
+    "category": "アナナス",
     "realms": [
       "バレー"
     ],
@@ -495,9 +495,9 @@
   },
   {
     "id": "flower_yellow_daisy",
-    "name_ja": "黄色いデイジー",
+    "name_ja": "デイジー(イエロー)",
     "name_en": "Yellow Daisy",
-    "category": "黄",
+    "category": "デイジー",
     "realms": [
       "バレー"
     ],
@@ -508,9 +508,9 @@
   },
   {
     "id": "flower_yellow_nasturtium",
-    "name_ja": "黄色いナスタチウム",
+    "name_ja": "キンレンカ(イエロー)",
     "name_en": "Yellow Nasturtium",
-    "category": "黄",
+    "category": "キンレンカ",
     "realms": [
       "バレー"
     ],
@@ -521,9 +521,9 @@
   },
   {
     "id": "flower_red_rose",
-    "name_ja": "赤いバラ",
+    "name_ja": "バラ(レッド)",
     "name_en": "Red Rose",
-    "category": "赤",
+    "category": "バラ",
     "realms": [
       "バレー"
     ],
@@ -534,9 +534,9 @@
   },
   {
     "id": "flower_black_glass_like_flowers",
-    "name_ja": "黒いガラスの花",
+    "name_ja": "ガラスのような花(ブラック)",
     "name_en": "Black Glass-Like Flowers",
-    "category": "黒",
+    "category": "ガラスのような花",
     "realms": [
       "永遠の島"
     ],
@@ -547,9 +547,9 @@
   },
   {
     "id": "flower_blue_glass_like_flowers",
-    "name_ja": "青いガラスの花",
+    "name_ja": "ガラスのような花(ブルー)",
     "name_en": "Blue Glass-Like Flowers",
-    "category": "青",
+    "category": "ガラスのような花",
     "realms": [
       "永遠の島"
     ],
@@ -560,9 +560,9 @@
   },
   {
     "id": "flower_green_glass_like_flowers",
-    "name_ja": "緑のガラスの花",
+    "name_ja": "ガラスのような花(グリーン)",
     "name_en": "Green Glass-Like Flowers",
-    "category": "緑",
+    "category": "ガラスのような花",
     "realms": [
       "永遠の島"
     ],
@@ -573,9 +573,9 @@
   },
   {
     "id": "flower_orange_glass_like_flowers",
-    "name_ja": "オレンジのガラスの花",
+    "name_ja": "ガラスのような花(オレンジ)",
     "name_en": "Orange Glass-Like Flowers",
-    "category": "オレンジ",
+    "category": "ガラスのような花",
     "realms": [
       "永遠の島"
     ],
@@ -586,9 +586,9 @@
   },
   {
     "id": "flower_blue_luminescent_flower",
-    "name_ja": "青い発光する花",
+    "name_ja": "発光する花(ブルー)",
     "name_en": "Blue Luminescent Flower",
-    "category": "青",
+    "category": "発光する花",
     "realms": [
       "永遠の島"
     ],
@@ -599,9 +599,9 @@
   },
   {
     "id": "flower_green_luminescent_flower",
-    "name_ja": "緑の発光する花",
+    "name_ja": "発光する花(グリーン)",
     "name_en": "Green Luminescent Flower",
-    "category": "緑",
+    "category": "発光する花",
     "realms": [
       "永遠の島"
     ],
@@ -612,9 +612,9 @@
   },
   {
     "id": "flower_pink_luminescent_flower",
-    "name_ja": "ピンクの発光する花",
+    "name_ja": "発光する花(ピンク)",
     "name_en": "Pink Luminescent Flower",
-    "category": "ピンク",
+    "category": "発光する花",
     "realms": [
       "永遠の島"
     ],
@@ -625,9 +625,9 @@
   },
   {
     "id": "flower_red_luminescent_flower",
-    "name_ja": "赤い発光する花",
+    "name_ja": "発光する花(レッド)",
     "name_en": "Red Luminescent Flower",
-    "category": "赤",
+    "category": "発光する花",
     "realms": [
       "永遠の島"
     ],
@@ -638,9 +638,9 @@
   },
   {
     "id": "flower_green_fly_trap",
-    "name_ja": "緑のハエトリグサ",
+    "name_ja": "ハエトリグサ(グリーン)",
     "name_en": "Green Fly Trap",
-    "category": "緑",
+    "category": "ハエトリグサ",
     "realms": [
       "永遠の島"
     ],
@@ -651,9 +651,9 @@
   },
   {
     "id": "flower_purple_fly_trap",
-    "name_ja": "紫のハエトリグサ",
+    "name_ja": "ハエトリグサ(パープル)",
     "name_en": "Purple Fly Trap",
-    "category": "紫",
+    "category": "ハエトリグサ",
     "realms": [
       "永遠の島"
     ],
@@ -664,9 +664,9 @@
   },
   {
     "id": "flower_orange_bird_of_paradise",
-    "name_ja": "オレンジの極楽鳥花",
+    "name_ja": "極楽鳥花(オレンジ)",
     "name_en": "Orange Bird of Paradise",
-    "category": "オレンジ",
+    "category": "極楽鳥花",
     "realms": [
       "永遠の島"
     ],
@@ -677,9 +677,9 @@
   },
   {
     "id": "flower_white_bird_of_paradise",
-    "name_ja": "白い極楽鳥花",
+    "name_ja": "極楽鳥花(ホワイト)",
     "name_en": "White Bird of Paradise",
-    "category": "白",
+    "category": "極楽鳥花",
     "realms": [
       "永遠の島"
     ],
@@ -690,9 +690,9 @@
   },
   {
     "id": "flower_yellow_bird_of_paradise",
-    "name_ja": "黄色い極楽鳥花",
+    "name_ja": "極楽鳥花(イエロー)",
     "name_en": "Yellow Bird of Paradise",
-    "category": "黄",
+    "category": "極楽鳥花",
     "realms": [
       "永遠の島"
     ],
@@ -703,9 +703,9 @@
   },
   {
     "id": "flower_orange_pitcher_plant",
-    "name_ja": "オレンジのウツボカズラ",
+    "name_ja": "ウツボカズラ(オレンジ)",
     "name_en": "Orange Pitcher Plant",
-    "category": "オレンジ",
+    "category": "ウツボカズラ",
     "realms": [
       "永遠の島"
     ],
@@ -716,9 +716,9 @@
   },
   {
     "id": "flower_red_pitcher_plant",
-    "name_ja": "赤いウツボカズラ",
+    "name_ja": "ウツボカズラ(レッド)",
     "name_en": "Red Pitcher Plant",
-    "category": "赤",
+    "category": "ウツボカズラ",
     "realms": [
       "永遠の島"
     ],
@@ -729,9 +729,9 @@
   },
   {
     "id": "flower_yellow_pitcher_plant",
-    "name_ja": "黄色いウツボカズラ",
+    "name_ja": "ウツボカズラ(イエロー)",
     "name_en": "Yellow Pitcher Plant",
-    "category": "黄",
+    "category": "ウツボカズラ",
     "realms": [
       "永遠の島"
     ],
@@ -742,9 +742,9 @@
   },
   {
     "id": "flower_pink_cactus_flower",
-    "name_ja": "ピンクのサボテンの花",
+    "name_ja": "サボテンの花(ピンク)",
     "name_en": "Pink Cactus Flower",
-    "category": "ピンク",
+    "category": "サボテンの花",
     "realms": [
       "永遠の島"
     ],
@@ -755,9 +755,9 @@
   },
   {
     "id": "flower_purple_cactus_flower",
-    "name_ja": "紫のサボテンの花",
+    "name_ja": "サボテンの花(パープル)",
     "name_en": "Purple Cactus Flower",
-    "category": "紫",
+    "category": "サボテンの花",
     "realms": [
       "永遠の島"
     ],
@@ -768,9 +768,9 @@
   },
   {
     "id": "flower_white_cactus_flower",
-    "name_ja": "白いサボテンの花",
+    "name_ja": "サボテンの花(ホワイト)",
     "name_en": "White Cactus Flower",
-    "category": "白",
+    "category": "サボテンの花",
     "realms": [
       "永遠の島"
     ],
@@ -781,9 +781,9 @@
   },
   {
     "id": "flower_yellow_cactus_flower",
-    "name_ja": "黄色いサボテンの花",
+    "name_ja": "サボテンの花(イエロー)",
     "name_en": "Yellow Cactus Flower",
-    "category": "黄",
+    "category": "サボテンの花",
     "realms": [
       "永遠の島"
     ],
@@ -794,9 +794,9 @@
   },
   {
     "id": "flower_beige_tale_cone_flower",
-    "name_ja": "ベージュのテイルコーンフラワー",
+    "name_ja": "ブックフラワー(ベージュ)",
     "name_en": "Beige Tale Cone Flower",
-    "category": "白",
+    "category": "ブックフラワー",
     "realms": [
       "物語の谷"
     ],
@@ -807,9 +807,9 @@
   },
   {
     "id": "flower_blue_tale_cone_flower",
-    "name_ja": "青いテイルコーンフラワー",
+    "name_ja": "ブックフラワー(ブルー)",
     "name_en": "Blue Tale Cone Flower",
-    "category": "青",
+    "category": "ブックフラワー",
     "realms": [
       "物語の谷"
     ],
@@ -820,9 +820,9 @@
   },
   {
     "id": "flower_olive_green_tale_cone_flower",
-    "name_ja": "オリーブグリーンのテイルコーンフラワー",
+    "name_ja": "ブックフラワー(グリーン)",
     "name_en": "Olive Green Tale Cone Flower",
-    "category": "緑",
+    "category": "ブックフラワー",
     "realms": [
       "物語の谷"
     ],
@@ -833,9 +833,9 @@
   },
   {
     "id": "flower_yellow_tale_cone_flower",
-    "name_ja": "黄色いテイルコーンフラワー",
+    "name_ja": "ブックフラワー(イエロー)",
     "name_en": "Yellow Tale Cone Flower",
-    "category": "黄",
+    "category": "ブックフラワー",
     "realms": [
       "物語の谷"
     ],
@@ -846,9 +846,9 @@
   },
   {
     "id": "flower_crimson_eternal_poppies",
-    "name_ja": "クリムゾンのエターナルポピー",
+    "name_ja": "エターナル・ポピー(クリムゾン)",
     "name_en": "Crimson Eternal Poppies",
-    "category": "赤",
+    "category": "エターナル・ポピー",
     "realms": [
       "物語の谷"
     ],
@@ -859,9 +859,9 @@
   },
   {
     "id": "flower_fuchsia_eternal_poppies",
-    "name_ja": "フクシアのエターナルポピー",
+    "name_ja": "エターナル・ポピー(フクシア)",
     "name_en": "Fuchsia Eternal Poppies",
-    "category": "ピンク",
+    "category": "エターナル・ポピー",
     "realms": [
       "物語の谷"
     ],
@@ -872,9 +872,9 @@
   },
   {
     "id": "flower_goldenrod_eternal_poppies",
-    "name_ja": "ゴールデンロッドのエターナルポピー",
+    "name_ja": "エターナル・ポピー(ゴールド)",
     "name_en": "Goldenrod Eternal Poppies",
-    "category": "黄",
+    "category": "エターナル・ポピー",
     "realms": [
       "物語の谷"
     ],
@@ -885,9 +885,9 @@
   },
   {
     "id": "flower_teal_eternal_poppies",
-    "name_ja": "ティールのエターナルポピー",
+    "name_ja": "エターナル・ポピー(ティール)",
     "name_en": "Teal Eternal Poppies",
-    "category": "青",
+    "category": "エターナル・ポピー",
     "realms": [
       "物語の谷"
     ],
@@ -898,9 +898,9 @@
   },
   {
     "id": "flower_dusty_violet_rose",
-    "name_ja": "ダスティバイオレットのバラ",
+    "name_ja": "バラ(ダスティバイオレット)",
     "name_en": "Dusty Violet Rose",
-    "category": "紫",
+    "category": "バラ",
     "realms": [
       "物語の谷"
     ],
@@ -911,9 +911,9 @@
   },
   {
     "id": "flower_pink_rose",
-    "name_ja": "ピンクのバラ",
+    "name_ja": "バラ(ピンク)",
     "name_en": "Pink Rose",
-    "category": "ピンク",
+    "category": "バラ",
     "realms": [
       "物語の谷"
     ],
@@ -924,9 +924,9 @@
   },
   {
     "id": "flower_slate_gray_rose",
-    "name_ja": "スレートグレーのバラ",
+    "name_ja": "バラ(ストレートグレー)",
     "name_en": "Slate Gray Rose",
-    "category": "黒",
+    "category": "バラ",
     "realms": [
       "物語の谷"
     ],
@@ -937,9 +937,9 @@
   },
   {
     "id": "flower_white_rose",
-    "name_ja": "白いバラ",
+    "name_ja": "バラ(ホワイト)",
     "name_en": "White Rose",
-    "category": "白",
+    "category": "バラ",
     "realms": [
       "物語の谷"
     ],
@@ -950,9 +950,9 @@
   },
   {
     "id": "flower_pink_crocus",
-    "name_ja": "ピンクのクロッカス",
+    "name_ja": "クロッカス(ピンク)",
     "name_en": "Pink Crocus",
-    "category": "ピンク",
+    "category": "クロッカス",
     "realms": [
       "願い咲く牧場"
     ],
@@ -963,9 +963,9 @@
   },
   {
     "id": "flower_purple_crocus",
-    "name_ja": "紫のクロッカス",
+    "name_ja": "クロッカス(パープル)",
     "name_en": "Purple Crocus",
-    "category": "紫",
+    "category": "クロッカス",
     "realms": [
       "願い咲く牧場"
     ],
@@ -976,9 +976,9 @@
   },
   {
     "id": "flower_white_crocus",
-    "name_ja": "白いクロッカス",
+    "name_ja": "クロッカス(ホワイト)",
     "name_en": "White Crocus",
-    "category": "白",
+    "category": "クロッカス",
     "realms": [
       "願い咲く牧場"
     ],
@@ -989,9 +989,9 @@
   },
   {
     "id": "flower_yellow_crocus",
-    "name_ja": "黄色いクロッカス",
+    "name_ja": "クロッカス(イエロー)",
     "name_en": "Yellow Crocus",
-    "category": "黄",
+    "category": "クロッカス",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1002,9 +1002,9 @@
   },
   {
     "id": "flower_black_silk_flower",
-    "name_ja": "黒いシルクフラワー",
+    "name_ja": "シルクの花(ブラック)",
     "name_en": "Black Silk Flower",
-    "category": "黒",
+    "category": "シルクの花",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1015,9 +1015,9 @@
   },
   {
     "id": "flower_green_silk_flower",
-    "name_ja": "緑のシルクフラワー",
+    "name_ja": "シルクの花(グリーン)",
     "name_en": "Green Silk Flower",
-    "category": "緑",
+    "category": "シルクの花",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1028,9 +1028,9 @@
   },
   {
     "id": "flower_red_silk_flower",
-    "name_ja": "赤いシルクフラワー",
+    "name_ja": "シルクの花(レッド)",
     "name_en": "Red Silk Flower",
-    "category": "赤",
+    "category": "シルクの花",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1041,9 +1041,9 @@
   },
   {
     "id": "flower_silver_silk_flower",
-    "name_ja": "シルバーのシルクフラワー",
+    "name_ja": "シルクの花(シルバー)",
     "name_en": "Silver Silk Flower",
-    "category": "白",
+    "category": "シルクの花",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1054,9 +1054,9 @@
   },
   {
     "id": "flower_blue_lily_of_the_valley",
-    "name_ja": "青いスズラン",
+    "name_ja": "スズラン(ブルー)",
     "name_en": "Blue Lily of the Valley",
-    "category": "青",
+    "category": "スズラン",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1067,9 +1067,9 @@
   },
   {
     "id": "flower_pink_lily_of_the_valley",
-    "name_ja": "ピンクのスズラン",
+    "name_ja": "スズラン(ピンク)",
     "name_en": "Pink Lily of the Valley",
-    "category": "ピンク",
+    "category": "スズラン",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1080,9 +1080,9 @@
   },
   {
     "id": "flower_purple_lily_of_the_valley",
-    "name_ja": "紫のスズラン",
+    "name_ja": "スズラン(パープル)",
     "name_en": "Purple Lily of the Valley",
-    "category": "紫",
+    "category": "スズラン",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1093,9 +1093,9 @@
   },
   {
     "id": "flower_yellow_lily_of_the_valley",
-    "name_ja": "黄色いスズラン",
+    "name_ja": "スズラン(イエロー)",
     "name_en": "Yellow Lily of the Valley",
-    "category": "黄",
+    "category": "スズラン",
     "realms": [
       "願い咲く牧場"
     ],
@@ -1106,9 +1106,9 @@
   },
   {
     "id": "flower_purple_white_foxglove",
-    "name_ja": "紫＆白のジギタリス",
+    "name_ja": "ジギタリス(パープル&ホワイト)",
     "name_en": "Purple & White Foxglove",
-    "category": "複色",
+    "category": "ジギタリス",
     "realms": [
       "ハニーグローの森"
     ],
@@ -1119,9 +1119,9 @@
   },
   {
     "id": "flower_rose_cream_foxglove",
-    "name_ja": "ローズ＆クリームのジギタリス",
+    "name_ja": "ジギタリス(ローズ&クリーム)",
     "name_en": "Rose & Cream Foxglove",
-    "category": "複色",
+    "category": "ジギタリス",
     "realms": [
       "ハニーグローの森"
     ],
@@ -1132,9 +1132,9 @@
   },
   {
     "id": "flower_white_pink_foxglove",
-    "name_ja": "白＆ピンクのジギタリス",
+    "name_ja": "ジギタリス(ホワイト&ピンク)",
     "name_en": "White & Pink Foxglove",
-    "category": "複色",
+    "category": "ジギタリス",
     "realms": [
       "ハニーグローの森"
     ],
@@ -1145,9 +1145,9 @@
   },
   {
     "id": "flower_yellow_orange_foxglove",
-    "name_ja": "黄＆オレンジのジギタリス",
+    "name_ja": "ジギタリス(イエロー&オレンジ)",
     "name_en": "Yellow & Orange Foxglove",
-    "category": "複色",
+    "category": "ジギタリス",
     "realms": [
       "ハニーグローの森"
     ],
@@ -1158,9 +1158,9 @@
   },
   {
     "id": "flower_purple_thistle",
-    "name_ja": "紫のアザミ",
+    "name_ja": "アザミ(パープル)",
     "name_en": "Purple Thistle",
-    "category": "紫",
+    "category": "アザミ",
     "realms": [
       "ハニーグローの森"
     ],
@@ -1171,9 +1171,9 @@
   },
   {
     "id": "flower_red_thistle",
-    "name_ja": "赤いアザミ",
+    "name_ja": "アザミ(レッド)",
     "name_en": "Red Thistle",
-    "category": "赤",
+    "category": "アザミ",
     "realms": [
       "ハニーグローの森"
     ],
@@ -1184,9 +1184,9 @@
   },
   {
     "id": "flower_white_thistle",
-    "name_ja": "白いアザミ",
+    "name_ja": "アザミ(ホワイト)",
     "name_en": "White Thistle",
-    "category": "白",
+    "category": "アザミ",
     "realms": [
       "ハニーグローの森"
     ],
@@ -1197,9 +1197,9 @@
   },
   {
     "id": "flower_yellow_thistle",
-    "name_ja": "黄色いアザミ",
+    "name_ja": "アザミ(イエロー)",
     "name_en": "Yellow Thistle",
-    "category": "黄",
+    "category": "アザミ",
     "realms": [
       "ハニーグローの森"
     ],
