@@ -15,6 +15,29 @@
 
   const current = $derived($route.category)
   const meta = $derived(CATEGORIES.find((c) => c.key === current) ?? null)
+
+  // スーパーリロード: SW・キャッシュを全消去して最新を取得（スマホで強制更新できない対策）
+  let reloading = $state(false)
+  async function superReload() {
+    if (reloading) return
+    reloading = true
+    try {
+      if ('serviceWorker' in navigator) {
+        const regs = await navigator.serviceWorker.getRegistrations()
+        await Promise.all(regs.map((r) => r.unregister()))
+      }
+      if ('caches' in window) {
+        const keys = await caches.keys()
+        await Promise.all(keys.map((k) => caches.delete(k)))
+      }
+    } catch {
+      /* 失敗しても再読み込みは行う */
+    }
+    // クエリにタイムスタンプを付けてHTTPキャッシュも回避（ハッシュ以降のルートは維持）
+    const u = new URL(location.href)
+    u.searchParams.set('_r', String(Date.now()))
+    location.replace(u.toString())
+  }
 </script>
 
 <header class="topbar">
@@ -68,7 +91,13 @@
 </main>
 
 <footer class="foot container">
-  個人運営の攻略メモ。データ・画像出典: Disney Dreamlight Valley Wiki (Fandom, CC BY-SA)。
+  <div class="foot-reload">
+    <button class="reload-btn" onclick={superReload} disabled={reloading}>
+      {reloading ? '更新中…' : '🔄 スーパーリロード'}
+    </button>
+    <span class="reload-note">最新に更新されない時に押してください（キャッシュを消去して再読み込み）</span>
+  </div>
+  <p class="foot-cred">個人運営の攻略メモ。データ・画像出典: Disney Dreamlight Valley Wiki (Fandom, CC BY-SA)。</p>
 </footer>
 
 <style>
@@ -125,4 +154,30 @@
     font-size: 12px;
     border-top: 1px solid var(--c-line);
   }
+  .foot-reload {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    margin-bottom: 14px;
+  }
+  .reload-btn {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--c-ink);
+    box-shadow: 0 1px 0 var(--c-shadow);
+  }
+  .reload-btn:hover:not(:disabled) { border-color: var(--c-accent); color: var(--c-accent); }
+  .reload-btn:disabled { opacity: 0.6; }
+  .reload-note { font-size: 11px; color: var(--c-ink-soft); line-height: 1.4; }
+  .foot-cred { margin: 0; }
 </style>
