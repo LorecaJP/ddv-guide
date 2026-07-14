@@ -10,26 +10,59 @@
   let query = $state(P.q ?? '')
   let statusFilter = $state(P.status ?? 'all') // 'all' | 'owned' | 'unowned'
   let levelFilter = $state(P.lv ?? 'all') // 'all' | 'max' | 'notmax'
-  let todayFilter = $state(P.today === '1' ? 'today' : 'all') // 'all' | 'today'
+  let appearFilter = $state(P.appear ?? 'all') // 'all' | 'today' | 'now'
   let selected = $state<Companion | null>(null)
   const MAX_LV = 5
 
   // 出現スケジュール（例: "火・水・土：終日\n日：午前12時～午後12時"）から今日出現するか判定
+  // ゲーム内時間は現実のローカル時間と同期・0時で日付リセットのため端末時刻で判定。
   const WD = ['日', '月', '火', '水', '木', '金', '土']
-  const todayChar = WD[new Date().getDay()]
-  const appearsToday = (sched: string) => {
+  const now = new Date()
+  const todayChar = WD[now.getDay()]
+  const nowHour = now.getHours()
+
+  const toHour = (s: string): number | null => {
+    const m = s.match(/(\d{1,2})/)
+    if (!m) return null
+    let h = parseInt(m[1], 10)
+    if (s.includes('午前')) h = h === 12 ? 0 : h
+    else if (s.includes('午後')) h = h === 12 ? 12 : h + 12
+    else if (/PM/i.test(s)) h = h < 12 ? h + 12 : h
+    else if (/AM/i.test(s)) h = h === 12 ? 0 : h
+    return h
+  }
+  const parseRange = (t: string): [number, number] | null => {
+    t = t.trim()
+    if (t.startsWith('終日')) return [0, 24]
+    const parts = t.split(/[~～\-]/)
+    if (parts.length < 2) return null
+    const s = toHour(parts[0]), e = toHour(parts[1])
+    if (s == null || e == null) return null
+    return [s, e <= s ? 24 : e]
+  }
+  const parseLine = (line: string) => {
+    const ci = line.indexOf('：') >= 0 ? line.indexOf('：') : line.indexOf(':')
+    const days = ci >= 0 ? line.slice(0, ci) : line
+    const time = ci >= 0 ? line.slice(ci + 1) : ''
+    const dayOk = days.includes('毎日') || days.split('・').some((d) => d.trim() === todayChar)
+    return { dayOk, time }
+  }
+  const appearsToday = (sched: string) => !!sched && sched.split('\n').some((l) => parseLine(l).dayOk)
+  const appearsNow = (sched: string) => {
     if (!sched) return false
     for (const line of sched.split('\n')) {
-      const days = line.split(/[：:]/)[0] || ''
-      if (days.includes('毎日')) return true
-      if (days.split('・').some((d) => d.trim() === todayChar)) return true
+      const { dayOk, time } = parseLine(line)
+      if (!dayOk) continue
+      const r = parseRange(time)
+      if (!r) return true
+      if (r[0] <= nowHour && nowHour < r[1]) return true
     }
     return false
   }
 
   // 絞り込み条件を URL に保持（戻る/リロード/共有で復元）
   $effect(() => {
-    setParams('companions', { q: query, status: statusFilter, lv: levelFilter, today: todayFilter === 'today' ? '1' : '' })
+    setParams('companions', { q: query, status: statusFilter, lv: levelFilter, appear: appearFilter === 'all' ? '' : appearFilter })
   })
   function onKey(e: KeyboardEvent) {
     if (e.key === 'Escape') selected = null
@@ -56,7 +89,8 @@
         const lvl = Math.max(1, c.friendship_level || 1)
         if (levelFilter === 'max' && lvl < MAX_LV) return false
         if (levelFilter === 'notmax' && lvl >= MAX_LV) return false
-        if (todayFilter === 'today' && !appearsToday(c.appearance_schedule)) return false
+        if (appearFilter === 'today' && !appearsToday(c.appearance_schedule)) return false
+        if (appearFilter === 'now' && !appearsNow(c.appearance_schedule)) return false
         if (query) {
           const q = query.toLowerCase()
           if (!`${c.name_ja}${c.name_en}${c.gather_type}`.toLowerCase().includes(q)) return false
@@ -117,9 +151,10 @@
     <option value="notmax">MAX未満</option>
     <option value="max">MAX（5）</option>
   </select>
-  <select bind:value={todayFilter} aria-label="出現日で絞り込み">
+  <select bind:value={appearFilter} aria-label="出現で絞り込み">
     <option value="all">出現：すべて</option>
     <option value="today">今日（{todayChar}）出現</option>
+    <option value="now">今 出現中（{todayChar} {nowHour}時台）</option>
   </select>
 </div>
 
