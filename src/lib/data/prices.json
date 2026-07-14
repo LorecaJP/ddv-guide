@@ -2,7 +2,7 @@
   {
     "id": "price_arendellian_pickled_herring",
     "item_id": "recipe_arendellian_pickled_herring",
-    "item_name": "Arendellian Pickled Herring",
+    "item_name": "アレンデール風の酢漬けニシン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 556,
     "notes": "食材の質で変動（+）",
@@ -74,7 +74,7 @@
   {
     "id": "price_creamy_soup",
     "item_id": "recipe_creamy_soup",
-    "item_name": "Creamy Soup",
+    "item_name": "クリームスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 576,
     "notes": "食材の質で変動（+）",
@@ -83,7 +83,7 @@
   {
     "id": "price_crudites",
     "item_id": "recipe_crudites",
-    "item_name": "Crudites",
+    "item_name": "ディップサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 26,
     "notes": "食材の質で変動（+）",
@@ -92,7 +92,7 @@
   {
     "id": "price_dream_fizz",
     "item_id": "recipe_dream_fizz",
-    "item_name": "Dream Fizz",
+    "item_name": "ドリームシャンパン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 316,
     "notes": "食材の質で変動（+）",
@@ -119,7 +119,7 @@
   {
     "id": "price_gazpacho",
     "item_id": "recipe_gazpacho",
-    "item_name": "Gazpacho",
+    "item_name": "ガスパチョ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 556,
     "notes": "食材の質で変動（+）",
@@ -128,7 +128,7 @@
   {
     "id": "price_green_salad",
     "item_id": "recipe_green_salad",
-    "item_name": "Green Salad",
+    "item_name": "グリーンサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 20,
     "notes": "食材の質で変動（+）",
@@ -137,7 +137,7 @@
   {
     "id": "price_grilled_vegetables",
     "item_id": "recipe_grilled_vegetables",
-    "item_name": "Grilled Vegetables",
+    "item_name": "野菜のグリル",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 9,
     "notes": "食材の質で変動（+）",
@@ -146,7 +146,7 @@
   {
     "id": "price_grilled_veggie_platter",
     "item_id": "recipe_grilled_veggie_platter",
-    "item_name": "Grilled Veggie Platter",
+    "item_name": "野菜のグリルの盛り合わせ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 33,
     "notes": "食材の質で変動（+）",
@@ -164,7 +164,7 @@
   {
     "id": "price_jasmine_tea",
     "item_id": "recipe_jasmine_tea",
-    "item_name": "Jasmine Tea",
+    "item_name": "ジャスミン茶",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 56,
     "notes": "食材の質で変動（+）",
@@ -173,7 +173,7 @@
   {
     "id": "price_large_seafood_platter",
     "item_id": "recipe_large_seafood_platter",
-    "item_name": "Large Seafood Platter",
+    "item_name": "シーフードの盛り合わせ(大)",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 340,
     "notes": "食材の質で変動（+）",
@@ -227,7 +227,7 @@
   {
     "id": "price_oyster_platter",
     "item_id": "recipe_oyster_platter",
-    "item_name": "Oyster Platter",
+    "item_name": "カキの盛り合わせ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 367,
     "notes": "食材の質で変動（+）",
@@ -236,7 +236,7 @@
   {
     "id": "price_peppermint_tea",
     "item_id": "recipe_peppermint_tea",
-    "item_name": "Peppermint Tea",
+    "item_name": "ペパーミントティー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 146,
     "notes": "食材の質で変動（+）",
@@ -245,7 +245,7 @@
   {
     "id": "price_pickled_herring",
     "item_id": "recipe_pickled_herring",
-    "item_name": "Pickled Herring",
+    "item_name": "酢漬けニシン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 431,
     "notes": "食材の質で変動（+）",
@@ -272,7 +272,7 @@
   {
     "id": "price_pottage",
     "item_id": "recipe_pottage",
-    "item_name": "Pottage",
+    "item_name": "ポタージュ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 215,
     "notes": "食材の質で変動（+）",
@@ -281,7 +281,7 @@
   {
     "id": "price_pumpkin_puffs",
     "item_id": "recipe_pumpkin_puffs",
-    "item_name": "Pumpkin Puffs",
+    "item_name": "カボチャのパイ包み",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1400,
     "notes": "食材の質で変動（+）",
@@ -290,7 +290,7 @@
   {
     "id": "price_pumpkin_soup",
     "item_id": "recipe_pumpkin_soup",
-    "item_name": "Pumpkin Soup",
+    "item_name": "カボチャスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1500,
     "notes": "食材の質で変動（+）",
@@ -299,7 +299,7 @@
   {
     "id": "price_pur_e",
     "item_id": "recipe_pur_e",
-    "item_name": "ピュレ―",
+    "item_name": "ピュレー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 151,
     "notes": "食材の質で変動（+）",
@@ -317,7 +317,7 @@
   {
     "id": "price_salad",
     "item_id": "recipe_salad",
-    "item_name": "Salad",
+    "item_name": "サラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 9,
     "notes": "食材の質で変動（+）",
@@ -335,7 +335,7 @@
   {
     "id": "price_seafood_appetizer",
     "item_id": "recipe_seafood_appetizer",
-    "item_name": "Seafood Appetizer",
+    "item_name": "シーフードの前菜",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 54,
     "notes": "食材の質で変動（+）",
@@ -353,7 +353,7 @@
   {
     "id": "price_souffl",
     "item_id": "recipe_souffl",
-    "item_name": "Soufflé",
+    "item_name": "スフレ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1230,
     "notes": "食材の質で変動（+）",
@@ -380,7 +380,7 @@
   {
     "id": "price_tomato_soup",
     "item_id": "recipe_tomato_soup",
-    "item_name": "Tomato Soup",
+    "item_name": "トマトスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 26,
     "notes": "食材の質で変動（+）",
@@ -407,7 +407,7 @@
   {
     "id": "price_apple_cider_glazed_salmon",
     "item_id": "recipe_apple_cider_glazed_salmon",
-    "item_name": "Apple Cider Glazed Salmon",
+    "item_name": "アップルサイダーグレーズサーモン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 271,
     "notes": "食材の質で変動（+）",
@@ -416,7 +416,7 @@
   {
     "id": "price_baked_carp",
     "item_id": "recipe_baked_carp",
-    "item_name": "Baked Carp",
+    "item_name": "コイのグリル",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 757,
     "notes": "食材の質で変動（+）",
@@ -425,7 +425,7 @@
   {
     "id": "price_basil_omelet",
     "item_id": "recipe_basil_omelet",
-    "item_name": "Basil Omelet",
+    "item_name": "バジルオムレツ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 982,
     "notes": "食材の質で変動（+）",
@@ -434,7 +434,7 @@
   {
     "id": "price_bouillabaisse",
     "item_id": "recipe_bouillabaisse",
-    "item_name": "Bouillabaisse",
+    "item_name": "ブイヤベース",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 671,
     "notes": "食材の質で変動（+）",
@@ -452,7 +452,7 @@
   {
     "id": "price_cheesy_crispy_baked_cod",
     "item_id": "recipe_cheesy_crispy_baked_cod",
-    "item_name": "Cheesy Crispy Baked Cod",
+    "item_name": "チーズクリスピーベイクドタラ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 303,
     "notes": "食材の質で変動（+）",
@@ -461,7 +461,7 @@
   {
     "id": "price_chowder",
     "item_id": "recipe_chowder",
-    "item_name": "Chowder",
+    "item_name": "チャウダー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 613,
     "notes": "食材の質で変動（+）",
@@ -470,7 +470,7 @@
   {
     "id": "price_creamy_garlic_scallops",
     "item_id": "recipe_creamy_garlic_scallops",
-    "item_name": "Creamy Garlic Scallops",
+    "item_name": "ホタテのニンニクソテー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 499,
     "notes": "食材の質で変動（+）",
@@ -488,7 +488,7 @@
   {
     "id": "price_fish_creole",
     "item_id": "recipe_fish_creole",
-    "item_name": "Fish Creole",
+    "item_name": "フィッシュクレオール",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 280,
     "notes": "食材の質で変動（+）",
@@ -497,7 +497,7 @@
   {
     "id": "price_fish_n_chips",
     "item_id": "recipe_fish_n_chips",
-    "item_name": "Fish 'n' Chips",
+    "item_name": "フィッシュ・アンド・チップス",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 392,
     "notes": "食材の質で変動（+）",
@@ -506,7 +506,7 @@
   {
     "id": "price_fish_pasta",
     "item_id": "recipe_fish_pasta",
-    "item_name": "Fish Pasta",
+    "item_name": "フィッシュパスタ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 475,
     "notes": "食材の質で変動（+）",
@@ -515,7 +515,7 @@
   {
     "id": "price_fish_pie",
     "item_id": "recipe_fish_pie",
-    "item_name": "Fish Pie",
+    "item_name": "フィッシュパイ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 303,
     "notes": "食材の質で変動（+）",
@@ -524,7 +524,7 @@
   {
     "id": "price_fish_risotto",
     "item_id": "recipe_fish_risotto",
-    "item_name": "Fish Risotto",
+    "item_name": "魚のリゾット",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 386,
     "notes": "食材の質で変動（+）",
@@ -533,7 +533,7 @@
   {
     "id": "price_fish_salad",
     "item_id": "recipe_fish_salad",
-    "item_name": "Fish Salad",
+    "item_name": "フィッシュサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 92,
     "notes": "食材の質で変動（+）",
@@ -551,7 +551,7 @@
   {
     "id": "price_fish_soup",
     "item_id": "recipe_fish_soup",
-    "item_name": "Fish Soup",
+    "item_name": "フィッシュスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 368,
     "notes": "食材の質で変動（+）",
@@ -560,7 +560,7 @@
   {
     "id": "price_fish_steak",
     "item_id": "recipe_fish_steak",
-    "item_name": "Fish Steak",
+    "item_name": "フィッシュステーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 100,
     "notes": "食材の質で変動（+）",
@@ -569,7 +569,7 @@
   {
     "id": "price_fish_tacos",
     "item_id": "recipe_fish_tacos",
-    "item_name": "Fish Tacos",
+    "item_name": "フィッシュタコス",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 448,
     "notes": "食材の質で変動（+）",
@@ -596,7 +596,7 @@
   {
     "id": "price_greek_pizza",
     "item_id": "recipe_greek_pizza",
-    "item_name": "Greek Pizza",
+    "item_name": "ギリシャピザ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 630,
     "notes": "食材の質で変動（+）",
@@ -605,7 +605,7 @@
   {
     "id": "price_grilled_fish",
     "item_id": "recipe_grilled_fish",
-    "item_name": "Grilled Fish",
+    "item_name": "魚のグリル",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 30,
     "notes": "食材の質で変動（+）",
@@ -614,7 +614,7 @@
   {
     "id": "price_grilled_fish_entree",
     "item_id": "recipe_grilled_fish_entree",
-    "item_name": "Grilled Fish Entree",
+    "item_name": "魚のグリルの前菜",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 42,
     "notes": "食材の質で変動（+）",
@@ -623,7 +623,7 @@
   {
     "id": "price_gumbo",
     "item_id": "recipe_gumbo",
-    "item_name": "Gumbo",
+    "item_name": "ガンボ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -632,7 +632,7 @@
   {
     "id": "price_hearty_salad",
     "item_id": "recipe_hearty_salad",
-    "item_name": "Hearty Salad",
+    "item_name": "ヘルシーサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 33,
     "notes": "食材の質で変動（+）",
@@ -641,7 +641,7 @@
   {
     "id": "price_hors_d_oeuvres",
     "item_id": "recipe_hors_d_oeuvres",
-    "item_name": "Hors d'Oeuvres",
+    "item_name": "オードブル",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 24,
     "notes": "食材の質で変動（+）",
@@ -668,7 +668,7 @@
   {
     "id": "price_lancetfish_paella",
     "item_id": "recipe_lancetfish_paella",
-    "item_name": "Lancetfish Paella",
+    "item_name": "ミズウオパエリア",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1770,
     "notes": "食材の質で変動（+）",
@@ -686,7 +686,7 @@
   {
     "id": "price_lemon_garlic_swordfish",
     "item_id": "recipe_lemon_garlic_swordfish",
-    "item_name": "Lemon Garlic Swordfish",
+    "item_name": "レモンとニンニクのメカジキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1100,
     "notes": "食材の質で変動（+）",
@@ -704,7 +704,7 @@
   {
     "id": "price_lobster_roll",
     "item_id": "recipe_lobster_roll",
-    "item_name": "Lobster Roll",
+    "item_name": "ロブスターロール",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1900,
     "notes": "食材の質で変動（+）",
@@ -713,7 +713,7 @@
   {
     "id": "price_maguro_sushi",
     "item_id": "recipe_maguro_sushi",
-    "item_name": "Maguro Sushi",
+    "item_name": "マグロのにぎり寿司",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 413,
     "notes": "食材の質で変動（+）",
@@ -722,7 +722,7 @@
   {
     "id": "price_maki",
     "item_id": "recipe_maki",
-    "item_name": "Maki",
+    "item_name": "巻き寿司",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 148,
     "notes": "食材の質で変動（+）",
@@ -731,7 +731,7 @@
   {
     "id": "price_margherita_pizza",
     "item_id": "recipe_margherita_pizza",
-    "item_name": "Margherita Pizza",
+    "item_name": "マルゲリータピザ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 336,
     "notes": "食材の質で変動（+）",
@@ -740,7 +740,7 @@
   {
     "id": "price_marvelous_jam",
     "item_id": "recipe_marvelous_jam",
-    "item_name": "Marvelous Jam",
+    "item_name": "マーベラスジャム",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 882,
     "notes": "食材の質で変動（+）",
@@ -749,7 +749,7 @@
   {
     "id": "price_mediterranean_salad",
     "item_id": "recipe_mediterranean_salad",
-    "item_name": "Mediterranean Salad",
+    "item_name": "地中海風サラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 605,
     "notes": "食材の質で変動（+）",
@@ -767,7 +767,7 @@
   {
     "id": "price_mushu_s_congee",
     "item_id": "recipe_mushu_s_congee",
-    "item_name": "Mushu's Congee",
+    "item_name": "ムーシューのお粥",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 383,
     "notes": "食材の質で変動（+）",
@@ -794,7 +794,7 @@
   {
     "id": "price_pan_seared_bass_vegetables",
     "item_id": "recipe_pan_seared_bass_vegetables",
-    "item_name": "Pan-Seared Bass & Vegetables",
+    "item_name": "スズキと野菜のフライパン焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 57,
     "notes": "食材の質で変動（+）",
@@ -803,7 +803,7 @@
   {
     "id": "price_pan_seared_tilapia_vegetables",
     "item_id": "recipe_pan_seared_tilapia_vegetables",
-    "item_name": "Pan-Seared Tilapia & Vegetables",
+    "item_name": "ティラピアと野菜のフライパン焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 862,
     "notes": "食材の質で変動（+）",
@@ -848,7 +848,7 @@
   {
     "id": "price_ranch_salad",
     "item_id": "recipe_ranch_salad",
-    "item_name": "Ranch Salad",
+    "item_name": "ランチサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 396,
     "notes": "食材の質で変動（+）",
@@ -857,7 +857,7 @@
   {
     "id": "price_ratatouille",
     "item_id": "recipe_ratatouille",
-    "item_name": "Ratatouille",
+    "item_name": "ラタトゥイユ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 914,
     "notes": "食材の質で変動（+）",
@@ -884,7 +884,7 @@
   {
     "id": "price_savory_fish",
     "item_id": "recipe_savory_fish",
-    "item_name": "Savory Fish",
+    "item_name": "風味のある魚",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 74,
     "notes": "食材の質で変動（+）",
@@ -902,7 +902,7 @@
   {
     "id": "price_seafood_pasta",
     "item_id": "recipe_seafood_pasta",
-    "item_name": "Seafood Pasta",
+    "item_name": "シーフードパスタ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 387,
     "notes": "食材の質で変動（+）",
@@ -911,7 +911,7 @@
   {
     "id": "price_seafood_pie",
     "item_id": "recipe_seafood_pie",
-    "item_name": "Seafood Pie",
+    "item_name": "シーフードパイ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 331,
     "notes": "食材の質で変動（+）",
@@ -920,7 +920,7 @@
   {
     "id": "price_seafood_salad",
     "item_id": "recipe_seafood_salad",
-    "item_name": "Seafood Salad",
+    "item_name": "シーフードサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 68,
     "notes": "食材の質で変動（+）",
@@ -929,7 +929,7 @@
   {
     "id": "price_seafood_soup",
     "item_id": "recipe_seafood_soup",
-    "item_name": "Seafood Soup",
+    "item_name": "シーフードスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 85,
     "notes": "食材の質で変動（+）",
@@ -938,7 +938,7 @@
   {
     "id": "price_seared_rainbow_trout",
     "item_id": "recipe_seared_rainbow_trout",
-    "item_name": "Seared Rainbow Trout",
+    "item_name": "レインボートラウトのたたき",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 338,
     "notes": "食材の質で変動（+）",
@@ -983,7 +983,7 @@
   {
     "id": "price_spicy_baked_bream",
     "item_id": "recipe_spicy_baked_bream",
-    "item_name": "Spicy Baked Bream",
+    "item_name": "スパイシーベイクドヘダイ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1200,
     "notes": "食材の質で変動（+）",
@@ -992,7 +992,7 @@
   {
     "id": "price_steamed_fugu",
     "item_id": "recipe_steamed_fugu",
-    "item_name": "Steamed Fugu",
+    "item_name": "蒸しフグ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1400,
     "notes": "食材の質で変動（+）",
@@ -1001,7 +1001,7 @@
   {
     "id": "price_sushi",
     "item_id": "recipe_sushi",
-    "item_name": "Sushi",
+    "item_name": "寿司",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 111,
     "notes": "食材の質で変動（+）",
@@ -1010,7 +1010,7 @@
   {
     "id": "price_sweet_sour_kingfish_steak",
     "item_id": "recipe_sweet_sour_kingfish_steak",
-    "item_name": "スイート&amp;サワーサバステーキ",
+    "item_name": "スイート&サワーサバステーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 702,
     "notes": "食材の質で変動（+）",
@@ -1037,7 +1037,7 @@
   {
     "id": "price_tasty_salad",
     "item_id": "recipe_tasty_salad",
-    "item_name": "Tasty Salad",
+    "item_name": "おいしいサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 292,
     "notes": "食材の質で変動（+）",
@@ -1046,7 +1046,7 @@
   {
     "id": "price_tasty_veggies",
     "item_id": "recipe_tasty_veggies",
-    "item_name": "Tasty Veggies",
+    "item_name": "おいしい野菜",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 36,
     "notes": "食材の質で変動（+）",
@@ -1064,7 +1064,7 @@
   {
     "id": "price_teriyaki_salmon",
     "item_id": "recipe_teriyaki_salmon",
-    "item_name": "Teriyaki Salmon",
+    "item_name": "サーモンの照り焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 637,
     "notes": "食材の質で変動（+）",
@@ -1082,7 +1082,7 @@
   {
     "id": "price_vegetarian_pizza",
     "item_id": "recipe_vegetarian_pizza",
-    "item_name": "Vegetarian Pizza",
+    "item_name": "ベジタリアンピザ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 350,
     "notes": "食材の質で変動（+）",
@@ -1091,7 +1091,7 @@
   {
     "id": "price_vegetarian_stew",
     "item_id": "recipe_vegetarian_stew",
-    "item_name": "Vegetarian Stew",
+    "item_name": "ベジタリアンシチュー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 475,
     "notes": "食材の質で変動（+）",
@@ -1100,7 +1100,7 @@
   {
     "id": "price_vegetarian_taco",
     "item_id": "recipe_vegetarian_taco",
-    "item_name": "Vegetarian Taco",
+    "item_name": "ベジタリアンタコス",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 423,
     "notes": "食材の質で変動（+）",
@@ -1109,7 +1109,7 @@
   {
     "id": "price_veggie_casserole",
     "item_id": "recipe_veggie_casserole",
-    "item_name": "不思議なパイ",
+    "item_name": "野菜のキャセロール",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 324,
     "notes": "食材の質で変動（+）",
@@ -1136,7 +1136,7 @@
   {
     "id": "price_veggie_skewers",
     "item_id": "recipe_veggie_skewers",
-    "item_name": "Veggie Skewers",
+    "item_name": "野菜の串焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 427,
     "notes": "食材の質で変動（+）",
@@ -1145,7 +1145,7 @@
   {
     "id": "price_walleye_en_papillote",
     "item_id": "recipe_walleye_en_papillote",
-    "item_name": "Walleye en Papillote",
+    "item_name": "ウォールアイの包み焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1700,
     "notes": "食材の質で変動（+）",
@@ -1154,7 +1154,7 @@
   {
     "id": "price_wonton_soup",
     "item_id": "recipe_wonton_soup",
-    "item_name": "Wonton Soup",
+    "item_name": "ワンタンスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -1181,7 +1181,7 @@
   {
     "id": "price_barbecued_brilliant_blue_starfish",
     "item_id": "recipe_barbecued_brilliant_blue_starfish",
-    "item_name": "Barbecued Brilliant Blue Starfish",
+    "item_name": "青いヒトデの網焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1200,
     "notes": "食材の質で変動（+）",
@@ -1190,7 +1190,7 @@
   {
     "id": "price_barbecued_pretty_pink_starfish",
     "item_id": "recipe_barbecued_pretty_pink_starfish",
-    "item_name": "Barbecued Pretty Pink Starfish",
+    "item_name": "ピンクのヒトデの網焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1200,
     "notes": "食材の質で変動（+）",
@@ -1199,7 +1199,7 @@
   {
     "id": "price_bulgur_salad",
     "item_id": "recipe_bulgur_salad",
-    "item_name": "Bulgur Salad",
+    "item_name": "ブルグルサラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 396,
     "notes": "食材の質で変動（+）",
@@ -1208,7 +1208,7 @@
   {
     "id": "price_clam_juice",
     "item_id": "recipe_clam_juice",
-    "item_name": "Clam Juice",
+    "item_name": "ハマグリジュース",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 93,
     "notes": "食材の質で変動（+）",
@@ -1235,7 +1235,7 @@
   {
     "id": "price_crab_melts",
     "item_id": "recipe_crab_melts",
-    "item_name": "Crab Melts",
+    "item_name": "カニ＆チーズメルト",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -1262,7 +1262,7 @@
   {
     "id": "price_nuts_bolts",
     "item_id": "recipe_nuts_bolts",
-    "item_name": "Nuts & Bolts",
+    "item_name": "ナッツ&ボルト",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 159,
     "notes": "食材の質で変動（+）",
@@ -1280,7 +1280,7 @@
   {
     "id": "price_royal_ice_tea",
     "item_id": "recipe_royal_ice_tea",
-    "item_name": "Royal Ice Tea",
+    "item_name": "ロイヤルアイスティー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 234,
     "notes": "食材の質で変動（+）",
@@ -1316,7 +1316,7 @@
   {
     "id": "price_shad_ceviche",
     "item_id": "recipe_shad_ceviche",
-    "item_name": "Shad Ceviche",
+    "item_name": "シャッド・セビーチェ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 427,
     "notes": "食材の質で変動（+）",
@@ -1343,7 +1343,7 @@
   {
     "id": "price_thousand_needles",
     "item_id": "recipe_thousand_needles",
-    "item_name": "Thousand Needles",
+    "item_name": "サウザンニードル",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 3400,
     "notes": "食材の質で変動（+）",
@@ -1352,7 +1352,7 @@
   {
     "id": "price_tomato_basil_soup",
     "item_id": "recipe_tomato_basil_soup",
-    "item_name": "Tomato Basil Soup",
+    "item_name": "トマトバジルスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 93,
     "notes": "食材の質で変動（+）",
@@ -1379,7 +1379,7 @@
   {
     "id": "price_best_fish_forever",
     "item_id": "recipe_best_fish_forever",
-    "item_name": "Best Fish Forever",
+    "item_name": "お魚の友情添え",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1400,
     "notes": "食材の質で変動（+）",
@@ -1388,7 +1388,7 @@
   {
     "id": "price_biryani",
     "item_id": "recipe_biryani",
-    "item_name": "Biryani",
+    "item_name": "ビリヤ二",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -1397,7 +1397,7 @@
   {
     "id": "price_blend_of_the_bayou",
     "item_id": "recipe_blend_of_the_bayou",
-    "item_name": "バイユ―ブレンド",
+    "item_name": "バイユーブレンド",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 2400,
     "notes": "食材の質で変動（+）",
@@ -1442,7 +1442,7 @@
   {
     "id": "price_burrito",
     "item_id": "recipe_burrito",
-    "item_name": "ブリト―",
+    "item_name": "ブリトー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 473,
     "notes": "食材の質で変動（+）",
@@ -1451,7 +1451,7 @@
   {
     "id": "price_butter_chicken",
     "item_id": "recipe_butter_chicken",
-    "item_name": "Butter Chicken",
+    "item_name": "バターチキン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1200,
     "notes": "食材の質で変動（+）",
@@ -1460,7 +1460,7 @@
   {
     "id": "price_cheeseburger",
     "item_id": "recipe_cheeseburger",
-    "item_name": "Cheeseburger",
+    "item_name": "チーズバーガー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1700,
     "notes": "食材の質で変動（+）",
@@ -1478,7 +1478,7 @@
   {
     "id": "price_classic_mac_cheese",
     "item_id": "recipe_classic_mac_cheese",
-    "item_name": "定番マカロニ&amp;チーズ",
+    "item_name": "定番マカロニ&チーズ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 236,
     "notes": "食材の質で変動（+）",
@@ -1487,7 +1487,7 @@
   {
     "id": "price_club_sandwich",
     "item_id": "recipe_club_sandwich",
-    "item_name": "Club Sandwich",
+    "item_name": "クラブハウスサンド",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1100,
     "notes": "食材の質で変動（+）",
@@ -1496,7 +1496,7 @@
   {
     "id": "price_coq_en_barbouille",
     "item_id": "recipe_coq_en_barbouille",
-    "item_name": "Coq en Barbouille",
+    "item_name": "鶏肉の赤ワイン煮",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -1505,7 +1505,7 @@
   {
     "id": "price_cream_cheese_bagel",
     "item_id": "recipe_cream_cheese_bagel",
-    "item_name": "Cream Cheese Bagel",
+    "item_name": "クリームチーズベーグル",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 280,
     "notes": "食材の質で変動（+）",
@@ -1532,7 +1532,7 @@
   {
     "id": "price_fabulous_fajitas",
     "item_id": "recipe_fabulous_fajitas",
-    "item_name": "Fabulous Fajitas",
+    "item_name": "おいしいファヒータ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 851,
     "notes": "食材の質で変動（+）",
@@ -1541,7 +1541,7 @@
   {
     "id": "price_good_ol_fashioned_burger",
     "item_id": "recipe_good_ol_fashioned_burger",
-    "item_name": "Good Ol' Fashioned Burger",
+    "item_name": "昔ながらのハンバーガー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1400,
     "notes": "食材の質で変動（+）",
@@ -1550,7 +1550,7 @@
   {
     "id": "price_hamburger_steak",
     "item_id": "recipe_hamburger_steak",
-    "item_name": "Hamburger Steak",
+    "item_name": "ハンバーグ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1700,
     "notes": "食材の質で変動（+）",
@@ -1559,7 +1559,7 @@
   {
     "id": "price_hawaiian_pizza",
     "item_id": "recipe_hawaiian_pizza",
-    "item_name": "Hawaiian Pizza",
+    "item_name": "ハワイアンピザ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1500,
     "notes": "食材の質で変動（+）",
@@ -1568,7 +1568,7 @@
   {
     "id": "price_jerk_chicken",
     "item_id": "recipe_jerk_chicken",
-    "item_name": "Jerk Chicken",
+    "item_name": "ジャークチキン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1100,
     "notes": "食材の質で変動（+）",
@@ -1622,7 +1622,7 @@
   {
     "id": "price_moqueca_de_pirarucu",
     "item_id": "recipe_moqueca_de_pirarucu",
-    "item_name": "Moqueca de Pirarucu",
+    "item_name": "ピラルクのココナッツ煮込み",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -1649,7 +1649,7 @@
   {
     "id": "price_pesto_with_linguine",
     "item_id": "recipe_pesto_with_linguine",
-    "item_name": "Pesto with Linguine",
+    "item_name": "ジェノベーゼのリングイネ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 438,
     "notes": "食材の質で変動（+）",
@@ -1658,7 +1658,7 @@
   {
     "id": "price_piquant_piranha_soup",
     "item_id": "recipe_piquant_piranha_soup",
-    "item_name": "Piquant Piranha Soup",
+    "item_name": "ピリ辛ピラニアスープ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 2000,
     "notes": "食材の質で変動（+）",
@@ -1793,7 +1793,7 @@
   {
     "id": "price_shish_taouk",
     "item_id": "recipe_shish_taouk",
-    "item_name": "Shish Taouk",
+    "item_name": "シシタウーク",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1100,
     "notes": "食材の質で変動（+）",
@@ -1829,7 +1829,7 @@
   {
     "id": "price_tourti_re",
     "item_id": "recipe_tourti_re",
-    "item_name": "Tourtière",
+    "item_name": "トゥルティエール",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1700,
     "notes": "食材の質で変動（+）",
@@ -1901,7 +1901,7 @@
   {
     "id": "price_caramel_macarons",
     "item_id": "recipe_caramel_macarons",
-    "item_name": "Caramel Macarons",
+    "item_name": "キャラメルマカロン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 401,
     "notes": "食材の質で変動（+）",
@@ -1937,7 +1937,7 @@
   {
     "id": "price_cotton_candy",
     "item_id": "recipe_cotton_candy",
-    "item_name": "Cotton Candy",
+    "item_name": "綿菓子",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 56,
     "notes": "食材の質で変動（+）",
@@ -1955,7 +1955,7 @@
   {
     "id": "price_danish",
     "item_id": "recipe_danish",
-    "item_name": "Danish",
+    "item_name": "デニッシュ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 314,
     "notes": "食材の質で変動（+）",
@@ -1964,7 +1964,7 @@
   {
     "id": "price_dreamango_boba_tea",
     "item_id": "recipe_dreamango_boba_tea",
-    "item_name": "Dreamango Boba Tea",
+    "item_name": "タピオカティー(ドリーマンゴー)",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 418,
     "notes": "食材の質で変動（+）",
@@ -1973,7 +1973,7 @@
   {
     "id": "price_french_macarons",
     "item_id": "recipe_french_macarons",
-    "item_name": "French Macarons",
+    "item_name": "フレンチマカロン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 340,
     "notes": "食材の質で変動（+）",
@@ -1991,7 +1991,7 @@
   {
     "id": "price_glazed_donut",
     "item_id": "recipe_glazed_donut",
-    "item_name": "Glazed Donut",
+    "item_name": "グレーズドドーナツ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 336,
     "notes": "食材の質で変動（+）",
@@ -2000,7 +2000,7 @@
   {
     "id": "price_gourmet_grubs",
     "item_id": "recipe_gourmet_grubs",
-    "item_name": "Gourmet Grubs",
+    "item_name": "幼虫グルメ盛り",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 2000,
     "notes": "食材の質で変動（+）",
@@ -2027,7 +2027,7 @@
   {
     "id": "price_kouign_amann",
     "item_id": "recipe_kouign_amann",
-    "item_name": "Kouign-Amann",
+    "item_name": "クイニーアマン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 610,
     "notes": "食材の質で変動（+）",
@@ -2036,7 +2036,7 @@
   {
     "id": "price_maamouls",
     "item_id": "recipe_maamouls",
-    "item_name": "Maamouls",
+    "item_name": "マアムール",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 100,
     "notes": "食材の質で変動（+）",
@@ -2054,7 +2054,7 @@
   {
     "id": "price_melon_boba_tea",
     "item_id": "recipe_melon_boba_tea",
-    "item_name": "タピオカティ―(メロン)",
+    "item_name": "タピオカティー(メロン)",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 478,
     "notes": "食材の質で変動（+）",
@@ -2117,7 +2117,7 @@
   {
     "id": "price_raspberry_jam_sandwich",
     "item_id": "recipe_raspberry_jam_sandwich",
-    "item_name": "Raspberry Jam Sandwich",
+    "item_name": "ラズベリージャムサンドウィッチ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 29,
     "notes": "食材の質で変動（+）",
@@ -2126,7 +2126,7 @@
   {
     "id": "price_red_velvet",
     "item_id": "recipe_red_velvet",
-    "item_name": "Red Velvet",
+    "item_name": "レッドベルベット",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 783,
     "notes": "食材の質で変動（+）",
@@ -2135,7 +2135,7 @@
   {
     "id": "price_spicy_macarons",
     "item_id": "recipe_spicy_macarons",
-    "item_name": "Spicy Macarons",
+    "item_name": "スパイシーマカロン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 475,
     "notes": "食材の質で変動（+）",
@@ -2153,7 +2153,7 @@
   {
     "id": "price_stellar_milkshake",
     "item_id": "recipe_stellar_milkshake",
-    "item_name": "ステラ―ミルクシェイク",
+    "item_name": "ステラーミルクシェイク",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 562,
     "notes": "食材の質で変動（+）",
@@ -2189,7 +2189,7 @@
   {
     "id": "price_sugar_free_banana_muffin",
     "item_id": "recipe_sugar_free_banana_muffin",
-    "item_name": "Sugar-Free Banana Muffin",
+    "item_name": "砂糖不使用バナナマフィン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 39,
     "notes": "食材の質で変動（+）",
@@ -2198,7 +2198,7 @@
   {
     "id": "price_sugar_free_blueberry_muffin",
     "item_id": "recipe_sugar_free_blueberry_muffin",
-    "item_name": "Sugar-Free Blueberry Muffin",
+    "item_name": "砂糖不使用ブルーベリーマフィン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 39,
     "notes": "食材の質で変動（+）",
@@ -2207,7 +2207,7 @@
   {
     "id": "price_sugar_free_fruit_explosion_muffin",
     "item_id": "recipe_sugar_free_fruit_explosion_muffin",
-    "item_name": "Sugar-Free Fruit Explosion Muffin",
+    "item_name": "砂糖不使用フルーツエクスプローションマフィン",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 66,
     "notes": "食材の質で変動（+）",
@@ -2261,7 +2261,7 @@
   {
     "id": "price_ambrosia_smoothie",
     "item_id": "recipe_ambrosia_smoothie",
-    "item_name": "Ambrosia Smoothie",
+    "item_name": "アンブロシアスムージー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 247,
     "notes": "食材の質で変動（+）",
@@ -2279,7 +2279,7 @@
   {
     "id": "price_cape_gooseberry_smoothie",
     "item_id": "recipe_cape_gooseberry_smoothie",
-    "item_name": "Cape Gooseberry Smoothie",
+    "item_name": "食用ホオズキスムージー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 227,
     "notes": "食材の質で変動（+）",
@@ -2324,7 +2324,7 @@
   {
     "id": "price_lightning_bolt",
     "item_id": "recipe_lightning_bolt",
-    "item_name": "Lightning Bolt",
+    "item_name": "イナズマ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 5000,
     "notes": "食材の質で変動（+）",
@@ -2369,7 +2369,7 @@
   {
     "id": "price_simple_chia_pudding",
     "item_id": "recipe_simple_chia_pudding",
-    "item_name": "Simple Chia Pudding",
+    "item_name": "シンプルなチアシード入りブティング",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 7,
     "notes": "食材の質で変動（+）",
@@ -2378,7 +2378,7 @@
   {
     "id": "price_sparkling_ambrosia",
     "item_id": "recipe_sparkling_ambrosia",
-    "item_name": "Sparkling Ambrosia",
+    "item_name": "スパークリングアンブロシア",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 175,
     "notes": "食材の質で変動（+）",
@@ -2387,7 +2387,7 @@
   {
     "id": "price_spiral_strawberry_smoothie",
     "item_id": "recipe_spiral_strawberry_smoothie",
-    "item_name": "Spiral Strawberry Smoothie",
+    "item_name": "うずまきイチゴのスムージー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 221,
     "notes": "食材の質で変動（+）",
@@ -2477,7 +2477,7 @@
   {
     "id": "price_cauliflower_steak",
     "item_id": "recipe_cauliflower_steak",
-    "item_name": "Cauliflower Steak",
+    "item_name": "焼きカリフラワー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 30,
     "notes": "食材の質で変動（+）",
@@ -2504,7 +2504,7 @@
   {
     "id": "price_chimera_skewer",
     "item_id": "recipe_chimera_skewer",
-    "item_name": "Chimera Skewer",
+    "item_name": "キメラ串焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 481,
     "notes": "食材の質で変動（+）",
@@ -2513,7 +2513,7 @@
   {
     "id": "price_electric_radicchio_persimmon_salad",
     "item_id": "recipe_electric_radicchio_persimmon_salad",
-    "item_name": "Electric Radicchio & Persimmon Salad",
+    "item_name": "ラディッキオと柿の電撃サラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 303,
     "notes": "食材の質で変動（+）",
@@ -2576,7 +2576,7 @@
   {
     "id": "price_hermit_crab_pasta",
     "item_id": "recipe_hermit_crab_pasta",
-    "item_name": "Hermit Crab Pasta",
+    "item_name": "ヤドカリのパスタ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1100,
     "notes": "食材の質で変動（+）",
@@ -2585,7 +2585,7 @@
   {
     "id": "price_hippocampus_cepelinai_dumplings",
     "item_id": "recipe_hippocampus_cepelinai_dumplings",
-    "item_name": "Hippocampus Cepelinai Dumplings",
+    "item_name": "ヒッポカンポスのツェペリナイ餃子",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 925,
     "notes": "食材の質で変動（+）",
@@ -2621,7 +2621,7 @@
   {
     "id": "price_loaded_golden_apple_porridge",
     "item_id": "recipe_loaded_golden_apple_porridge",
-    "item_name": "Loaded Golden Apple Porridge",
+    "item_name": "豪華な黄金のリンゴポリッジ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 566,
     "notes": "食材の質で変動（+）",
@@ -2630,7 +2630,7 @@
   {
     "id": "price_loaded_honeydew_porridge",
     "item_id": "recipe_loaded_honeydew_porridge",
-    "item_name": "ドリームアイスクリーム",
+    "item_name": "豪華なハネジューメロンポリッジ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 588,
     "notes": "食材の質で変動（+）",
@@ -2639,7 +2639,7 @@
   {
     "id": "price_loaded_persimmon_porridge",
     "item_id": "recipe_loaded_persimmon_porridge",
-    "item_name": "Loaded Persimmon Porridge",
+    "item_name": "豪華な柿ポリッジ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 438,
     "notes": "食材の質で変動（+）",
@@ -2648,7 +2648,7 @@
   {
     "id": "price_loaded_rhubarb_porridge",
     "item_id": "recipe_loaded_rhubarb_porridge",
-    "item_name": "Loaded Rhubarb Porridge",
+    "item_name": "豪華なルバーブポリッジ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 744,
     "notes": "食材の質で変動（+）",
@@ -2657,7 +2657,7 @@
   {
     "id": "price_loaded_sea_grape_porridge",
     "item_id": "recipe_loaded_sea_grape_porridge",
-    "item_name": "Loaded Sea Grape Porridge",
+    "item_name": "豪華なウミマスカットポリッジ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 431,
     "notes": "食材の質で変動（+）",
@@ -2702,7 +2702,7 @@
   {
     "id": "price_persimmon_chia_pancakes",
     "item_id": "recipe_persimmon_chia_pancakes",
-    "item_name": "Persimmon Chia Pancakes",
+    "item_name": "柿とチアシードのパンケーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 169,
     "notes": "食材の質で変動（+）",
@@ -2747,7 +2747,7 @@
   {
     "id": "price_salt_baked_sea_wolf",
     "item_id": "recipe_salt_baked_sea_wolf",
-    "item_name": "Salt-Baked Sea Wolf",
+    "item_name": "オオカミウオの塩焼き",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 123,
     "notes": "食材の質で変動（+）",
@@ -2792,7 +2792,7 @@
   {
     "id": "price_salt_pickled_radish",
     "item_id": "recipe_salt_pickled_radish",
-    "item_name": "Salt-Pickled Radish",
+    "item_name": "ラディッシュの塩漬け",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 235,
     "notes": "食材の質で変動（+）",
@@ -2819,7 +2819,7 @@
   {
     "id": "price_sea_grape_chia_pancakes",
     "item_id": "recipe_sea_grape_chia_pancakes",
-    "item_name": "Sea Grape Chia Pancakes",
+    "item_name": "ウミマスカットとチアシードのパンケーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 162,
     "notes": "食材の質で変動（+）",
@@ -2828,7 +2828,7 @@
   {
     "id": "price_seaweed_salad",
     "item_id": "recipe_seaweed_salad",
-    "item_name": "Seaweed Salad",
+    "item_name": "海藻サラダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 365,
     "notes": "食材の質で変動（+）",
@@ -2873,7 +2873,7 @@
   {
     "id": "price_sprout_stuffed_porcini",
     "item_id": "recipe_sprout_stuffed_porcini",
-    "item_name": "Sprout-Stuffed Porcini",
+    "item_name": "芽キャベツ詰めポルチーニ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 235,
     "notes": "食材の質で変動（+）",
@@ -2891,7 +2891,7 @@
   {
     "id": "price_squid_sashimi",
     "item_id": "recipe_squid_sashimi",
-    "item_name": "Squid Sashimi",
+    "item_name": "イカの刺し身",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 600,
     "notes": "食材の質で変動（+）",
@@ -2927,7 +2927,7 @@
   {
     "id": "price_aphrodite_s_delight",
     "item_id": "recipe_aphrodite_s_delight",
-    "item_name": "Aphrodite's Delight",
+    "item_name": "アフロディーテ・デライト",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 234,
     "notes": "食材の質で変動（+）",
@@ -2936,7 +2936,7 @@
   {
     "id": "price_cape_gooseberry_sour_fondue",
     "item_id": "recipe_cape_gooseberry_sour_fondue",
-    "item_name": "Cape Gooseberry Sour Fondue",
+    "item_name": "食用ホオズキすっぱフォンデュ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 123,
     "notes": "食材の質で変動（+）",
@@ -3071,7 +3071,7 @@
   {
     "id": "price_spicy_yogurt",
     "item_id": "recipe_spicy_yogurt",
-    "item_name": "Spicy Yogurt",
+    "item_name": "スパイシーヨーグルト",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 175,
     "notes": "食材の質で変動（+）",
@@ -3116,7 +3116,7 @@
   {
     "id": "price_vanilla_yogurt",
     "item_id": "recipe_vanilla_yogurt",
-    "item_name": "Vanilla Yogurt",
+    "item_name": "バニラヨーグルト",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 221,
     "notes": "食材の質で変動（+）",
@@ -3125,7 +3125,7 @@
   {
     "id": "price_alpine_fishcakes",
     "item_id": "recipe_alpine_fishcakes",
-    "item_name": "Alpine Fishcakes",
+    "item_name": "アルプスフィッシュケーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -3143,7 +3143,7 @@
   {
     "id": "price_fizzy_nectar_soda",
     "item_id": "recipe_fizzy_nectar_soda",
-    "item_name": "Fizzy Nectar Soda",
+    "item_name": "フィジーネクターソーダ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 247,
     "notes": "食材の質で変動（+）",
@@ -3224,7 +3224,7 @@
   {
     "id": "price_button_stew",
     "item_id": "recipe_button_stew",
-    "item_name": "Button Stew",
+    "item_name": "ボタンマッシュルームのシチュー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 135,
     "notes": "食材の質で変動（+）",
@@ -3242,7 +3242,7 @@
   {
     "id": "price_felted_breakfast_spread",
     "item_id": "recipe_felted_breakfast_spread",
-    "item_name": "Felted Breakfast Spread",
+    "item_name": "フェルトの朝食プレート",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1000,
     "notes": "食材の質で変動（+）",
@@ -3287,7 +3287,7 @@
   {
     "id": "price_horace_s_ham_sandwich",
     "item_id": "recipe_horace_s_ham_sandwich",
-    "item_name": "Horace's Ham Sandwich",
+    "item_name": "ホーレスのハムサンド",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 326,
     "notes": "食材の質で変動（+）",
@@ -3314,7 +3314,7 @@
   {
     "id": "price_kanine_krunchies_cereal",
     "item_id": "recipe_kanine_krunchies_cereal",
-    "item_name": "Kanine Krunchies Cereal",
+    "item_name": "ワンワンクランチーシリアル",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 107,
     "notes": "食材の質で変動（+）",
@@ -3332,7 +3332,7 @@
   {
     "id": "price_scarlet_kale_and_cheese_pinwheels",
     "item_id": "recipe_scarlet_kale_and_cheese_pinwheels",
-    "item_name": "Scarlet Kale and Cheese Pinwheels",
+    "item_name": "スカーレットケールとチーズのロールサンド",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 294,
     "notes": "食材の質で変動（+）",
@@ -3341,7 +3341,7 @@
   {
     "id": "price_stargazy_pie",
     "item_id": "recipe_stargazy_pie",
-    "item_name": "スターゲイジ―パイ",
+    "item_name": "スターゲイジーパイ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1900,
     "notes": "食材の質で変動（+）",
@@ -3359,7 +3359,7 @@
   {
     "id": "price_beauty_and_the_beets_napoleon",
     "item_id": "recipe_beauty_and_the_beets_napoleon",
-    "item_name": "Beauty and the Beets Napoleon",
+    "item_name": "ビーツのナポレオンケーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1100,
     "notes": "食材の質で変動（+）",
@@ -3386,7 +3386,7 @@
   {
     "id": "price_fairy_boot_cake",
     "item_id": "recipe_fairy_boot_cake",
-    "item_name": "Fairy Boot Cake",
+    "item_name": "妖精のブーツケーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 1200,
     "notes": "食材の質で変動（+）",
@@ -3422,7 +3422,7 @@
   {
     "id": "price_red_currant_linzer_cookies",
     "item_id": "recipe_red_currant_linzer_cookies",
-    "item_name": "Red Currant Linzer Cookies",
+    "item_name": "フサスグリのリンツァークッキー",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 365,
     "notes": "食材の質で変動（+）",
@@ -3431,7 +3431,7 @@
   {
     "id": "price_red_currant_valley_cakes",
     "item_id": "recipe_red_currant_valley_cakes",
-    "item_name": "Red Currant Valley Cakes",
+    "item_name": "フサスグリのバレーケーキ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 676,
     "notes": "食材の質で変動（+）",
@@ -3443,6 +3443,726 @@
     "item_name": "ティガーテイルドッグ",
     "sell_location": "レストラン／ショップ（料理）",
     "base_price": 253,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_seafood_platter",
+    "item_id": "recipe_",
+    "item_name": "シーフードの盛り合わせ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 116,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_vegetable_soup",
+    "item_id": "recipe__1",
+    "item_name": "ベジタブルスープ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 20,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_seafood_boil",
+    "item_id": "recipe__3",
+    "item_name": "シーフードボイル",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 236,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_wheat_porridge",
+    "item_id": "recipe__4",
+    "item_name": "小麦のポリッジ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 301,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_classic_frankfurter",
+    "item_id": "recipe__5",
+    "item_name": "昔ながらのフランクフルト",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 2628,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_festive_blueberry_hot_cocoa",
+    "item_id": "recipe__7",
+    "item_name": "フェスティブブルーベリーホットココア",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 491,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_festive_cherry_hot_cocoa",
+    "item_id": "recipe__8",
+    "item_name": "フェスティブチェリーホットココア",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 511,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_festive_mint_hot_cocoa",
+    "item_id": "recipe__9",
+    "item_name": "フェスティブミントホットココア",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 523,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_apple_sorbet",
+    "item_id": "recipe__10",
+    "item_name": "アップルシャーベット",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 271,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_wedding_cake",
+    "item_id": "recipe__11",
+    "item_name": "ウェディングケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 785,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_auroras_cake",
+    "item_id": "recipe__12",
+    "item_name": "オーロラ姫のケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 786,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_princess_aurora_raspberry_cupcake",
+    "item_id": "recipe__13",
+    "item_name": "オーロラ姫のラズベリーカップケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 738,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_sour_snow_cones",
+    "item_id": "recipe__14",
+    "item_name": "かき氷(サワー)",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 282,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_plain_snow_cones",
+    "item_id": "recipe__15",
+    "item_name": "かき氷(プレーン)",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 180,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_caramel_apples",
+    "item_id": "recipe__16",
+    "item_name": "キャラメルアップル",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 56,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_candy",
+    "item_id": "recipe__17",
+    "item_name": "キャンディ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 22,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_pastry_cream_and_fruits",
+    "item_id": "recipe__19",
+    "item_name": "クリームとフルーツのスイーツ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 497,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_croissant",
+    "item_id": "recipe__20",
+    "item_name": "クロワッサン",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 249,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_coconut_ice_cream",
+    "item_id": "recipe__21",
+    "item_name": "ココナッツアイスクリーム",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 661,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_coconut_cake",
+    "item_id": "recipe__22",
+    "item_name": "ココナッツケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 424,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_gray_stuff",
+    "item_id": "recipe__23",
+    "item_name": "グレースタッフ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 175,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_crepe",
+    "item_id": "recipe__24",
+    "item_name": "クレープ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 768,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_snow_whites_gooseberry_pie",
+    "item_id": "recipe__26",
+    "item_name": "白雪姫のグースベリーパイ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 338,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_jam_waffles",
+    "item_id": "recipe__27",
+    "item_name": "ジャムワッフル",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 709,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_shake",
+    "item_id": "recipe__28",
+    "item_name": "シェイク",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 82,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_gingerbread_house",
+    "item_id": "recipe__29",
+    "item_name": "ジンジャーブレッドハウス",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 641,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_sweet_slush",
+    "item_id": "recipe__30",
+    "item_name": "スイートスラッシュ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 219,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_scone",
+    "item_id": "recipe__31",
+    "item_name": "スコーン",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 294,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_spaceship_earth_cupcake",
+    "item_id": "recipe__32",
+    "item_name": "スペースシップ・アースのカップケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 738,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_stitch_cupcake",
+    "item_id": "recipe__33",
+    "item_name": "スティッチのカップケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 751,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_smores",
+    "item_id": "recipe__34",
+    "item_name": "スモア",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 156,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_ice_cream",
+    "item_id": "recipe__35",
+    "item_name": "ソフトクリーム",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 558,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_boba_tea",
+    "item_id": "recipe__36",
+    "item_name": "タピオカティー",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 323,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_gooseberry_boba_tea",
+    "item_id": "recipe__37",
+    "item_name": "タピオカティー (グースベリー)",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 418,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_coconut_boba_tea",
+    "item_id": "recipe__38",
+    "item_name": "タピオカティー (ココナッツ)",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 406,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_mint_boba_tea",
+    "item_id": "recipe__39",
+    "item_name": "タピオカティー (ミント)",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 460,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_raspberry_boba_tea",
+    "item_id": "recipe__40",
+    "item_name": "タピオカティー (ラズベリー)",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 377,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_cheshire_cat_tail",
+    "item_id": "recipe__41",
+    "item_name": "チェシャ猫のしっぽ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 418,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_cheesecake",
+    "item_id": "recipe__42",
+    "item_name": "チーズケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 332,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_cherry_pie",
+    "item_id": "recipe__43",
+    "item_name": "チェリーパイ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 326,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_chocolate_chip_cookies",
+    "item_id": "recipe__44",
+    "item_name": "チョコチップクッキー",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 373,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_chocolate_ice_cream",
+    "item_id": "recipe__45",
+    "item_name": "チョコレートソフトクリーム",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 655,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_chocolate_waffles",
+    "item_id": "recipe__46",
+    "item_name": "チョコレートワッフル",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 735,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_tropical_pop",
+    "item_id": "recipe__48",
+    "item_name": "トロピカルソーダ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 347,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_carrot_cake",
+    "item_id": "recipe__49",
+    "item_name": "ニンジンケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 427,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_garlic_chocolate_tart",
+    "item_id": "recipe__50",
+    "item_name": "ニンニクチョコタルト",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 783,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_pawpsicle",
+    "item_id": "recipe__51",
+    "item_name": "肉球のアイスキャンディ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 265,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_mermaid_cupcake",
+    "item_id": "recipe__52",
+    "item_name": "人魚のカップケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 785,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_spring_chocolate",
+    "item_id": "recipe__53",
+    "item_name": "春のチョコレート",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 254,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_spring_mimosa_eggs",
+    "item_id": "recipe__54",
+    "item_name": "春のデビルド・エッグ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 298,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_spring_egg_bowl",
+    "item_id": "recipe__55",
+    "item_name": "春のタマゴが入ったボウル",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 370,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_halloween_gingerbread_cookies",
+    "item_id": "recipe__56",
+    "item_name": "ハロウィンのジンジャーブレッドクッキー",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 735,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_birthday_cake",
+    "item_id": "recipe__57",
+    "item_name": "バースデーケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 749,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_banana_split",
+    "item_id": "recipe__58",
+    "item_name": "バナナスプリット",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 714,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_banana_ice_cream",
+    "item_id": "recipe__59",
+    "item_name": "バナナソフトクリーム",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 641,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_banana_pie",
+    "item_id": "recipe__60",
+    "item_name": "バナナパイ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 308,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_vanilla_ice_cream",
+    "item_id": "recipe__61",
+    "item_name": "バニラソフトクリーム",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 688,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_peanut_butter_waffles",
+    "item_id": "recipe__62",
+    "item_name": "ピーナッツバターワッフル",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 978,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_fruit_salad",
+    "item_id": "recipe__63",
+    "item_name": "フルーツサラダ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 25,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_fruit_sorbet",
+    "item_id": "recipe__64",
+    "item_name": "フルーツシャーベット",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 222,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_blueberry_pie",
+    "item_id": "recipe__65",
+    "item_name": "ブルーベリーパイ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 308,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_fruitcake",
+    "item_id": "recipe__66",
+    "item_name": "フルーツケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 96,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_beignets",
+    "item_id": "recipe__67",
+    "item_name": "ベニエ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 524,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_berry_salad",
+    "item_id": "recipe__68",
+    "item_name": "ベリーサラダ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 139,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_hot_cocoa",
+    "item_id": "recipe__69",
+    "item_name": "ホットココア",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 401,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_my_hero_cookie",
+    "item_id": "recipe__70",
+    "item_name": "「私のヒーロー」クッキー",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 294,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_minnie_cupcake",
+    "item_id": "recipe__71",
+    "item_name": "ミニーのカップケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 745,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_minnies_gingerbread_cookies",
+    "item_id": "recipe__72",
+    "item_name": "ミニーのジンジャーブレッドクッキー",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 132,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_mint_candy",
+    "item_id": "recipe__73",
+    "item_name": "ミントキャンディ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 128,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_mint_sorbet",
+    "item_id": "recipe__74",
+    "item_name": "ミントシャーベット",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 299,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_mint_chocolate",
+    "item_id": "recipe__75",
+    "item_name": "ミントチョコレート",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 490,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_meringue_pie",
+    "item_id": "recipe__76",
+    "item_name": "メレンゲパイ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 667,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_roasted_marshmallows",
+    "item_id": "recipe__77",
+    "item_name": "焼きマシュマロ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 300,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_root_beer",
+    "item_id": "recipe__78",
+    "item_name": "ルートビア",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 250,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_red_fruit_sorbet",
+    "item_id": "recipe__79",
+    "item_name": "レッドフルーツシャーベット",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 359,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_lemon_sorbet",
+    "item_id": "recipe__80",
+    "item_name": "レモンシャーベット",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 237,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_yule_log",
+    "item_id": "recipe__81",
+    "item_name": "ロールケーキ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 213,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_whimsical_pie",
+    "item_id": "recipe__82",
+    "item_name": "不思議なパイ",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 324,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_waffles",
+    "item_id": "recipe__83",
+    "item_name": "ワッフル",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 706,
+    "notes": "食材の質で変動（+）",
+    "memo": ""
+  },
+  {
+    "id": "price_wonderland_cookies",
+    "item_id": "recipe__84",
+    "item_name": "ワンダーランドクッキー",
+    "sell_location": "レストラン／ショップ（料理）",
+    "base_price": 406,
     "notes": "食材の質で変動（+）",
     "memo": ""
   }
